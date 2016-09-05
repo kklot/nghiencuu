@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Khỏe vì Nước - Học R - [1] Giải bài tập và các vấn đề liên quan</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        <a href="/about">About </a>
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Học R - [1] Giải bài tập và các vấn đề liên quan</h1>
+        <h2 class="headline">August 23, 2014</h2>
+    </header>
+    <section id="post-body">
+        <p>Có bạn hỏi sao không làm video, câu trả lời là <strong>tay phải nhúng chàm</strong> là bước đầu tiên nếu muốn thành thạo. Nên hãy đọc và làm thử, các hướng dẫn là rất cơ bản và không tốn thời gian.</p>
+<h2>RStudio</h2>
+<p>RStudio yêu cầu cài ở bài trước có rất nhiều ưu điểm cho người bắt đầu học R, cụ thể bạn hãy thử một số thao tác sau:</p>
+<ul>
+<li>Gõ một chữ cái bất kỳ nào và nhấn phím <code>Tab</code>, chương trình sẽ gợi ý hàng loạt lệnh tương ứng.</li>
+<li>Gõ một hàm hoàn chỉnh, v.d. <code>lm</code> và nhấn <code>F1</code>, cửa sổ <strong>Help</strong> sẽ hiện ra ngay trong chương trình để có thể dễ dàng tham khảo và đối chiếu khi phân tích. </li>
+<li>Chuyển dấu nháy chuột vào trong hàm, v.d. <code>lm(|)</code> (dấu <code>|</code> đang chỉ dấu nháy của chuột) và nhấn <code>Tab</code> để hiện các tham số cần thiết của lệnh.</li>
+</ul>
+<p>Một số tiện ích khác sẽ giới thiệu khi có nội dung liên quan.</p>
+<h2>Câu 1. Tạo môi trường làm việc</h2>
+<p>Bước này nên làm cho mọi phân tích, sẽ giúp cho các bước về sau trở nên dễ dàng hơn v.d. như tải dữ liệu, lưu kết quả.</p>
+<p>Nhấn <code>Ctrl+Shift+N</code> để tạo script mới lưu tên <code>hocR.R</code>, có thể chấp nhận cả đuôi <code>.r</code> nhưng chuẩn chung là viết chữ hoa. Lệnh đặt working directory</p>
+<pre><code>setwd('~/hocR') # V.d. Trên Linux
+</code></pre>
+<h2>Câu 2. Làm quen Help</h2>
+<p>Đọc file help bằng cách chạy <code>?seq</code>,... hoặc nhấn <code>F1</code> như trong RStudio. <strong>Bí quyết học là...không cần nhớ</strong> vì có thể xem lại bất cứ lúc nào.</p>
+<p>Các mục cần quan tâm như sau:</p>
+<ul>
+<li><strong>Description:</strong> đương nhiên cần nhưng không cần đọc kỹ, v.d. <code>seq</code> để <em>Generate regular <strong>seq</strong>uences</em>.</li>
+<li><strong>Usage</strong>: để xem cách viết lệnh, v.d. </li>
+</ul>
+<pre><code>seq(from = 1, to = 1, by = ((to - from)/(length.out - 1)),
+         length.out = NULL, along.with = NULL, ...)
+</code></pre>
+<p>Các giá trị trước dấu <code>=</code> là tên tham số của hàm, các giá trị sau dấu <code>=</code> là giá trị mà người phân tích đưa vào.</p>
+<p>V.d. là hàm này cần có ít nhất 2 tham số <code>from</code> và <code>to</code>. Các tham số mà được mô tả có giá trị <code>NULL</code>, <code>NA</code> hay tính dựa trên giá trị khác là những tham số mở rộng, sẽ thay đổi chức năng cho hàm và <em>không nhất thiết phải điền giá trị</em> khi không có nhu cầu đặc biệt. Muốn biết các tham số này sẽ thay đổi gì xem tiếp phần <strong>Arguments</strong>. Dấu <code>...</code> cho biết có các chức năng đặc biệt ít dùng khác.</p>
+<p>Một yếu tố có thể đáng nhắc đến là phần này cho biết thứ tự của các tham số, v.d. mặc định</p>
+<pre><code>&gt; seq(1, 10) # 1 sẽ là giá trị của from và 10 sẽ là giá trị của to
+ [1]  1  2  3  4  5  6  7  8  9 10
+&gt; seq(to = 10, from = 1) # lưu ý đổi vị trí nhưng thêm tên tham số
+ [1]  1  2  3  4  5  6  7  8  9 10
+</code></pre>
+<p>Ta thấy nếu xếp đúng thứ tự như trong <strong>Usage</strong> thì không cần thêm tên tham số. Điều này quan trọng trong các hàm <strong>có nhiều tham số</strong>, v.d. trong lệnh trên nếu muốn thêm giá trị cho <code>length.out</code> mà không thay đổi gì tham số <code>by</code> thì viết</p>
+<pre><code>&gt; seq(1, 10, length.out = 2)
+[1]  1 10
+</code></pre>
+<ul>
+<li><strong>Arguments:</strong> chọn đọc những mục đang quan tâm, v.d. </li>
+</ul>
+<pre><code>length.out: desired length of the sequence.
+</code></pre>
+<p>Chọn độ dài của dãy như v.d. phía trên, trong khi <code>by</code> sẽ xác định dãy số cách đều bao nhiêu, v.d.</p>
+<pre><code>&gt; seq(1, 10, 2)
+[1] 1 3 5 7 9
+</code></pre>
+<ul>
+<li><strong>Value:</strong> là tên của giá trị mà hàm <strong>trả về</strong>, mục này sẽ hữu ích khi cần trích ra một phần kết quả của hàm để tiếp tục thao tác, v.d. chỉ trích ra phần dư trong kết quả mô hình hồi quy tuyến tính,...tạm thời có thể bỏ qua.</li>
+<li><strong>Examples</strong>: đây là mục tìm đến khi đọc các mục trên xong vẫn chưa hiểu rõ. Hàm <code>example()</code> sẽ chạy và cho kết  quả mẫu của một hàm, v.d. </li>
+</ul>
+<pre><code>&gt; example(seq)
+
+seq&gt; seq(0, 1, length.out = 11)
+ [1] 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+
+seq&gt; seq(stats::rnorm(20)) # effectively 'along'
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+
+seq&gt; seq(1, 9, by = 2)     # matches 'end'
+[1] 1 3 5 7 9
+
+seq&gt; seq(1, 9, by = pi)    # stays below 'end'
+[1] 1.000000 4.141593 7.283185
+
+seq&gt; seq(1, 6, by = 3)
+[1] 1 4
+
+seq&gt; seq(1.575, 5.125, by = 0.05)
+ [1] 1.575 1.625 1.675 1.725 1.775 1.825 1.875 1.925 1.975 2.025 2.075 2.125
+[13] 2.175 2.225 2.275 2.325 2.375 2.425 2.475 2.525 2.575 2.625 2.675 2.725
+[25] 2.775 2.825 2.875 2.925 2.975 3.025 3.075 3.125 3.175 3.225 3.275 3.325
+[37] 3.375 3.425 3.475 3.525 3.575 3.625 3.675 3.725 3.775 3.825 3.875 3.925
+[49] 3.975 4.025 4.075 4.125 4.175 4.225 4.275 4.325 4.375 4.425 4.475 4.525
+[61] 4.575 4.625 4.675 4.725 4.775 4.825 4.875 4.925 4.975 5.025 5.075 5.125
+
+seq&gt; seq(17) # same as 1:17, or even better seq_len(17)
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17
+</code></pre>
+<h3>Kết quả</h3>
+<p>Áp dụng các bước trên, câu trả lời cho câu hỏi lần trước như sau.</p>
+<p><em>...tạo a là dãy số từ 1 đến 25, b là dãy số 1 lập lại 25 lần, c là dãy số như a nhưng trong đó mỗi số lập lại 5 lần, cụ thể c là 1,1,1,1,1,2,2,2,2,2,…,25,25,25,25,25.</em></p>
+<pre><code>&gt; a &lt;- seq(25)
+&gt; a
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+&gt; b = rep(1, 25)
+&gt; b
+ [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+&gt; c &lt;- rep(a, each = 5)
+&gt; c
+  [1]  1  1  1  1  1  2  2  2  2  2  3  3  3  3  3  4  4  4  4  4  5  5  5  5  5
+ [26]  6  6  6  6  6  7  7  7  7  7  8  8  8  8  8  9  9  9  9  9 10 10 10 10 10
+ [51] 11 11 11 11 11 12 12 12 12 12 13 13 13 13 13 14 14 14 14 14 15 15 15 15 15
+ [76] 16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 20 20 20 20 20
+[101] 21 21 21 21 21 22 22 22 22 22 23 23 23 23 23 24 24 24 24 24 25 25 25 25 25
+</code></pre>
+<h2>Câu 3. Làm quen với object, string</h2>
+<p>Một hàm khi để trống các tham số sẽ vẫn chạy nếu hàm đó đã cung cấp các giá trị mặc định đã như thấy trong phần <strong>Usage</strong>, v.d. lệnh <code>seq()</code> R sẽ tạo dãy số từ 1 đến ...1.</p>
+<p>Lệnh <code>ls()</code> nhắc tới bài trước cũng tương tự, khi gõ <code>ls()</code> R sẽ liệt kê tất cả các <code>object</code> có trong <code>workspace</code>.</p>
+<pre><code>&gt; ls()
+[1] "a" "b" "c"
+</code></pre>
+<p>Ở đây ta làm quen với một dấu mới trong R, ngoặc kép <code>""</code> dùng để chỉ giá trị đó đang ở dạng kí tự, chữ. Tất cả các dấu ngoặc đơn <code>()</code> như đã gặp sẽ được R hiểu dãy kĩ tự trước nó là một hàm. Khi liệt kê, <code>"a"</code> là tên của <code>object</code> nên sẽ ở dạng chữ.</p>
+<p>Để chỉ lọc ra một đối tượng nhất định, ở đây đang dạng ký tự, dùng thêm tham số  <code>pattern</code>, xem <code>Help</code> để biết thêm.</p>
+<pre><code>&gt; ls(pattern = glob2rx("a"))
+[1] "a"
+</code></pre>
+<p>Trong v.d. trên có 2 hàm, <code>ls</code> và <code>glob2rx</code> vì nó đứng trước ngoặc đơn. Thao tác với biến số dạng chữ sẽ được mô tả ở một bài riêng biệt, nếu quan tâm có thể xem thêm một vài v.d. tại <a href="http://stats.ytecongcong.com/228/l%E1%BB%8Dc-x%E1%BA%BFp-nhom-bi%E1%BA%BFn-s%E1%BB%91-d%E1%BA%A1ng-text-v%E1%BB%9Bi-r?show=229#a229">stats.ytecongcong.com</a>.</p>
+
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/fieuvan">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Kinh Nguyen</span>
+            <span>Thanh niên ơi, hồn thiêng núi sông đợi chờ!</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://khoevinuoc.com/2014/hoc-r-1-giai-bai-tap-va-cac-van-de-lien-quan/ - Học R - [1] Giải bài tập và các vấn đề liên quan by @fieuvan"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'khoe-vi-nuoc';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<!-- Archive post list -->
+
+
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

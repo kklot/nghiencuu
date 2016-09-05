@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Khỏe vì Nước - Học R - [1] Giới thiệu, các khái niệm cơ bản</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        <a href="/about">About </a>
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Học R - [1] Giới thiệu, các khái niệm cơ bản</h1>
+        <h2 class="headline">August 14, 2014</h2>
+    </header>
+    <section id="post-body">
+        <p><img src="http://www.statisticsviews.com/stats/images/logo.gif" alt="" /></p>
+<blockquote><p>
+  Học R nên học theo dạng một ngôn ngữ lập trình, không nên học theo kiểu một phần mềm thống kê vì (1) sẽ phải làm quen với cả hai lĩnh vực khó hiểu cùng một lúc: lập trình và thống kê (2) khi nắm cách lập trình trong R, bạn sẽ thấy áp dụng các gói thống kê có sẵn chỉ là chuyện nhỏ.
+</p></blockquote>
+<p>Để theo dõi loạt bài này, các bạn đọc, làm...tạm gọi là bài tập về nhà (vì chắc bạn cũng đang ở nhà rồi), không hiểu thì gửi bình luận ở cuối bài và nếu bạn biết thì trả lời cho người tham gia. Với các câu hỏi chuyên biệt, nâng cao nên đặt câu hỏi ở http://stats.ytecongcong.com. Cũng vì mục đích học R như một ngôn ngữ, loạt bài này <strong>sẽ tránh tối đa sử dụng các gói thư viện viết sẵn</strong>.</p>
+<blockquote><p>
+  <strong>Mục tiêu</strong>: để lấy động lực, mục tiêu là sau khi hoàn tất, bạn có thể tự viết một gói thư viện nho nhỏ cho R.
+</p></blockquote>
+<h2>R đọc là gì?</h2>
+<p>Trong suy diễn Bayes, có một chỉ số đánh giá mô hình là quan trọng là DIC, đọc là "Đi Ai Xi"<sup id="fnref-2809-1"><a href="#fn-2809-1" rel="footnote">1</a></sup>, không nên đọc tắt như kiểu "Hu" trong WHO!. Tương tự, R nên gọi theo tiếng Anh là "A".</p>
+<h2>Sao lại R?</h2>
+<p>Nhiều người quen thuộc với các phần mềm như SPSS (SS viết tắt của Social Science như đinh hướng của phần mềm), STATA, SAS và mới hơn có là các gói viết với ngôn ngữ Python. Dưới đây là đánh giá nhanh:</p>
+<ul>
+<li>SAS:
+<ul>
+<li>mạnh nhất cả về tốc độ và chức năng, chính thống nhất về phương pháp thống kê</li>
+<li>nặng nhất về dung lượng và mắc nhất về bản quyền, ngôn ngữ không theo logic (không viết theo suy nghĩ được).</li>
+</ul>
+</li>
+</ul>
+<pre><code># V.d. tính trung bình với SAS
+proc means data=data;
+   var x;
+run;
+</code></pre>
+<ul>
+<li>STATA:
+<ul>
+<li>trực quan, nhẹ hơn về dung lượng, và rẻ hơn về bản quyền so với SAS, cấu trúc dòng lệnh đơn giản hơn SAS.</li>
+</ul>
+</li>
+</ul>
+<pre><code>mean x
+</code></pre>
+<ul>
+<li>R: miễn phí, cập nhật, ngôn ngữ logic (theo tiếng Anh), vô địch trong khả năng vẽ biểu đồ. Khả năng tích hợp của R giúp phần mềm có thể dễ dàng chạy trên các server, đặc biệt là Linux - điều mà các phần mềm khác không thể. Google, Facebook, Twitter là v.d. về các công ty đang sử dụng R. R cũng dễ dàng kết nối với phần mềm khác như WinBUGS, JAGS,... và cộng đồng sử dụng R rất tích cực nên học dễ hơn.</li>
+</ul>
+<pre><code>mean(x)
+</code></pre>
+<h2>Các khái niệm ban đầu</h2>
+<blockquote><p>
+  Tất cả các khái niệm sẽ không dịch mà sử dụng như tên gọi, để dễ làm quen với R.
+</p></blockquote>
+<h3>Cài R</h3>
+<p>Mở trang http://www.r-project.org/ và tải tùy theo hệ điều hành. Chạy R và bắt đầu làm quen.</p>
+<h3>Ngôn ngữ đơn giản</h3>
+<p>Khi mở R, dấu nhắc <code>&gt;</code> cho biết R đang sẵn sàng để bạn gõ lệnh, các toán tử cơ bản cộng trừ nhân chia <code>+, -, *, /</code>. Dấu mũ, v.d. <code>2^3</code>.<br />
+Bạn có thể gõ lệnh trên một hàng như</p>
+<pre><code>&gt; 2+2
+[1] 4
+</code></pre>
+<p>hoặc trên nhiều hàng</p>
+<pre><code>&gt; 2+2+
++ 2/3
+[1] 4.666667
+</code></pre>
+<p>Và dấu</p>
+<pre><code># là dấu để chú thích và lệnh này sẽ không chạy
+</code></pre>
+<h3>Working directory (wd)</h3>
+<p>Là <em>folder đang làm việc</em>, folder này sẽ chứa mọi kết quả của lệnh R, v.d. lưu một biểu đồ, một file và cũng là nơi R sẽ tìm để đọc file như dữ kiện, câu lệnh....</p>
+<p>Xem mình đang làm ở đâu, gõ</p>
+<pre><code>getwd() # get working direcrory
+</code></pre>
+<p>Khi phân tích, nên nói cho R biết bạn muốn làm việc ở đâu để mọi kết quả đều nằm trong folder mình muốn và R cũng sẽ hiểu phải tìm, v.d. như dữ kiện phân tích ở đâu, gõ</p>
+<pre><code>setwd("path/to/selected/folder") # Lưu ý đường dẫn trong ngoặc kép sẽ khác nhau tùy theo hệ điều hành.
+</code></pre>
+<h3>Workspace</h3>
+<p><em>Không gian làm việc</em> là nơi chứa toàn bộ mọi thứ ... bạn đang làm việc. Tưởng tượng như phòng làm việc của bạn, sẽ có những vật (object) có kích cỡ, đặc tính khác nhau được đặt khắp nơi trong phòng, khi cần chỉ cần thò tay ra lấy.</p>
+<p>Thường sẽ phải phân tích nhiều ngày trên một dữ kiện, để tránh việc chạy đi chạy lại những gì đã làm R cung cấp khả năng lưu <em>không gian</em> này lại với lệnh</p>
+<pre><code>save.image("Ten.RData") # Khi đúng đuôi file .RData
+</code></pre>
+<p>và khi mở R lên lại tải vào với</p>
+<pre><code>load("Ten.RData")
+</code></pre>
+<p>Lưu ý: <strong>File .RData phải nằm trong working directory để tải với lệnh trên.</strong></p>
+<h3>Object</h3>
+<p>Các <em>vật</em> này nằm trong <em>không gian</em> vừa nói ở trên, và để lấy sử dụng ta dùng các câu lệnh gọi tên tương ứng. <strong>Một object</strong> có thể là một số, một dãy số, một bảng dữ kiện, một chữ cái,....</p>
+<p>Để xem bạn đang có gì trong <em>phòng</em>, gõ</p>
+<pre><code>ls() # list, () để trống cho R biết bạn muốn liệt kê mọi loại object
+</code></pre>
+<p>Để xóa <code>x</code> khỏi <em>phòng</em> gõ</p>
+<pre><code>rm(x) # remove 
+</code></pre>
+<h3>Gán, tạo object</h3>
+<p>Trong R, có thể sử dụng dầu <code>=</code> hoặc <code>&lt;-</code> để gán giá trị cho một đối tượng. Tuy nhiên để dễ đọc cũng như để code rõ ràng, nên sử dụng <code>&lt;-</code> khi gán, tạo object và cũng theo cộng đồng bạn nên để khoảng trắng ở cả 2 bên của các dấu này.</p>
+<pre><code>a &lt;- 1 # gán giá trị 1 cho object a
+&gt; a # Xem a
+[1] 1
+b &lt;- "a" # gán giá trị là chữ cái a cho object b
+&gt; b # xem b
+[1] "a"
+</code></pre>
+<h3>Script</h3>
+<p>Tất cả các lệnh có thể gõ và chạy trực tiếp, nhưng nên được lưu trong một file riêng để thuận tiện chỉnh sửa và sử dụng. Trong R, bạn có thể viết code trong nhiều trình biên tập khác nhau và gửi lệnh sang R để chạy như Sublime Text, Notepad++, RStudio, Gedit....</p>
+<h3>Help</h3>
+<p>Để đọc hướng dẫn sử dụng một lệnh trong R, gõ <code>?lenh</code> và enter để xem.</p>
+<p><strong>Học R - [2] Các loại Object, Quản lý dữ kiện</strong></p>
+<h1>Bài tập</h1>
+<p>Tìm và cài RStudio, và thực hiện các yêu cầu sau<br />
+1. Tạo mới một file script tên <code>hocR.R</code>, lưu vào folder <code>hocR</code>, viết lệnh đặt working directory tới folder <code>hocR</code> vào file.<br />
+2. Đọc file help của các lệnh <code>c</code>, <code>seq</code>, <code>rep</code>. Dùng các lệnh này tạo <code>a</code> là dãy số từ 1 đến 25, <code>b</code> là dãy số 1 lập lại 25 lần, c là dãy số như <code>a</code> nhưng trong đó mỗi số lập lại 5 lần, cụ thể <code>c</code> là 1,1,1,1,1,2,2,2,2,2,...,25,25,25,25,25.<br />
+3. Dùng lệnh liệt kê chỉ riêng object <code>a</code></p>
+<p>Bài giải sẽ cung cấp ở cuối bài tiếp theo.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-2809-1">
+Chuyện kể của giáo sư Lesaffre, tác giả Bayesian Biostatistics&#160;<a href="#fnref-2809-1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/fieuvan">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Kinh Nguyen</span>
+            <span>Thanh niên ơi, hồn thiêng núi sông đợi chờ!</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://khoevinuoc.com/2014/hoc-r-1-gioi-thieu-cac-khai-niem-co-ban/ - Học R - [1] Giới thiệu, các khái niệm cơ bản by @fieuvan"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'khoe-vi-nuoc';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<!-- Archive post list -->
+
+
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

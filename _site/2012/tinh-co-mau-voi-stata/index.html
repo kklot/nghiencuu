@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Khỏe vì Nước - Tính cỡ mẫu với stata</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        <a href="/about">About </a>
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Tính cỡ mẫu với stata</h1>
+        <h2 class="headline">August 20, 2012</h2>
+    </header>
+    <section id="post-body">
+        <p><img src="http://libraries.mit.edu/sites/news/files/2007/10/stata_logo_blue.jpg" alt="stata" width="580" height="178" /></p>
+<p>Cú pháp của lệnh stata được trình bày như sau:</p>
+<p><code> sampsi #1 #2 [, alpha(#) power(#) n1(#) n2(#) ratio(#) pre(#) post(#)<br />
+sd1(#) sd2(#) method(post|change|ancova|all)<br />
+r0(#) r1(#) r01(#) onesample onesided ]</code></p>
+<p>Như vậy lệnh</p>
+<p><code>sampsi #1 #2 </code>dùng để so sánh 2 tỉ lệ</p>
+<p><code>sampsi #1 #2, sd1(#) sd2(#) </code>dùng để so sánh 2 trung bình</p>
+<p><code>sampsi #1 #2, onesample</code> dùng để so sánh tỉ lệ #1 của giả thuyết không Ho với tỉ lệ #2 của giả thuyết thay thế Ha</p>
+<p><code>sampsi #1 #2, sd1(#) sd2(#) onesample</code> dùng để so sánh trung bình #1 của giả thuyết không Ho với trung bình #2 của giả thuyết thay thế Ha</p>
+<p>Ngoài ra, các tuỳ chọn sau cũng có thể được sử dụng với ý nghĩa như sau:</p>
+<p>alpha(#) cho biết mức ý nghĩa của kiểm định. Giá trị mặc định là alpha(.05).</p>
+<p>power(#) là lực của mẫu. Giá trị mặc định là power(.90).</p>
+<p>n1(#) cho biết cỡ mẫu thứ nhất (hay cỡ mẫu duy nhất)) của mẫu và n2(#) cho biết cỡ mẫu thứ hai. Nếu có cung cấp cỡ mẫu n1 và n2 trong câu lệnh, chương trình sẽ cho biết lực mẫu, nếu không chương trình sẽ tính cỡ mẫu</p>
+<p>ratio(#) là tỉ lệ của cỡ mẫu n1/n2. Giá trị mặc định là ratio(1).</p>
+<p>pre(#) cho biết giá trị thông số nền (pre có nghĩa là pre-randomization : trước ngẫu nhiên) trong nghiên cứu đo lường lập lại. Giá trị mặc định là pre(0).</p>
+<p>post(#) cho biết số lần đo lường lập lại (post có nghĩa là post-randomization : sau ngẫu nhiên) trong nghiên cứu đo lường lập lại. Giá trị mặc định là post(1).</p>
+<p>sd1(#) và sd2(#) là độ lệch chuẩn dùng khi muốn so sánh trung bình. Nếu không cung cấp độ lệch chuẩn chương trình hiểu chúng ta muốn so sánh các tỉ lệ. Nếu chỉ cung cấp sd1 chương trình hiểu rằng sd2 bằng với sd1</p>
+<p>method(post|change|ancova|all) cho biết phương pháp phân tích được dùng trong đo lường lập lại. Phương pháp phân tích "change" và "ancova" chỉ có thể được sử dụng nếu có kế hoặch đo lường thông số nền. Giá trị mặc định là method(all), có nghĩa là sử dụng cả 3 phương pháp trên.</p>
+<p>Onesample: có nghĩa là kiểm định một mẫu. Mặc định là kiểm định 2 mẫu</p>
+<p>Onesided: có nghĩa là kiểm định một bên. Mặc định là kiểm định 2 bên.</p>
+<p>Thí dụ:</p>
+<p>1. Để so sánh 2 tỉ lệ đáp ứng với điều trị đối với thuốc A và thuốc B (giả định tỉ lệ đáp ứng với thuốc A là 60% và thuốc B là 80%) cần cỡ mẫu 119 cho mỗi nhóm</p>
+<p><code>sampsi 0.6 0.9</code></p>
+<p>2. Để so sánh trọng lượng lúc sinh trung bình của 2 nhóm trẻ sơ sinh: 1 nhóm là con của các bà mẹ có ăn thức ăn bổ sung (được giả định có trung bình là 3200 gram với độ lệch chuẩn là 300 gram) và nhóm bà mẹ không ăn thức ăn bổ sung (được giả định có trung bình là 3100 gram với độ lệch chuẩn là 300 gram)</p>
+<p><code>sampsi 3200 3100, sd1(300) sd2(300) - hoặc -<br />
+sampsi 3200 3100, sd1(300)</code></p>
+<p>3. Tại một huyện, tỉ lệ trẻ</p>
+<p><code>sampsi 0.3 0.26, onesample</code></p>
+<p>4. Trong lượng trung bình của trẻ sơ sinh của địa phương X là 2900 gram với độ lệch chuẩn là 250 gram. Một thử nghiệm cho bà mẹ ăn thức ăn bổ sung và thử nghiệm này được xem là thành công nếu làm tăng trọng lượng trung bình của trẻ sơ sinh lên 50 gram. Nghiên cứu này cần một cỡ mẫu là 169</p>
+<p><code>sampsi 2900 2950, sd1(200) onesample</code></p>
+<p>5. Các thí dụ trên đều sử dụng nguy cơ sai lầm loại 1 (alpha) là 0,05 và nguy cơ sai lầm loại 2 là 0,10. Nếu chúng ta chấp nhận nguy cơ sai lầm loại 2 là 0,20 thì cỡ mẫu sẽ là 91 người cho mỗi nhóm.</p>
+<p style="text-align: right;"><em>Nguồn: PGs.TS. Đỗ Văn Dũng</em></p>
+
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/fieuvan">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Kinh Nguyen</span>
+            <span>Thanh niên ơi, hồn thiêng núi sông đợi chờ!</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://khoevinuoc.com/2012/tinh-co-mau-voi-stata/ - Tính cỡ mẫu với stata by @fieuvan"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'khoe-vi-nuoc';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<!-- Archive post list -->
+
+
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

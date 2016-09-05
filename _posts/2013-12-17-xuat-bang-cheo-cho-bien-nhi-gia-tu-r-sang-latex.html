@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: Xuất bảng chéo cho biến nhị giá từ R sang Latex
+author:
+  display_name: Kinh Nguyen
+  login: Kinh Nguyen
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
+author_login: Kinh Nguyen
+author_email: nguyenkinh@ytecongcong.com
+author_url: https://www.google.com/profiles/112009149785989721279
+wordpress_id: 1819
+wordpress_url: http://www.ytecongcong.com/?p=1819
+date: '2013-12-17 06:46:26 +0100'
+date_gmt: '2013-12-16 23:46:26 +0100'
+categories:
+- Thống kê
+- Tin học
+- Home
+- R
+tags: []
+comments: []
+---
+<p>R to Latex: Crosstable for binary response</p>
+<p>Để có kết quả dạng như sau trong Latex,</p>
+<p><img class="alignnone" alt="" src="https://dl.dropboxusercontent.com/u/29949485/Ktabin.png" width="323" height="229" /></p>
+<pre class="lang:r decode:true crayon-selected" title="R to Latex: Crosstable for binary response">source("http://stats.ytecongcong.com/code/Ktabin.txt")
+Ktabin(biến số hàng, biến số cột)</pre>
+<p>Lưu ý:</p>
+<p>Cần <strong>attach(dữ kiện)</strong> trước khi sử dụng.</p>
+<p>Cần cài gói <strong>gmodels </strong>bằng cách</p>
+<pre class="lang:r decode:true">install.packages("gmodels")
+library("gmodels")</pre>
+<p>&nbsp;</p>
+<p>Biến số hàng cần là biến số định tính, biến số cột phải là nhị giá.</p>

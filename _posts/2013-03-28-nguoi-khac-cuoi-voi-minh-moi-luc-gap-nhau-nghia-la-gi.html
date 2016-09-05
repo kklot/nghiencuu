@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: Người khác cười với mình mỗi lúc gặp nhau nghĩa là gì?
+author:
+  display_name: Kinh Nguyen
+  login: Kinh Nguyen
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
+author_login: Kinh Nguyen
+author_email: nguyenkinh@ytecongcong.com
+author_url: https://www.google.com/profiles/112009149785989721279
+wordpress_id: 948
+wordpress_url: http://www.ytecongcong.com/?p=948
+date: '2013-03-28 17:36:48 +0100'
+date_gmt: '2013-03-28 10:36:48 +0100'
+categories:
+- Tin mới
+- Chia sẻ
+- Home
+tags:
+- bayes
+- bayesian
+- statistics
+- love
+- cười
+comments: []
+---
+<p>Để đơn giản, áp dụng lý thuyết Bayes' để tính xác suất người đó thích mình nếu cười với mình:</p>
+<p><img title="P(like|smile) = \frac{P(smile|like)P(like)}{P(smile)}" src="http://qlx.is.quoracdn.net/main-8969ad28cacf4658.png" alt="P(like|smile) = \frac{P(smile|like)P(like)}{P(smile)}" width="326" height="48" /></p>
+<p>Với:</p>
+<ul>
+<li><img title="P(like|smile)" src="http://qlx.is.quoracdn.net/main-b8aa62200e6f2ec9.png" alt="P(like|smile)" width="115" height="21" />  là điều mình muốn biết: xác suất người đó thích khi biết rằng người đó cười với mình.</li>
+<li><img title="P(smile|like)" src="http://qlx.is.quoracdn.net/main-e70c300d40d890bd.png" alt="P(smile|like)" width="115" height="21" /> là xác suất người đó sẽ cười khi nhìn thấy một người người đó thích.</li>
+<li><img title="P(like)" src="http://qlx.is.quoracdn.net/main-16a355fbadfa2d54.png" alt="P(like)" width="62" height="21" /> là xác suất người đó thích một người ngẫu nhiên bất kì.</li>
+<li><img title="P(smile)" src="http://qlx.is.quoracdn.net/main-339a6846b26084ad.png" alt="P(smile)" width="77" height="21" /> là xác suất người đó cười với một người ngẫu nhiên bất kì.</li>
+</ul>
+<p>Chẳng hạn với hai trường hợp đặc biệt là</p>
+<p>1. Giả sử người đó cười với tất cả mọi người thì rõ ràng là việc người đó cười với mình không có ý nghĩa gì cả, cụ thể:</p>
+<ul>
+<li><img title="P(smile|like) = 1" src="http://qlx.is.quoracdn.net/main-e31512d57aa0ded4.png" alt="P(smile|like) = 1" width="152" height="21" />  và <img title="P(smile)=1" src="http://qlx.is.quoracdn.net/main-a3072bdf2cf13b95.png" alt="P(smile)=1" width="114" height="21" /> do đó  <img title="P(like|smile) = P(like)" src="http://qlx.is.quoracdn.net/main-4e5918fbf301d17b.png" alt="P(like|smile) = P(like)" width="205" height="21" /> nghĩa là dù có  biết người đó cười với mình cũng không làm thay đổi điều gì.</li>
+</ul>
+<p>2. Hoặc giả người đó sẽ cười với tất cả những người người đó thích, và chỉ cười với những người người đó thích, khi đó  xác suất cười</p>
+<ul>
+<li><img title="P(smile) = P(like)" src="http://qlx.is.quoracdn.net/main-20af47138898723f.png" alt="P(smile) = P(like)" width="167" height="21" />  và <img title="P(smile|like) = 1" src="http://qlx.is.quoracdn.net/main-e31512d57aa0ded4.png" alt="P(smile|like) = 1" width="152" height="21" /> nên ta có <img title="P(like|smile) = 1" src="http://qlx.is.quoracdn.net/main-64226b3c2a00f388.png" alt="P(like|smile) = 1" width="152" height="21" /> và rõ ràng người đó thích mình.</li>
+</ul>
+<p>Còn trong trường hợp bình thường, cần phải tìm tỉ số giữa xác suất mà người đó cười với người người đó thích và xác suất người đó cười với bất kì ai nói chung rồi nhân với tỷ lệ người người đó thích ta sẽ có được câu trả lời.</p>
+<p>Ta thấy, người đó càng cười nhiều với tất cả mọi người thì cơ hội người đó thích mình càng thấp, người đó càng cười với người người đó thích thì cơ hội người đó thích mình càng cao. Và dĩ nhiên nếu ...người đó càng thích nhiều người hơn thì cơ hội người đó thích mình cũng cao hơn.  Dĩ nhiên, là chưa ai công bố số liệu về các giá trị này.</p>
+<p style="text-align: right;">http://www.quora.com</p>

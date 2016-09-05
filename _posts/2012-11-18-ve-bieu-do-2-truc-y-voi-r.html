@@ -1,0 +1,50 @@
+---
+layout: topic
+status: publish
+published: true
+title: Vẽ biểu đồ 2 trục Y với R
+author:
+  display_name: Kinh Nguyen
+  login: Kinh Nguyen
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
+author_login: Kinh Nguyen
+author_email: nguyenkinh@ytecongcong.com
+author_url: https://www.google.com/profiles/112009149785989721279
+wordpress_id: 310
+wordpress_url: http://www.ytecongcong.com/forums/topic/ve-bieu-do-2-truc-y-voi-r/
+date: '2012-11-18 11:36:18 +0100'
+date_gmt: '2012-11-18 04:36:18 +0100'
+categories: []
+tags: []
+comments: []
+---
+<p>Ví dụ để vẽ dạng như hình này, các bạn có thể dùng code sau, có thể chỉnh sửa theo ý mình</p>
+<p><span style="color: indigo"><strong>Các lệnh cần chạy theo đúng thứ tự và chạy 1 lần, các bạn thử thay đổi để biết tác dụng của từng lệnh</strong></span></p>
+<p>File data mẫu có thể tải ở <a href="https://docs.google.com/a/ytecongcong.com/file/d/0B8et4nuUgX4lajM4bnJkS0xOX1U/edit" rel="nofollow">đây</a><br />
+<em>Nguồn: ĐH Y Hà Nội</em></p>
+<p> [code title="Vẽ biểu đồ 2 trục Y với R"]<br />
+data&lt;-read.csv(&quot;D:/Downloads/dengue cases-2002.csv&quot;,sep=&quot;,&quot;,header=T) #thay đường dẫn tương ứng ở máy bạn<br />
+str(data)</p>
+<p>summary(data$cases)<br />
+summary(data$tmean)<br />
+data$x=seq(1:416)</p>
+<p>#HUMIDITY AND RAIN FALL<br />
+summary(data$cases)<br />
+summary(data$humidity)<br />
+summary(data$rainfall)<br />
+par(mar=c(6,4,4,5)+.1)<br />
+plot(data$x,data$cases,type=&quot;l&quot;,col=&quot;red&quot;,lwd=1.5,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)<br />
+axis(1, seq(0, 416, 52),labels=TRUE)<br />
+axis(2, seq(2, 1169, 50),labels=TRUE)<br />
+par(new=TRUE)<br />
+plot(data$x,data$humidity,type=&quot;l&quot;,col=&quot;blue&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)<br />
+par(new=TRUE)<br />
+plot(data$x,data$rainfall,type=&quot;l&quot;,col=&quot;green&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)<br />
+axis(4, seq(0,600,50),labels=TRUE)<br />
+par(xpd=TRUE)<br />
+legend(-20,-80,bty=&quot;n&quot;,col=c(&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;),lty=c(1,1,1),legend=c(&quot;Cases(freq)&quot;,&quot;humidity&quot;,&quot;rainfall&quot;))<br />
+title(main=&quot;Case~Humidity&amp;Rainfall&quot;,sub=&quot;whatever, who care&quot;,xlab=&quot;Weeks&quot;, ylab=&quot;Cases&quot;)<br />
+mtext(&quot;Rainfall&amp;Humidity&quot;,side=4,line=3)<br />
+[/code] </p>
+<p><a href="https://utv1ng.bay.livefilestore.com/y1pxH31jx7YeYscQEpzhwSgYQ4thZ-BQagOOswtWbv3sL6O704lZtLSuxWW85CnVd6KxAZstHEQYgspTWVI0g49PGGuZ5Ryg3xT/SXH%20va%20Luong%20mua.jpg?psid=1" rel="nofollow"><img src="https://utv1ng.bay.livefilestore.com/y1pxH31jx7YeYscQEpzhwSgYQ4thZ-BQagOOswtWbv3sL6O704lZtLSuxWW85CnVd6KxAZstHEQYgspTWVI0g49PGGuZ5Ryg3xT/SXH%20va%20Luong%20mua.jpg?psid=1" alt="" /></a> </p>
