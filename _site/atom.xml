@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Lanyon</title>
+ <link href="http://suctich.com/atom.xml" rel="self"/>
+ <link href="http://suctich.com/"/>
+ <updated>2016-09-05T18:37:30+02:00</updated>
+ <id>http://suctich.com</id>
+ <author>
+   <name>Mark Otto</name>
+   <email>markdotto@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Introducing Lanyon</title>
+   <link href="http://suctich.com/2014/01/02/introducing-lanyon/"/>
+   <updated>2014-01-02T00:00:00+01:00</updated>
+   <id>http://suctich.com/2014/01/02/introducing-lanyon</id>
+   <content type="html">&lt;p&gt;The third module of the course covers ecological factors that influence the dynamic patterns of infectious disease. We will discuss the conditions under which a pathogen can drive its host to extinction. We will look at how the demography of the host may allow the pathogen to persist in some populations but not others. We will talk about how host and pathogen characteristics interact to shape different temporal patterns of disease incidence at the population level and discuss the ecological consequences of infecting more than one host species.&lt;/p&gt;
+
+&lt;h3 id=&quot;module-objectives&quot;&gt;Module Objectives&lt;/h3&gt;
+
+&lt;p&gt;By the end of this module you will have learned to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Discuss how host demography and pathogen latent and infectious period shape epidemiological patterns&lt;/li&gt;
+  &lt;li&gt;Discuss how infecting multiple host species affects prevalence of infection and population level impact of disease&lt;/li&gt;
+  &lt;li&gt;Understand why some infections cause recurrent outbreaks while others do not&lt;/li&gt;
+  &lt;li&gt;Discuss the causes of seasonality in infectious diseases&lt;/li&gt;
+  &lt;li&gt;Give several reasons to explain why some age groups are more infected than others&lt;/li&gt;
+  &lt;li&gt;Explain why some host populations are more infected than others
+### Additional Readings
+If you wish to challenge yourself or are seeking opportunities to enhance your learning experience, Additional Readings have been identified to support the concepts discussed in the weekly video lectures. A reading relating to each video has been identified, thereby allowing you to select readings that may hold the greatest appeal for you based on this week’s content. Independent learning is highly encouraged in this course. If you find an article online that has been published by a reputable organization, you are encouraged to post a link to the article in the discussion forums and to share your thoughts on the information included within it.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Example content</title>
+   <link href="http://suctich.com/2014/01/01/example-content/"/>
+   <updated>2014-01-01T00:00:00+01:00</updated>
+   <id>http://suctich.com/2014/01/01/example-content</id>
+   <content type="html">&lt;p&gt;The third module of the course covers ecological factors that influence the dynamic patterns of infectious disease. We will discuss the conditions under which a pathogen can drive its host to extinction. We will look at how the demography of the host may allow the pathogen to persist in some populations but not others. We will talk about how host and pathogen characteristics interact to shape different temporal patterns of disease incidence at the population level and discuss the ecological consequences of infecting more than one host species.&lt;/p&gt;
+
+&lt;h3 id=&quot;module-objectives&quot;&gt;Module Objectives&lt;/h3&gt;
+
+&lt;p&gt;By the end of this module you will have learned to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Discuss how host demography and pathogen latent and infectious period shape epidemiological patterns&lt;/li&gt;
+  &lt;li&gt;Discuss how infecting multiple host species affects prevalence of infection and population level impact of disease&lt;/li&gt;
+  &lt;li&gt;Understand why some infections cause recurrent outbreaks while others do not&lt;/li&gt;
+  &lt;li&gt;Discuss the causes of seasonality in infectious diseases&lt;/li&gt;
+  &lt;li&gt;Give several reasons to explain why some age groups are more infected than others&lt;/li&gt;
+  &lt;li&gt;Explain why some host populations are more infected than others
+### Additional Readings
+If you wish to challenge yourself or are seeking opportunities to enhance your learning experience, Additional Readings have been identified to support the concepts discussed in the weekly video lectures. A reading relating to each video has been identified, thereby allowing you to select readings that may hold the greatest appeal for you based on this week’s content. Independent learning is highly encouraged in this course. If you find an article online that has been published by a reputable organization, you are encouraged to post a link to the article in the discussion forums and to share your thoughts on the information included within it.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What's Jekyll?</title>
+   <link href="http://suctich.com/2013/12/31/whats-jekyll/"/>
+   <updated>2013-12-31T00:00:00+01:00</updated>
+   <id>http://suctich.com/2013/12/31/whats-jekyll</id>
+   <content type="html">&lt;p&gt;The third module of the course covers ecological factors that influence the dynamic patterns of infectious disease. We will discuss the conditions under which a pathogen can drive its host to extinction. We will look at how the demography of the host may allow the pathogen to persist in some populations but not others. We will talk about how host and pathogen characteristics interact to shape different temporal patterns of disease incidence at the population level and discuss the ecological consequences of infecting more than one host species.&lt;/p&gt;
+
+&lt;h3 id=&quot;module-objectives&quot;&gt;Module Objectives&lt;/h3&gt;
+
+&lt;p&gt;By the end of this module you will have learned to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Discuss how host demography and pathogen latent and infectious period shape epidemiological patterns&lt;/li&gt;
+  &lt;li&gt;Discuss how infecting multiple host species affects prevalence of infection and population level impact of disease&lt;/li&gt;
+  &lt;li&gt;Understand why some infections cause recurrent outbreaks while others do not&lt;/li&gt;
+  &lt;li&gt;Discuss the causes of seasonality in infectious diseases&lt;/li&gt;
+  &lt;li&gt;Give several reasons to explain why some age groups are more infected than others&lt;/li&gt;
+  &lt;li&gt;Explain why some host populations are more infected than others&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;additional-readings&quot;&gt;Additional Readings&lt;/h3&gt;
+&lt;p&gt;If you wish to challenge yourself or are seeking opportunities to enhance your learning experience, Additional Readings have been identified to support the concepts discussed in the weekly video lectures. A reading relating to each video has been identified, thereby allowing you to select readings that may hold the greatest appeal for you based on this week’s content. Independent learning is highly encouraged in this course. If you find an article online that has been published by a reputable organization, you are encouraged to post a link to the article in the discussion forums and to share your thoughts on the information included within it.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
