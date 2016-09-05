@@ -1,30 +1,31 @@
 ---
-layout: page
 title: About
+permalink: about/
+profile: true
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Khỏe về khoa học
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Tác giả Hùng Lân
 
-There are currently two themes built on Poole:
+Khỏe vì nước kiến thiết Quốc Gia.
+Đoàn thanh niên ta góp tài ba.
+Tạo nguồn dân sinh mới hùng mạnh trong năm giới.
+Hợp lực xây hưng thịnh chung nước Nam.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Khỏe vì nước chí khí cương kiên.
+Giống Lạc Hồng uy hùng vô biên.
+Trong khốn nguy can trường sống thác ta coi thường.
+Việt Nam thanh niên anh dũng muôn năm.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Thanh niên ơi, hồn thiêng núi sông đợi chờ !
+Nơi tay ta toàn dân ngóng trông từng giờ.
+Mang máu anh hùng ta đừng làm nhơ máu anh hùng.
+Trai đất Việt phải nêu đèn sáng thế giới soi chung.
+Dân sinh yếu nhược lôi ta đến đường vong quốc.
+Dân sinh dũng cường đưa ta tới đài vinh quốc.
+Mau gây lấy phong trào khỏe khắp nơi xa gần.
+Cho dân trí quật cường và hưng phấn.
+Nghìn đời không mờ ánh Duy Tân.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+{% include footer.html %}

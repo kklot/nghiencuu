@@ -1,20 +1,43 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-# Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://suctich.com
-baseurl:             ''
-paginate:            5
+name: Khỏe vì Nước
+description: Thanh niên ơi, hồn thiêng núi sông đợi chờ!
+meta_description: "Nghiên cứu khoa học"
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+aboutPage: true
 
-# Custom vars
-version:             1.0.0
+markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
+paginate: 20
+baseurl: /
+domain_name: 'http://khoevinuoc.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: true
+disqus_shortname: 'khoe-vi-nuoc'
+
+# Details for the RSS feed generator
+url:            'http://khoevinuoc.com'
+author:         'Kinh Nguyen'
+authorTwitter:  'fieuvan'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
