@@ -4,9 +4,9 @@ permalink: about/
 profile: true
 ---
 
-Khỏe về khoa học
+> Khỏe về học thuật
 
-Tác giả Hùng Lân
+*Tác giả Hùng Lân*
 
 Khỏe vì nước kiến thiết Quốc Gia.
 Đoàn thanh niên ta góp tài ba.

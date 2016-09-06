@@ -1,0 +1,95 @@
+--- layout: post status: publish published: true title: Y đức không có
+tội author: display\_name: nguyensung login: nguyensung email:
+medicosocial@yahoo.com url: '' author\_login: nguyensung author\_email:
+medicosocial@yahoo.com wordpress\_id: 323 wordpress\_url:
+http://www.ytecongcong.com/?p=323 date: '2012-11-20 02:17:29 +0100'
+date\_gmt: '2012-11-19 19:17:29 +0100' categories: - Tin mới - Home
+tags: - bác sĩ Sung - Y đức comments: \[\] ---
+
+[![](http://www.ytecongcong.com/wp-content/uploads/2012/11/ethic-300x199.jpg "ethic"){.alignnone
+.wp-image-327 width="580"
+height="250"}](http://www.ytecongcong.com/2012/11/y-duc-khong-co-toi/ethic/)
+
+Trong trăm nghề thì chỉ có nghề y mới có chữ Y Đức luôn gắn liền nhau,
+tại sao?
+
+Đọc bài viết của Lan Anh - [**Báo tuổi
+trẻ**](http://tuoitre.vn/Chinh-tri-Xa-hoi/Thoi-su-suy-nghi/437004/Y-duc-la-gi.html) tôi
+thấy không thuyết phục, bạn đã tự mâu thuẫn với chính mình khi nói bác
+sĩ là người cung cấp dịch vụ y tế nhưng khi tính phí trên bệnh nhân như
+kiểu dịch vụ thì bạn lại mang y đức ra để bàn luận. Chúng ta phải tách
+biệt 2 lĩnh vực này ra để phân tích và nhìn nhận nhé.
+
+Kinh tế thị trường luôn có 2 mặt của nó, thúc đẩy nền kinh tế phát triển
+nhanh chóng, tạo công ăn việc làm cho người dân, tạo ra công bằng trong
+cạnh tranh phát triển…thế nhưng nó cũng có nhiều mặt trái mà chúng ta
+đang phải đối mặt. chúng ta chuẩn bị đầu tư cơ sở vật chất cho sự phát
+triển nền kinh tế thị trường nhưng chưa chú trọng chuẩn bị nền móng giáo
+dục cho quá trình phát triển này – chả thế mà theo một nghiên cứu của
+nhà tâm lý Đinh Phương Duy thì lớp trẻ hiện nay xếp vấn đề làm việc nhóm
+và bác ái xuống những chọn lựa cuối cùng, cái tôi của con người ta bây
+giờ quá lớn.
+
+Nghành y tế cũng không thoát khỏi quy luật đó và nhân viên y tế dĩ nhiên
+cũng không nằm ngoài. Chủ trương của nhà nước ta là xã hội hóa nghành y
+tế vì thế mà các bệnh viện và phòng khám tư nhân đã hình thành rất nhiều
+để đáp ứng nhu cầu khám chữa bệnh bức thiết của nhân dân. Nghành y tế
+cũng là một nghành cung cấp dịch vụ đúng không nào, vậy thì tại sao khi
+nghành y tế thu phí vận chuyển điều trị theo dịch vụ thì chúng ta lại
+bức xúc nhỉ, chả lẽ bỏ vốn ra đầu tư để rồi phá sản, chả lẽ một nhân
+viên y tế sau khi ra trực ở lại làm thêm giờ thì không được hưởng theo
+công sức của họ? rồi khi các bệnh viện nhà nước không đủ cơ sở vật chất
+để đáp ứng nhu cầu khám chữa bệnh thì một số bệnh viện đã nhanh nhạy tìm
+những nơi có sẵn cơ sở vật chất để giúp người bệnh lưu lại theo dõi
+tránh cảnh nằm hành lang-mà thậm chí hành lang cũng không có mà nằm- thì
+lại bị vướng vào y đức?! chúng ta cứ muốn nghành y tế thu phí bệnh nhân
+rẻ thôi không cho nghành y thoát ra khỏi đường mòn từ trước tới giờ - vì
+sợ ảnh hưởng tới y đức- nhưng khi thấy bệnh viện cũ kỹ xuống cấp, không
+có đủ chỗ để nằm cho bệnh nhân thì chúng ta lại la làng lên và lại hỏi
+tới y đức! và nếu bệnh viện có kêu gọi vốn đầu tư xây dựng khu lưu bệnh
+khang trang để thu phí thì thế nào rồi cũng lại vướng vào y đức?! và
+chúng ta có biết chuyện một nhà máy kia đang hoạt động bỗng dưng ngưng
+lại, ban giám đốc nhà máy cho tất cả các kỹ sư giỏi nhất của mình tìm
+nguyên nhân nhưng không ra dù đã treo giải thưởng, để rồi cuối cùng phải
+mời một kỹ sư ở ngoài vào với giá thuê gấp 100 lần trả thưởng cho các kỹ
+sư của nhà máy, và ông ta đã tìm ngay ra nơi hỏng hóc. Vậy thì tại sao
+nghành y không được phép làm như vậy nhỉ? -Đó là giá trị thương hiệu của
+mỗi bác sĩ mà đâu dễ có được - Vì khách hàng chọn dịch vụ mà, đâu phải
+bệnh nhân trong tình trạng cấp cứu…mà với dịch vụ đó khách hàng không
+đồng ý thì thôi, mời khách hàng sang thương hiệu khác ạ….
+
+Tôi xin được nói qua chữ y đức nhé. Chúng ta phải tách biệt hoàn toàn
+phạm trù này, đây là phạm trù đạo đức, không thể cân đong đo đếm được
+các bạn ạ. Trong xã hội tất cả mọi nghành nghề đều cần phải có đức chứ
+không riêng gì nghành y đúng không? Tuy nhiên nghành y là một nghành rất
+nhạy cảm vì đối tượng chăm sóc của nghành y là con người, là sức khỏe,
+chạm vào những gì thiêng liêng sâu kín nhất, có thề mang tới cho người
+khác hạnh phúc tột đỉnh nhưng cũng có thể mang cho người khác đau khổ
+tột cùng có khi chỉ vì một động tác. Khi học trong trường y dược tất cả
+nhân viên y tế đều được dạy rất kỹ về y đức, tại các bệnh viện bây giờ
+cũng luôn có các khóa học về giao tiếp, và tôi nghĩ rằng không nhân viên
+y tế nào lại tự muốn đánh mất mình, tự muốn hủy hoại công sức và danh
+tiếng của mình đâu-  trừ những người vào nghành y với mục đích nào đó
+hoặc thực sự biến chất. Vấn đề bây giờ là chúng ta phải giáo dục ý thức
+của toàn dân, giáo dục các chuẩn mực giao tiếp cho mọi người, tránh tâm
+lý tôi có tiền là tôi được phục vụ tốt hơn, tôi có tiền là tôi có thể
+sai khiến kẻ khác, tôi có tiền thì lẽ phải sẽ về tôi…. (Điều này ảnh
+hưởng rất lớn tới nhân viên y tế - vd Tại một phòng cấp cứu nọ, e kíp
+trực đang hồi sinh tim phổi cho một trường hợp nhồi máu cơ tim, ai cũng
+hết lòng cố cứu bệnh nhân nhưng người nhà đạp cửa xông vào dọa nạt là họ
+có tiền, họ có quyền đấy, chúng mày mà không cứu được tao cho đi tù cả
+đám?! Ê kíp vẫn làm việc nhưng chua xót lắm). Tôi đồng ý với các bạn khi
+lên án những nhân viên y tế kém cỏi trong giao tiếp, hỏi bệnh mà cứ như
+hỏi cung, không chủ ngữ không vị ngữ, hạch sách nhũng nhiễu người dân,
+vì một chút lợi lộc mà ghi những toa thuốc quá chỉ định chuyên môn, thêm
+những thuốc không cần thiết với bệnh nhân. Rồi nhiều khi chuyên môn chưa
+vững nhưng cái tôi lớn quá để rồi không trao đổi chuyên môn với đồng
+nghiệp gây ra những hậu quả đau lòng…Chúng ta chỉ có thể xét y đức như
+vậy thôi chứ nếu cái gì cũng lôi y đức ra tôi e là đang xúc phạm hai chữ
+đó và xúc phạm tới nghành y đấy.
+
+Dr Nguyen Van Sung\
+Mobil phone: 0939 245 989; 0939 393 489\
+Office: Tan Phu District General hospital - No 34 Tran Van Giap street,
+Hiep Tan ward, Tan Phu district, HCMC, Viet Nam.\
+Email: <medicosocial@yahoo.com> and <medicosocial@gmail.com>

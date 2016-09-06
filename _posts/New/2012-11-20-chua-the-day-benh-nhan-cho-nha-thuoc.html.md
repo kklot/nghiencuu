@@ -1,0 +1,50 @@
+--- layout: post status: publish published: true title: Chưa thể đẩy
+bệnh nhân cho nhà thuốc author: display\_name: nguyensung login:
+nguyensung email: medicosocial@yahoo.com url: '' author\_login:
+nguyensung author\_email: medicosocial@yahoo.com wordpress\_id: 339
+wordpress\_url: http://www.ytecongcong.com/?p=339 date: '2012-11-20
+02:58:22 +0100' date\_gmt: '2012-11-19 19:58:22 +0100' categories: - Tin
+mới - Home tags: - bác sĩ Sung - bệnh nhân - nhà thuốc comments: \[\]
+---
+
+[![](http://www.ytecongcong.com/wp-content/uploads/2012/11/drug-dealing-web-sized.jpg "drug-dealing-web-sized"){.alignnone
+.wp-image-344 width="580"
+height="250"}](http://www.ytecongcong.com/2012/11/chua-the-day-benh-nhan-cho-nha-thuoc/drug-dealing-web-sized/)
+
+Theo qui định về kê toa thuốc hiện nay của Bộ Y tế (điều 7 QĐ
+04/2008/QĐ-BYT ngày 1-2-2008) chỉ cho phép bác sĩ viết tên thuốc theo
+tên hoạt chất (trừ trường hợp thuốc có nhiều hoạt chất) nhằm loại bỏ
+chuyện chi hoa hồng cho bác sĩ. Nhưng theo tôi chúng ta làm thế là chưa
+thỏa đáng, thậm chí còn nguy hiểm hơn cho bệnh nhân vì các lý do sau
+đây:
+
+1/ Khi một dược sĩ mở nhà thuốc đồng nghĩa với việc họ muốn kinh doanh
+kiếm lời, vậy đối với họ lợi nhuận là trên hết. như vậy thuốc nào lời
+nhiều (chênh lệch này là chênh lệch đồng nghĩa với hoa hồng) là họ sẽ
+bán vì họ không phải chịu tránh nhiệm về mặt chất lượng, vì thuốc đó đã
+được cấp phép lưu hành.
+
+2/ Các nhà thuốc của chúng ta chưa có dược sĩ  lâm sàng (người có quyền
+và khả năng tư vấn và đổi thuốc  - dù là đổi biệt dược (nếu thấy toa
+thuốc có vấn đề về chuyên môn), thậm chí hiện nay chúng ta chưa đủ Dược
+sĩ đại học đứng ở nhà thuốc để tư vấn và bán thuốc mà chủ yếu là đội ngũ
+dược trung và dược sơ cấp – những người này chưa đủ thẩm quyền và trình
+độ chọn thuốc thay thế.
+
+3/ Trong các biệt dược lưu hành trên thị trường (có cùng hoạt chất) có
+những thuốc đạt chất lượng thưc sự, có những biệt dược không có cơ sở để
+bác sĩ tin tưởng vào chất lượng (mà bệnh nhân sự sống của họ được tính
+theo microgam hàm lượng thuốc nên bác sĩ không thể chỉ định những thuốc
+mà họ không tin tưởng – vì họ là người chịu trách nhiệm về sự sống còn
+của bệnh nhân). Vì vậy mà có nhiều thuốc bác sĩ không thể ghi hoạt chất.
+
+4/ Người Dược sĩ của chúng ta chưa có ràng buộc chịu tránh nhiệm về bệnh
+tật và tính mạng bệnh nhân, mà bác sĩ nào điều trị - ghi toa - thì bác
+sĩ đó chịu tránh nhiệm. Như vậy khi dược sĩ được quyền bán thuốc không
+theo toa bác sĩ ghi (tự ý đổi biệt dược) thì phải đồng nghĩa với người
+dược sĩ đó chịu trách nhiệm về bệnh tật và tính mạng bệnh nhân. Cũng
+chính vì lý do này mà rất ít người bán thuốc tự ý đổi toa.
+
+Qua những điều nêu trên chúng ta thấy là chúng ta phải quản lý từ gốc rễ
+của vấn đề chứ không phải chúng ta đưa ra những biện pháp chưa phù hợp
+với thực tế ở đất nước chúng ta.

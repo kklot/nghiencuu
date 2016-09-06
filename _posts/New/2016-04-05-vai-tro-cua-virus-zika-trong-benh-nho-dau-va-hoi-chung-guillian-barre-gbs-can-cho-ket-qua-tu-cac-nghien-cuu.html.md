@@ -1,0 +1,131 @@
+--- layout: post status: publish published: true title: Vai trò của
+virus Zika trong bệnh nhỏ đầu và hội chứng Guillian-Barre (GBS) cần chờ
+kết quả từ các nghiên cứu author: display\_name: Kinh Nguyen login: Kinh
+Nguyen email: nguyenkinh@ytecongcong.com url:
+https://www.google.com/profiles/112009149785989721279 author\_login:
+Kinh Nguyen author\_email: nguyenkinh@ytecongcong.com author\_url:
+https://www.google.com/profiles/112009149785989721279 wordpress\_id:
+2951 wordpress\_url: http://www.ytecongcong.com/?p=2951 date:
+'2016-04-05 19:20:18 +0200' date\_gmt: '2016-04-05 12:20:18 +0200'
+categories: - Dịch tễ - Thống kê - Nghiên cứu - Dân số tags: - zika -
+thai - nhỏ đầu - Guillian-Barre comments: - id: 355 author: Việt Nam báo
+cáo ca nhiễm Zika đầu tiên | Y tế Công Cộng - Public Health in Vietnam
+author\_email: '' author\_url:
+http://www.ytecongcong.com/2016/04/viet-nam-bao-cao-ca-nhiem-zika-dau-tien/
+date: '2016-04-05 21:56:19 +0200' date\_gmt: '2016-04-05 14:56:19 +0200'
+content: "\[…\] ca đầu tiên ở Việt Nam, một căn bệnh đang nghi ngờ có
+khả năng liên quan đến bệnh nhỏ \[…\]" ---
+
+![](http://www.cdc.gov/zika/images/banner2.jpg)
+
+> Dịch Ebola là đáng báo động vì những gì đã biết về bệnh, trong khi
+> Zika đáng báo động vì những gì không biết về bệnh.
+
+Tổ chức Y tế Thế giới (WHO) tuyên bố tình trạng Y tế Công cộng khẩn cấp
+do sự thiếu thông tin về Zika virus, nhất là thiếu chắc chắn về nguyên
+nhân của sự gia tăng các ca bệnh nhỏ đầu (microcephaly) và Hội chứng
+Guillian-Barre (GBS) ở Brazil và các vùng khác ở châu Mỹ.
+
+David Heymann, nhà dịch tễ học ở London School of Tropical Medicine and
+Hygiene so sánh Zika với Ebola nói rằng dịch Ebola là đáng báo động vì
+những gì đã biết về bệnh, trong khi Zika đáng báo động vì những gì không
+biết về bệnh.
+
+Gánh nặng bệnh tật
+------------------
+
+### Lây nhiễm Zika virus
+
+Bộ Y tế Brazil ước lượng có thể có từ nửa triệu đến 1,5 triệu ca nhiễm
+trong nước. Columbia báo cáo có trên 31.000 ca nghi ngờ và con số này ở
+Cape Verde là trên 7.000. Một số chuyên gia ước lượng sẽ có 3-4 triệu ca
+mắc trong năm tới.
+
+Theo WHO, phạm vi địa lý của virus đã gia tăng đáng kể trong năm 2015-16
+nhất là ở châu Mỹ với 28 quốc gia và vùng lãnh thổ đã bị ảnh hưởng.
+
+### Bệnh nhỏ đầu
+
+Brazil báo cáo có khoảng 5.280 ca bệnh nhỏ đầu hoặc bất thường hệ thần
+kinh trung ương vào tháng 2, 2016, trong đó có 108 ca tử vong.
+
+### Hội chứng Guillain-Barre (GBS)
+
+Năm quốc gia ở châu Mỹ đã báo cáo sự gia tăng hội chứng Guillain–Barre
+với sự bùng phát dịch virus Zika. Ở người lớn, báo cáo cho thấy có ít ca
+có hội chứng này so với các ca bệnh nhỏ đầu. Đỉnh điểm ca mắc là ở
+Venezuela với 252 trường hợp.
+
+Chứng minh nhân quả
+-------------------
+
+Tuy kiến thức hiện tại cho biết virus Zika lây lan qua muỗi *Aedes*, và
+phòng ngừa Zika theo lý thuyết là khả thi với việc kiểm soát hiệu quả
+muỗi và/hoặc muỗi cắn, nhưng nguyên nhân của các ca bệnh nhỏ đầu và GBS
+thì ít được chắc chắn.
+
+Để thực sự đánh gia vai trò cụ thể của virus Zika trong bệnh nhỏ đầu,
+một nghiên cứu bệnh-chứng hợp tác giữa CDC, Brazil, và các nhà khoa học
+khác sẽ được thực hiện để “tìm hiểu sâu về các nhân tố mà người mẹ đã
+phơi nhiễm trước đó, và các kết quả xét nghiệm từ các bà mẹ và con, để
+thật sự hiểu hơn về tỷ lệ bao nhiêu các ca dị tật khi sinh này có liên
+quan trực tiếp với virus Zika” theo CDC’s Anne Schuchat.
+
+Nghiên cứu của CDC đã bắt đầu vào giữa tháng 2 bất chấp những ý kiến rất
+mạnh mẽ từ các quan chức y tế Brazil cho rằng Zika là nguyên nhân của
+bệnh nhỏ đầu. Một yếu tố quan trọng bây giờ là đưa ra một định nghĩa ca
+bệnh chuẩn xác cho các ca bệnh nhỏ đầu, vì hiện tại các báo cáo cho thấy
+có chẩn đoán sai và báo cáo trội trong khoảng 5000 ca báo cáo chính
+thức. Bộ Y tế Brazil nói rằng bằng chứng gián tiếp là rất mạnh và “Chúng
+tôi không có nghi ngờ gì về việc dịch bệnh nhỏ đầu chúng ta đang chứng
+kiến ở Brazil gây ra bởi dịch virus Zika bùng phát.”
+
+### Các thông tin ủng hộ mối liên quan
+
+1.  Đã có sự gia tăng đáng kể các ca bệnh nhỏ đầu từ 2015 cùng với sự
+    gia tăng của các ca Zika ở Brazil. Trước 2015, ước lượng ban đầu cho
+    thấy số ca bệnh nhỏ đầu trung bình trong nước là chỉ khoảng 163 ca
+    mỗi năm nhưng đã tăng đến 5000 trong những tháng vừa qua.
+2.  Zika được phát hiện ở 41 trẻ trong 462 ca nhỏ đầu ở Brazil. Tổng
+    cộng tới hiện tại có ít nhất 508 ca xác định bệnh nhỏ đầu.
+3.  Khảo sát dữ liệu sinh từ vụ dịch bùng phát Zika ở French Polynesia
+    năm 2013-14 cho thấy số bất thường khi sinh cũng tăng, từ 0-2 mỗi
+    năm lên 18 trong năm 2014-15, với 9 ca nhỏ đầu. Bốn bà mẹ được xét
+    nghiệm sau đó cho thấy bằng chứng phơi nhiễm với Zika.
+4.  Một trẻ sinh ở Hawaii vào tháng 12 đã có xét nghiệm huyết thanh cho
+    thấy nhiễm Zika. Người mẹ đã từng có triệu chứng giống mắc Zika
+    trong tam cá nguyệt thứ 2.
+5.  Phân lập được virus từ bào thai một ca hủy thai ở Slovenia.
+
+### Các thông tin phản bác mối liên quan
+
+1.  Các virus khác như *Dengue* và *Chikungunya* đang lưu hành bên
+    cạnh Zika. Hơn nữa các nguyên nhân bệnh nhỏ đầu không do virus chưa
+    được loại trừ.
+2.  Chưa có báo cáo ca bệnh nhỏ đầu ngoài Brazil.
+
+Nếu Zika thực sự là nguyên nhân, một trong những lí do để giải thích có
+thể là do việc các dân số bị ảnh hưởng khác chưa đủ lớn để tạo ra sự lây
+lan bùng phát, điều mà có thể xảy ra trong một dân số lớn và không có
+miễn dịch như Brazil. Việc này có nghĩa giả định tỷ suất mới mắc ở phụ
+nữ có thai là thấp và các dịch bùng phát trước đó chưa đủ sức tạo ra một
+"cụm" các ca nhỏ đầu đủ lớn để dễ phát hiện. Hoặc giả có các yếu tố khác
+đặc trưng ở Brazil đã giúp tạo nên dịch bùng phát về các kết cuộc liên
+quan đến thần kinh trở nên rõ ràng.
+
+Chờ đợi những đợt ca mắc mới trong tương lai?
+---------------------------------------------
+
+Một lí do nữa đưa ra bởi giám đốc CDC Tom Frieden là “Không ngạc nhiên
+khi không thấy các ca nhỏ đầu trong các quốc gia khác, bởi vì khung thời
+gian giữa nhiễm và sinh nở (là dài).” Điều này giả định Brazil là một
+trong những khu vực bị ảnh hưởng sớm nhất và các đợt ca nhiễm mới phát
+hiện sẽ xảy ra khi thời gian trôi qua trong các vùng khác của châu Mỹ.
+
+Có nghi ngờ rằng những con số báo cáo có thể bị báo cáo trội và chẩn
+đoán sai, và con số bệnh thực sự là không đáng tin cậy. Một báo cáo gần
+đây của WHO cho thấy có báo cáo thiếu ca bệnh trước 2015. **WHO ước
+lượng của tỷ suất nền là cao hơn khoảng 10 lần so với ước lượng chính
+thức**, hay 2.725 ca mỗi năm với số mới mắc tối thiểu là 92 trên
+100.000. Điều này làm cho dịch bùng phát hiện tại *ít bất thường* hơn so
+với những tin tức ban đầu.

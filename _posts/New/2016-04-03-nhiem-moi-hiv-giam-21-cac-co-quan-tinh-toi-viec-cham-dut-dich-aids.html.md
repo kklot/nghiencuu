@@ -1,0 +1,35 @@
+--- layout: post status: publish published: true title: Nhiễm mới HIV
+giảm 21%, các cơ quan tính tới việc chấm dứt dịch AIDS author:
+display\_name: Kinh Nguyen login: Kinh Nguyen email:
+nguyenkinh@ytecongcong.com url:
+https://www.google.com/profiles/112009149785989721279 author\_login:
+Kinh Nguyen author\_email: nguyenkinh@ytecongcong.com author\_url:
+https://www.google.com/profiles/112009149785989721279 wordpress\_id:
+2927 wordpress\_url: http://www.ytecongcong.com/?p=2927 date:
+'2016-04-03 22:50:36 +0200' date\_gmt: '2016-04-03 15:50:36 +0200'
+categories: - Tin mới - Dịch tễ tags: - HIV - AIDS - UNAIDS comments:
+\[\] ---
+
+Ước tính hiện tại có khoảng 34 triệu người đang sống chung với HIV, tăng
+17% trong thập kỷ qua. Số người tử vong vì AIDS trong năm 2010 đã giảm
+xuống con số 1,8 triệu so với đỉnh điểm 2,2 triệu những năm giữa 2000,
+và con số ước lượng 2,5 triệu tử vong đã được ngăn chặn ở các nước có
+thu nhập trung bình và thấp từ năm 1995 nhờ thuốc kháng Retrovirus.
+
+Trong năm 2010, có 2,7 triệu ca mắc mới, ít hơn 15% so với 2001 và ít
+hơn 21% so với số mới mắc trong đỉnh điểm dịch năm 1997.
+
+Những con số này tăng thêm động lực cho ngày AIDS Thế giới năm nay vì
+các phương tiện để ngăn chặn AIDS hiện đã có trong tay. Theo UNAIDS,
+“Chúng ta đang đang tiến sát đến một bước tiến quan trọng trong đối phó
+AIDS. Tầm nhìn về một thế giới không có ca nhiễm mới HIV, không có sự kỳ
+thị, và không có tử vong liên quan đến AIDS đã có thể mường tượng
+được…Chỉ mới vài năm trước, nói chuyện kết thúc dịch AIDS gần như là
+không tưởng, nhưng với khoa học, ủng hộ về chính sách, và sự hưởng ứng
+của cộng đồng đang bắt đầu cho thấy hiệu quả rõ ràng".
+
+(theo UNAIDS)
+
+Nhiễm mới HIV giảm 21%, các cơ quan tính tới việc chấm dứt dịch AIDS –
+Súc tích\
+http://www.suctich.info/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/

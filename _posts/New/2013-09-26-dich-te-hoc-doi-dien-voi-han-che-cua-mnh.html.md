@@ -1,0 +1,133 @@
+--- layout: post status: publish published: true title: 'Dịch tễ học đối
+diện với những hạn chế \[Phần I\]: Tổng quát' author: display\_name:
+Kinh Nguyen login: Kinh Nguyen email: nguyenkinh@ytecongcong.com url:
+https://www.google.com/profiles/112009149785989721279 author\_login:
+Kinh Nguyen author\_email: nguyenkinh@ytecongcong.com author\_url:
+https://www.google.com/profiles/112009149785989721279 wordpress\_id:
+1574 wordpress\_url: http://www.ytecongcong.com/?p=1574 date:
+'2013-09-26 23:39:44 +0200' date\_gmt: '2013-09-26 16:39:44 +0200'
+categories: - Dịch tễ - Nghiên cứu - Home tags: - dịch tễ - nghiên cứu -
+epidemiology - nghiên cứu khoa học - Dịch tễ học - nghiên cứu dỏm - giới
+hạn comments: \[\] ---
+
+Bài báo này đã được công bố gần 20 năm nhưng vẫn còn nguyên giá trị của
+mình.
+
+> Quá trình tìm kiếm các mối liên quan giữa chế độ ăn, lối sống hoặc các
+> yếu tố môi trường với bệnh tật là một nguồn sợ hãi vô tận – nhưng
+> thường xuyên cho ra kết quả không mấy chắc chắn.
+
+\[caption id="" align="alignright"
+width="143"\]![](http://www.rti.org/images/K_Rothman_P2752_HR.jpg){width="143"
+height="200"} "Chúng ta đang đẩy đến bờ vực những gì có thể làm với dịch
+tễ học" - Ken Rothman\[/caption\]
+
+Tin tức về các yếu tố nguy cơ cho sức khoẻ xuất hiện nhanh và dày đặc
+ngày nay, và nhiều khi mâu thuẫn với nhau. Ví dụ vào tháng 1/1994, một
+nghiên cứu của Thuỵ Điển tìm thấy một mối liên quan có ý nghĩa thống kê
+giữa phơi nhiễm với radon tại nơi ở với ung thư phổi trong khi nghiên
+cứu tai Canada lại không thấy. Ba tháng sau đó thì tới nghiên cứu về ảnh
+hưởng tồn dư của thuốc trừ sâu. Tạp chí của *Viện Ung thư Quốc gia* công
+bố một nghiên cứu vào tháng 4/1994 báo cáo kết quả (trái ngược với các
+nghiên cứu kém năng lực hơn trước đó) là sự hiện diện của các chất
+chuyển hoá DDT trong máu không có ảnh hưởng lên nguy cơ mắc ung thư vú.
+Vào tháng 10 thì đến chuyện mối liên quan giữa phá thai và ung thư vú.
+Có thể có. Mà cũng có thể không. Cũng vào tháng 1/1994, một nghiên cứu
+trên nhân viên điện lực ở Mỹ cho thấy có thể có mối liên quan giữa
+trường điện từ ở các dây đẫn điện và ung thư não, tuy nhiên một điều mâu
+thuẫn với một nghiên cứu trước đó 1 năm tại Pháp và Canada, là không có
+mối liên quan giữa trường điện từ và bệnh bạch cầu.
+
+Đây không phải là những trường hợp v.d. đặc biệt về bản chất mâu thuẫn
+của các nghiên cứu dịch tễ học mà chỉ là những v.d. mới nhất. Theo thời
+gian, những nghiên cứu này tạo nên một loạt các "tác nhân gây bệnh tiềm
+tàng" làm rối trí công chúng, từ thuốc nhuộm tóc (với u lympho, u tủy và
+bệnh bạch cầu) tới cà phê (ung thư tuyến tụy và bệnh tim mạch) và cho
+tới biện pháp tránh thai đường uống và các điều trị sử dụng hoóc môn
+(với hầu hết các rối loạn ở phụ nữ). Chiếc quả lắc cứ đong đưa tới lui,
+đẩy công chúng đến một “trận dịch lo âu” như Lewis Thomas đã nhận định
+nhiều thập kỷ trước. Quả vậy, vào 07/1994, tạp chí *Y Khoa New England*
+(NEJM) công bố một bài bình luận của biên tập viên Marcia Angell và
+Jerome Kassirer đưa ra một câu hỏi đầy ngụ ý: “Công chúng nên tin vào
+điều gì?” và viết “Ở Mỹ, những người có ý thức rõ về sức khỏe liên tục
+thấy mình bị vây quanh bởi những lời khuyên trái ngược nhau. Họ chưa kịp
+được biết đầy đủ về kết quả của nghiên cứu này thì đã bị nghe một thông
+tin trái ngược khác rồi”.
+
+\[caption id="attachment\_1703" align="aligncenter"
+width="279"\]![Coffee
+(1)](http://www.ytecongcong.com/wp-content/uploads/2013/09/Coffee-1-279x300.png){.size-medium
+.wp-image-1703 width="279" height="300"} Cà phê là có lợi hay có hại? Có
+thể có. Có thể không\[/caption\]
+
+<span style="line-height: 1.6; font-size: 1.3rem;">*Bài báo qui trách
+nhiệm lên các nhà xuất bản về các báo cáo về dịch tễ, và lên công chúng
+vì “những mong đợi không thực tế” về những gì mà nghiên cứu y học hiện
+đại có thể làm cho sức khỏe của mình.* Nhưng rất nhiều nhà dịch tễ học
+trả lời tạp chí *Science* cho biết vấn đề cũng nằm ở bản chất của các
+nghiên cứu dịch tễ học – cụ thể là những nghiên cứu cố gắng xác định ra
+các nguyên nhân của các bệnh không lây, được biết đến qua những cái tên
+như dịch tễ học quan sát, dịch tễ học về yếu tố nguy cơ hay dịch tễ học
+môi trường.</span>
+
+Điều có thể đoán trước của các nghiên cứu này là rất đơn giản: trong 50
+năm qua, các nhà dịch tễ học đã thành công trong phát hiện các yếu tố
+quyết định dễ thấy của các bệnh không lây – v.d. như hút thuốc lá có thể
+gia tăng nguy cơ phát triển ung thư phổi lên đến 300%. Đến nay họ chỉ
+còn đi tìm những mối liên quan khó thấy hơn giữa bệnh tật và các nguyên
+nhân từ môi trường và lối sống. Và điều này đưa đến tình thế khó khăn
+trong dịch tễ học hiện đại khi mà những điều mong muốn đều khó đạt được
+vì điều kiện mới và qui luật mâu thuẫn với nhau, hay được gọi là “the
+Catch-22” của dịch tễ học hiện đại.
+
+<span style="line-height: 1.6; font-size: 1.3rem;">Một mặt, những nguy
+cơ khó thấy này – chẳng hạn như tăng 30% nguy cơ ung thư vú do sử dụng
+chất uống có cồn như một số nghiên cứu đề xuất - có thể ảnh hưởng đến
+một phần khá lớn dân số và có khả năng có tác động to lớn đến y tế công
+cộng. Mặt khác, rất nhiều nhà dịch tễ học thừa nhận rằng các nghiên cứu
+của họ bị ảnh hưởng bởi các sai lệch, những điều không chắc chắn và
+những điểm yếu trong phương pháp nghiên cứu có thể vốn đã không có khả
+năng nhận rõ chính xác các mối liên quan yếu như vậy. Như giám đốc *Hội
+Ung thư Mỹ*, Michael Thun, đã nói “Với dịch tễ học, bạn có thể nói được
+một điều nhỏ từ một điều to lớn. Điều rất khó để làm là nói được một
+điều gì đó từ không gì cả”. Cũng như ý kiến của Ken Rothman, biên tập
+của tạp chí *Epidemiology* “Chúng ta đang đẩy đến bờ vực những gì có thể
+làm với dịch tễ học".</span>
+
+Dimitrios Trichopoulos, trưởng Khoa dịch tễ học tại ĐH Y tế Công cộng
+Harvard, phát biểu: "với dịch tễ học đã vươn tới hay thậm chí vượt quá
+giới hạn của mình, các nghiên cứu sẽ không tránh được việc cho ra các
+kết quả dương tính giả và âm tính giả với một "tần số đáng buồn"". Hầu
+hết các nhà dịch tễ học đều nhận thức được vấn đề và đều có xu hướng
+tránh việc suy diễn nhân quả dựa trên các nghiên cứu đơn lẻ hay thậm chí
+trên nhóm nhiều nghiên cứu khi không có bằng chứng thuyết phục về y
+sinh. Tuy nhiên vẫn có những trường hợp ngoại lệ xảy ra và tần số xuất
+hiện ngày càng tăng. Ông giải thích "Nói một cách khách quan, các vấn đề
+này không xảy ra thường xuyên hơn trước đây, nhưng áp lực trong chuyên
+ngành ngày càng lớn hơn, và số người làm chuyên môn cũng nhiều hơn".
+
+\[caption id="" align="alignleft"
+width="250"\]![](http://www.hsph.harvard.edu/dimitrios-trichopoulos/files/2012/08/Dimitrios-TRICHOPOULOS-250x300.jpg){width="250"
+height="300"} "Mọi người không còn coi trọng chúng ta nhiều nữa, và khi
+mà họ có xem trọng, thì chúng ta có thể không chủ tâm nhưng gây hại
+nhiều hơn là có lợi" - Dimitrios Trichopoulos\[/caption\]
+
+Và kết quả tất yếu là các tạp chí ngày nay rất nhiều các nghiên cứu cho
+ra kết quả hàm ý là một chút nguy cơ cũng là điều rất đáng quan tâm. Các
+phát hiện này thường được tôn lên bởi các tạp chí công bố bài báo hoặc
+bởi các viện cơ quan của nhà nghiên cứu và các phương tiện thông tin đại
+chúng thường báo cáo các công bố này mà không đánh giá và không biết
+đánh giá. Và thế là chiếc quả lắc lo lắng lại càng đong đưa nhanh đến
+chóng mặt hơn bao giờ. Trichopoulos nói "Chúng ta đang nhanh chóng trở
+nên một mối phiền toái cho xã hội". "Mọi người không còn coi trọng chúng
+ta nhiều nữa, và khi mà họ có xem trọng, thì chúng ta có thể không chủ
+tâm nhưng gây hại nhiều hơn là có lợi". Một giải pháp tính thế, như các
+nhà dịch tễ học trả lời tạp chí *Science* đề nghị, chỉ một khi các nhà
+xuất bản trở nên hoài nghi nhiều hơn về các phát hiện dịch tễ học, hoặc
+các nhà dịch tễ học trở nên hoài nghi nhiều hơn về chính kết quả của
+mình, hoặc cả hai.
+
+*còn tiếp*
+
+*Epidemiology faces its limits.* Taubes, Gary; Mann, Charles C. Science;
+Jul 14, 1995; 269, 5221; Research Library pg. 164.

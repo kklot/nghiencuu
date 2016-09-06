@@ -1,0 +1,49 @@
+--- layout: post status: publish published: true title: Canada khuyến
+nghị phụ nữ 40-49 tuổi không nên đi khám sàng lọc ung thư vú author:
+display\_name: Kinh Nguyen login: Kinh Nguyen email:
+nguyenkinh@ytecongcong.com url:
+https://www.google.com/profiles/112009149785989721279 author\_login:
+Kinh Nguyen author\_email: nguyenkinh@ytecongcong.com author\_url:
+https://www.google.com/profiles/112009149785989721279 wordpress\_id:
+2929 wordpress\_url: http://www.ytecongcong.com/?p=2929 date:
+'2016-04-04 05:24:20 +0200' date\_gmt: '2016-04-03 22:24:20 +0200'
+categories: - Dịch tễ tags: - sàng lọc - ung thư vú comments: \[\] ---
+
+Nhóm công tác Y tế Dự phòng Canada đưa ra khuyến nghị trên, đồng thời
+khuyến nghị đối với phụ nữ 50-69 và 70-74 thì nên sàng lọc mỗi 2-3 năm
+^[\[1\]](#fn-1){.footnote-ref}^.
+
+> Đương nhiên, khuyến nghị này có được từ phân tích trên số liệu mới mắc
+> của phụ nữ Canada.
+
+![Source](http://www.cmaj.ca/content/183/17/1991/F1.large.jpg)
+
+Ước lượng số cần sàng lọc (NNS) để phòng ngừa một ca tử vong do ung thư
+vú là 2108 người trong nhóm tuổi 40-49, nếu thực hiện sàng lọc một lần
+mỗi 2-3 năm trong vòng 11 năm. Phòng ngừa một ca tử vong này sẽ đưa đến
+khoảng 690 phụ nữ có nhũ ảnh dương giả, kéo theo các xét nghiệm bổ sung
+và ước lượng 75 phụ nữ sẽ phải làm sinh thiết không cần thiết.
+
+Ước tính chẩn đoán quá cho nhóm tuổi này không có, nhưng ở phụ nữ 39
+tuổi trở lên, nhóm nghiên cứu ước tính cứ mỗi 1000 phụ nữ được sàng lọc
+sẽ có 5 phụ nữ sẽ phải thực hiện cắt bỏ khối u/vú không cần thiết.
+
+Đánh giá của nhóm nghiên cứu là “tỷ số lợi ích tiềm năng-nguy hại không
+ủng hộ việc thực hiện sàng lọc trong nhóm tuổi 40-49". Nhóm nghiên cứu
+cũng thừa nhận là những phụ nữ coi trọng việc giảm, dù chỉ một phần nhỏ,
+khả năng tử vong và coi nhẹ việc có thể có những kết quả bất tiện sẽ có
+nhiều khả nặng lựa chọn thực hiện sàng lọc.
+
+<div class="footnote">
+
+------------------------------------------------------------------------
+
+1.  <div id="fn-1">
+
+    </div>
+
+    Recommendations on screening for breast cancer in average-risk women
+    aged 40–74 years
+    http://www.cmaj.ca/content/183/17/1991.full [↩](#fnref-1 "Jump back to footnote 1 in the text"){.footnote-backref}
+
+</div>

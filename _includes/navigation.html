@@ -1,10 +1,13 @@
 <nav class="main-nav">
     {% if page.url != "/" %}
-        <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Home </a>
+        <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Trang chủ </a>
     {% endif %}
 
     {% if page.url != "/about/" %}
-        <a href="{{ site.baseurl }}about">About </a>
+        <a href="{{ site.baseurl }}about">Thông tin </a>
     {% endif %}
-    <a class="cta" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+    {% if page.url != "/search/" %}
+        <a href="{{ site.baseurl }}search">Tìm </a>
+    {% endif %}
+    <a class="cta" href="{{ site.baseurl }}feed.xml">Theo dõi</a>
 </nav>
