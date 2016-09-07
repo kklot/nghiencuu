@@ -7,6 +7,19 @@
     <atom:link href="http://khoevinuoc.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Vi - Ký sinh trùng</title>
+        
+        
+          <description>&lt;p&gt;Ký sinh trùng có ở khắp mọi nơi. Phần lớn các sinh vật sống là ký sinh ở dạng này hay dạng khác và đó là những phương thức sống ưu thế trên trái đất. Vì hầu hết các sinh vật sống là ký sinh trùng, ngay cả ký sinh trùng cũng có ký sinh trùng. Bọ chét to có bọ chét nhỏ cắn trên lưng, và bọ chét nhỏ có bọ chét nhỏ hơn.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 06 Sep 2016 23:40:00 +0200</pubDate>
+        <link>http://khoevinuoc.com/2016/ky-sinh-trung/</link>
+        <guid isPermaLink="true">http://khoevinuoc.com/2016/ky-sinh-trung/</guid>
+      </item>
+    
+      <item>
         <title>Dịch bệnh là gì?</title>
         
         
@@ -418,38 +431,6 @@ echo 'MANPATH_MAP /usr/local/texlive/2013/bin/x86_64-linux /usr/local/texlive/20
         <pubDate>Mon, 26 May 2014 20:09:47 +0200</pubDate>
         <link>http://khoevinuoc.com/2014/ubuntu-cai-nhanh-texlive-cho-latex/</link>
         <guid isPermaLink="true">http://khoevinuoc.com/2014/ubuntu-cai-nhanh-texlive-cho-latex/</guid>
-      </item>
-    
-      <item>
-        <title>Cài JAGS trên Linux</title>
-        
-        
-          <description>&lt;p&gt;JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang &lt;a href=&quot;https://sourceforge.net/p/mcmc-jags/&quot;&gt;mcmc-jags&lt;/a&gt; nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗi&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;installation of package ‘rjags’ had non-zero exit status
-libjags.so.3: cannot open shared object file: No such file or directory
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Để cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:marutter/rrutter
-sudo add-apt-repository ppa:marutter/c2d4u
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Sau đó cài trực tiếp&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get install r-cran-rjags&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Hai chức năng đáng chú ý của &lt;code&gt;R2jags&lt;/code&gt; so với &lt;code&gt;R2winBUGS&lt;/code&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Khả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnh&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;update(mohing, n.iter=100)
-autojags(mohinh) # tự động update đến khi hội tụ
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Hiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng &lt;em&gt;yên tâm&lt;/em&gt; là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/29949485/iterations%20System%20monitor%20with%20r2jags.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 19 May 2014 20:59:52 +0200</pubDate>
-        <link>http://khoevinuoc.com/2014/cai-jags-tren-linux/</link>
-        <guid isPermaLink="true">http://khoevinuoc.com/2014/cai-jags-tren-linux/</guid>
       </item>
     
   </channel>
