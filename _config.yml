@@ -7,7 +7,7 @@ aboutPage: true
 markdown: kramdown
 highlighter: rouge
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-archives]
 paginate: 20
 baseurl: /
 domain_name: 'http://khoevinuoc.com'
@@ -20,7 +20,9 @@ url:            'http://khoevinuoc.com'
 author:         'Khỏe vì nước'
 authorTwitter:  'fieuvan'
 
+paginate: 7
 permalink:       /:year/:title/
+mathjax: true # whether support mathjax
 
 defaults:
     -

@@ -1,13 +1,17 @@
 <nav class="main-nav">
     {% if page.url != "/" %}
-        <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Trang chủ </a>
+        <a href="{{ site.baseurl }}"> <span class="arrow">←</span>&#x2302; </a>
     {% endif %}
 
     {% if page.url != "/about/" %}
-        <a href="{{ site.baseurl }}about">Thông tin </a>
+        <a href="{{ site.baseurl }}about">? </a>
     {% endif %}
     {% if page.url != "/search/" %}
-        <a href="{{ site.baseurl }}search">Tìm </a>
+        <a href="{{ site.baseurl }}search">&#128270; </a>
     {% endif %}
-    <a class="cta" href="{{ site.baseurl }}feed.xml">Theo dõi</a>
+    {% if page.url != "/archive/" %}
+        <a href="{{ site.baseurl }}archive">&#x2245; </a>
+    {% endif %}
+    <a href="{{ site.baseurl }}feed.xml">&#9829;</a>
+    <!-- <a class="cta" href="{{ site.baseurl }}feed.xml">&#9829;</a> -->
 </nav>

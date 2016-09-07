@@ -183,7 +183,7 @@ a,
 }
 
 ul 	{ margin:0; padding:0; }
-li	{ list-style-type:circle; list-style-position:inside; }
+li	{ list-style-type:disc; list-style-position:outside;}
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -641,4 +641,8 @@ h2.month {
 	.post h2.headline { font-size: 13px; }
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
+}
+
+#archive .this ul {
+	padding: 30px 0;
 }

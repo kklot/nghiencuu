@@ -1,8 +1,11 @@
 ---
- layout: default
- title: Search
+ layout: page
+ title: Tìm bài viết
  permalink: /search/
+ profile: true
 ---
+
+## Nhập từ khóa cần tìm
 
 <script>
   (function() {
