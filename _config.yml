@@ -1,6 +1,6 @@
-name: Khỏe vì Nước
-description: Thanh niên ơi, hồn thiêng núi sông đợi chờ!
-meta_description: "Nghiên cứu khoa học"
+name: Khoa học sức khỏe
+description: Gieo sức khỏe - Gặt niềm tin
+meta_description: "Nghiên cứu khoa học - Khoa học sức khỏe - Dịch tễ học - Y tế Công cộng - Thống kê - Việt Nam"
 
 aboutPage: true
 
@@ -8,17 +8,18 @@ markdown: kramdown
 highlighter: rouge
 
 gems: [jekyll-paginate, jekyll-archives]
-paginate: 20
+# paginate: 20
 baseurl: /
-domain_name: 'http://khoevinuoc.com'
+domain_name: 'http://ytecongcong.com'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: true
-disqus_shortname: 'khoe-vi-nuoc'
+disqus_shortname: 'ytecongcong'
+# disqus_shortname: 'khoe-vi-nuoc'
 
 # Details for the RSS feed generator
-url:            'http://khoevinuoc.com'
-author:         'Khỏe vì nước'
-authorTwitter:  'fieuvan'
+url:            'http://ytecongcong.com'
+author:         'Khoa học Sức khỏe'
+# authorTwitter:  'fieuvan'
 
 paginate: 7
 permalink:       /:year/:title/
