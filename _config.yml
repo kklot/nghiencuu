@@ -10,14 +10,14 @@ highlighter: rouge
 gems: [jekyll-paginate, jekyll-archives]
 # paginate: 20
 baseurl: /
-domain_name: 'http://ytecongcong.com'
+domain_name: 'kinh.ytecongcong.com'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: true
 disqus_shortname: 'ytecongcong'
 # disqus_shortname: 'khoe-vi-nuoc'
 
 # Details for the RSS feed generator
-url:            'http://ytecongcong.com'
+url:            'kinh.ytecongcong.com'
 author:         'Khoa học Sức khỏe'
 # authorTwitter:  'fieuvan'
 
