@@ -10,6 +10,27 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Vẽ biểu đồ 2 trục Y với R - Y tế Công cộng</title>
+<meta property="og:title" content="Vẽ biểu đồ 2 trục Y với R" />
+<meta name="description" content="Ví dụ để vẽ dạng như hình này, các bạn có thể dùng code sau, có thể chỉnh sửa theo ý mìnhCác lệnh cần chạy theo đúng thứ tự và chạy 1 lần, các bạn thử thay đổi để biết tác dụng của từng lệnhFile data mẫu có thể tải ở đâyNguồn: ĐH Y Hà Nội [code title=&quot;Vẽ biểu đồ 2 trục Y với R&quot;]data&lt;-read.csv(&quot;D:/Downloads/dengue cases-2002.csv&quot;,sep=&quot;,&quot;,header=T) #thay đường dẫn tương ứng ở máy bạnstr(data)summary(data$cases)summary(data$tmean)data$x=seq(1:416)#HUMIDITY AND RAIN FALLsummary(data$cases)summary(data$humidity)summary(data$rainfall)par(mar=c(6,4,4,5)+.1)plot(data$x,data$cases,type=&quot;l&quot;,col=&quot;red&quot;,lwd=1.5,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)axis(1, seq(0, 416, 52),labels=TRUE)axis(2, seq(2, 1169, 50),labels=TRUE)par(new=TRUE)plot(data$x,data$humidity,type=&quot;l&quot;,col=&quot;blue&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)par(new=TRUE)plot(data$x,data$rainfall,type=&quot;l&quot;,col=&quot;green&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)axis(4, seq(0,600,50),labels=TRUE)par(xpd=TRUE)legend(-20,-80,bty=&quot;n&quot;,col=c(&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;),lty=c(1,1,1),legend=c(&quot;Cases(freq)&quot;,&quot;humidity&quot;,&quot;rainfall&quot;))title(main=&quot;Case~Humidity&amp;Rainfall&quot;,sub=&quot;whatever, who care&quot;,xlab=&quot;Weeks&quot;, ylab=&quot;Cases&quot;)mtext(&quot;Rainfall&amp;Humidity&quot;,side=4,line=3)[/code]  " />
+<meta property="og:description" content="Ví dụ để vẽ dạng như hình này, các bạn có thể dùng code sau, có thể chỉnh sửa theo ý mìnhCác lệnh cần chạy theo đúng thứ tự và chạy 1 lần, các bạn thử thay đổi để biết tác dụng của từng lệnhFile data mẫu có thể tải ở đâyNguồn: ĐH Y Hà Nội [code title=&quot;Vẽ biểu đồ 2 trục Y với R&quot;]data&lt;-read.csv(&quot;D:/Downloads/dengue cases-2002.csv&quot;,sep=&quot;,&quot;,header=T) #thay đường dẫn tương ứng ở máy bạnstr(data)summary(data$cases)summary(data$tmean)data$x=seq(1:416)#HUMIDITY AND RAIN FALLsummary(data$cases)summary(data$humidity)summary(data$rainfall)par(mar=c(6,4,4,5)+.1)plot(data$x,data$cases,type=&quot;l&quot;,col=&quot;red&quot;,lwd=1.5,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)axis(1, seq(0, 416, 52),labels=TRUE)axis(2, seq(2, 1169, 50),labels=TRUE)par(new=TRUE)plot(data$x,data$humidity,type=&quot;l&quot;,col=&quot;blue&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)par(new=TRUE)plot(data$x,data$rainfall,type=&quot;l&quot;,col=&quot;green&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)axis(4, seq(0,600,50),labels=TRUE)par(xpd=TRUE)legend(-20,-80,bty=&quot;n&quot;,col=c(&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;),lty=c(1,1,1),legend=c(&quot;Cases(freq)&quot;,&quot;humidity&quot;,&quot;rainfall&quot;))title(main=&quot;Case~Humidity&amp;Rainfall&quot;,sub=&quot;whatever, who care&quot;,xlab=&quot;Weeks&quot;, ylab=&quot;Cases&quot;)mtext(&quot;Rainfall&amp;Humidity&quot;,side=4,line=3)[/code]  " />
+<link rel="canonical" href="http://www.ytecongcong.com//2012/ve-bieu-do-2-truc-y-voi-r/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2012/ve-bieu-do-2-truc-y-voi-r/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-11-18T11:36:18+01:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Vẽ biểu đồ 2 trục Y với R",
+    "datePublished": "2012-11-18T11:36:18+01:00",
+    "description": "Ví dụ để vẽ dạng như hình này, các bạn có thể dùng code sau, có thể chỉnh sửa theo ý mìnhCác lệnh cần chạy theo đúng thứ tự và chạy 1 lần, các bạn thử thay đổi để biết tác dụng của từng lệnhFile data mẫu có thể tải ở đâyNguồn: ĐH Y Hà Nội [code title=&quot;Vẽ biểu đồ 2 trục Y với R&quot;]data&lt;-read.csv(&quot;D:/Downloads/dengue cases-2002.csv&quot;,sep=&quot;,&quot;,header=T) #thay đường dẫn tương ứng ở máy bạnstr(data)summary(data$cases)summary(data$tmean)data$x=seq(1:416)#HUMIDITY AND RAIN FALLsummary(data$cases)summary(data$humidity)summary(data$rainfall)par(mar=c(6,4,4,5)+.1)plot(data$x,data$cases,type=&quot;l&quot;,col=&quot;red&quot;,lwd=1.5,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)axis(1, seq(0, 416, 52),labels=TRUE)axis(2, seq(2, 1169, 50),labels=TRUE)par(new=TRUE)plot(data$x,data$humidity,type=&quot;l&quot;,col=&quot;blue&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)par(new=TRUE)plot(data$x,data$rainfall,type=&quot;l&quot;,col=&quot;green&quot;,lwd=1,lty=1,xaxt=&#039;n&#039;,yaxt=&#039;n&#039;,xlab=&#039;&#039;,ylab=&#039;&#039;)axis(4, seq(0,600,50),labels=TRUE)par(xpd=TRUE)legend(-20,-80,bty=&quot;n&quot;,col=c(&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;),lty=c(1,1,1),legend=c(&quot;Cases(freq)&quot;,&quot;humidity&quot;,&quot;rainfall&quot;))title(main=&quot;Case~Humidity&amp;Rainfall&quot;,sub=&quot;whatever, who care&quot;,xlab=&quot;Weeks&quot;, ylab=&quot;Cases&quot;)mtext(&quot;Rainfall&amp;Humidity&quot;,side=4,line=3)[/code]  ",
+    "url": "http://www.ytecongcong.com//2012/ve-bieu-do-2-truc-y-voi-r/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
 </head>
 <body>
 
@@ -44,7 +65,8 @@
         <h2 class="headline">November 18, 2012</h2>
     </header>
     <section id="post-body">
-        <p>Ví dụ để vẽ dạng như hình này, các bạn có thể dùng code sau, có thể chỉnh sửa theo ý mình</p>
+      
+      <p>Ví dụ để vẽ dạng như hình này, các bạn có thể dùng code sau, có thể chỉnh sửa theo ý mình</p>
 <p><span style="color: indigo"><strong>Các lệnh cần chạy theo đúng thứ tự và chạy 1 lần, các bạn thử thay đổi để biết tác dụng của từng lệnh</strong></span></p>
 <p>File data mẫu có thể tải ở <a href="https://docs.google.com/a/ytecongcong.com/file/d/0B8et4nuUgX4lajM4bnJkS0xOX1U/edit" rel="nofollow">đây</a><br />
 <em>Nguồn: ĐH Y Hà Nội</em></p>
@@ -138,6 +160,6 @@ mtext(&quot;Rainfall&amp;Humidity&quot;,side=4,line=3)<br />
     ga('create', 'UA-83930831-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

@@ -10,6 +10,27 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>[Ubuntu] Cài nhanh Texlive cho Latex - Y tế Công cộng</title>
+<meta property="og:title" content="[Ubuntu] Cài nhanh Texlive cho Latex" />
+<meta name="description" content="Để có thể soạn thảo văn bản với LaTeX một cách thoải mái nhất, bước khó đầu tiên là cài đặt và cấu hình để cho máy có thể biên dịch được file texVới máy kết nối mạng và ``có nhiều thời gian&quot; thì có thể cài trực tiếp với lệnhsudo apt-get install texliveCài với lệnh:Nhấn đồng thời Ctrl+Alt+T, dán lệnh và điền password của mình nếu yêu cầu.Tuy nhiên sẽ tốn nhiều thời gian, dung lượng internet và nếu sau này cài lại sẽ phải tải lại tương tự. Do vậy, tải file iso cung cấp sẵn tại trang TUG với 2 tùy chọn là tải trực tiếp hoặc tải với torrent (dung lượng ~ 2.4Gb, ngang ngửa MS Office).Giả sử file ISO tải về sẽ là có tên dạng texlive2013-20130530.iso nằm trong folder ~/Downloads.Các hướng dẫn sau đã giản lược để nhanh chóng cài với lệnh thành công, tránh khó khăn cho người mới sử dụng Ubuntu.Chuẩn bịNếu dùng Ubuntu 14.04, có thể click phải vào file iso mới tải và chọn Open With &gt; Disk Image Mounter.Với bản khác cần gõ các dòng sausudo mkdir /mntcd ~/Downloadssudo mount -t iso9660 -o ro,loop,noauto texlive2013-20130530.iso /mntCàiNếu bạn có ổ cứng lớn và không quan tâm tiết kiệm dung lượng, có thể cài toàn bộ các gói đi kèm bằng lệnh sudo ./install-tl. Và nhấn chọn ở các cửa số tiếp theo (tổng cộng ~3Gb). Thay vì vậy có thể chọn bỏ bớt các gói không cần thiết như các gói hỗ trợ ngôn ngữ Ả rập, Trung, Hàn, Nhật...sudo apt-get install perl-tkcd /mntsudo ./install-tl -gui perltkMột cửa sổ hiện lên, có thể chọn như sau (thay đổi theo nhu cầu của bạn) và nhấn ok và InstallCửa sổ cài xongCấu hình hệ thốngLúc này hệ thống chưa nhận chương trình, để hoàn tất, cần tiếp tục cấu hình thêm với lệnh sau (Hướng dẫn sau áp dụng cho Ubuntu 64bit, với bản 32bit chỉ cần thay tất cả x86_64-linux  bằng i386-linux trong các dòng lệnh)echo &#39;PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH&#39; &gt;&gt; ~/.profileecho &#39;MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH&#39; &gt;&gt; ~/.profileecho &#39;INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH&#39; &gt;&gt; ~/.profileecho &#39;INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH&#39; &gt;&gt; ~/.profileSau đósudo suecho &#39;MANPATH_MAP /usr/local/texlive/2013/bin/x86_64-linux /usr/local/texlive/2013/texmf-dist/doc/man&#39; &gt;&gt; /etc/manpath.configHoàn tất." />
+<meta property="og:description" content="Để có thể soạn thảo văn bản với LaTeX một cách thoải mái nhất, bước khó đầu tiên là cài đặt và cấu hình để cho máy có thể biên dịch được file texVới máy kết nối mạng và ``có nhiều thời gian&quot; thì có thể cài trực tiếp với lệnhsudo apt-get install texliveCài với lệnh:Nhấn đồng thời Ctrl+Alt+T, dán lệnh và điền password của mình nếu yêu cầu.Tuy nhiên sẽ tốn nhiều thời gian, dung lượng internet và nếu sau này cài lại sẽ phải tải lại tương tự. Do vậy, tải file iso cung cấp sẵn tại trang TUG với 2 tùy chọn là tải trực tiếp hoặc tải với torrent (dung lượng ~ 2.4Gb, ngang ngửa MS Office).Giả sử file ISO tải về sẽ là có tên dạng texlive2013-20130530.iso nằm trong folder ~/Downloads.Các hướng dẫn sau đã giản lược để nhanh chóng cài với lệnh thành công, tránh khó khăn cho người mới sử dụng Ubuntu.Chuẩn bịNếu dùng Ubuntu 14.04, có thể click phải vào file iso mới tải và chọn Open With &gt; Disk Image Mounter.Với bản khác cần gõ các dòng sausudo mkdir /mntcd ~/Downloadssudo mount -t iso9660 -o ro,loop,noauto texlive2013-20130530.iso /mntCàiNếu bạn có ổ cứng lớn và không quan tâm tiết kiệm dung lượng, có thể cài toàn bộ các gói đi kèm bằng lệnh sudo ./install-tl. Và nhấn chọn ở các cửa số tiếp theo (tổng cộng ~3Gb). Thay vì vậy có thể chọn bỏ bớt các gói không cần thiết như các gói hỗ trợ ngôn ngữ Ả rập, Trung, Hàn, Nhật...sudo apt-get install perl-tkcd /mntsudo ./install-tl -gui perltkMột cửa sổ hiện lên, có thể chọn như sau (thay đổi theo nhu cầu của bạn) và nhấn ok và InstallCửa sổ cài xongCấu hình hệ thốngLúc này hệ thống chưa nhận chương trình, để hoàn tất, cần tiếp tục cấu hình thêm với lệnh sau (Hướng dẫn sau áp dụng cho Ubuntu 64bit, với bản 32bit chỉ cần thay tất cả x86_64-linux  bằng i386-linux trong các dòng lệnh)echo &#39;PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH&#39; &gt;&gt; ~/.profileecho &#39;MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH&#39; &gt;&gt; ~/.profileecho &#39;INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH&#39; &gt;&gt; ~/.profileecho &#39;INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH&#39; &gt;&gt; ~/.profileSau đósudo suecho &#39;MANPATH_MAP /usr/local/texlive/2013/bin/x86_64-linux /usr/local/texlive/2013/texmf-dist/doc/man&#39; &gt;&gt; /etc/manpath.configHoàn tất." />
+<link rel="canonical" href="http://www.ytecongcong.com//2014/ubuntu-cai-nhanh-texlive-cho-latex/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2014/ubuntu-cai-nhanh-texlive-cho-latex/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-05-26T20:09:47+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "[Ubuntu] Cài nhanh Texlive cho Latex",
+    "datePublished": "2014-05-26T20:09:47+02:00",
+    "description": "Để có thể soạn thảo văn bản với LaTeX một cách thoải mái nhất, bước khó đầu tiên là cài đặt và cấu hình để cho máy có thể biên dịch được file texVới máy kết nối mạng và ``có nhiều thời gian&quot; thì có thể cài trực tiếp với lệnhsudo apt-get install texliveCài với lệnh:Nhấn đồng thời Ctrl+Alt+T, dán lệnh và điền password của mình nếu yêu cầu.Tuy nhiên sẽ tốn nhiều thời gian, dung lượng internet và nếu sau này cài lại sẽ phải tải lại tương tự. Do vậy, tải file iso cung cấp sẵn tại trang TUG với 2 tùy chọn là tải trực tiếp hoặc tải với torrent (dung lượng ~ 2.4Gb, ngang ngửa MS Office).Giả sử file ISO tải về sẽ là có tên dạng texlive2013-20130530.iso nằm trong folder ~/Downloads.Các hướng dẫn sau đã giản lược để nhanh chóng cài với lệnh thành công, tránh khó khăn cho người mới sử dụng Ubuntu.Chuẩn bịNếu dùng Ubuntu 14.04, có thể click phải vào file iso mới tải và chọn Open With &gt; Disk Image Mounter.Với bản khác cần gõ các dòng sausudo mkdir /mntcd ~/Downloadssudo mount -t iso9660 -o ro,loop,noauto texlive2013-20130530.iso /mntCàiNếu bạn có ổ cứng lớn và không quan tâm tiết kiệm dung lượng, có thể cài toàn bộ các gói đi kèm bằng lệnh sudo ./install-tl. Và nhấn chọn ở các cửa số tiếp theo (tổng cộng ~3Gb). Thay vì vậy có thể chọn bỏ bớt các gói không cần thiết như các gói hỗ trợ ngôn ngữ Ả rập, Trung, Hàn, Nhật...sudo apt-get install perl-tkcd /mntsudo ./install-tl -gui perltkMột cửa sổ hiện lên, có thể chọn như sau (thay đổi theo nhu cầu của bạn) và nhấn ok và InstallCửa sổ cài xongCấu hình hệ thốngLúc này hệ thống chưa nhận chương trình, để hoàn tất, cần tiếp tục cấu hình thêm với lệnh sau (Hướng dẫn sau áp dụng cho Ubuntu 64bit, với bản 32bit chỉ cần thay tất cả x86_64-linux  bằng i386-linux trong các dòng lệnh)echo &#39;PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH&#39; &gt;&gt; ~/.profileecho &#39;MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH&#39; &gt;&gt; ~/.profileecho &#39;INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH&#39; &gt;&gt; ~/.profileecho &#39;INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH&#39; &gt;&gt; ~/.profileSau đósudo suecho &#39;MANPATH_MAP /usr/local/texlive/2013/bin/x86_64-linux /usr/local/texlive/2013/texmf-dist/doc/man&#39; &gt;&gt; /etc/manpath.configHoàn tất.",
+    "url": "http://www.ytecongcong.com//2014/ubuntu-cai-nhanh-texlive-cho-latex/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
 </head>
 <body>
 
@@ -44,7 +65,8 @@
         <h2 class="headline">May 26, 2014</h2>
     </header>
     <section id="post-body">
-        <p><img src="http://latex-project.org/lib/img/lion.png" width="100" height="120" class="alignleft" /><br />
+      
+      <p><img src="http://latex-project.org/lib/img/lion.png" width="100" height="120" class="alignleft" /><br />
 Để có thể soạn thảo văn bản với LaTeX một cách thoải mái nhất, bước khó đầu tiên là cài đặt và cấu hình để cho máy có thể biên dịch được file <code>tex</code></p>
 <p>Với máy kết nối mạng và ``có nhiều thời gian" thì có thể cài trực tiếp với lệnh</p>
 <pre><code>sudo apt-get install texlive
@@ -58,7 +80,7 @@
 <p>Các hướng dẫn sau đã giản lược để nhanh chóng cài với lệnh thành công, tránh khó khăn cho người mới sử dụng Ubuntu.</p>
 <h2>Chuẩn bị</h2>
 <ul>
-<li>Nếu dùng Ubuntu 14.04, có thể click phải vào file <code>iso</code> mới tải và chọn <code>Open With</code> > <code>Disk Image Mounter</code>.</li>
+<li>Nếu dùng Ubuntu 14.04, có thể click phải vào file <code>iso</code> mới tải và chọn <code>Open With</code> &gt; <code>Disk Image Mounter</code>.</li>
 <li>Với bản khác cần gõ các dòng sau</li>
 </ul>
 <pre><code>sudo mkdir /mnt
@@ -152,6 +174,6 @@ echo 'MANPATH_MAP /usr/local/texlive/2013/bin/x86_64-linux /usr/local/texlive/20
     ga('create', 'UA-83930831-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

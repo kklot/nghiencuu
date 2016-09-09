@@ -10,6 +10,27 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Cỡ mẫu hiệu quả - Effective Sample Size - Y tế Công cộng</title>
+<meta property="og:title" content="Cỡ mẫu hiệu quả - Effective Sample Size" />
+<meta name="description" content="Khi cách chọn mẫu phức tạp, kết quả mẫu có được sẽ không độc lập và có phân phối không đồng nhất. Chẳng hạn chọn phân tầng, chọn mẫu cụm hoặc dùng trọng số khác nhau để tăng hiệu quả trong lấy mẫu nhưng làm ảnh hưởng đến ước lượng phương sai của mẫu nghiên cứu.Cỡ mẫu hiệu quả đo lường ảnh hưởng của cách chọn mẫu lên các ước lượng, được định nghĩa là cỡ mẫu nếu chọn mẫu theo phương pháp chọn mẫu ngẫu nhiên đơn có hoàn lại mà cho phương sai của ước lượng bằng với phương sai có được từ cách chọn mẫu sử dụng trong nghiên cứu.Để đơn giản, minh họa với dữ kiện nhị giá có phân phối Binomial, lượng thông tin cung cấp từ mỗi cụm là$$ var \left(\dfrac{\sum_{j=1}^{n_i} y_{ij}}{n_i} \right) $$$$ = \dfrac{1}{n_i^2} \left[\sum\limits_{j=1}^{n_i} var(y_{ij} +2 \sum\limits_{j&lt;j&#39;} Cov(y_{ij}, y_{ij&#39;})) \right] $$$$ = \dfrac{1}{n_i^2} \left[n_i p_i (1-p_i) + n_i (1-n_i) \rho p_i (1-p_i) \right] $$$$ = \dfrac{1}{n_i} p_i (1-p_i) [1+ \rho (n_i-1)]$$Trong trường hợp nghiên cứu tiến hành với các đối tượng nghiên cứu là độc lập trong mỗi cụm, công thức trên bằng$$ \dfrac{1}{\tilde{n}_i} p_i(1-p_i) \Rightarrow \tilde{n}_i = \dfrac{n_i}{1+\rho(n_i-1)} $$Do đó, với toàn bộ cỡ mẫu, cỡ mẫu hiệu quả$$ N_{\text{Eff}} = \sum\limits_{i=1}^{N} \tilde{n}_i = \sum\limits_{i=1}^{N} \dfrac{n_i}{1+\rho(n_i-1)} $$Với dữ kiện định lượng liên tục và phân phối bình thường cũng đưa đến cùng công thức tính cỡ mẫu hiệu quả tương tự. Hai trường hợp đặc biệt có thể xảy raKhi hoàn toàn không có tương quan trong mỗi cụm $$ \rho=0 \Rightarrow N_{\text{Eff}} = \sum n_i $$ = Cỡ mẫu nghiên cứuKhi hoàn toàn có tương quan hoàn toàn trong mỗi cụm $$ \rho=1 \Rightarrow N_{\text{Eff}} = \sum n_i/n_i $$ = Số cụmVí dụ trong nghiên cứu với $$ ICC = 0.45 \Rightarrow N_{\text{Eff}} \approx 209 $$, nghĩa là kết quả trong nghiên cứu này (có tính cụm) tương đương với kết quả thu được trên 209 đối tượng độc lập với nhau. Giới hạn thông tin:Trong công thức cỡ mẫu hiệu quả, nếu cỡ mẫu càng lớn$$ \lim\limits_{n_i \rightarrow + \infty} \dfrac{n_i}{1+\rho(n_i-1)} = \dfrac{1}{\rho} $$do đó lượng thông tin đóng góp từ mỗi cụm là có hạn khi có tương quan trong cụm, trừ trường hợp các đối tượng trong cụm là độc lập. Ví dụ với ICC=0.45, giới hạn tính được tương ứng là 2.2, nghĩa là một cụm không bao giờ cung cấp được lượng thông tin (ví dụ trọng lượng trung bình) nhiều hơn lượng thông tin thu được từ 2.2 đối tượng nghiên cứu trong một cụm." />
+<meta property="og:description" content="Khi cách chọn mẫu phức tạp, kết quả mẫu có được sẽ không độc lập và có phân phối không đồng nhất. Chẳng hạn chọn phân tầng, chọn mẫu cụm hoặc dùng trọng số khác nhau để tăng hiệu quả trong lấy mẫu nhưng làm ảnh hưởng đến ước lượng phương sai của mẫu nghiên cứu.Cỡ mẫu hiệu quả đo lường ảnh hưởng của cách chọn mẫu lên các ước lượng, được định nghĩa là cỡ mẫu nếu chọn mẫu theo phương pháp chọn mẫu ngẫu nhiên đơn có hoàn lại mà cho phương sai của ước lượng bằng với phương sai có được từ cách chọn mẫu sử dụng trong nghiên cứu.Để đơn giản, minh họa với dữ kiện nhị giá có phân phối Binomial, lượng thông tin cung cấp từ mỗi cụm là$$ var \left(\dfrac{\sum_{j=1}^{n_i} y_{ij}}{n_i} \right) $$$$ = \dfrac{1}{n_i^2} \left[\sum\limits_{j=1}^{n_i} var(y_{ij} +2 \sum\limits_{j&lt;j&#39;} Cov(y_{ij}, y_{ij&#39;})) \right] $$$$ = \dfrac{1}{n_i^2} \left[n_i p_i (1-p_i) + n_i (1-n_i) \rho p_i (1-p_i) \right] $$$$ = \dfrac{1}{n_i} p_i (1-p_i) [1+ \rho (n_i-1)]$$Trong trường hợp nghiên cứu tiến hành với các đối tượng nghiên cứu là độc lập trong mỗi cụm, công thức trên bằng$$ \dfrac{1}{\tilde{n}_i} p_i(1-p_i) \Rightarrow \tilde{n}_i = \dfrac{n_i}{1+\rho(n_i-1)} $$Do đó, với toàn bộ cỡ mẫu, cỡ mẫu hiệu quả$$ N_{\text{Eff}} = \sum\limits_{i=1}^{N} \tilde{n}_i = \sum\limits_{i=1}^{N} \dfrac{n_i}{1+\rho(n_i-1)} $$Với dữ kiện định lượng liên tục và phân phối bình thường cũng đưa đến cùng công thức tính cỡ mẫu hiệu quả tương tự. Hai trường hợp đặc biệt có thể xảy raKhi hoàn toàn không có tương quan trong mỗi cụm $$ \rho=0 \Rightarrow N_{\text{Eff}} = \sum n_i $$ = Cỡ mẫu nghiên cứuKhi hoàn toàn có tương quan hoàn toàn trong mỗi cụm $$ \rho=1 \Rightarrow N_{\text{Eff}} = \sum n_i/n_i $$ = Số cụmVí dụ trong nghiên cứu với $$ ICC = 0.45 \Rightarrow N_{\text{Eff}} \approx 209 $$, nghĩa là kết quả trong nghiên cứu này (có tính cụm) tương đương với kết quả thu được trên 209 đối tượng độc lập với nhau. Giới hạn thông tin:Trong công thức cỡ mẫu hiệu quả, nếu cỡ mẫu càng lớn$$ \lim\limits_{n_i \rightarrow + \infty} \dfrac{n_i}{1+\rho(n_i-1)} = \dfrac{1}{\rho} $$do đó lượng thông tin đóng góp từ mỗi cụm là có hạn khi có tương quan trong cụm, trừ trường hợp các đối tượng trong cụm là độc lập. Ví dụ với ICC=0.45, giới hạn tính được tương ứng là 2.2, nghĩa là một cụm không bao giờ cung cấp được lượng thông tin (ví dụ trọng lượng trung bình) nhiều hơn lượng thông tin thu được từ 2.2 đối tượng nghiên cứu trong một cụm." />
+<link rel="canonical" href="http://www.ytecongcong.com//2013/co-mau-hieu-qua-effective-sample-size/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2013/co-mau-hieu-qua-effective-sample-size/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-04-30T17:32:11+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Cỡ mẫu hiệu quả - Effective Sample Size",
+    "datePublished": "2013-04-30T17:32:11+02:00",
+    "description": "Khi cách chọn mẫu phức tạp, kết quả mẫu có được sẽ không độc lập và có phân phối không đồng nhất. Chẳng hạn chọn phân tầng, chọn mẫu cụm hoặc dùng trọng số khác nhau để tăng hiệu quả trong lấy mẫu nhưng làm ảnh hưởng đến ước lượng phương sai của mẫu nghiên cứu.Cỡ mẫu hiệu quả đo lường ảnh hưởng của cách chọn mẫu lên các ước lượng, được định nghĩa là cỡ mẫu nếu chọn mẫu theo phương pháp chọn mẫu ngẫu nhiên đơn có hoàn lại mà cho phương sai của ước lượng bằng với phương sai có được từ cách chọn mẫu sử dụng trong nghiên cứu.Để đơn giản, minh họa với dữ kiện nhị giá có phân phối Binomial, lượng thông tin cung cấp từ mỗi cụm là$$ var \\left(\\dfrac{\\sum_{j=1}^{n_i} y_{ij}}{n_i} \\right) $$$$ = \\dfrac{1}{n_i^2} \\left[\\sum\\limits_{j=1}^{n_i} var(y_{ij} +2 \\sum\\limits_{j&lt;j&#39;} Cov(y_{ij}, y_{ij&#39;})) \\right] $$$$ = \\dfrac{1}{n_i^2} \\left[n_i p_i (1-p_i) + n_i (1-n_i) \\rho p_i (1-p_i) \\right] $$$$ = \\dfrac{1}{n_i} p_i (1-p_i) [1+ \\rho (n_i-1)]$$Trong trường hợp nghiên cứu tiến hành với các đối tượng nghiên cứu là độc lập trong mỗi cụm, công thức trên bằng$$ \\dfrac{1}{\\tilde{n}_i} p_i(1-p_i) \\Rightarrow \\tilde{n}_i = \\dfrac{n_i}{1+\\rho(n_i-1)} $$Do đó, với toàn bộ cỡ mẫu, cỡ mẫu hiệu quả$$ N_{\\text{Eff}} = \\sum\\limits_{i=1}^{N} \\tilde{n}_i = \\sum\\limits_{i=1}^{N} \\dfrac{n_i}{1+\\rho(n_i-1)} $$Với dữ kiện định lượng liên tục và phân phối bình thường cũng đưa đến cùng công thức tính cỡ mẫu hiệu quả tương tự. Hai trường hợp đặc biệt có thể xảy raKhi hoàn toàn không có tương quan trong mỗi cụm $$ \\rho=0 \\Rightarrow N_{\\text{Eff}} = \\sum n_i $$ = Cỡ mẫu nghiên cứuKhi hoàn toàn có tương quan hoàn toàn trong mỗi cụm $$ \\rho=1 \\Rightarrow N_{\\text{Eff}} = \\sum n_i/n_i $$ = Số cụmVí dụ trong nghiên cứu với $$ ICC = 0.45 \\Rightarrow N_{\\text{Eff}} \\approx 209 $$, nghĩa là kết quả trong nghiên cứu này (có tính cụm) tương đương với kết quả thu được trên 209 đối tượng độc lập với nhau. Giới hạn thông tin:Trong công thức cỡ mẫu hiệu quả, nếu cỡ mẫu càng lớn$$ \\lim\\limits_{n_i \\rightarrow + \\infty} \\dfrac{n_i}{1+\\rho(n_i-1)} = \\dfrac{1}{\\rho} $$do đó lượng thông tin đóng góp từ mỗi cụm là có hạn khi có tương quan trong cụm, trừ trường hợp các đối tượng trong cụm là độc lập. Ví dụ với ICC=0.45, giới hạn tính được tương ứng là 2.2, nghĩa là một cụm không bao giờ cung cấp được lượng thông tin (ví dụ trọng lượng trung bình) nhiều hơn lượng thông tin thu được từ 2.2 đối tượng nghiên cứu trong một cụm.",
+    "url": "http://www.ytecongcong.com//2013/co-mau-hieu-qua-effective-sample-size/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
 </head>
 <body>
 
@@ -44,26 +65,27 @@
         <h2 class="headline">April 30, 2013</h2>
     </header>
     <section id="post-body">
-        <p><a href="http://www.ytecongcong.com/wp-content/uploads/2013/04/Power-Wordle.png"><img class="alignnone  wp-image-992" title="Power Wordle" src="http://www.ytecongcong.com/wp-content/uploads/2013/04/Power-Wordle.png" alt="" width="580" height="292" /></a></p>
-<p>Khi cách chọn mẫu phức tạp, kết quả mẫu có được sẽ không độc lập và có phân phối không đồng nhất. Chẳng hạn chọn phân tầng, chọn mẫu cụm hoặc dùng trọng số khác nhau để tăng hiệu quả trong lấy mẫu nhưng làm ảnh hưởng đến ước lượng phương sai của mẫu nghiên cứu.</p>
-<blockquote><p>Cỡ mẫu hiệu quả đo lường ảnh hưởng của cách chọn mẫu lên các ước lượng, được định nghĩa là cỡ mẫu nếu chọn mẫu theo phương pháp chọn mẫu ngẫu nhiên đơn có hoàn lại mà cho phương sai của ước lượng bằng với phương sai có được từ cách chọn mẫu sử dụng trong nghiên cứu.</p></blockquote>
-<p>Để đơn giản, minh họa với dữ kiện nhị giá có phân phối Binomial, lượng thông tin cung cấp từ mỗi cụm là</p>
+      
+      <p><a href="http://www.ytecongcong.com/wp-content/uploads/2013/04/Power-Wordle.png"><img class="alignnone  wp-image-992" title="Power Wordle" src="http://www.ytecongcong.com/wp-content/uploads/2013/04/Power-Wordle.png" alt="" width="580" height="292" /></a></p>
+<p>Khi cách <abbr class="abbrev" title="sampling">chọn mẫu</abbr> phức tạp, kết quả mẫu có được sẽ không độc lập và có <abbr class="abbrev" title="distribution">phân phối</abbr> không đồng nhất. Chẳng hạn chọn phân tầng, <abbr class="abbrev" title="sampling">chọn mẫu</abbr> cụm hoặc dùng trọng số khác nhau để tăng hiệu quả trong lấy mẫu nhưng làm ảnh hưởng đến ước lượng phương sai của mẫu nghiên cứu.</p>
+<blockquote><p>Cỡ mẫu hiệu quả đo lường ảnh hưởng của cách <abbr class="abbrev" title="sampling">chọn mẫu</abbr> lên các ước lượng, được định nghĩa là <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> nếu <abbr class="abbrev" title="sampling">chọn mẫu</abbr> theo phương pháp <abbr class="abbrev" title="sampling">chọn mẫu</abbr> ngẫu nhiên đơn có hoàn lại mà cho phương sai của ước lượng bằng với phương sai có được từ cách <abbr class="abbrev" title="sampling">chọn mẫu</abbr> sử dụng trong nghiên cứu.</p></blockquote>
+<p>Để đơn giản, minh họa với <abbr class="abbrev" title="data">dữ kiện</abbr> nhị giá có <abbr class="abbrev" title="distribution">phân phối</abbr> Binomial, lượng thông tin cung cấp từ mỗi cụm là</p>
 <p>$$ var \left(\dfrac{\sum_{j=1}^{n_i} y_{ij}}{n_i} \right) $$</p>
-<p>$$ = \dfrac{1}{n_i^2} \left[\sum\limits_{j=1}^{n_i} var(y_{ij} +2 \sum\limits_{j<j'} Cov(y_{ij}, y_{ij'})) \right] $$<br />
+<p>$$ = \dfrac{1}{n_i^2} \left[\sum\limits_{j=1}^{n_i} var(y_{ij} +2 \sum\limits_{j&lt;j'} Cov(y_{ij}, y_{ij'})) \right] $$<br />
 $$ = \dfrac{1}{n_i^2} \left[n_i p_i (1-p_i) + n_i (1-n_i) \rho p_i (1-p_i) \right] $$<br />
 $$ = \dfrac{1}{n_i} p_i (1-p_i) [1+ \rho (n_i-1)]$$</p>
 <p>Trong trường hợp nghiên cứu tiến hành với các đối tượng nghiên cứu là độc lập trong mỗi cụm, công thức trên bằng</p>
 <p>$$ \dfrac{1}{\tilde{n}_i} p_i(1-p_i) \Rightarrow \tilde{n}_i = \dfrac{n_i}{1+\rho(n_i-1)} $$</p>
-<p>Do đó, với toàn bộ cỡ mẫu, cỡ mẫu hiệu quả</p>
+<p>Do đó, với toàn bộ <abbr class="abbrev" title="sample size">cỡ mẫu</abbr>, <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> hiệu quả</p>
 <p>$$ N_{\text{Eff}} = \sum\limits_{i=1}^{N} \tilde{n}_i = \sum\limits_{i=1}^{N} \dfrac{n_i}{1+\rho(n_i-1)} $$</p>
-<p>Với dữ kiện định lượng liên tục và phân phối bình thường cũng đưa đến cùng công thức tính cỡ mẫu hiệu quả tương tự. Hai trường hợp đặc biệt có thể xảy ra</p>
+<p>Với <abbr class="abbrev" title="data">dữ kiện</abbr> định lượng liên tục và <abbr class="abbrev" title="distribution">phân phối</abbr> bình thường cũng đưa đến cùng công thức tính <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> hiệu quả tương tự. Hai trường hợp đặc biệt có thể xảy ra</p>
 <ul>
 <li>Khi hoàn toàn không có tương quan trong mỗi cụm $$ \rho=0 \Rightarrow N_{\text{Eff}} = \sum n_i $$ = Cỡ mẫu nghiên cứu</li>
 <li>Khi hoàn toàn có tương quan hoàn toàn trong mỗi cụm $$ \rho=1 \Rightarrow N_{\text{Eff}} = \sum n_i/n_i $$ = Số cụm</li>
 </ul>
 <p>Ví dụ trong nghiên cứu với $$ ICC = 0.45 \Rightarrow N_{\text{Eff}} \approx 209 $$, nghĩa là kết quả trong nghiên cứu này (có tính cụm) tương đương với kết quả thu được trên 209 đối tượng độc lập với nhau.</p>
 <p><strong> Giới hạn thông tin:</strong></p>
-<p>Trong công thức cỡ mẫu hiệu quả, nếu cỡ mẫu càng lớn</p>
+<p>Trong công thức <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> hiệu quả, nếu <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> càng lớn</p>
 <p>$$ \lim\limits_{n_i \rightarrow + \infty} \dfrac{n_i}{1+\rho(n_i-1)} = \dfrac{1}{\rho} $$</p>
 <p>do đó lượng thông tin đóng góp từ mỗi cụm là có hạn khi có tương quan trong cụm, trừ trường hợp các đối tượng trong cụm là độc lập. Ví dụ với ICC=0.45, giới hạn tính được tương ứng là 2.2, nghĩa là một cụm không bao giờ cung cấp được lượng thông tin (ví dụ trọng lượng trung bình) nhiều hơn lượng thông tin thu được từ 2.2 đối tượng nghiên cứu trong một cụm.</p>
 
@@ -131,6 +153,6 @@ $$ = \dfrac{1}{n_i} p_i (1-p_i) [1+ \rho (n_i-1)]$$</p>
     ga('create', 'UA-83930831-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

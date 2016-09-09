@@ -9,7 +9,8 @@ archive: true
         <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
     </header>
     <section id="post-body">
-        {{content}}
+      {% capture newcontent %}{{content}} {% include glossary.md %}{% endcapture %}
+      {{ newcontent | markdownify }}
     </section>
 </article>
 <footer id="post-meta" class="clearfix">

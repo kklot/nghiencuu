@@ -7,8 +7,11 @@ aboutPage: true
 markdown: kramdown
 highlighter: rouge
 
-gems: [jekyll-paginate, jekyll-archives]
-# paginate: 20
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
+# , jekyll-archives]
 baseurl: /
 domain_name: 'www.ytecongcong.com'
 google_analytics: 'UA-83930831-1'
@@ -20,10 +23,15 @@ disqus_shortname: 'ytecongcong'
 url:            'http://www.ytecongcong.com'
 author:         'Y tế Công cộng'
 # authorTwitter:  'fieuvan'
+# facebook:
+#   app_id: 1234
+#   publisher: 1234
+#   admins: 1234
 
 paginate: 7
 permalink:       /:year/:title/
 mathjax: true # whether support mathjax
+safe: false
 
 defaults:
     -

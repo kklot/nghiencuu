@@ -10,6 +10,27 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Vẽ biểu đồ tỉ số số chênh và khoảng tin cậy với R - Y tế Công cộng</title>
+<meta property="og:title" content="Vẽ biểu đồ tỉ số số chênh và khoảng tin cậy với R" />
+<meta name="description" content="Vẽ biểu đồ ỎR và KTC 95% từ mô hình hồi quy logistic đơn biếnDữ kiện SXH Dengue (Nguồn: Ngọc Đăng - Tsukuba)Code mẫu:[code title=&quot;OR và CI từ logistic regression&quot;]# Chỉ chạy trên dữ kiện này, sửa lại từng phần phù hợp với mỗi dữ kiện############################################################################  xóa bộ nhớ các đối tượng khác trong workspaceremove(list=ls())load(&quot;/media/Data/Downloads/dengue.rda&quot;)# Chuyển biến số độc lập thành định tínhdengue$risk_score2 = as.factor(dengue$risk_score2)# Xem cấu trúc dữ kiệnstr(dengue)# Lập mô hìnhmohinh = glm(dengue$diagnose_gr2 ~ dengue$risk_score2, family = &quot;binomial&quot;)# Trích các hệ số từ mô hình và tạo dữ kiện riêng# lệnh seq() để tạo 1 dãy số, các dấu [x:y,z] cho biết lựa chọn những hàng từ vị trí x đến y nào trong dữ kiện,# z cho biết cột nào trong dữ kiệndataplot = cbind(Score = seq(1,5,1), OR = c(1,exp(coef(mohinh)[2:5])),low = c(1,exp(confint(mohinh)[2:5,1])),up = c(1,exp(confint(mohinh)[2:5,2])))dataplot = as.data.frame(dataplot)# Vẽ biểu đồ# Vẽ khung biểu đồ ko hiển thị dữ kiện (type=&quot;n&quot;)# không hiển thị stick mark để có thể tự chọn sau ( xaxt = &quot;n&quot;, yaxt = &quot;n&quot;)# xác định giới hạn của biểu đồ ylim = c(0, max(dataplot$OR, dataplot$low, dataplot$up)), trục y chạy từ 0 đến giá trị lớn nhất của cả 3 dãy số cần vẽplot(dataplot$OR ~ dataplot$Score, type = &quot;n&quot;, xaxt = &quot;n&quot;, yaxt = &quot;n&quot;,main = &quot;Ten&quot;, xlab = &quot;Scores&quot;, ylab = &quot;Odd Ratios and 95% CI&quot;,ylim = c(0, max(dataplot$OR, dataplot$low, dataplot$up)))# Lệnh yêu cầu R chạy lại cùng một tác vụ như nhau, chỉ khác nhau con số# Vẽ các đường nối từ khoảng dưới đến khoảng trên của các khoảng tin cậy, ở đây vẽ lại 4 lần từ 2 đến 5 (tùy theo giá trị của biến số tương ứng)for (i in 2:5){lines(x = c(i,i),y = c(dataplot$low[dataplot$Score==i], dataplot$up[dataplot$Score==i]),col=&quot;darkred&quot;, lwd=2, lty=2)}# Thêm các điểm vào biểu đồpoints(dataplot$OR ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = 1.5)points(dataplot$low ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = .8)points(dataplot$up ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = .8)# Vẽ đường tham chiếu OR = 1abline(h=1, col=&quot;gray&quot;, lty=2, lwd=2)# Làm đẹp và tạo stick mark theo ý muốngrid(col =&quot;lightgray&quot;)axis(2,seq(0,15,1))axis(1,seq(1,6,1))[/code]" />
+<meta property="og:description" content="Vẽ biểu đồ ỎR và KTC 95% từ mô hình hồi quy logistic đơn biếnDữ kiện SXH Dengue (Nguồn: Ngọc Đăng - Tsukuba)Code mẫu:[code title=&quot;OR và CI từ logistic regression&quot;]# Chỉ chạy trên dữ kiện này, sửa lại từng phần phù hợp với mỗi dữ kiện############################################################################  xóa bộ nhớ các đối tượng khác trong workspaceremove(list=ls())load(&quot;/media/Data/Downloads/dengue.rda&quot;)# Chuyển biến số độc lập thành định tínhdengue$risk_score2 = as.factor(dengue$risk_score2)# Xem cấu trúc dữ kiệnstr(dengue)# Lập mô hìnhmohinh = glm(dengue$diagnose_gr2 ~ dengue$risk_score2, family = &quot;binomial&quot;)# Trích các hệ số từ mô hình và tạo dữ kiện riêng# lệnh seq() để tạo 1 dãy số, các dấu [x:y,z] cho biết lựa chọn những hàng từ vị trí x đến y nào trong dữ kiện,# z cho biết cột nào trong dữ kiệndataplot = cbind(Score = seq(1,5,1), OR = c(1,exp(coef(mohinh)[2:5])),low = c(1,exp(confint(mohinh)[2:5,1])),up = c(1,exp(confint(mohinh)[2:5,2])))dataplot = as.data.frame(dataplot)# Vẽ biểu đồ# Vẽ khung biểu đồ ko hiển thị dữ kiện (type=&quot;n&quot;)# không hiển thị stick mark để có thể tự chọn sau ( xaxt = &quot;n&quot;, yaxt = &quot;n&quot;)# xác định giới hạn của biểu đồ ylim = c(0, max(dataplot$OR, dataplot$low, dataplot$up)), trục y chạy từ 0 đến giá trị lớn nhất của cả 3 dãy số cần vẽplot(dataplot$OR ~ dataplot$Score, type = &quot;n&quot;, xaxt = &quot;n&quot;, yaxt = &quot;n&quot;,main = &quot;Ten&quot;, xlab = &quot;Scores&quot;, ylab = &quot;Odd Ratios and 95% CI&quot;,ylim = c(0, max(dataplot$OR, dataplot$low, dataplot$up)))# Lệnh yêu cầu R chạy lại cùng một tác vụ như nhau, chỉ khác nhau con số# Vẽ các đường nối từ khoảng dưới đến khoảng trên của các khoảng tin cậy, ở đây vẽ lại 4 lần từ 2 đến 5 (tùy theo giá trị của biến số tương ứng)for (i in 2:5){lines(x = c(i,i),y = c(dataplot$low[dataplot$Score==i], dataplot$up[dataplot$Score==i]),col=&quot;darkred&quot;, lwd=2, lty=2)}# Thêm các điểm vào biểu đồpoints(dataplot$OR ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = 1.5)points(dataplot$low ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = .8)points(dataplot$up ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = .8)# Vẽ đường tham chiếu OR = 1abline(h=1, col=&quot;gray&quot;, lty=2, lwd=2)# Làm đẹp và tạo stick mark theo ý muốngrid(col =&quot;lightgray&quot;)axis(2,seq(0,15,1))axis(1,seq(1,6,1))[/code]" />
+<link rel="canonical" href="http://www.ytecongcong.com//2013/ve-bieu-do-ti-so-so-chenh-va-khoang-tin-cay-voi-r/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2013/ve-bieu-do-ti-so-so-chenh-va-khoang-tin-cay-voi-r/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-03-14T20:05:05+01:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Vẽ biểu đồ tỉ số số chênh và khoảng tin cậy với R",
+    "datePublished": "2013-03-14T20:05:05+01:00",
+    "description": "Vẽ biểu đồ ỎR và KTC 95% từ mô hình hồi quy logistic đơn biếnDữ kiện SXH Dengue (Nguồn: Ngọc Đăng - Tsukuba)Code mẫu:[code title=&quot;OR và CI từ logistic regression&quot;]# Chỉ chạy trên dữ kiện này, sửa lại từng phần phù hợp với mỗi dữ kiện############################################################################  xóa bộ nhớ các đối tượng khác trong workspaceremove(list=ls())load(&quot;/media/Data/Downloads/dengue.rda&quot;)# Chuyển biến số độc lập thành định tínhdengue$risk_score2 = as.factor(dengue$risk_score2)# Xem cấu trúc dữ kiệnstr(dengue)# Lập mô hìnhmohinh = glm(dengue$diagnose_gr2 ~ dengue$risk_score2, family = &quot;binomial&quot;)# Trích các hệ số từ mô hình và tạo dữ kiện riêng# lệnh seq() để tạo 1 dãy số, các dấu [x:y,z] cho biết lựa chọn những hàng từ vị trí x đến y nào trong dữ kiện,# z cho biết cột nào trong dữ kiệndataplot = cbind(Score = seq(1,5,1), OR = c(1,exp(coef(mohinh)[2:5])),low = c(1,exp(confint(mohinh)[2:5,1])),up = c(1,exp(confint(mohinh)[2:5,2])))dataplot = as.data.frame(dataplot)# Vẽ biểu đồ# Vẽ khung biểu đồ ko hiển thị dữ kiện (type=&quot;n&quot;)# không hiển thị stick mark để có thể tự chọn sau ( xaxt = &quot;n&quot;, yaxt = &quot;n&quot;)# xác định giới hạn của biểu đồ ylim = c(0, max(dataplot$OR, dataplot$low, dataplot$up)), trục y chạy từ 0 đến giá trị lớn nhất của cả 3 dãy số cần vẽplot(dataplot$OR ~ dataplot$Score, type = &quot;n&quot;, xaxt = &quot;n&quot;, yaxt = &quot;n&quot;,main = &quot;Ten&quot;, xlab = &quot;Scores&quot;, ylab = &quot;Odd Ratios and 95% CI&quot;,ylim = c(0, max(dataplot$OR, dataplot$low, dataplot$up)))# Lệnh yêu cầu R chạy lại cùng một tác vụ như nhau, chỉ khác nhau con số# Vẽ các đường nối từ khoảng dưới đến khoảng trên của các khoảng tin cậy, ở đây vẽ lại 4 lần từ 2 đến 5 (tùy theo giá trị của biến số tương ứng)for (i in 2:5){lines(x = c(i,i),y = c(dataplot$low[dataplot$Score==i], dataplot$up[dataplot$Score==i]),col=&quot;darkred&quot;, lwd=2, lty=2)}# Thêm các điểm vào biểu đồpoints(dataplot$OR ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = 1.5)points(dataplot$low ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = .8)points(dataplot$up ~ dataplot$Score, col = &quot;darkred&quot;, pch=15, cex = .8)# Vẽ đường tham chiếu OR = 1abline(h=1, col=&quot;gray&quot;, lty=2, lwd=2)# Làm đẹp và tạo stick mark theo ý muốngrid(col =&quot;lightgray&quot;)axis(2,seq(0,15,1))axis(1,seq(1,6,1))[/code]",
+    "url": "http://www.ytecongcong.com//2013/ve-bieu-do-ti-so-so-chenh-va-khoang-tin-cay-voi-r/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
 </head>
 <body>
 
@@ -44,30 +65,31 @@
         <h2 class="headline">March 14, 2013</h2>
     </header>
     <section id="post-body">
-        <p>Vẽ biểu đồ ỎR và KTC 95% từ mô hình hồi quy logistic đơn biến</p>
+      
+      <p>Vẽ biểu đồ ỎR và KTC 95% từ mô hình hồi quy logistic đơn biến</p>
 <p><a href="http://sdrv.ms/Yd2E23" target="_blank" rel="nofollow">Dữ kiện SXH Dengue</a> (Nguồn: Ngọc Đăng - Tsukuba)</p>
 <p>Code mẫu:<br />
 [code title="OR và CI từ logistic regression"]<br />
-# Chỉ chạy trên dữ kiện này, sửa lại từng phần phù hợp với mỗi dữ kiện<br />
+# Chỉ chạy trên <abbr class="abbrev" title="data">dữ kiện</abbr> này, sửa lại từng phần phù hợp với mỗi <abbr class="abbrev" title="data">dữ kiện</abbr><br />
 ###########################################################################<br />
 #  xóa bộ nhớ các đối tượng khác trong workspace<br />
 remove(list=ls())<br />
 load("/media/Data/Downloads/dengue.rda")</p>
 <p># Chuyển biến số độc lập thành định tính<br />
 dengue$risk_score2 = as.factor(dengue$risk_score2)</p>
-<p># Xem cấu trúc dữ kiện<br />
+<p># Xem cấu trúc <abbr class="abbrev" title="data">dữ kiện</abbr><br />
 str(dengue)</p>
 <p># Lập mô hình<br />
 mohinh = glm(dengue$diagnose_gr2 ~ dengue$risk_score2, family = "binomial")</p>
-<p># Trích các hệ số từ mô hình và tạo dữ kiện riêng<br />
-# lệnh seq() để tạo 1 dãy số, các dấu [x:y,z] cho biết lựa chọn những hàng từ vị trí x đến y nào trong dữ kiện,<br />
-# z cho biết cột nào trong dữ kiện</p>
+<p># Trích các hệ số từ mô hình và tạo <abbr class="abbrev" title="data">dữ kiện</abbr> riêng<br />
+# lệnh seq() để tạo 1 dãy số, các dấu [x:y,z] cho biết lựa chọn những hàng từ vị trí x đến y nào trong <abbr class="abbrev" title="data">dữ kiện</abbr>,<br />
+# z cho biết cột nào trong <abbr class="abbrev" title="data">dữ kiện</abbr></p>
 <p>dataplot = cbind(Score = seq(1,5,1), OR = c(1,exp(coef(mohinh)[2:5])),<br />
 low = c(1,exp(confint(mohinh)[2:5,1])),<br />
 up = c(1,exp(confint(mohinh)[2:5,2])))<br />
 dataplot = as.data.frame(dataplot)</p>
 <p># Vẽ biểu đồ</p>
-<p># Vẽ khung biểu đồ ko hiển thị dữ kiện (type="n")<br />
+<p># Vẽ khung biểu đồ ko hiển thị <abbr class="abbrev" title="data">dữ kiện</abbr> (type="n")<br />
 # không hiển thị stick mark để có thể tự chọn sau ( xaxt = "n", yaxt = "n")<br />
 # xác định giới hạn của biểu đồ ylim = c(0, max(dataplot$OR, dataplot$low, dataplot$up)), trục y chạy từ 0 đến giá trị lớn nhất của cả 3 dãy số cần vẽ</p>
 <p>plot(dataplot$OR ~ dataplot$Score, type = "n", xaxt = "n", yaxt = "n",<br />
@@ -156,6 +178,6 @@ axis(1,seq(1,6,1))[/code]</p>
     ga('create', 'UA-83930831-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

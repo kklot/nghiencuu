@@ -10,6 +10,27 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/feed.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Cài JAGS trên Linux - Y tế Công cộng</title>
+<meta property="og:title" content="Cài JAGS trên Linux" />
+<meta name="description" content="JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang mcmc-jags nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗiinstallation of package ‘rjags’ had non-zero exit statuslibjags.so.3: cannot open shared object file: No such file or directoryĐể cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:sudo add-apt-repository ppa:marutter/rruttersudo add-apt-repository ppa:marutter/c2d4uSau đó cài trực tiếpsudo apt-get install r-cran-rjagsHai chức năng đáng chú ý của R2jags so với R2winBUGSKhả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnhupdate(mohing, n.iter=100)autojags(mohinh) # tự động update đến khi hội tụHiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng yên tâm là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux." />
+<meta property="og:description" content="JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang mcmc-jags nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗiinstallation of package ‘rjags’ had non-zero exit statuslibjags.so.3: cannot open shared object file: No such file or directoryĐể cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:sudo add-apt-repository ppa:marutter/rruttersudo add-apt-repository ppa:marutter/c2d4uSau đó cài trực tiếpsudo apt-get install r-cran-rjagsHai chức năng đáng chú ý của R2jags so với R2winBUGSKhả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnhupdate(mohing, n.iter=100)autojags(mohinh) # tự động update đến khi hội tụHiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng yên tâm là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux." />
+<link rel="canonical" href="http://www.ytecongcong.com//2014/cai-jags-tren-linux/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2014/cai-jags-tren-linux/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-05-19T20:59:52+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Cài JAGS trên Linux",
+    "datePublished": "2014-05-19T20:59:52+02:00",
+    "description": "JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang mcmc-jags nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗiinstallation of package ‘rjags’ had non-zero exit statuslibjags.so.3: cannot open shared object file: No such file or directoryĐể cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:sudo add-apt-repository ppa:marutter/rruttersudo add-apt-repository ppa:marutter/c2d4uSau đó cài trực tiếpsudo apt-get install r-cran-rjagsHai chức năng đáng chú ý của R2jags so với R2winBUGSKhả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnhupdate(mohing, n.iter=100)autojags(mohinh) # tự động update đến khi hội tụHiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng yên tâm là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux.",
+    "url": "http://www.ytecongcong.com//2014/cai-jags-tren-linux/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
 </head>
 <body>
 
@@ -44,7 +65,8 @@
         <h2 class="headline">May 19, 2014</h2>
     </header>
     <section id="post-body">
-        <p>JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang <a href="https://sourceforge.net/p/mcmc-jags/">mcmc-jags</a> nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗi</p>
+      
+      <p>JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang <a href="https://sourceforge.net/p/mcmc-jags/">mcmc-jags</a> nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗi</p>
 <pre><code>installation of package ‘rjags’ had non-zero exit status
 libjags.so.3: cannot open shared object file: No such file or directory
 </code></pre>
@@ -130,6 +152,6 @@ autojags(mohinh) # tự động update đến khi hội tụ
     ga('create', 'UA-83930831-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
