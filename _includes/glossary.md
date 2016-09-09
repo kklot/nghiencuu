@@ -1,658 +1,658 @@
-*[cảm nhiễm]: susceptible
+*[cảm nhiễm]:  susceptible
 {:.abbrev}
-*[truyền nhiễm]: infectious
+*[truyền nhiễm]:  infectious
 {:.abbrev}
-*[lây truyền]: transmission
+*[lây truyền]:  transmission
 {:.abbrev}
-*[nhiễm trùng]: infection
+*[nhiễm trùng]:  infection
 {:.abbrev}
-*[Tương quan]:Correlation
+*[Tương quan]: Correlation
 {:.abbrev}
-*[Hiệp biến]:Covariate
+*[Hiệp biến]: Covariate
 {:.abbrev}
-*[Đa cộng tuyến]:Multicoli
+*[Đa cộng tuyến]: Multicoli
 {:.abbrev}
-*[Không tuyến tính]:Nonlinear
+*[Không tuyến tính]: Nonlinear
 {:.abbrev}
-*[Khả dĩ]:Likelihood
+*[Khả dĩ]: Likelihood
 {:.abbrev}
-*[Kiểm định]:Test
+*[Kiểm định]: Test
 {:.abbrev}
-*[Độ đặc hiệu]:Specificity
+*[Độ đặc hiệu]: Specificity
 {:.abbrev}
-*[Tiền nghiệm]:Prior
+*[Tiền nghiệm]: Prior
 {:.abbrev}
-*[Hậu nghiệm]:Posterior
+*[Hậu nghiệm]: Posterior
 {:.abbrev}
-*[Độ nhạy]:Sensitivity
+*[Độ nhạy]: Sensitivity
 {:.abbrev}
-*[MLE]:Maximum Likelihood Estimator
+*[MLE]: Maximum Likelihood Estimator
 {:.abbrev}
-*[Biên dạng khả dĩ]:Profile Likelihood
+*[Biên dạng khả dĩ]: Profile Likelihood
 {:.abbrev}
-*[Biểu đồ biến đổi trung bình]:Running-mean Plot
+*[Biểu đồ biến đổi trung bình]: Running-mean Plot
 {:.abbrev}
-*[Biểu đồ vết]:Trace Plot
+*[Biểu đồ vết]: Trace Plot
 {:.abbrev}
-*[Cực đoan]:Extreme
+*[Cực đoan]: Extreme
 {:.abbrev}
-*[Gelman và Rubin]:Brooks Gelman and Rubin Diagnostic,Chẩn đoán Brooks
+*[Gelman và Rubin]: Brooks Gelman and Rubin Diagnostic,Chẩn đoán Brooks
 {:.abbrev}
-*[Khoảng khả tin 95%]:95% Credible Interval
+*[Khoảng khả tin 95%]: 95% Credible Interval
 {:.abbrev}
-*[Khoảng khả tin cân xứng]:Equal tail credible interval
+*[Khoảng khả tin cân xứng]: Equal tail credible interval
 {:.abbrev}
-*[Khoảng mật độ hậu nghiệm cao nhất]:Highest Posterior Density Interval (HPD)
+*[Khoảng mật độ hậu nghiệm cao nhất]: Highest Posterior Density Interval (HPD)
 {:.abbrev}
-*[Chuỗi Markov Monte Carlo]:Markov Chain Monte Carlo
+*[Chuỗi Markov Monte Carlo]: Markov Chain Monte Carlo
 {:.abbrev}
-*[AUC]:Area Under the Curve
+*[AUC]: Area Under the Curve
 {:.abbrev}
-*[Gía trị tiên đoán âm]:Negative predictive value
+*[Gía trị tiên đoán âm]: Negative predictive value
 {:.abbrev}
-*[Giá trị tiên đoán dương]:Positive predictive value
+*[Giá trị tiên đoán dương]: Positive predictive value
 {:.abbrev}
-*[Gỉa thuyết không]:Null Hypothesis
+*[Gỉa thuyết không]: Null Hypothesis
 {:.abbrev}
-*[Gỉa thuyết thay thế]:Alternative hypothesis
+*[Gỉa thuyết thay thế]: Alternative hypothesis
 {:.abbrev}
-*[Chẩn đoán Geweke]:Geweke diagnostic
+*[Chẩn đoán Geweke]: Geweke diagnostic
 {:.abbrev}
-*[Chẩn đoán Raftery và Lewis]:Raftery and Lewis diagnostic
+*[Chẩn đoán Raftery và Lewis]: Raftery and Lewis diagnostic
 {:.abbrev}
-*[Kết cục]:Outcome
+*[Kết cục]: Outcome
 {:.abbrev}
-*[Đáp ứng]:Response
+*[Đáp ứng]: Response
 {:.abbrev}
-*[Biến số phụ thuộc]:Dependent variable
+*[Biến số phụ thuộc]: Dependent variable
 {:.abbrev}
-*[Biến số giải thích]:Explanatory variable
+*[Biến số giải thích]: Explanatory variable
 {:.abbrev}
-*[Biến số tiên đoán]:Predictor variable
+*[Biến số tiên đoán]: Predictor variable
 {:.abbrev}
-*[Biến số độc lập]:Independent variable
+*[Biến số độc lập]: Independent variable
 {:.abbrev}
-*[Biến số]:Variable
+*[Biến số]: Variable
 {:.abbrev}
-*[Đa biến]:Multivariate
+*[Đa biến]: Multivariate
 {:.abbrev}
-*[Đa]:Multiple
+*[Đa]: Multiple
 {:.abbrev}
-*[hồi quy logistic đa hiệp biến]:Multiple logistic regression
+*[hồi quy logistic đa hiệp biến]: Multiple logistic regression
 {:.abbrev}
-*[Đánh giá phản biện]:Critical Appraisal
+*[Đánh giá phản biện]: Critical Appraisal
 {:.abbrev}
-*[nghiên cứu bệnh-bắt chéo]:Case-crossover study
+*[nghiên cứu bệnh-bắt chéo]: Case-crossover study
 {:.abbrev}
-*[nghiên cứu sinh thái]:Ecology study
+*[nghiên cứu sinh thái]: Ecology study
 {:.abbrev}
-*[nghiên cứu quan sát]:Observational study
+*[nghiên cứu quan sát]: Observational study
 {:.abbrev}
-*[dịch tễ học]:Epidemiology
+*[dịch tễ học]: Epidemiology
 {:.abbrev}
-*[thử nghiệm lâm sàng]:Clinical trials
+*[thử nghiệm lâm sàng]: Clinical trials
 {:.abbrev}
-*[gây nhiễu]:Confounding
+*[gây nhiễu]: Confounding
 {:.abbrev}
-*[bảng kiểm]:Checklist
+*[bảng kiểm]: Checklist
 {:.abbrev}
-*[đoàn hệ]:Cohort
+*[đoàn hệ]: Cohort
 {:.abbrev}
-*[bệnh-chứng]:Case-control
+*[bệnh-chứng]: Case-control
 {:.abbrev}
-*[cắt ngang]:Cross-sectional
+*[cắt ngang]: Cross-sectional
 {:.abbrev}
-*[thiết kế nghiên cứu]:Study design
+*[thiết kế nghiên cứu]: Study design
 {:.abbrev}
-*[di truyền]:genetic
+*[di truyền]: genetic
 {:.abbrev}
-*[sai lệch]:Bias
+*[sai lệch]: Bias
 {:.abbrev}
-*[khả năng khái quát hóa]:Generalizability
+*[khả năng khái quát hóa]: Generalizability
 {:.abbrev}
-*[đánh giá hệ thống]:Systematic review
+*[đánh giá hệ thống]: Systematic review
 {:.abbrev}
-*[thực nghiệm]:Emperical
+*[thực nghiệm]: Emperical
 {:.abbrev}
-*[chính xác]:precision
+*[chính xác]: precision
 {:.abbrev}
-*[tính giá trị]:validity
+*[tính giá trị]: validity
 {:.abbrev}
-*[tính tin cậy]:reliability
+*[tính tin cậy]: reliability
 {:.abbrev}
-*[khả năng lập lại]:repeatability
+*[khả năng lập lại]: repeatability
 {:.abbrev}
-*[kiểm soát chất lượng]:quality control
+*[kiểm soát chất lượng]: quality control
 {:.abbrev}
-*[đảm bảo chất lượng]:quality asurance
+*[đảm bảo chất lượng]: quality asurance
 {:.abbrev}
-*[đa trung tâm]:Multicenter
+*[đa trung tâm]: Multicenter
 {:.abbrev}
-*[gỉa thuyết]:hypothesis
+*[gỉa thuyết]: hypothesis
 {:.abbrev}
-*[tương tác]:interaction
+*[tương tác]: interaction
 {:.abbrev}
-*[tiềm tàng]:potential
+*[tiềm tàng]: potential
 {:.abbrev}
-*[bắt cặp]:matched
+*[bắt cặp]: matched
 {:.abbrev}
-*[dữ kiện]:data
+*[dữ kiện]: data
 {:.abbrev}
-*[dân số]:population
+*[dân số]: population
 {:.abbrev}
-*[giá trị bên ngoài]:external validity
+*[giá trị bên ngoài]: external validity
 {:.abbrev}
-*[quần thể]:population
+*[quần thể]: population
 {:.abbrev}
-*[phân bố]:distribution
+*[phân bố]: distribution
 {:.abbrev}
-*[phân phối]:distribution
+*[phân phối]: distribution
 {:.abbrev}
-*[giá trị bên trong]:internal validity
+*[giá trị bên trong]: internal validity
 {:.abbrev}
-*[chiến lược]:strategy
+*[chiến lược]: strategy
 {:.abbrev}
-*[chọn mẫu]:sampling
+*[chọn mẫu]: sampling
 {:.abbrev}
-*[cỡ mẫu]:sample size
+*[cỡ mẫu]: sample size
 {:.abbrev}
-*[chuẩn vàng]:Gold standard
+*[chuẩn vàng]: Gold standard
 {:.abbrev}
-*[năng lực]:power
+*[năng lực]: power
 {:.abbrev}
-*[ý nghĩa thống kê]:statistically significant
+*[ý nghĩa thống kê]: statistically significant
 {:.abbrev}
-*[Chuẩn hóa]:Standardize
+*[Chuẩn hóa]: Standardize
 {:.abbrev}
-*[sai lệch xuất bản]:Publication bias
+*[sai lệch xuất bản]: Publication bias
 {:.abbrev}
-*[yếu tố nguy cơ]:Risk Factor
+*[yếu tố nguy cơ]: Risk Factor
 {:.abbrev}
-*[lối sống]:Life style
+*[lối sống]: Life style
 {:.abbrev}
-*[mâu thuẫn]:Contradictory
+*[mâu thuẫn]: Contradictory
 {:.abbrev}
-*[mối liên quan]:Association/Relationship
+*[mối liên quan]: Association/Relationship
 {:.abbrev}
-*[y sinh]:biomedical
+*[y sinh]: biomedical
 {:.abbrev}
-*[dương tính giả]:False Positive
+*[dương tính giả]: False Positive
 {:.abbrev}
-*[Âm tính giả]:False Negative
+*[Âm tính giả]: False Negative
 {:.abbrev}
-*[sai số hệ thống]:systematic error
+*[sai số hệ thống]: systematic error
 {:.abbrev}
-*[sai số ngẫu nhiên]:random error
+*[sai số ngẫu nhiên]: random error
 {:.abbrev}
-*[đề cương]:proposal
+*[đề cương]: proposal
 {:.abbrev}
-*[nghiên cứu thử]:Pilot study
+*[nghiên cứu thử]: Pilot study
 {:.abbrev}
-*[nghiên cứu kiểm tra trước]:Pre-test study
+*[nghiên cứu kiểm tra trước]: Pre-test study
 {:.abbrev}
-*[phân loại]:Classification
+*[phân loại]: Classification
 {:.abbrev}
-*[mã hóa]:Coding
+*[mã hóa]: Coding
 {:.abbrev}
-*[Bảng câu hỏi]:Questionnaire
+*[Bảng câu hỏi]: Questionnaire
 {:.abbrev}
-*[tính khả thi]:Feasibility
+*[tính khả thi]: Feasibility
 {:.abbrev}
-*[Phân phối Poisson chặn-không]:Zero-truncated Poisson
+*[Phân phối Poisson chặn-không]: Zero-truncated Poisson
 {:.abbrev}
-*[Nghiệm kín]:Closed-form
+*[Nghiệm kín]: Closed-form
 {:.abbrev}
-*[Dân số cảm nhiễm]:Susceptible population
+*[Dân số cảm nhiễm]: Susceptible population
 {:.abbrev}
-*[Dữ kiện bị thiếu]:Censored data
+*[Dữ kiện bị thiếu]: Censored data
 {:.abbrev}
-*[Dữ kiện bị thiếu trái]:Left-censored data
+*[Dữ kiện bị thiếu trái]: Left-censored data
 {:.abbrev}
-*[Dữ kiện bị thiếu phải]:Right-censored data
+*[Dữ kiện bị thiếu phải]: Right-censored data
 {:.abbrev}
-*[Đa thức phân số]:Fractional Polynomials
+*[Đa thức phân số]: Fractional Polynomials
 {:.abbrev}
-*[AIC]:Akaike’s Information Criterion
+*[AIC]: Akaike’s Information Criterion
 {:.abbrev}
-*[AICc]:Corrected Akaike’s Information Criterion
+*[AICc]: Corrected Akaike’s Information Criterion
 {:.abbrev}
-*[BIC]:Schwarz’s Bayesian Information Criterion
+*[BIC]: Schwarz’s Bayesian Information Criterion
 {:.abbrev}
-*[Giới hạn tin cậy]:Confidence limits
+*[Giới hạn tin cậy]: Confidence limits
 {:.abbrev}
-*[Phương pháp nhân tử Lagrange ]:Lagrange multiplier
+*[Phương pháp nhân tử Lagrange ]: Lagrange multiplier
 {:.abbrev}
-*[Chỉ số tập trung Gini]:Gini concentration index
+*[Chỉ số tập trung Gini]: Gini concentration index
 {:.abbrev}
-*[Hệ số Yule's Q]:Yule's Q
+*[Hệ số Yule's Q]: Yule's Q
 {:.abbrev}
-*[Kiểm định chính xác Fisher]:Fisher's Exact Test
+*[Kiểm định chính xác Fisher]: Fisher's Exact Test
 {:.abbrev}
-*[Bảo toàn]:Conservative
+*[Bảo toàn]: Conservative
 {:.abbrev}
-*[Nghịch lý Simpson]:Simpson’s Paradox
+*[Nghịch lý Simpson]: Simpson’s Paradox
 {:.abbrev}
-*[Dữ kiện số đếm]:Count data
+*[Dữ kiện số đếm]: Count data
 {:.abbrev}
-*[Thiếu phân tán]:Underdispersion
+*[Thiếu phân tán]: Underdispersion
 {:.abbrev}
-*[Quá phân tán]:Overdispersion
+*[Quá phân tán]: Overdispersion
 {:.abbrev}
-*[Cụm]:Cluster
+*[Cụm]: Cluster
 {:.abbrev}
-*[dữ kiện phân cụm]:Clusted Data
+*[dữ kiện phân cụm]: Clusted Data
 {:.abbrev}
-*[Hiệp phương sai]:Covariance
+*[Hiệp phương sai]: Covariance
 {:.abbrev}
-*[Phương sai]:Variance
+*[Phương sai]: Variance
 {:.abbrev}
-*[Ảnh hưởng ngẫu nhiên]:Random effect
+*[Ảnh hưởng ngẫu nhiên]: Random effect
 {:.abbrev}
-*[Ảnh hưởng cố định]:Fixed Effect
+*[Ảnh hưởng cố định]: Fixed Effect
 {:.abbrev}
-*[Ảnh hưởng hỗn hợp]:Mixed Effect
+*[Ảnh hưởng hỗn hợp]: Mixed Effect
 {:.abbrev}
-*[MNAR]:Missing Not At Random
+*[MNAR]: Missing Not At Random
 {:.abbrev}
-*[MAR]:Miss At Random
+*[MAR]: Miss At Random
 {:.abbrev}
-*[MCAR]:Missing Completely At Random
+*[MCAR]: Missing Completely At Random
 {:.abbrev}
-*[nội sinh]:endogenous
+*[nội sinh]: endogenous
 {:.abbrev}
-*[ngoại sinh]:exogenous
+*[ngoại sinh]: exogenous
 {:.abbrev}
-*[Phân tích nhân tố]:Factor Analysis
+*[Phân tích nhân tố]: Factor Analysis
 {:.abbrev}
-*[SEM]:Structural Equation Model
+*[SEM]: Structural Equation Model
 {:.abbrev}
-*[CFA]:Confirmatory Factor Analysis
+*[CFA]: Confirmatory Factor Analysis
 {:.abbrev}
-*[EFA]:Exploratory Factor Analysis
+*[EFA]: Exploratory Factor Analysis
 {:.abbrev}
-*[BSE]:Breast Self-Examination
+*[BSE]: Breast Self-Examination
 {:.abbrev}
-*[Tỷ suất tử vong]:Mortality Rates
+*[Tỷ suất tử vong]: Mortality Rates
 {:.abbrev}
-*[Ảnh hưởng có lợi]:Beneficial Effect
+*[Ảnh hưởng có lợi]: Beneficial Effect
 {:.abbrev}
-*[Sai số hệ thống]:Systematic Errors
+*[Sai số hệ thống]: Systematic Errors
 {:.abbrev}
-*[Bất định]:Uncertainty
+*[Bất định]: Uncertainty
 {:.abbrev}
-*[Phơi nhiễm]:Exposure
+*[Phơi nhiễm]: Exposure
 {:.abbrev}
-*[Gọi số điện thoại ngẫu nhiên]:Random digits numbder dialing
+*[Gọi số điện thoại ngẫu nhiên]: Random digits numbder dialing
 {:.abbrev}
-*[Dữ kiện bị mất]:Missing data
+*[Dữ kiện bị mất]: Missing data
 {:.abbrev}
-*[Bỏ qua được]:Ignorable
+*[Bỏ qua được]: Ignorable
 {:.abbrev}
-*[Không bỏ qua được]:Nonignorable
+*[Không bỏ qua được]: Nonignorable
 {:.abbrev}
-*[Nghiên cứu dọc]:Longitudinal study
+*[Nghiên cứu dọc]: Longitudinal study
 {:.abbrev}
-*[Sai lệch nhớ lại]:Recall Bias
+*[Sai lệch nhớ lại]: Recall Bias
 {:.abbrev}
-*[Sai lệch phỏng vấn]:Interview Bias
+*[Sai lệch phỏng vấn]: Interview Bias
 {:.abbrev}
-*[Làm mù]:Blinded
+*[Làm mù]: Blinded
 {:.abbrev}
-*[Chuyên gia bình duyệt]:Peer-reviewed
+*[Chuyên gia bình duyệt]: Peer-reviewed
 {:.abbrev}
-*[Có ý nghĩa thống kê]:Statistically Significance
+*[Có ý nghĩa thống kê]: Statistically Significance
 {:.abbrev}
-*[Khoảng tin cậy]:Confidence Interval
+*[Khoảng tin cậy]: Confidence Interval
 {:.abbrev}
-*[Ngẫu nhiên]:Random
+*[Ngẫu nhiên]: Random
 {:.abbrev}
-*[Ngẫu nhiên]:Stochastic
+*[Ngẫu nhiên]: Stochastic
 {:.abbrev}
-*[Phân tích tổng hợp]:Meta-analysis
+*[Phân tích tổng hợp]: Meta-analysis
 {:.abbrev}
-*[Chất sinh ung thư]:Carcinogen
+*[Chất sinh ung thư]: Carcinogen
 {:.abbrev}
-*[triệu chứng lo âu trong tuần]:anxiety of the week syndrome
+*[triệu chứng lo âu trong tuần]: anxiety of the week syndrome
 {:.abbrev}
-*[Tiến cứu]:Prospective
+*[Tiến cứu]: Prospective
 {:.abbrev}
-*[Hồi cứu]:Retrospective
+*[Hồi cứu]: Retrospective
 {:.abbrev}
-*[Qui trình thực hiện]:Protocol
+*[Qui trình thực hiện]: Protocol
 {:.abbrev}
-*[Khai thác dữ kiện]:Data mining
+*[Khai thác dữ kiện]: Data mining
 {:.abbrev}
-*[Phương pháp dữ kiện gần nhất]:Nearest neighbor method
+*[Phương pháp dữ kiện gần nhất]: Nearest neighbor method
 {:.abbrev}
-*[Tỷ suất sinh]:Fertility rate
+*[Tỷ suất sinh]: Fertility rate
 {:.abbrev}
-*[Thuyết khí độc]:Miasma Theory
+*[Thuyết khí độc]: Miasma Theory
 {:.abbrev}
-*[Thuyết vi trùng]:Germ theory
+*[Thuyết vi trùng]: Germ theory
 {:.abbrev}
-*[Mù đôi]:Double-blind
+*[Mù đôi]: Double-blind
 {:.abbrev}
-*[Mù đơn]:Single-blind
+*[Mù đơn]: Single-blind
 {:.abbrev}
-*[Mù ba]:Triple-blind
+*[Mù ba]: Triple-blind
 {:.abbrev}
-*[Chỉ tố]:Indicator
+*[Chỉ tố]: Indicator
 {:.abbrev}
-*[Chỉ dấu sinh học]:Biological Marker
+*[Chỉ dấu sinh học]: Biological Marker
 {:.abbrev}
-*[Kinh tế y tế]:Health Economics
+*[Kinh tế y tế]: Health Economics
 {:.abbrev}
-*[Tầm vóc thấp]:Short stature
+*[Tầm vóc thấp]: Short stature
 {:.abbrev}
-*[Mạn tính]:Chronic
+*[Mạn tính]: Chronic
 {:.abbrev}
-*[Chất dinh dưỡng đa lượng]:Macronutrient
+*[Chất dinh dưỡng đa lượng]: Macronutrient
 {:.abbrev}
-*[Chất dinh dưỡng vi lượng]:Micronutrient
+*[Chất dinh dưỡng vi lượng]: Micronutrient
 {:.abbrev}
-*[Suy dinh dưỡng]:Malnourished
+*[Suy dinh dưỡng]: Malnourished
 {:.abbrev}
-*[Loại trừ]:Eradicate
+*[Loại trừ]: Eradicate
 {:.abbrev}
-*[Bẫy dân số]:Demographic Entrapment
+*[Bẫy dân số]: Demographic Entrapment
 {:.abbrev}
-*[Tuổi thọ]:Life Expectancy
+*[Tuổi thọ]: Life Expectancy
 {:.abbrev}
-*[Lão hóa]:Aging
+*[Lão hóa]: Aging
 {:.abbrev}
-*[Kế hoạch hóa gia đình]:Family Planning
+*[Kế hoạch hóa gia đình]: Family Planning
 {:.abbrev}
-*[Dịch tễ học quan sát]:Observational Epidemiology
+*[Dịch tễ học quan sát]: Observational Epidemiology
 {:.abbrev}
-*[Thử nghiệm ngẫu nhiên có nhóm chứng]:Randomized Controlled Trial
+*[Thử nghiệm ngẫu nhiên có nhóm chứng]: Randomized Controlled Trial
 {:.abbrev}
-*[RCT]:Randomized Controlled Trial
+*[RCT]: Randomized Controlled Trial
 {:.abbrev}
-*[Thử nghiệm qui mô lớn]:Mega-trial
+*[Thử nghiệm qui mô lớn]: Mega-trial
 {:.abbrev}
-*[Theo không gian thời gian]:Spatiotemporal
+*[Theo không gian thời gian]: Spatiotemporal
 {:.abbrev}
-*[Hồi quy lượng giác]:Trigonometric regression
+*[Hồi quy lượng giác]: Trigonometric regression
 {:.abbrev}
-*[Hồi quy cosinor]:Cosinor regression
+*[Hồi quy cosinor]: Cosinor regression
 {:.abbrev}
-*[Hồi quy tuyến tính]:Linear regression
+*[Hồi quy tuyến tính]: Linear regression
 {:.abbrev}
-*[Mô hình đa thức]:Polynomial model
+*[Mô hình đa thức]: Polynomial model
 {:.abbrev}
-*[Hồi quy điều hòa]:Harmonic regression
+*[Hồi quy điều hòa]: Harmonic regression
 {:.abbrev}
-*[Nhân quả]:Causal
+*[Nhân quả]: Causal
 {:.abbrev}
-*[Khả năng nghịch đảo]:Reversibility
+*[Khả năng nghịch đảo]: Reversibility
 {:.abbrev}
-*[Y học dựa trên chứng cứ]:Evidence-based Medicine
+*[Y học dựa trên chứng cứ]: Evidence-based Medicine
 {:.abbrev}
-*[Hiện tượng đa hình]:Polymorphism
+*[Hiện tượng đa hình]: Polymorphism
 {:.abbrev}
-*[Gánh nặng]:Burden
+*[Gánh nặng]: Burden
 {:.abbrev}
-*[Tỷ suất]:Rate
+*[Tỷ suất]: Rate
 {:.abbrev}
-*[Tỷ số]:Ratio
+*[Tỷ số]: Ratio
 {:.abbrev}
-*[Tỷ lệ]:Proportion
+*[Tỷ lệ]: Proportion
 {:.abbrev}
-*[Khuynh hướng dài hạn]:Secular trend
+*[Khuynh hướng dài hạn]: Secular trend
 {:.abbrev}
-*[Dịch tễ học lâm sàng]:Clinical Epidemiology
+*[Dịch tễ học lâm sàng]: Clinical Epidemiology
 {:.abbrev}
-*[Giáo dục sức khỏe]:Health Education
+*[Giáo dục sức khỏe]: Health Education
 {:.abbrev}
-*[Yếu tố quyết định]:Determinant
+*[Yếu tố quyết định]: Determinant
 {:.abbrev}
-*[Vận động thể lực]:Physical Activity
+*[Vận động thể lực]: Physical Activity
 {:.abbrev}
-*[Tất định]:Deterministic
+*[Tất định]: Deterministic
 {:.abbrev}
-*[Mô hình dịch tất định]:Deterministic epidemic model
+*[Mô hình dịch tất định]: Deterministic epidemic model
 {:.abbrev}
-*[Dân số học]:Demography
+*[Dân số học]: Demography
 {:.abbrev}
-*[Mô hình dịch SIR]:SIR-epidemic model
+*[Mô hình dịch SIR]: SIR-epidemic model
 {:.abbrev}
-*[Mô hình dịch SIS]:SIS-epidemic model
+*[Mô hình dịch SIS]: SIS-epidemic model
 {:.abbrev}
-*[Mô hình dịch SEIR]:SEIR-epidemic model
+*[Mô hình dịch SEIR]: SEIR-epidemic model
 {:.abbrev}
-*[Mô hình dịch SIRS]:SIRS-epidemic model
+*[Mô hình dịch SIRS]: SIRS-epidemic model
 {:.abbrev}
-*[Dân số đóng]:Closed population
+*[Dân số đóng]: Closed population
 {:.abbrev}
-*[Dân số động]:Dynamic population
+*[Dân số động]: Dynamic population
 {:.abbrev}
-*[Cảm nhiễm]:Susceptible
+*[Cảm nhiễm]: Susceptible
 {:.abbrev}
-*[Miễn dịch]:Immune
+*[Miễn dịch]: Immune
 {:.abbrev}
-*[Phương trình vi phân]:Differential equation
+*[Phương trình vi phân]: Differential equation
 {:.abbrev}
-*[Hàm hạch]:Kernel function
+*[Hàm hạch]: Kernel function
 {:.abbrev}
-*[Đoàn hệ sinh]:Birth Cohort
+*[Đoàn hệ sinh]: Birth Cohort
 {:.abbrev}
-*[Dịch lưu hành]:Endemic
+*[Dịch lưu hành]: Endemic
 {:.abbrev}
-*[Dịch lưu hành cao]:Hyperendemic
+*[Dịch lưu hành cao]: Hyperendemic
 {:.abbrev}
-*[Mô hình dịch ngẫu nhiên]:Stochastic epidemic model
+*[Mô hình dịch ngẫu nhiên]: Stochastic epidemic model
 {:.abbrev}
-*[Tỷ suất tử vong sơ sinh]:Infant mortality
+*[Tỷ suất tử vong sơ sinh]: Infant mortality
 {:.abbrev}
-*[Bệnh không lây]:Non-infectious disease
+*[Bệnh không lây]: Non-infectious disease
 {:.abbrev}
-*[Bệnh truyền nhiễm]:Infectious disease
+*[Bệnh truyền nhiễm]: Infectious disease
 {:.abbrev}
-*[Căn nguyên]:Aetiology
+*[Căn nguyên]: Aetiology
 {:.abbrev}
-*[Bệnh mạn tính]:Chronic disease
+*[Bệnh mạn tính]: Chronic disease
 {:.abbrev}
-*[Tác nhân]:Agent
+*[Tác nhân]: Agent
 {:.abbrev}
-*[Bùng phát dịch]:Outbreak
+*[Bùng phát dịch]: Outbreak
 {:.abbrev}
-*[Dai dẳng]:Persistent
+*[Dai dẳng]: Persistent
 {:.abbrev}
-*[Sinh nhẹ cân]:Low Birthweight
+*[Sinh nhẹ cân]: Low Birthweight
 {:.abbrev}
-*[Mắc phải]:Acquire
+*[Mắc phải]: Acquire
 {:.abbrev}
-*[Đặc trưng theo từng đoàn hệ]:Cohort-specific
+*[Đặc trưng theo từng đoàn hệ]: Cohort-specific
 {:.abbrev}
-*[Đặc trưng theo tuổi]:Age-specific
+*[Đặc trưng theo tuổi]: Age-specific
 {:.abbrev}
-*[Số sinh cơ bản]:Basis Reproduction Number
+*[Số sinh cơ bản]: Basis Reproduction Number
 {:.abbrev}
-*[Mô hình ARIMA]:Auto regressive Integrated Moving Average model
+*[Mô hình ARIMA]: Auto regressive Integrated Moving Average model
 {:.abbrev}
-*[Mô hình INAR]:Integer-valued auto-regressive model
+*[Mô hình INAR]: Integer-valued auto-regressive model
 {:.abbrev}
-*[Giám sát hội chứng]:Syndromic surveillance
+*[Giám sát hội chứng]: Syndromic surveillance
 {:.abbrev}
-*[Học máy]:Machine Learning
+*[Học máy]: Machine Learning
 {:.abbrev}
-*[Học thống kê]:Statistical learning
+*[Học thống kê]: Statistical learning
 {:.abbrev}
-*[Thuộc tính]:Feature
+*[Thuộc tính]: Feature
 {:.abbrev}
-*[Học có giám sát]:Supervised Learning
+*[Học có giám sát]: Supervised Learning
 {:.abbrev}
-*[Học không giám sát]:Unsupervised Learning
+*[Học không giám sát]: Unsupervised Learning
 {:.abbrev}
-*[Dữ kiện huấn luyện]:Training data
+*[Dữ kiện huấn luyện]: Training data
 {:.abbrev}
-*[Cúm gia cầm]:Bird flu
+*[Cúm gia cầm]: Bird flu
 {:.abbrev}
-*[Cúm lợn]:Swine flu
+*[Cúm lợn]: Swine flu
 {:.abbrev}
-*[Vắc-xin]:Vaccine
+*[Vắc-xin]: Vaccine
 {:.abbrev}
-*[Cúm mùa]:Seasonal flu
+*[Cúm mùa]: Seasonal flu
 {:.abbrev}
-*[Thử nghiệm]:Trial
+*[Thử nghiệm]: Trial
 {:.abbrev}
-*[Bản đồ hóa]:Mapping
+*[Bản đồ hóa]: Mapping
 {:.abbrev}
-*[Miễn dịch cộng đồng]:Herd immunity
+*[Miễn dịch cộng đồng]: Herd immunity
 {:.abbrev}
-*[Tiên tố]:Predictor
+*[Tiên tố]: Predictor
 {:.abbrev}
-*[Phi tuyến]:Nonlinear
+*[Phi tuyến]: Nonlinear
 {:.abbrev}
-*[Giải thuật]:Algorithm
+*[Giải thuật]: Algorithm
 {:.abbrev}
-*[Mạng neuron]:Neural network
+*[Mạng neuron]: Neural network
 {:.abbrev}
-*[Định lượng]:Quantitative
+*[Định lượng]: Quantitative
 {:.abbrev}
-*[Định tính]:Qualitative
+*[Định tính]: Qualitative
 {:.abbrev}
-*[Ứng biến]:Ad hoc
+*[Ứng biến]: Ad hoc
 {:.abbrev}
-*[mật độ]:Density
+*[mật độ]: Density
 {:.abbrev}
-*[Phân cụm]:Clustering
+*[Phân cụm]: Clustering
 {:.abbrev}
-*[Hồi quy chóp]:Ridge regression
+*[Hồi quy chóp]: Ridge regression
 {:.abbrev}
-*[Hiệp biến]:Covariate
+*[Hiệp biến]: Covariate
 {:.abbrev}
-*[Cộng tuyến]:Colinearity
+*[Cộng tuyến]: Colinearity
 {:.abbrev}
-*[Đa cộng tuyến]:Multicolinearity
+*[Đa cộng tuyến]: Multicolinearity
 {:.abbrev}
-*[Tương quan]:Correlation
+*[Tương quan]: Correlation
 {:.abbrev}
-*[Đánh đổi sai lệch-phương sai]:Bias-variance tradeoff
+*[Đánh đổi sai lệch-phương sai]: Bias-variance tradeoff
 {:.abbrev}
-*[Có trọng số]:Weighted
+*[Có trọng số]: Weighted
 {:.abbrev}
-*[Nút tận cùng]:Terminal Node
+*[Nút tận cùng]: Terminal Node
 {:.abbrev}
-*[Mạng van]:Gating network
+*[Mạng van]: Gating network
 {:.abbrev}
-*[Cây quyết định]:Decision trees
+*[Cây quyết định]: Decision trees
 {:.abbrev}
-*[Rừng ngẫu nhiên]:Random Forest
+*[Rừng ngẫu nhiên]: Random Forest
 {:.abbrev}
-*[Lasso]:Least Absolute Selection and Shrinkage Operator
+*[Lasso]: Least Absolute Selection and Shrinkage Operator
 {:.abbrev}
-*[Co hệ số]:Shrinkage
+*[Co hệ số]: Shrinkage
 {:.abbrev}
-*[Co giãn]:Elastic
+*[Co giãn]: Elastic
 {:.abbrev}
-*[Chỉnh tâm]:Centering
+*[Chỉnh tâm]: Centering
 {:.abbrev}
-*[Độ lệch chuẩn]:Standard Deviation
+*[Độ lệch chuẩn]: Standard Deviation
 {:.abbrev}
-*[DIANA]:DIvisive ANAlysis Clustering
+*[DIANA]: DIvisive ANAlysis Clustering
 {:.abbrev}
-*[agnes]:AGglomerative NESting
+*[agnes]: AGglomerative NESting
 {:.abbrev}
-*[clara]:Clustering LARge Applications
+*[clara]: Clustering LARge Applications
 {:.abbrev}
-*[pam]:Partitoning Around Medoids
+*[pam]: Partitoning Around Medoids
 {:.abbrev}
-*[Hệ số tương quan Cophenetic]:Cophenetic Correlation Coefficient
+*[Hệ số tương quan Cophenetic]: Cophenetic Correlation Coefficient
 {:.abbrev}
-*[Khoảng cách Cophenetic]:Cophenetic Distances
+*[Khoảng cách Cophenetic]: Cophenetic Distances
 {:.abbrev}
-*[Phân cụm theo thứ bậc]:Hierarchical Clustering
+*[Phân cụm theo thứ bậc]: Hierarchical Clustering
 {:.abbrev}
-*[Luật kết hợp]:Association Rule
+*[Luật kết hợp]: Association Rule
 {:.abbrev}
-*[Bayes ngây thơ]:Naive Bayes
+*[Bayes ngây thơ]: Naive Bayes
 {:.abbrev}
-*[MARS]:Multivariate Adaptive Regression Splines
+*[MARS]: Multivariate Adaptive Regression Splines
 {:.abbrev}
-*[IDMC]:Independent Data Monitoring Committee
+*[IDMC]: Independent Data Monitoring Committee
 {:.abbrev}
-*[Mô hình theo thứ bậc]:Hierarchical model
+*[Mô hình theo thứ bậc]: Hierarchical model
 {:.abbrev}
-*[Độ hội tụ]:Convergence
+*[Độ hội tụ]: Convergence
 {:.abbrev}
-*[Hội tụ]:Converge
+*[Hội tụ]: Converge
 {:.abbrev}
-*[Nghiên cứu tái lập được]:Reproducible research
+*[Nghiên cứu tái lập được]: Reproducible research
 {:.abbrev}
-*[Tiền nghiệm phi chính]:Improper Prior
+*[Tiền nghiệm phi chính]: Improper Prior
 {:.abbrev}
-*[Tiền nghiệm không thông tin]:Noninformative prior
+*[Tiền nghiệm không thông tin]: Noninformative prior
 {:.abbrev}
-*[PPP-value]:Posterior Predictive P-Value
+*[PPP-value]: Posterior Predictive P-Value
 {:.abbrev}
-*[Ảnh hưởng tắt dần]:Damping Effect
+*[Ảnh hưởng tắt dần]: Damping Effect
 {:.abbrev}
-*[Dao động]:Oscillation
+*[Dao động]: Oscillation
 {:.abbrev}
-*[WAIFW]:Who Acquires Infection From Whom
+*[WAIFW]: Who Acquires Infection From Whom
 {:.abbrev}
-*[Mô hình tuyến tính suy  rộng]:Generalized Linear Model
+*[Mô hình tuyến tính suy  rộng]: Generalized Linear Model
 {:.abbrev}
-*[Hàm liên kết]:Link function
+*[Hàm liên kết]: Link function
 {:.abbrev}
-*[Mô hình tuyến tính tổng quát]:General Linear Model
+*[Mô hình tuyến tính tổng quát]: General Linear Model
 {:.abbrev}
-*[Phân phối bình thường]:Normal Distribution
+*[Phân phối bình thường]: Normal Distribution
 {:.abbrev}
-*[Phân phối chuẩn]:Standard normal distribution
+*[Phân phối chuẩn]: Standard normal distribution
 {:.abbrev}
-*[Không gian-thời gian]:Spatial-Temporal
+*[Không gian-thời gian]: Spatial-Temporal
 {:.abbrev}
-*[Không cấu trúc]:Unstructured
+*[Không cấu trúc]: Unstructured
 {:.abbrev}
-*[Hoán đổi được]:Exchangeable
+*[Hoán đổi được]: Exchangeable
 {:.abbrev}
-*[Tự hồi quy]:Autoregressive (AR)
+*[Tự hồi quy]: Autoregressive (AR)
 {:.abbrev}
-*[Dữ kiện dọc]:Longitudinal Data
+*[Dữ kiện dọc]: Longitudinal Data
 {:.abbrev}
-*[Nhị giá]:Binary
+*[Nhị giá]: Binary
 {:.abbrev}
-*[Trung bình dân số]:Population-Average
+*[Trung bình dân số]: Population-Average
 {:.abbrev}
-*[Theo từng đối tượng]:Subject-specific
+*[Theo từng đối tượng]: Subject-specific
 {:.abbrev}
-*[Thăm dò dữ kiện]:Exploratory data
+*[Thăm dò dữ kiện]: Exploratory data
 {:.abbrev}
-*[GEE]:Generalized Estimation Equation
+*[GEE]: Generalized Estimation Equation
 {:.abbrev}
-*[tựa tiệm cân]:Quasi-asymptotic
+*[tựa tiệm cân]: Quasi-asymptotic
 {:.abbrev}
-*[tựa đối xứng]:Quasi-symmetry
+*[tựa đối xứng]: Quasi-symmetry
 {:.abbrev}
-*[Đối xứng]:Symmetry
+*[Đối xứng]: Symmetry
 {:.abbrev}
-*[Đồng nhất]:Homogeneity
+*[Đồng nhất]: Homogeneity
 {:.abbrev}
-*[Đồng nhất]:Homogeneous
+*[Đồng nhất]: Homogeneous
 {:.abbrev}
-*[Biên]:Marginal
+*[Biên]: Marginal
 {:.abbrev}
-*[Không đồng nhất]:Heterogeneity
+*[Không đồng nhất]: Heterogeneity
 {:.abbrev}
-*[Giá trị ngoại lai]:Outlier
+*[Giá trị ngoại lai]: Outlier
 {:.abbrev}
-*[Số cần sàng lọc]:Number needed to screen
+*[Số cần sàng lọc]: Number needed to screen
 {:.abbrev}
-*[Chẩn đoán quá]:Overdiagnosis
+*[Chẩn đoán quá]: Overdiagnosis
 {:.abbrev}
-*[Tỷ số lợi ích tiềm năng-nguy hại]:Potential benefit to harm
+*[Tỷ số lợi ích tiềm năng-nguy hại]: Potential benefit to harm
 {:.abbrev}
-*[Nhũ ảnh]:Mammogram
+*[Nhũ ảnh]: Mammogram
 {:.abbrev}
-*[Báo cáo thiếu]:Under-reporting
+*[Báo cáo thiếu]: Under-reporting
 {:.abbrev}
-*[Bệnh nhỏ đầu]:Microcephaly
+*[Bệnh nhỏ đầu]: Microcephaly
 {:.abbrev}
-*[Hội chứng Guillain-Barre]:Guillain-Barre syndrome
+*[Hội chứng Guillain-Barre]: Guillain-Barre syndrome
 {:.abbrev}
-*[Ước lượng khoảng]:Interval estimations
+*[Ước lượng khoảng]: Interval estimations
 {:.abbrev}
-*[Xác suất]:Probability
+*[Xác suất]: Probability
 {:.abbrev}

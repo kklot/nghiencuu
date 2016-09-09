@@ -65,19 +65,18 @@
         <h2 class="headline">May 12, 2013</h2>
     </header>
     <section id="post-body">
-      
       <p><a href="http://www.ytecongcong.com/wp-content/uploads/2013/04/R.png"><img class="alignnone  wp-image-978" title="R" alt="" src="http://www.ytecongcong.com/wp-content/uploads/2013/04/R.png" width="580" height="347" /></a></p>
-<p>Được nhắc tới trong sách <em>CALVIN, D. 2011 [1] </em>nhưng không có sẵn trong các phần mềm, kể cả các diễn đàn thống kê nước ngoài. Code R sau để tạo và tính p-value kiểm định cho ảnh hưởng chính cũng như <abbr class="abbrev" title="interaction">tương tác</abbr> của hai nhân tố dựa trên sắp hạng <abbr class="abbrev" title="data">dữ kiện</abbr> nghiên cứu.</p>
-<p>Lưu ý, <abbr class="abbrev" title="data">dữ kiện</abbr> thao tác tên là <strong>data.wide </strong>được sắp xếp như <abbr class="abbrev" title="data">dữ kiện</abbr> cho mô hình ANOVA bình thường, biến số <strong>days_fresh</strong> là biến số phụ thuộc trong phân tích với 2 nhân tố là <strong>comp</strong> có 15 nhóm và <strong>species</strong> có 2 nhóm.</p>
+<p>Được nhắc tới trong sách <em>CALVIN, D. 2011 [1] </em>nhưng không có sẵn trong các phần mềm, kể cả các diễn đàn thống kê nước ngoài. Code R sau để tạo và tính p-value kiểm định cho ảnh hưởng chính cũng như tương tác của hai nhân tố dựa trên sắp hạng dữ kiện nghiên cứu.</p>
+<p>Lưu ý, dữ kiện thao tác tên là <strong>data.wide </strong>được sắp xếp như dữ kiện cho mô hình ANOVA bình thường, biến số <strong>days_fresh</strong> là biến số phụ thuộc trong phân tích với 2 nhân tố là <strong>comp</strong> có 15 nhóm và <strong>species</strong> có 2 nhóm.</p>
 <p>Để tính, chỉ cần thay đổi tên biến và giữ nguyên các câu lệnh.</p>
-<pre class="lang:r decode:true" title="Kiểm định với R"># Sắp hạng <abbr class="abbrev" title="data">dữ kiện</abbr>
+<pre class="lang:r decode:true" title="Kiểm định với R"># Sắp hạng dữ kiện
 
 data.wide$rank = rank(data.wide$days_fresh,ties.method="average")
 
 # Chuyển biến số comp thành factor
 
 data.wide$comp = as.factor(data.wide$comp)
-# Lập mô hình ANOVA bình thường, với ảnh hưởng của các nhân tố và <abbr class="abbrev" title="interaction">tương tác</abbr> dựa trên <abbr class="abbrev" title="data">dữ kiện</abbr> sắp hạng
+# Lập mô hình ANOVA bình thường, với ảnh hưởng của các nhân tố và tương tác dựa trên dữ kiện sắp hạng
 
 paranova = anova(lm(data.wide$rank~ data.wide$comp+data.wide$species+data.wide$comp*data.wide$species))
 
@@ -86,13 +85,13 @@ paranova = anova(lm(data.wide$rank~ data.wide$comp+data.wide$species+data.wide$c
 SS_correctedtotal = sum(paranova[1:4,2])
 MS_correctedtotal = SS_correctedtotal/sum(paranova[1:4,1])
 
-# Tính các số thống kê = SS/MS_correctedtotal cho mỗi nhân tố và <abbr class="abbrev" title="interaction">tương tác</abbr>
+# Tính các số thống kê = SS/MS_correctedtotal cho mỗi nhân tố và tương tác
 
 kn_comp = paranova[1,2]/MS_correctedtotal
 kn_species = paranova[2,2]/MS_correctedtotal
 kn_inter = paranova[3,2]/MS_correctedtotal
 
-# Tính p-value cho từng ảnh <abbr class="abbrev" title="interaction">tương tác</abbr>
+# Tính p-value cho từng ảnh tương tác
 
 p_comp = 1-pchisq(kn_comp,paranova[1,1])
 p_species = 1-pchisq(kn_species,paranova[2,1])
@@ -107,6 +106,16 @@ p_comp;p_species;p_inter</pre>
 
     </section>
 </article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/2013/lam-sao-de-song-lau-song-khoe-bai-hoc-tu-nhat-ban-tho-khoa-hoc-con-coc/">&laquo; Làm sao để sống lâu, sống khỏe: Bài học từ Nhật Bản (* thơ khoa học con cóc)</a>
+  
+  
+    <a class="next" href="/2013/tinh-co-mau-nghien-cuu/">Ước lượng cỡ mẫu so sánh hai tỷ lệ &raquo;</a>
+  
+</div>
+
 <footer id="post-meta" class="clearfix">
     <a href="http://twitter.com/">
         <img class="avatar" src="/assets/images/avatar.png">
@@ -150,7 +159,18 @@ p_comp;p_species;p_inter</pre>
     </div>
 
 
-<!-- Archive post list -->
+<h3>Bài liên quan</h3>
+
+
+  
+    
+    
+  
+
+  
+    
+    
+  
 
 
   </section>

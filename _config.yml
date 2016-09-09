@@ -10,14 +10,13 @@ highlighter: rouge
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jemoji
+  # - jemoji
 # , jekyll-archives]
 baseurl: /
 domain_name: 'www.ytecongcong.com'
 google_analytics: 'UA-83930831-1'
 disqus: true
 disqus_shortname: 'ytecongcong'
-# disqus_shortname: 'khoe-vi-nuoc'
 
 # Details for the RSS feed generator
 url:            'http://www.ytecongcong.com'

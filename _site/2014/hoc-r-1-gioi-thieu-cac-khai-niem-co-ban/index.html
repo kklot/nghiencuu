@@ -65,7 +65,6 @@
         <h2 class="headline">August 14, 2014</h2>
     </header>
     <section id="post-body">
-      
       <p><img src="http://www.statisticsviews.com/stats/images/logo.gif" alt="" /></p>
 <blockquote><p>
   Học R nên học theo dạng một ngôn ngữ lập trình, không nên học theo kiểu một phần mềm thống kê vì (1) sẽ phải làm quen với cả hai lĩnh vực khó hiểu cùng một lúc: lập trình và thống kê (2) khi nắm cách lập trình trong R, bạn sẽ thấy áp dụng các gói thống kê có sẵn chỉ là chuyện nhỏ.
@@ -126,16 +125,16 @@ Bạn có thể gõ lệnh trên một hàng như</p>
 <pre><code># là dấu để chú thích và lệnh này sẽ không chạy
 </code></pre>
 <h3>Working directory (wd)</h3>
-<p>Là <em>folder đang làm việc</em>, folder này sẽ chứa mọi kết quả của lệnh R, v.d. lưu một biểu đồ, một file và cũng là nơi R sẽ tìm để đọc file như <abbr class="abbrev" title="data">dữ kiện</abbr>, câu lệnh....</p>
+<p>Là <em>folder đang làm việc</em>, folder này sẽ chứa mọi kết quả của lệnh R, v.d. lưu một biểu đồ, một file và cũng là nơi R sẽ tìm để đọc file như dữ kiện, câu lệnh....</p>
 <p>Xem mình đang làm ở đâu, gõ</p>
 <pre><code>getwd() # get working direcrory
 </code></pre>
-<p>Khi phân tích, nên nói cho R biết bạn muốn làm việc ở đâu để mọi kết quả đều nằm trong folder mình muốn và R cũng sẽ hiểu phải tìm, v.d. như <abbr class="abbrev" title="data">dữ kiện</abbr> phân tích ở đâu, gõ</p>
+<p>Khi phân tích, nên nói cho R biết bạn muốn làm việc ở đâu để mọi kết quả đều nằm trong folder mình muốn và R cũng sẽ hiểu phải tìm, v.d. như dữ kiện phân tích ở đâu, gõ</p>
 <pre><code>setwd("path/to/selected/folder") # Lưu ý đường dẫn trong ngoặc kép sẽ khác nhau tùy theo hệ điều hành.
 </code></pre>
 <h3>Workspace</h3>
 <p><em>Không gian làm việc</em> là nơi chứa toàn bộ mọi thứ ... bạn đang làm việc. Tưởng tượng như phòng làm việc của bạn, sẽ có những vật (object) có kích cỡ, đặc tính khác nhau được đặt khắp nơi trong phòng, khi cần chỉ cần thò tay ra lấy.</p>
-<p>Thường sẽ phải phân tích nhiều ngày trên một <abbr class="abbrev" title="data">dữ kiện</abbr>, để tránh việc chạy đi chạy lại những gì đã làm R cung cấp khả năng lưu <em>không gian</em> này lại với lệnh</p>
+<p>Thường sẽ phải phân tích nhiều ngày trên một dữ kiện, để tránh việc chạy đi chạy lại những gì đã làm R cung cấp khả năng lưu <em>không gian</em> này lại với lệnh</p>
 <pre><code>save.image("Ten.RData") # Khi đúng đuôi file .RData
 </code></pre>
 <p>và khi mở R lên lại tải vào với</p>
@@ -143,7 +142,7 @@ Bạn có thể gõ lệnh trên một hàng như</p>
 </code></pre>
 <p>Lưu ý: <strong>File .RData phải nằm trong working directory để tải với lệnh trên.</strong></p>
 <h3>Object</h3>
-<p>Các <em>vật</em> này nằm trong <em>không gian</em> vừa nói ở trên, và để lấy sử dụng ta dùng các câu lệnh gọi tên tương ứng. <strong>Một object</strong> có thể là một số, một dãy số, một bảng <abbr class="abbrev" title="data">dữ kiện</abbr>, một chữ cái,....</p>
+<p>Các <em>vật</em> này nằm trong <em>không gian</em> vừa nói ở trên, và để lấy sử dụng ta dùng các câu lệnh gọi tên tương ứng. <strong>Một object</strong> có thể là một số, một dãy số, một bảng dữ kiện, một chữ cái,....</p>
 <p>Để xem bạn đang có gì trong <em>phòng</em>, gõ</p>
 <pre><code>ls() # list, () để trống cho R biết bạn muốn liệt kê mọi loại object
 </code></pre>
@@ -163,7 +162,7 @@ b &lt;- "a" # gán giá trị là chữ cái a cho object b
 <p>Tất cả các lệnh có thể gõ và chạy trực tiếp, nhưng nên được lưu trong một file riêng để thuận tiện chỉnh sửa và sử dụng. Trong R, bạn có thể viết code trong nhiều trình biên tập khác nhau và gửi lệnh sang R để chạy như Sublime Text, Notepad++, RStudio, Gedit....</p>
 <h3>Help</h3>
 <p>Để đọc hướng dẫn sử dụng một lệnh trong R, gõ <code>?lenh</code> và enter để xem.</p>
-<p><strong>Học R - [2] Các loại Object, Quản lý <abbr class="abbrev" title="data">dữ kiện</abbr></strong></p>
+<p><strong>Học R - [2] Các loại Object, Quản lý dữ kiện</strong></p>
 <h1>Bài tập</h1>
 <p>Tìm và cài RStudio, và thực hiện các yêu cầu sau<br />
 1. Tạo mới một file script tên <code>hocR.R</code>, lưu vào folder <code>hocR</code>, viết lệnh đặt working directory tới folder <code>hocR</code> vào file.<br />
@@ -181,6 +180,16 @@ Chuyện kể của giáo sư Lesaffre, tác giả Bayesian Biostatistics&#160;<
 
     </section>
 </article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/2014/dao-duc-trong-thong-ke/">&laquo; Đạo đức trong thống kê</a>
+  
+  
+    <a class="next" href="/2014/hoc-r-1-giai-bai-tap-va-cac-van-de-lien-quan/">Học R - [1] Giải bài tập và các vấn đề liên quan &raquo;</a>
+  
+</div>
+
 <footer id="post-meta" class="clearfix">
     <a href="http://twitter.com/">
         <img class="avatar" src="/assets/images/avatar.png">
@@ -224,7 +233,75 @@ Chuyện kể của giáo sư Lesaffre, tác giả Bayesian Biostatistics&#160;<
     </div>
 
 
-<!-- Archive post list -->
+<h3>Bài liên quan</h3>
+
+
+  
+    
+    
+  
+    
+      <div>
+        <h5><a href="/2014/dao-duc-trong-thong-ke/">Đạo đức trong thống kê</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2014/dich-te-hoc-doi-dien-voi-nhung-han-che-phan-iv-su-cuu-roi-tu-thong-ke/">Dịch tễ học đối diện với những hạn chế [Phần IV]: Sự cứu rỗi từ thống kê?</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2013/tat-ca-mo-hinh-la-sai/">Tất cả mô hình là sai</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2013/nhom-chung/">Vui: Nhóm chứng</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2012/vai-tro-cua-thong-ke-trong-y-hoc/">Vai trò của thống kê trong y học</a></h5>
+      </div>
+      
+    
+  
+
+  
+    
+      <div>
+        <h5><a href="/2014/hoc-r-1-giai-bai-tap-va-cac-van-de-lien-quan/">Học R - [1] Giải bài tập và các vấn đề liên quan</a></h5>
+      </div>
+      
+    
+  
+    
+    
+  
+    
+      <div>
+        <h5><a href="/2013/su-dung-r-ve-duong-cong-roc-va-chon-nguong-chan-doan/">Sử dụng R vẽ đường cong ROC và chọn ngưỡng chẩn đoán</a></h5>
+      </div>
+      
+    
+  
+
+  
+    
+    
+  
+    
+    
+  
 
 
   </section>

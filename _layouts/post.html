@@ -9,10 +9,19 @@ archive: true
         <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
     </header>
     <section id="post-body">
-      {% capture newcontent %}{{content}} {% include glossary.md %}{% endcapture %}
-      {{ newcontent | markdownify }}
+      {{content}}
     </section>
 </article>
+
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+
 <footer id="post-meta" class="clearfix">
     <a href="http://twitter.com/{{ site.authorTwitter }}">
         <img class="avatar" src="{{ site.baseurl }}assets/images/avatar.png">
@@ -35,14 +44,16 @@ archive: true
     </div>
 {% endif %}
 
-<!-- Archive post list -->
-{% if page.archive %}
-    <ul id="post-list" class="archive readmore">
-        <h3>Read more</h3>
-        {% for post in site.posts %}
-            <li>
-                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-            </li>
-        {% endfor %}
-    </ul>
-{% endif %}
+<h3>Bài liên quan</h3>
+{% assign listed_posts_urls = page.url | split: ' ' %}
+{% for tag in page.tags %}
+  {% for mypost in site.tags[tag] %}
+    {% if listed_posts_urls contains mypost.url %}
+    {% else %}
+      <div>
+        <h5><a href="{{ mypost.url }}">{{ mypost.title }}</a></h5>
+      </div>
+      {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}

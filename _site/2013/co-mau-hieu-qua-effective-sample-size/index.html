@@ -65,32 +65,41 @@
         <h2 class="headline">April 30, 2013</h2>
     </header>
     <section id="post-body">
-      
       <p><a href="http://www.ytecongcong.com/wp-content/uploads/2013/04/Power-Wordle.png"><img class="alignnone  wp-image-992" title="Power Wordle" src="http://www.ytecongcong.com/wp-content/uploads/2013/04/Power-Wordle.png" alt="" width="580" height="292" /></a></p>
-<p>Khi cách <abbr class="abbrev" title="sampling">chọn mẫu</abbr> phức tạp, kết quả mẫu có được sẽ không độc lập và có <abbr class="abbrev" title="distribution">phân phối</abbr> không đồng nhất. Chẳng hạn chọn phân tầng, <abbr class="abbrev" title="sampling">chọn mẫu</abbr> cụm hoặc dùng trọng số khác nhau để tăng hiệu quả trong lấy mẫu nhưng làm ảnh hưởng đến ước lượng phương sai của mẫu nghiên cứu.</p>
-<blockquote><p>Cỡ mẫu hiệu quả đo lường ảnh hưởng của cách <abbr class="abbrev" title="sampling">chọn mẫu</abbr> lên các ước lượng, được định nghĩa là <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> nếu <abbr class="abbrev" title="sampling">chọn mẫu</abbr> theo phương pháp <abbr class="abbrev" title="sampling">chọn mẫu</abbr> ngẫu nhiên đơn có hoàn lại mà cho phương sai của ước lượng bằng với phương sai có được từ cách <abbr class="abbrev" title="sampling">chọn mẫu</abbr> sử dụng trong nghiên cứu.</p></blockquote>
-<p>Để đơn giản, minh họa với <abbr class="abbrev" title="data">dữ kiện</abbr> nhị giá có <abbr class="abbrev" title="distribution">phân phối</abbr> Binomial, lượng thông tin cung cấp từ mỗi cụm là</p>
+<p>Khi cách chọn mẫu phức tạp, kết quả mẫu có được sẽ không độc lập và có phân phối không đồng nhất. Chẳng hạn chọn phân tầng, chọn mẫu cụm hoặc dùng trọng số khác nhau để tăng hiệu quả trong lấy mẫu nhưng làm ảnh hưởng đến ước lượng phương sai của mẫu nghiên cứu.</p>
+<blockquote><p>Cỡ mẫu hiệu quả đo lường ảnh hưởng của cách chọn mẫu lên các ước lượng, được định nghĩa là cỡ mẫu nếu chọn mẫu theo phương pháp chọn mẫu ngẫu nhiên đơn có hoàn lại mà cho phương sai của ước lượng bằng với phương sai có được từ cách chọn mẫu sử dụng trong nghiên cứu.</p></blockquote>
+<p>Để đơn giản, minh họa với dữ kiện nhị giá có phân phối Binomial, lượng thông tin cung cấp từ mỗi cụm là</p>
 <p>$$ var \left(\dfrac{\sum_{j=1}^{n_i} y_{ij}}{n_i} \right) $$</p>
-<p>$$ = \dfrac{1}{n_i^2} \left[\sum\limits_{j=1}^{n_i} var(y_{ij} +2 \sum\limits_{j&lt;j'} Cov(y_{ij}, y_{ij'})) \right] $$<br />
+<p>$$ = \dfrac{1}{n_i^2} \left[\sum\limits_{j=1}^{n_i} var(y_{ij} +2 \sum\limits_{j<j'} Cov(y_{ij}, y_{ij'})) \right] $$<br />
 $$ = \dfrac{1}{n_i^2} \left[n_i p_i (1-p_i) + n_i (1-n_i) \rho p_i (1-p_i) \right] $$<br />
 $$ = \dfrac{1}{n_i} p_i (1-p_i) [1+ \rho (n_i-1)]$$</p>
 <p>Trong trường hợp nghiên cứu tiến hành với các đối tượng nghiên cứu là độc lập trong mỗi cụm, công thức trên bằng</p>
 <p>$$ \dfrac{1}{\tilde{n}_i} p_i(1-p_i) \Rightarrow \tilde{n}_i = \dfrac{n_i}{1+\rho(n_i-1)} $$</p>
-<p>Do đó, với toàn bộ <abbr class="abbrev" title="sample size">cỡ mẫu</abbr>, <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> hiệu quả</p>
+<p>Do đó, với toàn bộ cỡ mẫu, cỡ mẫu hiệu quả</p>
 <p>$$ N_{\text{Eff}} = \sum\limits_{i=1}^{N} \tilde{n}_i = \sum\limits_{i=1}^{N} \dfrac{n_i}{1+\rho(n_i-1)} $$</p>
-<p>Với <abbr class="abbrev" title="data">dữ kiện</abbr> định lượng liên tục và <abbr class="abbrev" title="distribution">phân phối</abbr> bình thường cũng đưa đến cùng công thức tính <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> hiệu quả tương tự. Hai trường hợp đặc biệt có thể xảy ra</p>
+<p>Với dữ kiện định lượng liên tục và phân phối bình thường cũng đưa đến cùng công thức tính cỡ mẫu hiệu quả tương tự. Hai trường hợp đặc biệt có thể xảy ra</p>
 <ul>
 <li>Khi hoàn toàn không có tương quan trong mỗi cụm $$ \rho=0 \Rightarrow N_{\text{Eff}} = \sum n_i $$ = Cỡ mẫu nghiên cứu</li>
 <li>Khi hoàn toàn có tương quan hoàn toàn trong mỗi cụm $$ \rho=1 \Rightarrow N_{\text{Eff}} = \sum n_i/n_i $$ = Số cụm</li>
 </ul>
 <p>Ví dụ trong nghiên cứu với $$ ICC = 0.45 \Rightarrow N_{\text{Eff}} \approx 209 $$, nghĩa là kết quả trong nghiên cứu này (có tính cụm) tương đương với kết quả thu được trên 209 đối tượng độc lập với nhau.</p>
 <p><strong> Giới hạn thông tin:</strong></p>
-<p>Trong công thức <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> hiệu quả, nếu <abbr class="abbrev" title="sample size">cỡ mẫu</abbr> càng lớn</p>
+<p>Trong công thức cỡ mẫu hiệu quả, nếu cỡ mẫu càng lớn</p>
 <p>$$ \lim\limits_{n_i \rightarrow + \infty} \dfrac{n_i}{1+\rho(n_i-1)} = \dfrac{1}{\rho} $$</p>
 <p>do đó lượng thông tin đóng góp từ mỗi cụm là có hạn khi có tương quan trong cụm, trừ trường hợp các đối tượng trong cụm là độc lập. Ví dụ với ICC=0.45, giới hạn tính được tương ứng là 2.2, nghĩa là một cụm không bao giờ cung cấp được lượng thông tin (ví dụ trọng lượng trung bình) nhiều hơn lượng thông tin thu được từ 2.2 đối tượng nghiên cứu trong một cụm.</p>
 
     </section>
 </article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/2013/gia-du-kien-nghien-cuu-ngoi-tu/">&laquo; Giả dữ kiện nghiên cứu - ngồi tù</a>
+  
+  
+    <a class="next" href="/2013/lam-sao-de-song-lau-song-khoe-bai-hoc-tu-nhat-ban-tho-khoa-hoc-con-coc/">Làm sao để sống lâu, sống khỏe: Bài học từ Nhật Bản (* thơ khoa học con cóc) &raquo;</a>
+  
+</div>
+
 <footer id="post-meta" class="clearfix">
     <a href="http://twitter.com/">
         <img class="avatar" src="/assets/images/avatar.png">
@@ -134,7 +143,60 @@ $$ = \dfrac{1}{n_i} p_i (1-p_i) [1+ \rho (n_i-1)]$$</p>
     </div>
 
 
-<!-- Archive post list -->
+<h3>Bài liên quan</h3>
+
+
+  
+    
+      <div>
+        <h5><a href="/2013/tinh-co-mau-nghien-cuu/">Ước lượng cỡ mẫu so sánh hai tỷ lệ</a></h5>
+      </div>
+      
+    
+  
+    
+    
+  
+    
+      <div>
+        <h5><a href="/2012/cach-tinh-co-mau/">Cách tính cỡ mẫu</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2012/uoc-luong-kich-co-dan-so/">Ước lượng kích cỡ dân số</a></h5>
+      </div>
+      
+    
+  
+
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
 
 
   </section>
