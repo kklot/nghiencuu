@@ -1,4 +1,4 @@
-name: Khoa học sức khỏe
+name: Y tế Công cộng
 description: Gieo sức khỏe - Gặt niềm tin
 meta_description: "Nghiên cứu khoa học - Khoa học sức khỏe - Dịch tễ học - Y tế Công cộng - Thống kê - Việt Nam"
 
@@ -18,7 +18,7 @@ disqus_shortname: 'ytecongcong'
 
 # Details for the RSS feed generator
 url:            'http://www.ytecongcong.com'
-author:         'Khoa học Sức khỏe'
+author:         'YTCC Online'
 # authorTwitter:  'fieuvan'
 
 paginate: 7
