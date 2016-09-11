@@ -129,9 +129,9 @@ if (gioitinh = 1){
 }
 ```
 
-Nếu muốn chỉ rõ ngôn ngữ của code để tô màu code (lưu ý trang này tự động phát hiện ngôn ngữ nên các code phía trên cũng được tô màu):
+Nếu muốn chỉ rõ ngôn ngữ của code để tô màu code:
 
-```r
+``` r
 if (gioitinh = 1){
   return "Nam"
 }
@@ -152,9 +152,9 @@ if (gioitinh = 1){
 }
 ~~~
 
-Nếu muốn chỉ rõ ngôn ngữ của code để tô màu code (lưu ý trang này tự động phát hiện ngôn ngữ nên các code phía trên cũng được tô màu):
+Nếu muốn chỉ rõ ngôn ngữ của code để tô màu code:
 
-```r
+``` r
 if (gioitinh = 1){
   return "Nam"
 }

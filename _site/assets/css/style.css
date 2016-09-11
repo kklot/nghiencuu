@@ -248,7 +248,7 @@ em, i { font-style: italic; }
 }
 
 .post h2 {
-	margin-bottom: 40px;
+	margin: 20px 0;
 	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  color: #111;
 }
@@ -309,21 +309,25 @@ hr {
 span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
 
 pre	{
-	font-family:Menlo, Monaco, Courier;
 	white-space:pre-wrap;
-	/*border: 1px solid #ddd;*/
-	padding:20px;
-	background-color:#fdfdfd;
-	/*font-size:14px;*/
+	border: 1px solid #ddd;
+	padding: 5px 10px;
 	overflow:auto;
 	border-radius: 3px;
-	background: #272b2d;
-	  font-family: 'Source Code Pro',Menlo,monospace;
-	  font-size: 13px;
-	  line-height: 1.5em;
-	  font-weight: 500;
-	color: #d0d4d7;
-
+	font-family: 'Source Code Pro',Menlo,monospace;
+	font-size: small;
+	/*line-height: 1.5em;*/
+	/*font-weight: 500;*/
+	/*color: #B58900;*/
+}
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #FDF6E3;
+  border-radius: 3px;
+	font-family: 'Source Code Pro',Menlo,monospace;
+	font-size: small;
 }
 
 table {
