@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Y tế Công cộng - Cài JAGS trên Linux</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Y tế Công cộng" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Cài JAGS trên Linux - Y tế Công cộng</title>
+<meta property="og:title" content="Cài JAGS trên Linux" />
+<meta name="description" content="JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang mcmc-jags nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗiinstallation of package ‘rjags’ had non-zero exit statuslibjags.so.3: cannot open shared object file: No such file or directoryĐể cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:sudo add-apt-repository ppa:marutter/rruttersudo add-apt-repository ppa:marutter/c2d4uSau đó cài trực tiếpsudo apt-get install r-cran-rjagsHai chức năng đáng chú ý của R2jags so với R2winBUGSKhả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnhupdate(mohing, n.iter=100)autojags(mohinh) # tự động update đến khi hội tụHiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng yên tâm là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux." />
+<meta property="og:description" content="JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang mcmc-jags nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗiinstallation of package ‘rjags’ had non-zero exit statuslibjags.so.3: cannot open shared object file: No such file or directoryĐể cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:sudo add-apt-repository ppa:marutter/rruttersudo add-apt-repository ppa:marutter/c2d4uSau đó cài trực tiếpsudo apt-get install r-cran-rjagsHai chức năng đáng chú ý của R2jags so với R2winBUGSKhả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnhupdate(mohing, n.iter=100)autojags(mohinh) # tự động update đến khi hội tụHiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng yên tâm là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux." />
+<link rel="canonical" href="http://www.ytecongcong.com//2014/05/cai-jags-tren-linux/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2014/05/cai-jags-tren-linux/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-05-19T20:59:52+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Cài JAGS trên Linux",
+    "datePublished": "2014-05-19T20:59:52+02:00",
+    "description": "JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang mcmc-jags nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗiinstallation of package ‘rjags’ had non-zero exit statuslibjags.so.3: cannot open shared object file: No such file or directoryĐể cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:sudo add-apt-repository ppa:marutter/rruttersudo add-apt-repository ppa:marutter/c2d4uSau đó cài trực tiếpsudo apt-get install r-cran-rjagsHai chức năng đáng chú ý của R2jags so với R2winBUGSKhả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnhupdate(mohing, n.iter=100)autojags(mohinh) # tự động update đến khi hội tụHiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng yên tâm là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux.",
+    "url": "http://www.ytecongcong.com//2014/05/cai-jags-tren-linux/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span>&#x2302; </a>
+    
+
+    <!--  -->
+        <a href="http://stats.ytecongcong.com">? </a>
+    <!--  -->
+    <!-- 
+        <a href="/about">? </a>
+     -->
+    
+        <a href="/search">&#128270; </a>
+    
+    
+        <a href="/archive">&#x2245; </a>
+    
+    <a href="/feed.xml">&#9829;</a>
+    <!-- <a class="cta" href="/feed.xml">&#9829;</a> -->
+</nav>
+
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Cài JAGS trên Linux</h1>
+        <h2 class="headline">May 19, 2014</h2>
+    </header>
+    <section id="post-body">
+      <p>JAGS- Just Another Gibbs Sampler là phần mềm mã nguồn mở cung cấp chức năng tương tự WinBUGS. Tuy nhiên JAGS được biết là tốc độ nhanh hơn, nhất là cho các mô hình ảnh hưởng hỗn hợp (mixed model) hay còn gọi là mô hình theo thứ bậc (hierarchical model). Để cài trên Linux, có thể build từ gói cung cấp trên trang <a href="https://sourceforge.net/p/mcmc-jags/">mcmc-jags</a> nhưng thường sẽ gặp các vấn đề về các gói phụ thuộc đi kèm, v.d. các lỗi</p>
+<pre><code>installation of package ‘rjags’ had non-zero exit status
+libjags.so.3: cannot open shared object file: No such file or directory
+</code></pre>
+<p>Để cài đặt, thêm 2 PPA sau và cài trực tiếp từ terminal:</p>
+<pre><code>sudo add-apt-repository ppa:marutter/rrutter
+sudo add-apt-repository ppa:marutter/c2d4u
+</code></pre>
+<p>Sau đó cài trực tiếp</p>
+<pre><code>sudo apt-get install r-cran-rjags</code></pre>
+<h2>Hai chức năng đáng chú ý của <code>R2jags</code> so với <code>R2winBUGS</code></h2>
+<ul>
+<li>Khả năng cập nhật lại mô hình đã lưu hoặc cập nhật đến khi mô hình hội tụ với các lệnh</li>
+</ul>
+<pre><code>update(mohing, n.iter=100)
+autojags(mohinh) # tự động update đến khi hội tụ
+</code></pre>
+<ul>
+<li>Hiển thị bước lặp đang chạy, với những mô hình phức tạp như đã nói ở trên, thời gian chạy mô hình là rất lâu và đòi hỏi nhiều tài nguyên của máy. Chức năng này giúp người dùng <em>yên tâm</em> là chương trình vẫn đang hoạt động và ước lượng được khoảng thời gian còn lại. V.d. R2jags trên Linux.</li>
+</ul>
+<p><img src="https://dl.dropboxusercontent.com/u/29949485/iterations%20System%20monitor%20with%20r2jags.png" alt="" /></p>
+
+    </section>
+</article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/2014/04/nen-dua-ra-bao-dong-gia-hay-la-khong-ii/">&laquo; Nên đưa ra báo động dù giả hay là không? [Phần II]</a>
+  
+  
+    <a class="next" href="/2014/05/ubuntu-cai-nhanh-texlive-cho-latex/">[Ubuntu] Cài nhanh Texlive cho Latex &raquo;</a>
+  
+</div>
+
+<footer id="post-meta" class="clearfix">
+    <a href="/">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Y tế Công cộng</span>
+            <span>Gieo sức khỏe - Gặt niềm tin</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=www.ytecongcong.com/2014/05/cai-jags-tren-linux/ - Cài JAGS trên Linux by @"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'ytecongcong';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<h3>Bài liên quan</h3>
+
+
+  
+    
+    
+  
+    
+      <div>
+        <h5><a href="/2013/03/nguoi-khac-cuoi-voi-minh-moi-luc-gap-nhau-nghia-la-gi/">Người khác cười với mình mỗi lúc gặp nhau nghĩa là gì?</a></h5>
+      </div>
+      
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+  </section>
+
+  <script src="/assets/js/main.js"></script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83930831-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

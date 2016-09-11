@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Y tế Công cộng - GIS và Y tế Công cộng</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Y tế Công cộng" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>GIS và Y tế Công cộng - Y tế Công cộng</title>
+<meta property="og:title" content="GIS và Y tế Công cộng" />
+<meta name="description" content="Quản lý sức khỏe cộng đồng cần nhiều thông tin trong nhiều lĩnh vực khác nhau như các dịch bệnh thường gặp, cơ sở vật chất hiện có để không chỉ đưa ra những quyết định trong việc tạo hạ tầng cơ sở hay đưa ra những hành động tức thì nhằm xử lý các tình huống …Những quyết định này cần được đưa ra dựa trên việc quan sát dữ liệu hiện có cũng như các dữ liệu liên quan đến y tế trên toàn quốc và toàn bộ dữ liệu dân số, và do đó sẽ cực kỳ khó khăn để hiểu được ý nghĩa thực sự của nó.Các dữ liệu này cần được thể hiện theo một cách thức nhất định đối với thông tin không gian và thời gian. Sự thay đổi không gian trong dữ liệu y tế được biết đến và nghiên cứu là một lĩnh vực căn bản của quá trình nghiên cứu bệnh dịch. Hầu hết các dữ liệu về bệnh dịch đều thể hiện thời gian và địa điểm cụ thể.Các phân tích không gian tiên tiến gồm việc kết hợp các lớp dữ liệu khác nhau. Ví dụ: cán bộ y tế muốn quan tâm đến việc đánh giá số lượng trẻ nhỏ trong một nhóm tuổi nhất đinh có thể bị bệnh sốt rét. Dữ liệu khí hậu và địa hình có thể được sử dụng nhằm xác định khu vực muỗi gây bệnh sốt rét. Khu vực này có thể không theo các ranh giới hành chính.Tóm lại, với các số liệu thống kê và hệ thống thông tin địa lý (GIS) cho phép người sử dụng phân tích hiệu quả thông tin về y tế mà không quá tốn kém hay không thể thực hiện được như trước đây. Hệ thống thông tin địa lý (GIS) là công nghệ mới giúp tạo dữ liệu cho việc phân tích cả ở không gian và thời gian.Một vài câu hỏi điển hình có thể được giải đáp thông qua GIS như sau:	Chúng ta có thể xác định vị trí một loại bệnh dịch thường gặp được không?	Chúng ta có thể đưa ra những bằng chứng về các nhân tố gây ra dịch bệnh không?	Nơi cung cấp các thông tin cho nhân viên và cơ sở hạ tầng ở đâu?	Địa chỉ của Trung tâm chăm sóc sức khỏe ban đầu ở đâu?	Nguồn nước ở đâu liên quan đến bệnh dịch thường gặp?	Ở đâu có tỷ lệ trẻ tử vong cao?	Ở đâu có tỉ lệ sinh cao?Thành phần trong giải pháp GIS cho dự án:	ArcSDE	ArcGIS Engine	AtlasServer	Bản đồ nền	GPS và GSM/GPRSCác công việc thực hiện trong dự án:	Phân tích thiết kế hệ thống phần cứng phần mềm và thiết bị ngoại vi	Phân tích xây dựng CSDL riêng cho hệ thống	Thành lập bản đồ nền	Thành lập bản đồ chuyên đề	Xây dựng hệ thống phần mềm trên desktop	Xây dựng hệ thống phần mềm trên Internet	GPS survey	GIS training	GPS training" />
+<meta property="og:description" content="Quản lý sức khỏe cộng đồng cần nhiều thông tin trong nhiều lĩnh vực khác nhau như các dịch bệnh thường gặp, cơ sở vật chất hiện có để không chỉ đưa ra những quyết định trong việc tạo hạ tầng cơ sở hay đưa ra những hành động tức thì nhằm xử lý các tình huống …Những quyết định này cần được đưa ra dựa trên việc quan sát dữ liệu hiện có cũng như các dữ liệu liên quan đến y tế trên toàn quốc và toàn bộ dữ liệu dân số, và do đó sẽ cực kỳ khó khăn để hiểu được ý nghĩa thực sự của nó.Các dữ liệu này cần được thể hiện theo một cách thức nhất định đối với thông tin không gian và thời gian. Sự thay đổi không gian trong dữ liệu y tế được biết đến và nghiên cứu là một lĩnh vực căn bản của quá trình nghiên cứu bệnh dịch. Hầu hết các dữ liệu về bệnh dịch đều thể hiện thời gian và địa điểm cụ thể.Các phân tích không gian tiên tiến gồm việc kết hợp các lớp dữ liệu khác nhau. Ví dụ: cán bộ y tế muốn quan tâm đến việc đánh giá số lượng trẻ nhỏ trong một nhóm tuổi nhất đinh có thể bị bệnh sốt rét. Dữ liệu khí hậu và địa hình có thể được sử dụng nhằm xác định khu vực muỗi gây bệnh sốt rét. Khu vực này có thể không theo các ranh giới hành chính.Tóm lại, với các số liệu thống kê và hệ thống thông tin địa lý (GIS) cho phép người sử dụng phân tích hiệu quả thông tin về y tế mà không quá tốn kém hay không thể thực hiện được như trước đây. Hệ thống thông tin địa lý (GIS) là công nghệ mới giúp tạo dữ liệu cho việc phân tích cả ở không gian và thời gian.Một vài câu hỏi điển hình có thể được giải đáp thông qua GIS như sau:	Chúng ta có thể xác định vị trí một loại bệnh dịch thường gặp được không?	Chúng ta có thể đưa ra những bằng chứng về các nhân tố gây ra dịch bệnh không?	Nơi cung cấp các thông tin cho nhân viên và cơ sở hạ tầng ở đâu?	Địa chỉ của Trung tâm chăm sóc sức khỏe ban đầu ở đâu?	Nguồn nước ở đâu liên quan đến bệnh dịch thường gặp?	Ở đâu có tỷ lệ trẻ tử vong cao?	Ở đâu có tỉ lệ sinh cao?Thành phần trong giải pháp GIS cho dự án:	ArcSDE	ArcGIS Engine	AtlasServer	Bản đồ nền	GPS và GSM/GPRSCác công việc thực hiện trong dự án:	Phân tích thiết kế hệ thống phần cứng phần mềm và thiết bị ngoại vi	Phân tích xây dựng CSDL riêng cho hệ thống	Thành lập bản đồ nền	Thành lập bản đồ chuyên đề	Xây dựng hệ thống phần mềm trên desktop	Xây dựng hệ thống phần mềm trên Internet	GPS survey	GIS training	GPS training" />
+<link rel="canonical" href="http://www.ytecongcong.com//2012/10/gis/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2012/10/gis/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-10-20T06:17:01+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "GIS và Y tế Công cộng",
+    "datePublished": "2012-10-20T06:17:01+02:00",
+    "description": "Quản lý sức khỏe cộng đồng cần nhiều thông tin trong nhiều lĩnh vực khác nhau như các dịch bệnh thường gặp, cơ sở vật chất hiện có để không chỉ đưa ra những quyết định trong việc tạo hạ tầng cơ sở hay đưa ra những hành động tức thì nhằm xử lý các tình huống …Những quyết định này cần được đưa ra dựa trên việc quan sát dữ liệu hiện có cũng như các dữ liệu liên quan đến y tế trên toàn quốc và toàn bộ dữ liệu dân số, và do đó sẽ cực kỳ khó khăn để hiểu được ý nghĩa thực sự của nó.Các dữ liệu này cần được thể hiện theo một cách thức nhất định đối với thông tin không gian và thời gian. Sự thay đổi không gian trong dữ liệu y tế được biết đến và nghiên cứu là một lĩnh vực căn bản của quá trình nghiên cứu bệnh dịch. Hầu hết các dữ liệu về bệnh dịch đều thể hiện thời gian và địa điểm cụ thể.Các phân tích không gian tiên tiến gồm việc kết hợp các lớp dữ liệu khác nhau. Ví dụ: cán bộ y tế muốn quan tâm đến việc đánh giá số lượng trẻ nhỏ trong một nhóm tuổi nhất đinh có thể bị bệnh sốt rét. Dữ liệu khí hậu và địa hình có thể được sử dụng nhằm xác định khu vực muỗi gây bệnh sốt rét. Khu vực này có thể không theo các ranh giới hành chính.Tóm lại, với các số liệu thống kê và hệ thống thông tin địa lý (GIS) cho phép người sử dụng phân tích hiệu quả thông tin về y tế mà không quá tốn kém hay không thể thực hiện được như trước đây. Hệ thống thông tin địa lý (GIS) là công nghệ mới giúp tạo dữ liệu cho việc phân tích cả ở không gian và thời gian.Một vài câu hỏi điển hình có thể được giải đáp thông qua GIS như sau:\tChúng ta có thể xác định vị trí một loại bệnh dịch thường gặp được không?\tChúng ta có thể đưa ra những bằng chứng về các nhân tố gây ra dịch bệnh không?\tNơi cung cấp các thông tin cho nhân viên và cơ sở hạ tầng ở đâu?\tĐịa chỉ của Trung tâm chăm sóc sức khỏe ban đầu ở đâu?\tNguồn nước ở đâu liên quan đến bệnh dịch thường gặp?\tỞ đâu có tỷ lệ trẻ tử vong cao?\tỞ đâu có tỉ lệ sinh cao?Thành phần trong giải pháp GIS cho dự án:\tArcSDE\tArcGIS Engine\tAtlasServer\tBản đồ nền\tGPS và GSM/GPRSCác công việc thực hiện trong dự án:\tPhân tích thiết kế hệ thống phần cứng phần mềm và thiết bị ngoại vi\tPhân tích xây dựng CSDL riêng cho hệ thống\tThành lập bản đồ nền\tThành lập bản đồ chuyên đề\tXây dựng hệ thống phần mềm trên desktop\tXây dựng hệ thống phần mềm trên Internet\tGPS survey\tGIS training\tGPS training",
+    "url": "http://www.ytecongcong.com//2012/10/gis/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span>&#x2302; </a>
+    
+
+    <!--  -->
+        <a href="http://stats.ytecongcong.com">? </a>
+    <!--  -->
+    <!-- 
+        <a href="/about">? </a>
+     -->
+    
+        <a href="/search">&#128270; </a>
+    
+    
+        <a href="/archive">&#x2245; </a>
+    
+    <a href="/feed.xml">&#9829;</a>
+    <!-- <a class="cta" href="/feed.xml">&#9829;</a> -->
+</nav>
+
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>GIS và Y tế Công cộng</h1>
+        <h2 class="headline">October 20, 2012</h2>
+    </header>
+    <section id="post-body">
+      <p align="justify"><a href="http://www.ytecongcong.com/2012/11/gis/gis-2/" rel="attachment wp-att-471"><img class="alignnone  wp-image-471" title="gis" src="http://www.ytecongcong.com/wp-content/uploads/2012/11/gis-300x63.jpg" alt="" width="580" height="170" /></a></p>
+<p align="justify">Quản lý sức khỏe cộng đồng cần nhiều thông tin trong nhiều lĩnh vực khác nhau như các dịch bệnh thường gặp, cơ sở vật chất hiện có để không chỉ đưa ra những quyết định trong việc tạo hạ tầng cơ sở hay đưa ra những hành động tức thì nhằm xử lý các tình huống …</p>
+<p align="justify">Những quyết định này cần được đưa ra dựa trên việc quan sát dữ liệu hiện có cũng như các dữ liệu liên quan đến y tế trên toàn quốc và toàn bộ dữ liệu dân số, và do đó sẽ cực kỳ khó khăn để hiểu được ý nghĩa thực sự của nó.</p>
+<p align="justify">Các dữ liệu này cần được thể hiện theo một cách thức nhất định đối với thông tin không gian và thời gian. Sự thay đổi không gian trong dữ liệu y tế được biết đến và nghiên cứu là một lĩnh vực căn bản của quá trình nghiên cứu bệnh dịch. Hầu hết các dữ liệu về bệnh dịch đều thể hiện thời gian và địa điểm cụ thể.</p>
+<p align="justify">Các phân tích không gian tiên tiến gồm việc kết hợp các lớp dữ liệu khác nhau. Ví dụ: cán bộ y tế muốn quan tâm đến việc đánh giá số lượng trẻ nhỏ trong một nhóm tuổi nhất đinh có thể bị bệnh sốt rét. Dữ liệu khí hậu và địa hình có thể được sử dụng nhằm xác định khu vực muỗi gây bệnh sốt rét. Khu vực này có thể không theo các ranh giới hành chính.</p>
+<p align="justify">Tóm lại, với các số liệu thống kê và hệ thống thông tin địa lý (GIS) cho phép người sử dụng phân tích hiệu quả thông tin về y tế mà không quá tốn kém hay không thể thực hiện được như trước đây. Hệ thống thông tin địa lý (GIS) là công nghệ mới giúp tạo dữ liệu cho việc phân tích cả ở không gian và thời gian.</p>
+<p align="justify"><strong>Một vài câu hỏi điển hình có thể được giải đáp thông qua GIS như sau:</strong></p>
+<ul>
+<li>Chúng ta có thể xác định vị trí một loại bệnh dịch thường gặp được không?</li>
+<li>Chúng ta có thể đưa ra những bằng chứng về các nhân tố gây ra dịch bệnh không?</li>
+<li>Nơi cung cấp các thông tin cho nhân viên và cơ sở hạ tầng ở đâu?</li>
+<li>Địa chỉ của Trung tâm chăm sóc sức khỏe ban đầu ở đâu?</li>
+<li>Nguồn nước ở đâu liên quan đến bệnh dịch thường gặp?</li>
+<li>Ở đâu có tỷ lệ trẻ tử vong cao?</li>
+<li>Ở đâu có tỉ lệ sinh cao?</li>
+</ul>
+<p align="justify"><strong>Thành phần trong giải pháp GIS cho dự án:</strong></p>
+<ul>
+<li>ArcSDE</li>
+<li>ArcGIS Engine</li>
+<li>AtlasServer</li>
+<li>Bản đồ nền</li>
+<li>GPS và GSM/GPRS</li>
+</ul>
+<p align="justify"><strong>Các công việc thực hiện trong dự án:</strong></p>
+<ul>
+<li>Phân tích thiết kế hệ thống phần cứng phần mềm và thiết bị ngoại vi</li>
+<li>Phân tích xây dựng CSDL riêng cho hệ thống</li>
+<li>Thành lập bản đồ nền</li>
+<li>Thành lập bản đồ chuyên đề</li>
+<li>Xây dựng hệ thống phần mềm trên desktop</li>
+<li>Xây dựng hệ thống phần mềm trên Internet</li>
+<li>GPS survey</li>
+<li>GIS training</li>
+<li>GPS training</li>
+</ul>
+<p><a id="more"></a><a id="more-470"></a></p>
+<p>Ngay khi tập đoàn sản xuất vac – xin Chiron thông báo rằng không đủ liều vacxin cung cấp cho mùa dịch 2004 – 2005, Hệ thống dịch vụ sức khoẻ nhân loại (HHSS) Nebraska đã nhanh chóng nhận định hai việc cấp bách hiện nay là cung cấp vac-xin và xác định số lượng vac-xin cần thiết cho các quận trong bang. Khi nhận định này được đưa ra, HHSS đã phát triển một phương pháp hiệu quả trong việc cung cấp vac-xin khan hiếm.</p>
+<p>Hàng tuần, các thông tin thống kê vac – xin cúm được cập nhật lên cấp Bang, giúp định rõ nơi cung cấp và đảm bảo mọi người dân trong danh sách ưu tiên được cấp đầy đủ vac – xin. Các cơ quan GIS nhanh chóng thông tin những đánh giá tình hình và các nỗ lực ứng phó. Ngành y tế cộng đồng ngày càng tin tưởng vào công nghệ GIS. Với vai trò ban đầu là nghiên cứu dịch tễ học, GIS giờ đây đã được dùng trong ngành y tế cộng đồng một cách rộng rãi cả về số lượng tổ chức sử dụng lẫn các dạng ứng dụng.</p>
+<p>Từ việc phát hiện, ứng phó với việc bùng phát dịch bệnh truyền nhiễm cho đến việc cung cấp dịch vụ nhằm đảm bảo an toàn cho cấp nước và lương thực, khả năng tích hợp và phân tích dữ liệu của GIS sẽ không chỉ đơn thuần cung cấp dữ liệu mà còn cung cấp cách tiếp cận và quản lý thông tin tốt hơn.</p>
+<p>Dịch bệnh bùng phát có liên quan chặt chẽ với môi trường tự nhiên và kinh tế xã hội. Ví dụ, trong khu vực mà việc cấp nước thiếu thốn thì bệnh dịch tả là vấn đề thường xuyên. Bệnh sốt rét xảy ra điển hình ở vùng thuận lợi cho sự sinh sôi của muỗi.</p>
+<p>Theo ghi chép trong bài phát biểu của một nhà dịch tễ học - tiến sỹ Rita R. Colwell tại Hội nghị khách hàng quốc tế của hãng ESRI năm ngoái: “GIS cho phép người nghiên cứu tiếp cận một cách thống nhất và đầy đủ hơn để hiểu sự tương tác phức tạp giữa hệ thống sinh học và môi trường tự nhiên”.</p>
+<p>Viện ung thư quốc gia Mỹ (NCI) đã phát triển lượng lớn các ứng dụng GIS cơ bản trong việc tìm hiểu mô hình địa lý về tỷ lệ ung thư, theo dõi phát hiện và các tác động tới cộng đồng, đánh giá thực trạng môi trường, mô hình hoá sự lây lan và tỷ lệ sống sót của căn bệnh ung thư, xác định sự khác biệt về y tế, liên kết với cộng đồng và các chuyên viên nghiên cứu khác.</p>
+<p>GIS có ý nghĩa quan trọng trong việc phát hiện, quản lý và ứng phó với sự bùng phát dịch bệnh. Trong một thế giới liên tục chuyển động như ngày nay, dịch bệnh có thể đi xa hơn và nhanh hơn trước kia. Từ một trường hợp đầu tiên phát hiện năm 1981, căn bệnh HIV/AIDS đã nhanh chóng lan khắp toàn cầu và là nguyên nhân của hơn 20 triệu cái chết.</p>
+<p>GIS đang giúp cho việc quản lý điều trị cho các bệnh nhân nhiễm virut HIV ở Châu Phi. Dự án CellLife ở Nam Phi đã tích hợp GIS với các công nghệ khác nhằm tập hợp thông tin về việc phân phát thuốc một cách tốt hơn. Dự án này kết hợp với việc ứng dụng Cell phone, dữ liệu trên Internet, dữ liệu về HIV/AIDS và công nghệ GIS nhằm giúp các nhân viên y tế có thể nắm bắt cụ thể rõ ràng việc cung cấp thuốc cho từng người nhiễm HIV.</p>
+<p>Các cơ quan y tế cộng đồng không chỉ chiến đấu với những bệnh dịch mới nổi lên như HIV/AIDS mà còn các bệnh dịch đã đe doạ con người từ nhiều năm trước. Các triệu chứng của căn bệnh sốt rét đã được y học Trung Quốc miêu tả từ năm 2700 trước công nguyên, nhưng cho đến bây giờ nó vẫn còn là một mối đe doạ. Mỗi năm có 300 triệu người mắc và 100 triệu trường hợp tử vong. Không chỉ gây ra sự chịu đựng cho cá nhân, bệnh dịch này còn là nguyên nhân và biểu hiện của sự nghèo đói. Những phí tổn đáng kể cho cá nhân và cộng đồng cho việc phòng ngừa, điều trị và mất khả năng sản xuất có thể làm suy kiệt nền kinh tế.</p>
+<p>GIS đã chứng tỏ được giá trị của mình không chỉ trong việc quản lý sự bùng phát dịch bệnh mà còn trong việc quản lý các chương trình phòng chống và đo đếm được hiệu quả.</p>
+<p>Trong một vài trường hợp, các nhân viên y tế cộng đồng phải đối mặt với cả hai loại bệnh dịch cũ và mới. Tình trạng mới của họ bệnh truyền nhiễm như dịch tả Vibrio 0 139 và loại bệnh dịch tả mới thuộc nhóm Sero được phát hiện năm 1992 có thể gây ra một đại dịch bởi khả năng miễn dịch với loại virut cũ không còn tác dụng với phiên bản mới của loại dịch bệnh này. Ngoài mối lo lắng về sự biến đổi tự nhiên, các nhân viên y tế cũng phải chuẩn bị đối măt với sự bùng phát dịch bệnh truyền nhiễm biến đổi do kết quả của các hành động khủng bố.</p>
+<p>Mối đe doạ đối với ngành Y tế cộng đồng không chỉ là sự bùng phát trực tiếp của dịch bệnh mà còn là sự bùng phát gián tiếp qua quá trình cung cấp thức ăn. Sự bùng phát này có thể xảy ra từ nguyên nhân chủ quan lẫn hiện tượng tự nhiên. Bộ Nông nghiệp Mỹ đang triển khai một chương trình theo dõi động vật, tập trung trước hết vào vật nuôi. Chương trình này sử dụng GIS và các công nghệ thông tin khác nhằm xác định những ảnh hưởng và đặc tính của con vật trong 48 tiếng và xác định được con vật nhiễm bệnh.</p>
+<p>Giá trị của GIS trong ngành Y tế cộng đồng đã được thừa nhận rộng rãi. Mới đây, một hội nghị có sự tham gia của các lãnh đạo và các chuyên viên chăm sóc y tế từ Châu Phi, Châu Âu và Trung Đông đã được tổ chức bởi ESRI, HP, SAP, và Microsoft: "Viện chăm sóc Y tế  - Dịch vụ chăm sóc y tế tối ưu và kiểm soát quỹ y tế" tập trung vào việc sử dụng GIS để đáp ứng các nhu cầu ngày càng cao của hệ thống chăm sóc y tế. Hội nghị được tổ chức vào 16 -17 tháng 3 năm 2005 tại Vien – Áo đã nêu lên sự kết hơp chặt chẽ giữa công nghệ GIS với nguồn dữ liệu và kế hoạch của các cơ quan.</p>
+<p>Xem thêm<br />
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="http://www.slideshare.net/slideshow/embed_code/12954514?rel=0" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="512" height="421"></iframe></p>
+<div style="margin-bottom: 5px;"><strong> <a title="Geographic Information System" href="http://www.slideshare.net/nguyenkinh/geographic-information-system-12954514" target="_blank">Geographic Information System</a> </strong> from <strong><a href="http://www.slideshare.net/nguyenkinh" target="_blank">Kinh Nguyen</a></strong></div>
+
+    </section>
+</article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/2012/10/tam-giac-su-song-triangle-of-life/">&laquo; Tam Giác Sự Sống (Triangle of Life)</a>
+  
+  
+    <a class="next" href="/2012/10/tac-hai-nghe-nghiep-co-nguon-goc-sinh-hoc/">Tác hại nghề nghiệp có nguồn gốc sinh học &raquo;</a>
+  
+</div>
+
+<footer id="post-meta" class="clearfix">
+    <a href="/">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Y tế Công cộng</span>
+            <span>Gieo sức khỏe - Gặt niềm tin</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=www.ytecongcong.com/2012/10/gis/ - GIS và Y tế Công cộng by @"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'ytecongcong';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<h3>Bài liên quan</h3>
+
+
+  
+    
+      <div>
+        <h5><a href="/2014/03/qgis-2-2-valmiera-phan-mem-thao-tac-thong-tin-dia-ly/">QGIS 2.2 Valmiera - Phần mềm thao tác thông tin địa lý</a></h5>
+      </div>
+      
+    
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+  </section>
+
+  <script src="/assets/js/main.js"></script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83930831-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

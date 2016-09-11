@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Y tế Công cộng - Scheirer-Ray-Hare test: kiểm định phi tham số two-way ANOVA</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Y tế Công cộng" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Scheirer-Ray-Hare test: kiểm định phi tham số two-way ANOVA - Y tế Công cộng</title>
+<meta property="og:title" content="Scheirer-Ray-Hare test: kiểm định phi tham số two-way ANOVA" />
+<meta name="description" content="Được nhắc tới trong sách CALVIN, D. 2011 [1] nhưng không có sẵn trong các phần mềm, kể cả các diễn đàn thống kê nước ngoài. Code R sau để tạo và tính p-value kiểm định cho ảnh hưởng chính cũng như tương tác của hai nhân tố dựa trên sắp hạng dữ kiện nghiên cứu.Lưu ý, dữ kiện thao tác tên là data.wide được sắp xếp như dữ kiện cho mô hình ANOVA bình thường, biến số days_fresh là biến số phụ thuộc trong phân tích với 2 nhân tố là comp có 15 nhóm và species có 2 nhóm.Để tính, chỉ cần thay đổi tên biến và giữ nguyên các câu lệnh.# Sắp hạng dữ kiện" />
+<meta property="og:description" content="Được nhắc tới trong sách CALVIN, D. 2011 [1] nhưng không có sẵn trong các phần mềm, kể cả các diễn đàn thống kê nước ngoài. Code R sau để tạo và tính p-value kiểm định cho ảnh hưởng chính cũng như tương tác của hai nhân tố dựa trên sắp hạng dữ kiện nghiên cứu.Lưu ý, dữ kiện thao tác tên là data.wide được sắp xếp như dữ kiện cho mô hình ANOVA bình thường, biến số days_fresh là biến số phụ thuộc trong phân tích với 2 nhân tố là comp có 15 nhóm và species có 2 nhóm.Để tính, chỉ cần thay đổi tên biến và giữ nguyên các câu lệnh.# Sắp hạng dữ kiện" />
+<link rel="canonical" href="http://www.ytecongcong.com//2013/05/scheirer-ray-hare-test-kiem-dinh-phi-tham-so-two-way-anova/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2013/05/scheirer-ray-hare-test-kiem-dinh-phi-tham-so-two-way-anova/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-05-12T07:07:17+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Scheirer-Ray-Hare test: kiểm định phi tham số two-way ANOVA",
+    "datePublished": "2013-05-12T07:07:17+02:00",
+    "description": "Được nhắc tới trong sách CALVIN, D. 2011 [1] nhưng không có sẵn trong các phần mềm, kể cả các diễn đàn thống kê nước ngoài. Code R sau để tạo và tính p-value kiểm định cho ảnh hưởng chính cũng như tương tác của hai nhân tố dựa trên sắp hạng dữ kiện nghiên cứu.Lưu ý, dữ kiện thao tác tên là data.wide được sắp xếp như dữ kiện cho mô hình ANOVA bình thường, biến số days_fresh là biến số phụ thuộc trong phân tích với 2 nhân tố là comp có 15 nhóm và species có 2 nhóm.Để tính, chỉ cần thay đổi tên biến và giữ nguyên các câu lệnh.# Sắp hạng dữ kiện",
+    "url": "http://www.ytecongcong.com//2013/05/scheirer-ray-hare-test-kiem-dinh-phi-tham-so-two-way-anova/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span>&#x2302; </a>
+    
+
+    <!--  -->
+        <a href="http://stats.ytecongcong.com">? </a>
+    <!--  -->
+    <!-- 
+        <a href="/about">? </a>
+     -->
+    
+        <a href="/search">&#128270; </a>
+    
+    
+        <a href="/archive">&#x2245; </a>
+    
+    <a href="/feed.xml">&#9829;</a>
+    <!-- <a class="cta" href="/feed.xml">&#9829;</a> -->
+</nav>
+
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Scheirer-Ray-Hare test: kiểm định phi tham số two-way ANOVA</h1>
+        <h2 class="headline">May 12, 2013</h2>
+    </header>
+    <section id="post-body">
+      <p><a href="http://www.ytecongcong.com/wp-content/uploads/2013/04/R.png"><img class="alignnone  wp-image-978" title="R" alt="" src="http://www.ytecongcong.com/wp-content/uploads/2013/04/R.png" width="580" height="347" /></a></p>
+<p>Được nhắc tới trong sách <em>CALVIN, D. 2011 [1] </em>nhưng không có sẵn trong các phần mềm, kể cả các diễn đàn thống kê nước ngoài. Code R sau để tạo và tính p-value kiểm định cho ảnh hưởng chính cũng như tương tác của hai nhân tố dựa trên sắp hạng dữ kiện nghiên cứu.</p>
+<p>Lưu ý, dữ kiện thao tác tên là <strong>data.wide </strong>được sắp xếp như dữ kiện cho mô hình ANOVA bình thường, biến số <strong>days_fresh</strong> là biến số phụ thuộc trong phân tích với 2 nhân tố là <strong>comp</strong> có 15 nhóm và <strong>species</strong> có 2 nhóm.</p>
+<p>Để tính, chỉ cần thay đổi tên biến và giữ nguyên các câu lệnh.</p>
+<pre class="lang:r decode:true" title="Kiểm định với R"># Sắp hạng dữ kiện
+
+data.wide$rank = rank(data.wide$days_fresh,ties.method="average")
+
+# Chuyển biến số comp thành factor
+
+data.wide$comp = as.factor(data.wide$comp)
+# Lập mô hình ANOVA bình thường, với ảnh hưởng của các nhân tố và tương tác dựa trên dữ kiện sắp hạng
+
+paranova = anova(lm(data.wide$rank~ data.wide$comp+data.wide$species+data.wide$comp*data.wide$species))
+
+# Tính Mean square corrected total
+
+SS_correctedtotal = sum(paranova[1:4,2])
+MS_correctedtotal = SS_correctedtotal/sum(paranova[1:4,1])
+
+# Tính các số thống kê = SS/MS_correctedtotal cho mỗi nhân tố và tương tác
+
+kn_comp = paranova[1,2]/MS_correctedtotal
+kn_species = paranova[2,2]/MS_correctedtotal
+kn_inter = paranova[3,2]/MS_correctedtotal
+
+# Tính p-value cho từng ảnh tương tác
+
+p_comp = 1-pchisq(kn_comp,paranova[1,1])
+p_species = 1-pchisq(kn_species,paranova[2,1])
+p_inter = 1-pchisq(kn_inter,paranova[3,1])
+p_comp;p_species;p_inter</pre>
+<h3>Tài liệu tham khảo</h3>
+<ol>
+<li>
+<address>CALVIN, D. 2011. Choosing and Using Statistics:A Biologist’s Guide, A John Wiley &amp; Sons, Ltd., Publication.</address>
+</li>
+</ol>
+
+    </section>
+</article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/2013/05/lam-sao-de-song-lau-song-khoe-bai-hoc-tu-nhat-ban-tho-khoa-hoc-con-coc/">&laquo; Làm sao để sống lâu, sống khỏe: Bài học từ Nhật Bản (* thơ khoa học con cóc)</a>
+  
+  
+    <a class="next" href="/2013/05/tinh-co-mau-nghien-cuu/">Ước lượng cỡ mẫu so sánh hai tỷ lệ &raquo;</a>
+  
+</div>
+
+<footer id="post-meta" class="clearfix">
+    <a href="/">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Y tế Công cộng</span>
+            <span>Gieo sức khỏe - Gặt niềm tin</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=www.ytecongcong.com/2013/05/scheirer-ray-hare-test-kiem-dinh-phi-tham-so-two-way-anova/ - Scheirer-Ray-Hare test: kiểm định phi tham số two-way ANOVA by @"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'ytecongcong';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<h3>Bài liên quan</h3>
+
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+  </section>
+
+  <script src="/assets/js/main.js"></script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83930831-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

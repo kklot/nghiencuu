@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Y tế Công cộng - Ước lượng cỡ mẫu so sánh hai tỷ lệ</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Y tế Công cộng" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Ước lượng cỡ mẫu so sánh hai tỷ lệ - Y tế Công cộng</title>
+<meta property="og:title" content="Ước lượng cỡ mẫu so sánh hai tỷ lệ" />
+<meta name="description" content="Nghiên cứu hai mẫu" />
+<meta property="og:description" content="Nghiên cứu hai mẫu" />
+<link rel="canonical" href="http://www.ytecongcong.com//2013/05/tinh-co-mau-nghien-cuu/" />
+<meta property="og:url" content="http://www.ytecongcong.com//2013/05/tinh-co-mau-nghien-cuu/" />
+<meta property="og:site_name" content="Y tế Công cộng" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-05-13T21:58:02+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Ước lượng cỡ mẫu so sánh hai tỷ lệ",
+    "datePublished": "2013-05-13T21:58:02+02:00",
+    "description": "Nghiên cứu hai mẫu",
+    "url": "http://www.ytecongcong.com//2013/05/tinh-co-mau-nghien-cuu/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span>&#x2302; </a>
+    
+
+    <!--  -->
+        <a href="http://stats.ytecongcong.com">? </a>
+    <!--  -->
+    <!-- 
+        <a href="/about">? </a>
+     -->
+    
+        <a href="/search">&#128270; </a>
+    
+    
+        <a href="/archive">&#x2245; </a>
+    
+    <a href="/feed.xml">&#9829;</a>
+    <!-- <a class="cta" href="/feed.xml">&#9829;</a> -->
+</nav>
+
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Ước lượng cỡ mẫu so sánh hai tỷ lệ</h1>
+        <h2 class="headline">May 13, 2013</h2>
+    </header>
+    <section id="post-body">
+      <h2 id="nghin-cu-hai-mu">Nghiên cứu hai mẫu</h2>
+
+<p>Trong thiết kế nghiên cứu có hai nhóm, thường một nhóm sẽ có vai trò là
+nhóm chứng/nhóm chuẩn… với nhóm còn lại là nhóm điều trị/phương pháp
+pháp mới… cần so sánh. Trong v.d. sau đây, nhà nghiên cứu mong đợi
+phương pháp mới (có tỷ lệ thành công là p1) sẽ cao hơn phương pháp cũ
+(có tỷ lệ thành công là p2) 5%.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Simple_random_sampling.PNG" alt="" /></p>
+
+<p>Công thức sau dựa trên phiên bản tối ưu hóa của <em>J. T. Casagrande [1]</em>
+dựa trên 3 công thức đề nghị trước đây gồm:</p>
+
+<ol>
+  <li>công thức “arcsin” của Cochran và Cox (1957),</li>
+  <li>công thức của Fleiss (1973),</li>
+  <li>và công thức hiệu chỉnh chi bình phương của Kramer và
+Greenhouse (1959).</li>
+</ol>
+
+<p>Mục đích của các ước lượng cỡ mẫu khác nhau là mong tìm được cỡ mẫu nhỏ
+nhất nhưng đảm bảo giữ nguyên năng lực của nghiên cứu.</p>
+
+<p>Công thức ước lượng cỡ mẫu <strong>CHO MỖI NHÓM</strong> được tính như sau:</p>
+
+<script type="math/tex; mode=display">n_1 = n_2 = \dfrac{A \left[ 1 + \sqrt{1+ \dfrac{4
+(p_1-p_2)}{A}}\right]^2}{4(p_1-p_2)^2}</script>
+
+<p>Với</p>
+
+<script type="math/tex; mode=display">A = \left[Z_{1-\alpha}\sqrt{2\bar{p}\bar{q}} +
+Z_{\beta} \sqrt{p_1q_1+p_2q_2}\right]^2</script>
+
+<p>Trong đó</p>
+
+<script type="math/tex; mode=display">\bar{p} = (p_1 + p_2)/2</script>
+
+<script type="math/tex; mode=display">\bar{q} = 1 - \bar{p}</script>
+
+<p>Code R để tính cỡ mẫu trên, cũng như so với các cỡ mẫu tính từ công thức
+của Cochran,Fleiss và Krammer-Greenhouse như sau:</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1">####Thay số thích hợp cho nghiên cứu, ví dụ p1=0.5, p2=0.55, alpha, beta  phù hợp với nghiên cứu
+</span><span class="w">
+</span><span class="n">p</span><span class="m">1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.55</span><span class="w">
+</span><span class="n">p</span><span class="m">2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="w">
+</span><span class="n">alpha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.05</span><span class="w">
+</span><span class="n">beta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.2</span><span class="w">   </span><span class="c1">#hay năng lực 80%
+</span><span class="w">
+</span><span class="c1">####Tính các biến số cần thiết
+</span><span class="w">
+</span><span class="n">p_bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">+</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">/</span><span class="m">2</span><span class="w"> </span><span class="c1">#trung bình tỷ lệ 2 nhóm
+</span><span class="n">q_bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">-</span><span class="n">p_bar</span><span class="w">
+</span><span class="n">q</span><span class="m">1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">1</span><span class="w">
+</span><span class="n">q</span><span class="m">2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="w">
+</span><span class="n">power</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">-</span><span class="n">beta</span><span class="w"> </span><span class="c1">#năng lực
+</span><span class="w">
+</span><span class="c1">###Tính A
+</span><span class="w">
+</span><span class="n">A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">qnorm</span><span class="p">(</span><span class="m">1</span><span class="o">-</span><span class="n">alpha</span><span class="p">)</span><span class="o">*</span><span class="nf">sqrt</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="n">p_bar</span><span class="o">*</span><span class="n">q_bar</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">qnorm</span><span class="p">(</span><span class="n">power</span><span class="p">)</span><span class="o">*</span><span class="nf">sqrt</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">*</span><span class="n">q</span><span class="m">1</span><span class="o">+</span><span class="n">p</span><span class="m">2</span><span class="o">*</span><span class="n">q</span><span class="m">2</span><span class="p">))</span><span class="o">^</span><span class="m">2</span><span class="w">
+
+</span><span class="c1">###Cỡ mẫu MỖI nhóm
+</span><span class="w">
+</span><span class="n">samplesize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">round</span><span class="p">((</span><span class="n">A</span><span class="o">*</span><span class="p">(</span><span class="m">1</span><span class="o">+</span><span class="nf">sqrt</span><span class="p">(</span><span class="m">1+4</span><span class="o">*</span><span class="nf">abs</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">/</span><span class="n">A</span><span class="p">))</span><span class="o">^</span><span class="m">2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="m">4</span><span class="o">*</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">^</span><span class="m">2</span><span class="p">),</span><span class="m">0</span><span class="p">)</span><span class="w">
+</span><span class="n">samplesize</span><span class="w">
+
+</span><span class="c1">###So sánh với các cỡ mẫu tính từ công thức của Cochran,Fleiss và Krammer-Greenhouse
+</span><span class="w">
+</span><span class="n">arcsin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">round</span><span class="p">((</span><span class="n">qnorm</span><span class="p">(</span><span class="m">1</span><span class="o">-</span><span class="n">alpha</span><span class="p">)</span><span class="o">+</span><span class="n">qnorm</span><span class="p">(</span><span class="n">power</span><span class="p">))</span><span class="o">^</span><span class="m">2</span><span class="o">/</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="p">(</span><span class="nf">asin</span><span class="p">(</span><span class="nf">sqrt</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="p">))</span><span class="o">-</span><span class="nf">asin</span><span class="p">(</span><span class="nf">sqrt</span><span class="p">(</span><span class="n">p</span><span class="m">2</span><span class="p">)))</span><span class="o">^</span><span class="m">2</span><span class="p">))</span><span class="w">
+
+</span><span class="n">fleiss</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">round</span><span class="p">((</span><span class="n">qnorm</span><span class="p">(</span><span class="m">1</span><span class="o">-</span><span class="n">alpha</span><span class="p">)</span><span class="o">*</span><span class="nf">sqrt</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="n">p_bar</span><span class="o">*</span><span class="n">q_bar</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">qnorm</span><span class="p">(</span><span class="n">power</span><span class="p">)</span><span class="o">*</span><span class="nf">sqrt</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">*</span><span class="n">q</span><span class="m">1</span><span class="o">+</span><span class="n">p</span><span class="m">2</span><span class="o">*</span><span class="n">q</span><span class="m">2</span><span class="p">))</span><span class="o">^</span><span class="m">2</span><span class="o">/</span><span class="nf">abs</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">^</span><span class="m">2</span><span class="p">)</span><span class="w">
+
+</span><span class="n">krammergreenhouse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">round</span><span class="p">(</span><span class="n">A</span><span class="o">*</span><span class="p">(</span><span class="m">1</span><span class="o">+</span><span class="w"> </span><span class="nf">sqrt</span><span class="p">(</span><span class="m">1+8</span><span class="o">*</span><span class="nf">abs</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">/</span><span class="n">A</span><span class="p">))</span><span class="o">^</span><span class="m">2</span><span class="o">/</span><span class="p">(</span><span class="m">4</span><span class="o">*</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">^</span><span class="m">2</span><span class="p">))</span><span class="w">
+
+</span><span class="n">arcsin</span><span class="p">;</span><span class="n">fleiss</span><span class="p">;</span><span class="n">krammergreenhouse</span><span class="p">;</span><span class="n">samplesize</span></code></pre></figure>
+
+<h3 id="ti-liu-tham-kho">Tài liệu tham khảo:</h3>
+
+<ol>
+  <li>An Improved Approximate Formula for Calculating Sample Sizes for
+Comparing Two Binomial Distributions J. T. Casagrande; M. C.
+Pike; P. G. Smith Biometrics, Vol. 34, No. 3. (Sep., 1978), pp.
+483-486</li>
+</ol>
+
+    </section>
+</article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/2013/05/scheirer-ray-hare-test-kiem-dinh-phi-tham-so-two-way-anova/">&laquo; Scheirer-Ray-Hare test: kiểm định phi tham số two-way ANOVA</a>
+  
+  
+    <a class="next" href="/2013/05/nhom-chung/">Vui: Nhóm chứng &raquo;</a>
+  
+</div>
+
+<footer id="post-meta" class="clearfix">
+    <a href="/">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Y tế Công cộng</span>
+            <span>Gieo sức khỏe - Gặt niềm tin</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=www.ytecongcong.com/2013/05/tinh-co-mau-nghien-cuu/ - Ước lượng cỡ mẫu so sánh hai tỷ lệ by @"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'ytecongcong';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<h3>Bài liên quan</h3>
+
+
+  
+    
+    
+  
+    
+      <div>
+        <h5><a href="/2013/04/co-mau-hieu-qua-effective-sample-size/">Cỡ mẫu hiệu quả - Effective Sample Size</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2012/10/cach-tinh-co-mau/">Cách tính cỡ mẫu</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2012/10/uoc-luong-kich-co-dan-so/">Ước lượng kích cỡ dân số</a></h5>
+      </div>
+      
+    
+  
+
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+
+  
+    
+      <div>
+        <h5><a href="/2014/02/dich-te-hoc-doi-dien-voi-nhung-han-che-phan-cuoi-mot-lien-minh-xau-xa/">Dịch tễ học đối diện với những hạn chế [Phần Cuối]: Một liên minh xấu xa</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2014/02/dich-te-hoc-doi-dien-voi-nhung-han-che-phan-v-tin-vao-dieu-gi/">Dịch tễ học đối diện với những hạn chế [Phần V]: Tin vào điều gì?</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2014/02/dich-te-hoc-doi-dien-voi-nhung-han-che-phan-iv-su-cuu-roi-tu-thong-ke/">Dịch tễ học đối diện với những hạn chế [Phần IV]: Sự cứu rỗi từ thống kê?</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2013/10/qc-va-qa-trong-nghien-cuu-phan-ii-dam-bao-chat-luong/">QC và QA trong nghiên cứu [Phần II]: Đảm bảo chất lượng</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2013/09/dich-te-hoc-doi-dien-voi-han-che-cua-mnh/">Dịch tễ học đối diện với những hạn chế [Phần I]: Tổng quát</a></h5>
+      </div>
+      
+    
+  
+    
+      <div>
+        <h5><a href="/2013/09/strobe-huong-dan-cho-bao-cao-cac-nghien-cuu-quan-sat/">STROBE: Bảng kiểm cho viết báo cáo nghiên cứu quan sát</a></h5>
+      </div>
+      
+    
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+  </section>
+
+  <script src="/assets/js/main.js"></script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83930831-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

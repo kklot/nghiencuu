@@ -31,7 +31,7 @@ author:         'Y tế Công cộng'
 #   admins: 1234
 
 paginate: 7
-permalink:       /:year/:title/
+permalink:       /:year/:month/:title/
 mathjax: true # whether support mathjax
 safe: true
 
