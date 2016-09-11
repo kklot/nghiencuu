@@ -7,6 +7,19 @@
     <atom:link href="http://www.ytecongcong.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Cách viết Markdown</title>
+        
+        
+          <description>&lt;script src=&quot;/assets/js/application.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        
+        <pubDate>Sun, 11 Sep 2016 16:53:00 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/cach-vi%E1%BA%BFt-markdown/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/cach-vi%E1%BA%BFt-markdown/</guid>
+      </item>
+    
+      <item>
         <title>Vi - Ký sinh trùng</title>
         
         
@@ -377,60 +390,6 @@ http://www.theasa.org/ethics/guidelines.shtml&amp;#160;&lt;a href=&quot;#fnref-2
         <pubDate>Thu, 05 Jun 2014 08:56:05 +0200</pubDate>
         <link>http://www.ytecongcong.com/2014/dao-duc-trong-thong-ke/</link>
         <guid isPermaLink="true">http://www.ytecongcong.com/2014/dao-duc-trong-thong-ke/</guid>
-      </item>
-    
-      <item>
-        <title>[Ubuntu] Cài nhanh Texlive cho Latex</title>
-        
-        
-          <description>&lt;p&gt;&lt;img src=&quot;http://latex-project.org/lib/img/lion.png&quot; width=&quot;100&quot; height=&quot;120&quot; class=&quot;alignleft&quot; /&gt;&lt;br /&gt;
-Để có thể soạn thảo văn bản với LaTeX một cách thoải mái nhất, bước khó đầu tiên là cài đặt và cấu hình để cho máy có thể biên dịch được file &lt;code&gt;tex&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Với máy kết nối mạng và ``có nhiều thời gian&quot; thì có thể cài trực tiếp với lệnh&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get install texlive
-&lt;/code&gt;&lt;/pre&gt;
-&lt;dl&gt;
-&lt;dt&gt;Cài với lệnh:&lt;/dt&gt;
-&lt;dd&gt;Nhấn đồng thời &lt;code&gt;Ctrl+Alt+T&lt;/code&gt;, dán lệnh và điền password của mình nếu yêu cầu.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;Tuy nhiên sẽ tốn nhiều thời gian, dung lượng internet và nếu sau này cài lại sẽ phải tải lại tương tự. Do vậy, tải file &lt;code&gt;iso&lt;/code&gt; cung cấp sẵn tại trang &lt;a href=&quot;http://www.tug.org/texlive/acquire-iso.html&quot;&gt;TUG&lt;/a&gt; với 2 tùy chọn là tải trực tiếp hoặc tải với torrent (dung lượng ~ 2.4Gb, ngang ngửa MS Office).&lt;/p&gt;
-&lt;p&gt;Giả sử file ISO tải về sẽ là có tên dạng &lt;code&gt;texlive2013-20130530.iso&lt;/code&gt; nằm trong folder &lt;code&gt;~/Downloads&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Các hướng dẫn sau đã giản lược để nhanh chóng cài với lệnh thành công, tránh khó khăn cho người mới sử dụng Ubuntu.&lt;/p&gt;
-&lt;h2&gt;Chuẩn bị&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Nếu dùng Ubuntu 14.04, có thể click phải vào file &lt;code&gt;iso&lt;/code&gt; mới tải và chọn &lt;code&gt;Open With&lt;/code&gt; &gt; &lt;code&gt;Disk Image Mounter&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Với bản khác cần gõ các dòng sau&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;sudo mkdir /mnt
-cd ~/Downloads
-sudo mount -t iso9660 -o ro,loop,noauto texlive2013-20130530.iso /mnt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Cài&lt;/h2&gt;
-&lt;p&gt;Nếu bạn có ổ cứng lớn và không quan tâm tiết kiệm dung lượng, có thể cài toàn bộ các gói đi kèm bằng lệnh &lt;code&gt;sudo ./install-tl&lt;/code&gt;. Và nhấn chọn ở các cửa số tiếp theo (tổng cộng ~3Gb). Thay vì vậy có thể chọn bỏ bớt các gói không cần thiết như các gói hỗ trợ ngôn ngữ Ả rập, Trung, Hàn, Nhật...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get install perl-tk
-cd /mnt
-sudo ./install-tl -gui perltk
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Một cửa sổ hiện lên, có thể chọn như sau (thay đổi theo nhu cầu của bạn) và nhấn &lt;code&gt;ok&lt;/code&gt; và &lt;code&gt;Install&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/29949485/Screenshot%20from%202014-05-261.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Cửa sổ cài xong&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/29949485/Screenshot%20from%202014-05-26-12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;Cấu hình hệ thống&lt;/h2&gt;
-&lt;p&gt;Lúc này hệ thống chưa nhận chương trình, để hoàn tất, cần tiếp tục cấu hình thêm với lệnh sau (&lt;em&gt;Hướng dẫn sau áp dụng cho Ubuntu 64bit, với bản 32bit chỉ cần thay tất cả &lt;code&gt;x86_64-linux&lt;/code&gt;  bằng &lt;code&gt;i386-linux&lt;/code&gt; trong các dòng lệnh&lt;/em&gt;)&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;echo 'PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH' &amp;gt;&amp;gt; ~/.profile
-echo 'MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH' &amp;gt;&amp;gt; ~/.profile
-echo 'INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH' &amp;gt;&amp;gt; ~/.profile
-echo 'INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH' &amp;gt;&amp;gt; ~/.profile
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Sau đó&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo su
-echo 'MANPATH_MAP /usr/local/texlive/2013/bin/x86_64-linux /usr/local/texlive/2013/texmf-dist/doc/man' &amp;gt;&amp;gt; /etc/manpath.config
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Hoàn tất.&lt;/p&gt;
-</description>
-        
-        <pubDate>Mon, 26 May 2014 20:09:47 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2014/ubuntu-cai-nhanh-texlive-cho-latex/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2014/ubuntu-cai-nhanh-texlive-cho-latex/</guid>
       </item>
     
   </channel>

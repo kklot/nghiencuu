@@ -75,7 +75,7 @@ $$ \bar{q} = 1 - \bar{p} $$
 Code R để tính cỡ mẫu trên, cũng như so với các cỡ mẫu tính từ công thức
 của Cochran,Fleiss và Krammer-Greenhouse như sau:
 
-~~~
+{% highlight R %}
 ####Thay số thích hợp cho nghiên cứu, ví dụ p1=0.5, p2=0.55, alpha, beta  phù hợp với nghiên cứu
 
 p1 = 0.55
@@ -109,9 +109,7 @@ fleiss = round((qnorm(1-alpha)*sqrt(2*p_bar*q_bar) + qnorm(power)*sqrt(p1*q1+p2*
 krammergreenhouse = round(A*(1+ sqrt(1+8*abs(p1-p2)/A))^2/(4*(p1-p2)^2))
 
 arcsin;fleiss;krammergreenhouse;samplesize
-~~~
-{:.language-R}
- 
+{% endhighlight %}
 
 ### Tài liệu tham khảo:
 

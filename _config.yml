@@ -10,7 +10,10 @@ highlighter: rouge
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji
+  - jemoji
+exclude: [bin, .idea, .bundle, Gemfile*]
+# show_related_posts: true
+
 # , jekyll-archives]
 baseurl: /
 domain_name: 'www.ytecongcong.com'
@@ -30,7 +33,7 @@ author:         'Y tế Công cộng'
 paginate: 7
 permalink:       /:year/:title/
 mathjax: true # whether support mathjax
-safe: false
+safe: true
 
 defaults:
     -

@@ -4,13 +4,191 @@
  <title></title>
  <link href="http://www.ytecongcong.com//atom.xml" rel="self"/>
  <link href="http://www.ytecongcong.com//"/>
- <updated>2016-09-10T00:58:17+02:00</updated>
+ <updated>2016-09-11T22:22:06+02:00</updated>
  <id>http://www.ytecongcong.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Cách viết Markdown</title>
+   <link href="http://www.ytecongcong.com/2016/cach-vi%E1%BA%BFt-markdown/"/>
+   <updated>2016-09-11T16:53:00+02:00</updated>
+   <id>http://www.ytecongcong.com//2016/cach-viết-markdown</id>
+   <content type="html">&lt;script src=&quot;/assets/js/application.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Markdown là cấu trúc viết đơn giản và dễ dàng để định dạng văn bản trên nhiều ứng dụng khác nhau, từ tạo web, phần mềm, đến các văn bản chuyên nghiệp như báo cáo và bài báo khoa học. Viết một cách đơn giản nhưng định dạng cuối cùng hoàn toàn chuyên nghiệp, ví dụ, trang này được viết dưới dạng markdown.&lt;/p&gt;
+
+&lt;p&gt;Để sử dụng, bạn có thể mở bất cứ trình biên tập nào, như &lt;code class=&quot;highlighter-rouge&quot;&gt;notepad&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;gedit&lt;/code&gt;,…và lưu file với đuôi như &lt;code class=&quot;highlighter-rouge&quot;&gt;.md, .markdown&lt;/code&gt;. Công cụ miễn phí và hỗ trợ tốt có thể kể đến là &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt;. Cuối cùng, &lt;a href=&quot;http://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt; hỗ trợ chuyển đổi từ markdown sang tất cả các định dạng văn bản khác, như &lt;code class=&quot;highlighter-rouge&quot;&gt;.docx, .doc, .tex&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;v-d-cc-nh-dng-vn-bn-cn-bn&quot;&gt;Ví dụ các định dạng văn bản căn bản&lt;/h2&gt;
+
+&lt;div class=&quot;js-toc&quot;&gt;
+
+&lt;ul class=&quot;example-nav js-examples-nav&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;selected&quot; data-container-id=&quot;example-text&quot;&gt;Văn bản&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-container-id=&quot;example-lists&quot; class=&quot;&quot;&gt;Danh sách&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-container-id=&quot;example-images&quot; class=&quot;&quot;&gt;Hình&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-container-id=&quot;example-headers&quot; class=&quot;&quot;&gt;Mục-Trích dẫn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-container-id=&quot;example-code&quot; class=&quot;&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
+  &lt;!-- &lt;li&gt;&lt;a href=&quot;#&quot; data-container-id=&quot;example-extras&quot; class=&quot;&quot;&gt;Khác&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;markdown-example&quot; id=&quot;example-text&quot; style=&quot;display: block;&quot;&gt;
+  &lt;pre class=&quot;source&quot;&gt;Dễ dàng viết **in đậm** và *in nghiêng* với Markdown. Bạn có thể tạo liên kết tới trang [YTCC Online](http://ytecongcong.com)
+  &lt;/pre&gt;
+  &lt;div class=&quot;rendered&quot;&gt;
+  Dễ dàng viết &lt;strong&gt;in đậm&lt;/strong&gt; và &lt;em&gt;in nghiêng&lt;/em&gt; với Markdown. Bạn có thể tạo &lt;a href=&quot;http://ytecongcong.com/&quot;&gt;liên kết tới trang mạng YTCC Online&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;markdown-example&quot; id=&quot;example-lists&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre class=&quot;source&quot;&gt;Bạn có thể tạo danh sách đánh số:
+
+  1. Một
+  2. Hai
+  3. Ba
+
+  Hoặc tạo danh sách không đánh số:
+
+  * Đánh dấu sao ở đầu dòng
+  * OK!
+
+  Hoặc cũng có thể dùng,
+
+  - Dấu gạch đầu dòng `-` hoặc `+` cũng được
+  - Nếu có mục nhỏ hơn, thêm 2 khoảng trắng phía trước:
+    - Như thế này
+    - Và thế này
+  &lt;/pre&gt;
+&lt;div class=&quot;rendered&quot;&gt;
+      &lt;p&gt;Bạn có thể tạo danh sách đánh số:&lt;/p&gt;
+
+      &lt;ol&gt;
+        &lt;li&gt;Một&lt;/li&gt;
+        &lt;li&gt;Hai&lt;/li&gt;
+        &lt;li&gt;Ba&lt;/li&gt;
+      &lt;/ol&gt;
+
+      &lt;p&gt;Hoặc tạo danh sách không đánh số:&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Đánh dấu sao ở đầu dòng&lt;/li&gt;
+        &lt;li&gt;OK!&lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;p&gt;Hoặc cũng có thể dùng,&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Gạch đầu dòng cũng được&lt;/li&gt;
+        &lt;li&gt;Nếu có mục nhỏ hơn, chỉ cần thêm 2 khoảng trắng trước dấu gạch hoặc dấu sao:
+          &lt;ul&gt;
+            &lt;li&gt;Như thế này&lt;/li&gt;
+            &lt;li&gt;Và thế này&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;markdown-example&quot; id=&quot;example-images&quot; style=&quot;display: none;&quot;&gt;
+&lt;pre class=&quot;source&quot;&gt;Nếu muốn chèn hình ảnh, copy liên kết tới hình và gõ đơn giản như sau:
+
+![Hình logo](https://dl.dropboxusercontent.com/u/29949485/avatar.png)
+&lt;/pre&gt;
+&lt;div class=&quot;rendered&quot;&gt;
+      &lt;p&gt;Nếu muốn chèn hình ảnh, copy liên kết tới hình và gõ đơn giản như sau:&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/29949485/avatar.png&quot; alt=&quot;Hình logo&quot; /&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;markdown-example&quot; id=&quot;example-headers&quot; style=&quot;display: none;&quot;&gt;
+&lt;pre class=&quot;source&quot;&gt;# Định dạng cấu trúc văn bản
+
+Để định dạng văn bản theo các đề mục khác nhau trong một văn bản, đặt dấu `#` đầu dòng để tạo tiêu đề. Số lượng dấu sao thể hiện mức độ, v.d. hai dấu `##` là mục con của `#`.
+
+### Đây là mục con cấp 3
+
+Có thể dùng dấu `#` từ một đến sáu `######` để thể hiện các cấp của tiêu đề.
+
+Nếu bạn muốn trích một câu nói, văn bản, sử dụng dấu &amp;gt; đầu hàng:
+
+&amp;gt; Khỏe vì nước kiến thiết Quốc Gia. Đoàn thanh niên ta góp tài ba. Tạo nguồn dân sinh mới hùng mạnh trong năm giới. Hợp lực xây hưng thịnh chung nước Nam. Thanh niên ơi, hồn thiêng núi sông đợi chờ! Nơi tay ta toàn dân ngóng trông từng giờ. Mang máu anh hùng ta đừng làm nhơ máu anh hùng. Trai đất Việt phải nêu đèn sáng thế giới soi chung - Hùng Lân
+&lt;/pre&gt;
+&lt;div class=&quot;rendered&quot;&gt;
+      &lt;h1 id=&quot;nh-dng-cu-trc-vn-bn&quot;&gt;Định dạng cấu trúc văn bản&lt;/h1&gt;
+
+      &lt;p&gt;Để định dạng văn bản theo các đề mục khác nhau trong một văn bản, đặt dấu &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; đầu dòng để tạo tiêu đề. Số lượng dấu sao thể hiện mức độ, v.d. hai dấu &lt;code class=&quot;highlighter-rouge&quot;&gt;##&lt;/code&gt; là mục con của &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;.&lt;/p&gt;
+
+      &lt;h3 id=&quot;y-l-mc-con-cp-3&quot;&gt;Đây là mục con cấp 3&lt;/h3&gt;
+
+      &lt;p&gt;Có thể dùng dấu &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; từ một đến sáu &lt;code class=&quot;highlighter-rouge&quot;&gt;######&lt;/code&gt; để thể hiện các cấp của tiêu đề.&lt;/p&gt;
+
+      &lt;p&gt;Nếu bạn muốn trích một câu nói, văn bản, sử dụng dấu &amp;gt; đầu hàng:&lt;/p&gt;
+
+      &lt;blockquote&gt;
+        &lt;p&gt;Khỏe vì nước kiến thiết Quốc Gia. Đoàn thanh niên ta góp tài ba. Tạo nguồn dân sinh mới hùng mạnh trong năm giới. Hợp lực xây hưng thịnh chung nước Nam. Thanh niên ơi, hồn thiêng núi sông đợi chờ! Nơi tay ta toàn dân ngóng trông từng giờ. Mang máu anh hùng ta đừng làm nhơ máu anh hùng. Trai đất Việt phải nêu đèn sáng thế giới soi chung - Hùng Lân&lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;markdown-example&quot; id=&quot;example-code&quot; style=&quot;display: none;&quot;&gt;
+&lt;pre class=&quot;source&quot;&gt;
+Có nhiều cách khác nhau để định dạng code. Nếu viết code trên cùng dòng, chỉ cần đóng chữ trong dấu ` (phím bên trái số 1), v.d. `gen gioitinh = 1`. Nếu có một đoạn code dài, thụt đầu dòng *4* khoảng trắng để định dạng:
+
+    if (gioitinh = 1){
+      return &quot;Nam&quot;
+    }
+
+Một cách khác là dùng hàng rào bọc quanh code mà không cần thụt đầu dòng:
+
+```
+if (gioitinh = 1){
+  return &quot;Nam&quot;
+}
+```
+
+Nếu muốn chỉ rõ ngôn ngữ của code để tô màu code (lưu ý trang này tự động phát hiện ngôn ngữ nên các code phía trên cũng được tô màu):
+
+```r
+if (gioitinh = 1){
+  return &quot;Nam&quot;
+}
+```
+&lt;/pre&gt;
+&lt;div class=&quot;rendered&quot;&gt;
+      &lt;p&gt;Có nhiều cách khác nhau để định dạng code. Nếu viết code trên cùng dòng, chỉ cần đóng chữ trong dấu ` (phím bên trái số 1), v.d. &lt;code class=&quot;highlighter-rouge&quot;&gt;gen gioitinh = 1&lt;/code&gt;. Nếu có một đoạn code dài, thụt đầu dòng &lt;em&gt;4&lt;/em&gt; khoảng trắng để định dạng:&lt;/p&gt;
+
+      &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (gioitinh = 1){
+  return &quot;Nam&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+
+      &lt;p&gt;Một cách khác là dùng hàng rào bọc quanh code mà không cần thụt đầu dòng:&lt;/p&gt;
+
+      &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (gioitinh = 1){
+  return &quot;Nam&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+
+      &lt;p&gt;Nếu muốn chỉ rõ ngôn ngữ của code để tô màu code (lưu ý trang này tự động phát hiện ngôn ngữ nên các code phía trên cũng được tô màu):&lt;/p&gt;
+
+      &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gioitinh&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Nam&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Vi - Ký sinh trùng</title>
@@ -1493,7 +1671,7 @@ Z_{\beta} \sqrt{p_1q_1+p_2q_2}\right]^2&lt;/script&gt;
 &lt;p&gt;Code R để tính cỡ mẫu trên, cũng như so với các cỡ mẫu tính từ công thức
 của Cochran,Fleiss và Krammer-Greenhouse như sau:&lt;/p&gt;
 
-&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;####Thay số thích hợp cho nghiên cứu, ví dụ p1=0.5, p2=0.55, alpha, beta  phù hợp với nghiên cứu
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;c1&quot;&gt;####Thay số thích hợp cho nghiên cứu, ví dụ p1=0.5, p2=0.55, alpha, beta  phù hợp với nghiên cứu
 &lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.55&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -1525,10 +1703,7 @@ của Cochran,Fleiss và Krammer-Greenhouse như sau:&lt;/p&gt;
 
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;krammergreenhouse&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1+8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arcsin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fleiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;krammergreenhouse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;samplesize&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt; &lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arcsin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fleiss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;krammergreenhouse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;samplesize&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;ti-liu-tham-kho&quot;&gt;Tài liệu tham khảo:&lt;/h3&gt;
 

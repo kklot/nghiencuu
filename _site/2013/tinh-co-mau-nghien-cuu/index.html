@@ -31,6 +31,7 @@
   }
 </script>
 <!-- End Jekyll SEO tag -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -107,7 +108,7 @@ Z_{\beta} \sqrt{p_1q_1+p_2q_2}\right]^2</script>
 <p>Code R để tính cỡ mẫu trên, cũng như so với các cỡ mẫu tính từ công thức
 của Cochran,Fleiss và Krammer-Greenhouse như sau:</p>
 
-<div class="language-R highlighter-rouge"><pre class="highlight"><code><span class="c1">####Thay số thích hợp cho nghiên cứu, ví dụ p1=0.5, p2=0.55, alpha, beta  phù hợp với nghiên cứu
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1">####Thay số thích hợp cho nghiên cứu, ví dụ p1=0.5, p2=0.55, alpha, beta  phù hợp với nghiên cứu
 </span><span class="w">
 </span><span class="n">p</span><span class="m">1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.55</span><span class="w">
 </span><span class="n">p</span><span class="m">2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="w">
@@ -139,10 +140,7 @@ của Cochran,Fleiss và Krammer-Greenhouse như sau:</p>
 
 </span><span class="n">krammergreenhouse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">round</span><span class="p">(</span><span class="n">A</span><span class="o">*</span><span class="p">(</span><span class="m">1</span><span class="o">+</span><span class="w"> </span><span class="nf">sqrt</span><span class="p">(</span><span class="m">1+8</span><span class="o">*</span><span class="nf">abs</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">/</span><span class="n">A</span><span class="p">))</span><span class="o">^</span><span class="m">2</span><span class="o">/</span><span class="p">(</span><span class="m">4</span><span class="o">*</span><span class="p">(</span><span class="n">p</span><span class="m">1</span><span class="o">-</span><span class="n">p</span><span class="m">2</span><span class="p">)</span><span class="o">^</span><span class="m">2</span><span class="p">))</span><span class="w">
 
-</span><span class="n">arcsin</span><span class="p">;</span><span class="n">fleiss</span><span class="p">;</span><span class="n">krammergreenhouse</span><span class="p">;</span><span class="n">samplesize</span><span class="w">
-</span></code></pre>
-</div>
-<p> </p>
+</span><span class="n">arcsin</span><span class="p">;</span><span class="n">fleiss</span><span class="p">;</span><span class="n">krammergreenhouse</span><span class="p">;</span><span class="n">samplesize</span></code></pre></figure>
 
 <h3 id="ti-liu-tham-kho">Tài liệu tham khảo:</h3>
 
@@ -328,10 +326,8 @@ Pike; P. G. Smith Biometrics, Vol. 34, No. 3. (Sep., 1978), pp.
 
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/highlight.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

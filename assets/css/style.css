@@ -44,7 +44,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Spacing */
 .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
-margin-bottom: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 /* Base */
@@ -182,8 +183,22 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
-li	{ list-style-type:disc; list-style-position:outside;}
+/*ul 	{ margin:0; padding:0; }
+li	{ list-style-type:disc; list-style-position:outside;}*/
+
+li p.first {
+  display: inline-block; }
+
+ul, ol {
+  margin-top: 0;
+	padding-left: 30px;
+}
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+ul :last-child, ol :last-child {
+  margin-bottom: 0; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -671,4 +686,50 @@ h2.month {
 }
 .PageNavigation .next {
   text-align: right;
+}
+.markdown-example {
+	margin: 20px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.075);
+}
+.markdown-example .source {
+	padding: 20px;
+	color: #566B72;
+	line-height: 1.5em;
+	/*white-space: pre-wrap;*/
+	background: #FDF6E3;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+	margin-top: initial;
+}
+.markdown-example .rendered {
+	padding: 20px;
+}
+.markdown-body ul.example-nav {
+	padding-left: 0;
+	margin: 20px 0;
+}
+.example-nav {
+	padding: 0;
+}
+.example-nav li {
+	display: inline-block;
+	padding: 0;
+	margin: 0 15px 0 0;
+	list-style-type: none;
+}
+.example-nav li a {
+	font-size: 16px;
+	font-weight: bold;
+}
+.example-nav li a.selected {
+	padding: 2px 12px 4px 12px;
+	color: #fff;
+	background: #4183C4;
+	border-radius: 20px;
+}
+.example-nav ol {
+	padding-left: 20px;
 }

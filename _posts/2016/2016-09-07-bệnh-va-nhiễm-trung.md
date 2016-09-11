@@ -5,6 +5,8 @@ date: "2016-09-07 21:45"
 published: false
 ---
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsnvN1q_oXKu7QVUcMuj_y9ZRZxYfuRXzo5tgz7WwEgINAfg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
 Đặc tính của bệnh truyền nhiễm là bạn có thể truyền nó cho bạn bè, gia đình và đôi khi cho người lạ. Bệnh truyền nhiễm có hai thành phần: sự nhiễm trùng và căn bệnh gây ra do nhiễm trùng. Ta thấy không phải tất cả các bệnh đều do nhiễm trùng và không phải cứ nhiễm trùng là gây ra bệnh. Cũng không phải tất cả các bệnh do nhiễm trùng có thể lây truyền. Và nhất là, không phải ai cũng đều có khả năng bị nhiễm bệnh.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Infectious_and_parasitic_diseases_world_map-Deaths_per_million_persons-WHO2012.svg/640px-Infectious_and_parasitic_diseases_world_map-Deaths_per_million_persons-WHO2012.svg.png)
