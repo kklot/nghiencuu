@@ -10,7 +10,7 @@ Markdown là cấu trúc viết đơn giản và dễ dàng để định dạng
 
 Để sử dụng, bạn có thể mở bất cứ trình biên tập nào, như `notepad`, `gedit`,...và lưu file với đuôi như `.md, .markdown`. Công cụ miễn phí và hỗ trợ tốt có thể kể đến là [Atom](https://atom.io/). Cuối cùng, [Pandoc](http://pandoc.org/) hỗ trợ chuyển đổi từ markdown sang tất cả các định dạng văn bản khác, như `.docx, .doc, .tex`.
 
-[](https://dl.dropboxusercontent.com/u/29949485/MarkdownVsLaTeX.jpg)
+![](https://dl.dropboxusercontent.com/u/29949485/MarkdownVsLaTeX.jpg)
 
 ## Ví dụ các định dạng văn bản căn bản
 
