@@ -232,7 +232,7 @@ em, i { font-style: italic; }
 }
 
 .home h2 {
-	font: italic 19px/1.3em Georgia,serif;
+	font: 300 24px/1.5em "Helvetica Neue", Helvetica,Arial,sans-serif;
 	color: #bbb;
 }
 
