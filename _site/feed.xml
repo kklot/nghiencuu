@@ -7,6 +7,19 @@
     <atom:link href="http://www.ytecongcong.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Bệnh và nhiễm trùng</title>
+        
+        
+          <description>&lt;iframe src=&quot;https://docs.google.com/forms/d/e/1FAIpQLScsnvN1q_oXKu7QVUcMuj_y9ZRZxYfuRXzo5tgz7WwEgINAfg/viewform?embedded=true&quot; width=&quot;100%&quot; height=&quot;500&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;Loading...&lt;/iframe&gt;
+
+</description>
+        
+        <pubDate>Mon, 12 Sep 2016 03:00:31 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/09/b%E1%BB%87nh-va-nhi%E1%BB%85m-trung/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/b%E1%BB%87nh-va-nhi%E1%BB%85m-trung/</guid>
+      </item>
+    
+      <item>
         <title>Cách viết Markdown</title>
         
         
@@ -58,6 +71,19 @@
         <pubDate>Tue, 06 Sep 2016 14:03:17 +0200</pubDate>
         <link>http://www.ytecongcong.com/2016/09/dich-benh-la-gi/</link>
         <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/dich-benh-la-gi/</guid>
+      </item>
+    
+      <item>
+        <title>A Draft Post</title>
+        
+        
+          <description>&lt;p&gt;Drafts are posts without a date. They’re posts you’re still working on and don’t want to publish yet. To get up and running with drafts, check the _drafts folder in the site’s root.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 05 Sep 2016 21:41:09 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/09/a-draft-post/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/a-draft-post/</guid>
       </item>
     
       <item>
@@ -161,32 +187,6 @@ http://www.suctich.info/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-
         <pubDate>Sun, 03 Apr 2016 22:50:36 +0200</pubDate>
         <link>http://www.ytecongcong.com/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/</link>
         <guid isPermaLink="true">http://www.ytecongcong.com/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/</guid>
-      </item>
-    
-      <item>
-        <title>Học R - [1] Giải bài tập và các vấn đề liên quan</title>
-        
-        
-          <description>&lt;p&gt;Có bạn hỏi sao không làm video, câu trả lời là &lt;strong&gt;tay phải nhúng chàm&lt;/strong&gt; là bước đầu tiên nếu muốn thành thạo. Nên hãy đọc và làm thử, các hướng dẫn là rất cơ bản và không tốn thời gian.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 23 Aug 2014 04:49:41 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2014/08/hoc-r-1-giai-bai-tap-va-cac-van-de-lien-quan/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2014/08/hoc-r-1-giai-bai-tap-va-cac-van-de-lien-quan/</guid>
-      </item>
-    
-      <item>
-        <title>Học R - [1] Giới thiệu, các khái niệm cơ bản</title>
-        
-        
-          <description>&lt;p&gt;&lt;img src=&quot;http://www.statisticsviews.com/stats/images/logo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 14 Aug 2014 09:29:33 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2014/08/hoc-r-1-gioi-thieu-cac-khai-niem-co-ban/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2014/08/hoc-r-1-gioi-thieu-cac-khai-niem-co-ban/</guid>
       </item>
     
   </channel>

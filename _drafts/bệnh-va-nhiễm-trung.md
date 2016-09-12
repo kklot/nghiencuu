@@ -1,8 +1,8 @@
 ---
 layout: "post"
 title: "Bệnh và nhiễm trùng"
-date: "2016-09-07 21:45"
-published: false
+description: Work in progress
+## date: add a date when publishing
 ---
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsnvN1q_oXKu7QVUcMuj_y9ZRZxYfuRXzo5tgz7WwEgINAfg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

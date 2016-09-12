@@ -2,6 +2,7 @@
 layout: "post"
 title: "Cách viết Markdown"
 date: "2016-09-11 16:53"
+description: Ví dụ trực quan cách viết Markdown
 ---
 
 <script src="/assets/js/application.js"></script>
