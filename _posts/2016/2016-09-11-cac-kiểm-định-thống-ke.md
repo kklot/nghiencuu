@@ -164,7 +164,7 @@ summary(glm(female ~ prog * schtyp, data = hsb2, family = binomial))
 ## Correlation
 
 ``` r
-cor(read, write)
+cor(read, write)pand 
 ```
 
 ## Simple linear regression
