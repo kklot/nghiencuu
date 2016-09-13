@@ -4,6 +4,7 @@ title: "Các kiểm định thống kê và lệnh R"
 date: "2016-09-11 15:08"
 author: Kinh Nguyen
 published: true
+permalink: kiemdinhR/
 ---
 
 > Updating...
@@ -21,87 +22,100 @@ attach(hsb2)
 
 Sau đó chạy một trong các lệnh tương ứng để chạy phân tích tương ứng.
 
-## One sample t-test
-{:#testing}
+## Kiểm định trung bình một mẫu
+{:#r1}
 
 ``` r
 t.test(write, mu = 50)
 ```
 
-## One sample median test
+## Kiểm định trung vị một mẫu
+{:#r2}
 
 ``` r
 wilcox.test(write, mu = 50)
 ```
 
-## Binomial test
+## Kiểm định nhị thức
+{:#r3}
 
 ``` r
 prop.test(sum(female), length(female), p = 0.5)
 ```
 
-## Chi-square goodness of fit
+## Chi-bình phương GOF
+{:#r4}
 
 ``` r
 chisq.test(table(race), p = c(10, 10, 10, 70)/100)
 ```
 
-## Two independent samples t-test
+## Kiểm định trung bình 2 mẫu độc lập
+{:#r5}
 
 ``` r
 t.test(write ~ female)
 ```
 
-## Wilcoxon-Mann-Whitney test
+## Kiểm định Wilcoxon-Mann Whitney
+{:#r6}
 
 ``` r
 wilcox.test(write ~ female)
 ```
 
-## Chi-square test
+## Kiểm định Chi-bình phương
+{:#r7}
 
 ``` r
 chisq.test(table(female, schtyp))
 ```
 
-## Fisher's exact test
+## Kiểm định chính xác Fisher's
+{:#r8}
 
 ``` r
 fisher.test(table(race, schtyp))
 ```
 
-## One-way ANOVA
+## ANOVA một chiều
+{:#r9}
 
 ``` r
 summary(aov(write ~ prog))
 ```
 
-Kruskal Wallis test
+## Kiểm định Kruskal Wallis
+{:#r10}
 
 ``` r
 kruskal.test(write, prog)
 ```
 
-## Paired t-test
+## Kiểm định t bắt cặp
+{:#r12}
 
 ``` r
 t.test(write, read, paired = TRUE)
 ```
 
-## Wilcoxon signed rank sum test
+## Kiểm định Wilcoxon sắp hạng dựa theo dấu
+{:#r13}
 
 ``` r
 wilcox.test(write, read, paired = TRUE)
 ```
 
-## McNemar test
+## Kiểm định McNemar
+{:#r14}
 
 ``` r
 X <- matrix(c(172, 7, 6, 15), 2, 2)
 mcnemar.test(X)
 ```
 
-## One-way repeated measures ANOVA
+## ANOVA một chiều đo lường lập lại
+{:#r15}
 
 ``` r
 require(car)
@@ -117,7 +131,15 @@ analysis <- Anova(model, idata = kirk, idesign = ~s)
 print(analysis)
 ```
 
-## Repeated measures logistic regression
+## Kiểm định Friedman
+{:#r16}
+
+``` r
+friedman.test(cbind(read, write, math))
+```
+
+## Hồi quy logistic đo lường lập lại
+{:#r17}
 
 ``` r
 require(lme4)
@@ -129,19 +151,15 @@ exercise <- within(read.dta("http://www.ats.ucla.edu/stat/stata/whatstat/exercis
 glmer(highpulse ~ diet + (1 | id), data = exercise, family = binomial)
 ```
 
-## Factorial ANOVA
+## ANOVA giai thừa
+{:#r18}
 
 ``` r
 anova(lm(write ~ female * ses, data = hsb2))
 ```
 
-## Friedman test
-
-``` r
-friedman.test(cbind(read, write, math))
-```
-
-## Ordered logistic regression
+## Hồi quy logistic thứ tự
+{:#r19}
 
 ``` r
 require(foreign)
@@ -155,63 +173,79 @@ m <- polr(apply ~ pared + public + gpa, data = dat, Hess=TRUE)
 summary(m)
 ```
 
-## Factorial logistic regression
+## Hồi quy logistic giai thừa
+{:#r20}
 
 ``` r
 summary(glm(female ~ prog * schtyp, data = hsb2, family = binomial))
 ```
 
-## Correlation
+## Hệ số tương quan
+{:#r21}
 
 ``` r
-cor(read, write)pand 
+cor(read, write)
 ```
 
-## Simple linear regression
+## Hồi quy tuyến tính đơn hiệp biến
+{:#r22}
 
 ``` r
 lm(write ~ read)
 ```
 
-## Non-parametric correlation
+## Hệ số tương quan phi tham số
+{:#r23}
 
 ``` r
 cor.test(write, read, method = "spearman")
 ```
 
-## Simple logistic regression
+## Hồi quy logistic đơn hiệp biến
+{:#r24}
 
 ``` r
 glm(female ~ read, family = binomial)
 ```
 
-## Multiple regression
+## Hồi quy đa hiệp biến
+{:#r25}
 
 ``` r
 lm(write ~ female + read + math + science + socst)
 ```
 
-## Analysis of covariance
+## Phân tích hiệp phương sai
+{:#r26}
 
 ``` r
 summary(aov(write ~ prog + read))
 ```
 
-## Multiple logistic regression
+## Hồi quy logistic đa hiệp biến
+{:#r27}
 
 ``` r
 glm(female ~ read + write, family = binomial)
 ```
 
-## Discriminant analysis
+## Phân tích phân biệt
+{:#r28}
 
-One-way MANOVA
+``` r
+library(MASS)
+fit <- lda(G ~ x1 + x2 + x3, data=mydata, na.action="na.omit", CV=TRUE)
+```
+
+## MANOVA một chiều
+{:#r29}
 
 ``` r
 summary(manova(cbind(read, write, math) ~ prog))
 ```
 
-## Multivariate multiple regression
+## Hồi quy tuyến tính đa biến đa hiệp biến
+{:#r30}
 
 ``` r
 M1 <- lm(cbind(write, read) ~ female + math + science + socst, data = hsb2)
@@ -219,17 +253,19 @@ require(car)
 summary(Anova(M1))
 ```
 
-## Canonical correlation
-
-``` r
-require(CCA)
-cc(cbind(read, write), cbind(math, science))
-```
-
-## Factor analysis
+## Phân tích nhân tố
+{:#r31}
 
 ``` r
 require(psych)
 fa(r = cor(model.matrix(~read + write + math + science + socst - 1, data = hsb2)), rotate = "none", fm = "pa", 5)
 princomp(~read + write + math + science + socst, data = hsb2)
+```
+
+## Tương quan chính tắc
+{:#r32}
+
+``` r
+require(CCA)
+cc(cbind(read, write), cbind(math, science))
 ```

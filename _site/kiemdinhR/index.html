@@ -15,8 +15,8 @@
 <meta property="og:title" content="Các kiểm định thống kê và lệnh R" />
 <meta name="description" content="  Updating…" />
 <meta property="og:description" content="  Updating…" />
-<link rel="canonical" href="http://www.ytecongcong.com//2016/09/cac-ki%E1%BB%83m-%C4%91%E1%BB%8Bnh-th%E1%BB%91ng-ke/" />
-<meta property="og:url" content="http://www.ytecongcong.com//2016/09/cac-ki%E1%BB%83m-%C4%91%E1%BB%8Bnh-th%E1%BB%91ng-ke/" />
+<link rel="canonical" href="http://www.ytecongcong.com//kiemdinhR/" />
+<meta property="og:url" content="http://www.ytecongcong.com//kiemdinhR/" />
 <meta property="og:site_name" content="Y tế Công cộng" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2016-09-11T15:08:00+02:00" />
@@ -27,7 +27,7 @@
     "headline": "Các kiểm định thống kê và lệnh R",
     "datePublished": "2016-09-11T15:08:00+02:00",
     "description": "  Updating…",
-    "url": "http://www.ytecongcong.com//2016/09/cac-ki%E1%BB%83m-%C4%91%E1%BB%8Bnh-th%E1%BB%91ng-ke/"
+    "url": "http://www.ytecongcong.com//kiemdinhR/"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -86,86 +86,86 @@
 
 <p>Sau đó chạy một trong các lệnh tương ứng để chạy phân tích tương ứng.</p>
 
-<h2 id="testing">One sample t-test</h2>
+<h2 id="r1">Kiểm định trung bình một mẫu</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">t.test</span><span class="p">(</span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">mu</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">50</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="one-sample-median-test">One sample median test</h2>
+<h2 id="r2">Kiểm định trung vị một mẫu</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">wilcox.test</span><span class="p">(</span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">mu</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">50</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="binomial-test">Binomial test</h2>
+<h2 id="r3">Kiểm định nhị thức</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">prop.test</span><span class="p">(</span><span class="nf">sum</span><span class="p">(</span><span class="n">female</span><span class="p">),</span><span class="w"> </span><span class="nf">length</span><span class="p">(</span><span class="n">female</span><span class="p">),</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="chi-square-goodness-of-fit">Chi-square goodness of fit</h2>
+<h2 id="r4">Chi-bình phương GOF</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">chisq.test</span><span class="p">(</span><span class="n">table</span><span class="p">(</span><span class="n">race</span><span class="p">),</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">10</span><span class="p">,</span><span class="w"> </span><span class="m">10</span><span class="p">,</span><span class="w"> </span><span class="m">10</span><span class="p">,</span><span class="w"> </span><span class="m">70</span><span class="p">)</span><span class="o">/</span><span class="m">100</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="two-independent-samples-t-test">Two independent samples t-test</h2>
+<h2 id="r5">Kiểm định trung bình 2 mẫu độc lập</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">t.test</span><span class="p">(</span><span class="n">write</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">female</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="wilcoxon-mann-whitney-test">Wilcoxon-Mann-Whitney test</h2>
+<h2 id="r6">Kiểm định Wilcoxon-Mann Whitney</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">wilcox.test</span><span class="p">(</span><span class="n">write</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">female</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="chi-square-test">Chi-square test</h2>
+<h2 id="r7">Kiểm định Chi-bình phương</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">chisq.test</span><span class="p">(</span><span class="n">table</span><span class="p">(</span><span class="n">female</span><span class="p">,</span><span class="w"> </span><span class="n">schtyp</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="fishers-exact-test">Fisher’s exact test</h2>
+<h2 id="r8">Kiểm định chính xác Fisher’s</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">fisher.test</span><span class="p">(</span><span class="n">table</span><span class="p">(</span><span class="n">race</span><span class="p">,</span><span class="w"> </span><span class="n">schtyp</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="one-way-anova">One-way ANOVA</h2>
+<h2 id="r9">ANOVA một chiều</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">summary</span><span class="p">(</span><span class="n">aov</span><span class="p">(</span><span class="n">write</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">prog</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
-<p>Kruskal Wallis test</p>
+<h2 id="r10">Kiểm định Kruskal Wallis</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">kruskal.test</span><span class="p">(</span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">prog</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="paired-t-test">Paired t-test</h2>
+<h2 id="r12">Kiểm định t bắt cặp</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">t.test</span><span class="p">(</span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">paired</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="wilcoxon-signed-rank-sum-test">Wilcoxon signed rank sum test</h2>
+<h2 id="r13">Kiểm định Wilcoxon sắp hạng dựa theo dấu</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">wilcox.test</span><span class="p">(</span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">paired</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="mcnemar-test">McNemar test</h2>
+<h2 id="r14">Kiểm định McNemar</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">X</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">matrix</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">172</span><span class="p">,</span><span class="w"> </span><span class="m">7</span><span class="p">,</span><span class="w"> </span><span class="m">6</span><span class="p">,</span><span class="w"> </span><span class="m">15</span><span class="p">),</span><span class="w"> </span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w">
 </span><span class="n">mcnemar.test</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="one-way-repeated-measures-anova">One-way repeated measures ANOVA</h2>
+<h2 id="r15">ANOVA một chiều đo lường lập lại</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">car</span><span class="p">)</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">foreign</span><span class="p">)</span><span class="w">
@@ -181,7 +181,13 @@
 </span></code></pre>
 </div>
 
-<h2 id="repeated-measures-logistic-regression">Repeated measures logistic regression</h2>
+<h2 id="r16">Kiểm định Friedman</h2>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">friedman.test</span><span class="p">(</span><span class="n">cbind</span><span class="p">(</span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">math</span><span class="p">))</span><span class="w">
+</span></code></pre>
+</div>
+
+<h2 id="r17">Hồi quy logistic đo lường lập lại</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">lme4</span><span class="p">)</span><span class="w">
 </span><span class="n">exercise</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">within</span><span class="p">(</span><span class="n">read.dta</span><span class="p">(</span><span class="s2">"http://www.ats.ucla.edu/stat/stata/whatstat/exercise.dta"</span><span class="p">),</span><span class="w">
@@ -193,19 +199,13 @@
 </span></code></pre>
 </div>
 
-<h2 id="factorial-anova">Factorial ANOVA</h2>
+<h2 id="r18">ANOVA giai thừa</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">anova</span><span class="p">(</span><span class="n">lm</span><span class="p">(</span><span class="n">write</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">female</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">ses</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hsb2</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="friedman-test">Friedman test</h2>
-
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">friedman.test</span><span class="p">(</span><span class="n">cbind</span><span class="p">(</span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">math</span><span class="p">))</span><span class="w">
-</span></code></pre>
-</div>
-
-<h2 id="ordered-logistic-regression">Ordered logistic regression</h2>
+<h2 id="r19">Hồi quy logistic thứ tự</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">foreign</span><span class="p">)</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
@@ -219,63 +219,68 @@
 </span></code></pre>
 </div>
 
-<h2 id="factorial-logistic-regression">Factorial logistic regression</h2>
+<h2 id="r20">Hồi quy logistic giai thừa</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">summary</span><span class="p">(</span><span class="n">glm</span><span class="p">(</span><span class="n">female</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">prog</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">schtyp</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hsb2</span><span class="p">,</span><span class="w"> </span><span class="n">family</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binomial</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="correlation">Correlation</h2>
+<h2 id="r21">Hệ số tương quan</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">cor</span><span class="p">(</span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">write</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="simple-linear-regression">Simple linear regression</h2>
+<h2 id="r22">Hồi quy tuyến tính đơn hiệp biến</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">lm</span><span class="p">(</span><span class="n">write</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">read</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="non-parametric-correlation">Non-parametric correlation</h2>
+<h2 id="r23">Hệ số tương quan phi tham số</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">cor.test</span><span class="p">(</span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">method</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"spearman"</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="simple-logistic-regression">Simple logistic regression</h2>
+<h2 id="r24">Hồi quy logistic đơn hiệp biến</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">glm</span><span class="p">(</span><span class="n">female</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">family</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binomial</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="multiple-regression">Multiple regression</h2>
+<h2 id="r25">Hồi quy đa hiệp biến</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">lm</span><span class="p">(</span><span class="n">write</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">female</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">read</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">math</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">science</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">socst</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="analysis-of-covariance">Analysis of covariance</h2>
+<h2 id="r26">Phân tích hiệp phương sai</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">summary</span><span class="p">(</span><span class="n">aov</span><span class="p">(</span><span class="n">write</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">prog</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">read</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="multiple-logistic-regression">Multiple logistic regression</h2>
+<h2 id="r27">Hồi quy logistic đa hiệp biến</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">glm</span><span class="p">(</span><span class="n">female</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">read</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">family</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binomial</span><span class="p">)</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="discriminant-analysis">Discriminant analysis</h2>
+<h2 id="r28">Phân tích phân biệt</h2>
 
-<p>One-way MANOVA</p>
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">MASS</span><span class="p">)</span><span class="w">
+</span><span class="n">fit</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">lda</span><span class="p">(</span><span class="n">G</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">x</span><span class="m">1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">x</span><span class="m">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">x</span><span class="m">3</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="o">=</span><span class="n">mydata</span><span class="p">,</span><span class="w"> </span><span class="n">na.action</span><span class="o">=</span><span class="s2">"na.omit"</span><span class="p">,</span><span class="w"> </span><span class="n">CV</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<h2 id="r29">MANOVA một chiều</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">summary</span><span class="p">(</span><span class="n">manova</span><span class="p">(</span><span class="n">cbind</span><span class="p">(</span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">math</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">prog</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
-<h2 id="multivariate-multiple-regression">Multivariate multiple regression</h2>
+<h2 id="r30">Hồi quy tuyến tính đa biến đa hiệp biến</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">M</span><span class="m">1</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">lm</span><span class="p">(</span><span class="n">cbind</span><span class="p">(</span><span class="n">write</span><span class="p">,</span><span class="w"> </span><span class="n">read</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">female</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">math</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">science</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">socst</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hsb2</span><span class="p">)</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">car</span><span class="p">)</span><span class="w">
@@ -283,18 +288,18 @@
 </span></code></pre>
 </div>
 
-<h2 id="canonical-correlation">Canonical correlation</h2>
-
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">CCA</span><span class="p">)</span><span class="w">
-</span><span class="n">cc</span><span class="p">(</span><span class="n">cbind</span><span class="p">(</span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">write</span><span class="p">),</span><span class="w"> </span><span class="n">cbind</span><span class="p">(</span><span class="n">math</span><span class="p">,</span><span class="w"> </span><span class="n">science</span><span class="p">))</span><span class="w">
-</span></code></pre>
-</div>
-
-<h2 id="factor-analysis">Factor analysis</h2>
+<h2 id="r31">Phân tích nhân tố</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">psych</span><span class="p">)</span><span class="w">
 </span><span class="n">fa</span><span class="p">(</span><span class="n">r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cor</span><span class="p">(</span><span class="n">model.matrix</span><span class="p">(</span><span class="o">~</span><span class="n">read</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">write</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">math</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">science</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">socst</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hsb2</span><span class="p">)),</span><span class="w"> </span><span class="n">rotate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"none"</span><span class="p">,</span><span class="w"> </span><span class="n">fm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"pa"</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">)</span><span class="w">
 </span><span class="n">princomp</span><span class="p">(</span><span class="o">~</span><span class="n">read</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">write</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">math</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">science</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">socst</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hsb2</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<h2 id="r32">Tương quan chính tắc</h2>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">CCA</span><span class="p">)</span><span class="w">
+</span><span class="n">cc</span><span class="p">(</span><span class="n">cbind</span><span class="p">(</span><span class="n">read</span><span class="p">,</span><span class="w"> </span><span class="n">write</span><span class="p">),</span><span class="w"> </span><span class="n">cbind</span><span class="p">(</span><span class="n">math</span><span class="p">,</span><span class="w"> </span><span class="n">science</span><span class="p">))</span><span class="w">
 </span></code></pre>
 </div>
 
@@ -320,7 +325,7 @@
     </a>
 
     <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=www.ytecongcong.com/2016/09/cac-ki%E1%BB%83m-%C4%91%E1%BB%8Bnh-th%E1%BB%91ng-ke/ - Các kiểm định thống kê và lệnh R by @"><span class="icon-twitter"> Tweet</span></a>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=www.ytecongcong.com/kiemdinhR/ - Các kiểm định thống kê và lệnh R by @"><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
