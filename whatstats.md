@@ -9,7 +9,7 @@ published: true
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="/assets/js/conditional.js"></script>
 
-Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù hợp cho vấn đề. Kết quả đi kèm với liên kết chạy phân tích bằng R. Xem từ vựng phía dưới để giúp lựa chọn.
+Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù hợp cho vấn đề. Kết quả đi kèm với liên kết chạy phân tích bằng R. Xem từ vựng phía dưới để giúp lựa chọn. Nếu thấy chỗ sai hoặc cần cải thiện vui lòng để lại lời nhắn cuối bài.
 
 <form id="live_form">
 <div class="form-group">
