@@ -3,26 +3,13 @@ title: Cách chọn kiểm định thống kê
 layout: post
 permalink: thongkegi/
 profile: true
+published: true
 ---
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="/assets/js/conditional.js"></script>
 
-Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù hợp cho vấn đề. Kết quả đi kèm với liên kết chạy phân tích bằng R.
-
-## Từ vựng
-
-- **Biến số phụ thuộc**: đầu ra, kết cuộc, **hậu quả** của nghiên cứu.
-- **Biến số độc lập**: biến số tiên đoán, **nguyên nhân** của **hậu quả**.
-- **Nhóm độc lập lẫn nhau**: Ví dụ chiều cao nam với nữ.
-- **Nhóm phụ thuộc lẫn nhau**: v.d. cân nặng cùng một người đo lường trước và sau học đại học
-- **Biến số liên tục**: v.d. huyết áp
-- **Biến số không liên tục**: v.d. số con
-- **Biến số phân nhóm**: v.d. chủng tộc
-- **Biến số thứ tự**: v.d. thứ hạng
-- **Bình thường**: biến số có phân phối bình thường, v.d. $\sim N(\mu, \sigma)$
-- **2+**: 2 nhóm trở lên; **2/+**:2 hoặc trên hai
-- **đa biến**: multivariate; **đa hiệp biến**: multiple.
+Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù hợp cho vấn đề. Kết quả đi kèm với liên kết chạy phân tích bằng R. Xem từ vựng phía dưới để giúp lựa chọn.
 
 <form id="live_form">
 <div class="form-group">
@@ -110,7 +97,7 @@ Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù 
 	   <div class="radio"> <label class="radio"> <input name="c3" type="radio" value="32"/> Liên tục và Bình thường </label> </div> </div>
  </div>
  <div class="result hidden">
- 	<h2> (các) Kiểm định phù hợp </h2>
+ 	<h2> Kiểm định phù hợp </h2>
  	<div class="r1 hidden"> <a href="/kiemdinhR/#r1"> Kiểm định trung bình một mẫu </a> </div>
  	<div class="r2 hidden"> <a href="/kiemdinhR/#r2"> Kiểm định trung vị một mẫu </a> </div>
  	<div class="r3 hidden"> <a href="/kiemdinhR/#r3"> Kiểm định nhị thức  </a> </div>
@@ -148,3 +135,17 @@ Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù 
 	<a HREF="javascript:history.go(0)" class="button blue result hidden">Chọn lại từ đầu</a>
  </div>
 </form>
+
+## Từ vựng
+
+- **Biến số phụ thuộc**: đầu ra, kết cuộc, **hậu quả** của nghiên cứu.
+- **Biến số độc lập**: biến số tiên đoán, **nguyên nhân** của **hậu quả**.
+- **Nhóm độc lập lẫn nhau**: Ví dụ chiều cao nam với nữ.
+- **Nhóm phụ thuộc lẫn nhau**: v.d. cân nặng cùng một người đo lường trước và sau học đại học
+- **Biến số liên tục**: v.d. huyết áp
+- **Biến số không liên tục**: v.d. số con
+- **Biến số phân nhóm**: v.d. chủng tộc
+- **Biến số thứ tự**: v.d. thứ hạng
+- **Bình thường**: biến số có phân phối bình thường, v.d. $\sim N(\mu, \sigma)$
+- **2+**: 2 nhóm trở lên; **2/+**:2 hoặc trên hai
+- **đa biến**: multivariate; **đa hiệp biến**: multiple.

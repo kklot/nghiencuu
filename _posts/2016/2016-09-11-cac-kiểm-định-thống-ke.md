@@ -7,8 +7,6 @@ published: true
 permalink: kiemdinhR/
 ---
 
-> Updating...
-
 Chạy lệnh sau để tải dữ kiện mẫu về máy
 
 ``` r

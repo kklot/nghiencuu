@@ -1,4 +1,4 @@
-//Copyright 2015 Pareto Software, LLC, released under an MIT license: http://opensource.org/licenses/MIT
+//Copyright 2016 Van Kinh Nguyen, released under an MIT license: http://opensource.org/licenses/MIT
 $( document ).ready(function() {
 	var cau1 = $( ".cau1" ).parent();
 	var cau2 = $( ".cau2" );

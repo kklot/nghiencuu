@@ -86,23 +86,7 @@
 
 <script src="/assets/js/conditional.js"></script>
 
-<p>Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù hợp cho vấn đề. Kết quả đi kèm với liên kết chạy phân tích bằng R.</p>
-
-<h2 id="t-vng">Từ vựng</h2>
-
-<ul>
-  <li><strong>Biến số phụ thuộc</strong>: đầu ra, kết cuộc, <strong>hậu quả</strong> của nghiên cứu.</li>
-  <li><strong>Biến số độc lập</strong>: biến số tiên đoán, <strong>nguyên nhân</strong> của <strong>hậu quả</strong>.</li>
-  <li><strong>Nhóm độc lập lẫn nhau</strong>: Ví dụ chiều cao nam với nữ.</li>
-  <li><strong>Nhóm phụ thuộc lẫn nhau</strong>: v.d. cân nặng cùng một người đo lường trước và sau học đại học</li>
-  <li><strong>Biến số liên tục</strong>: v.d. huyết áp</li>
-  <li><strong>Biến số không liên tục</strong>: v.d. số con</li>
-  <li><strong>Biến số phân nhóm</strong>: v.d. chủng tộc</li>
-  <li><strong>Biến số thứ tự</strong>: v.d. thứ hạng</li>
-  <li><strong>Bình thường</strong>: biến số có phân phối bình thường, v.d. $\sim N(\mu, \sigma)$</li>
-  <li><strong>2+</strong>: 2 nhóm trở lên; <strong>2/+</strong>:2 hoặc trên hai</li>
-  <li><strong>đa biến</strong>: multivariate; <strong>đa hiệp biến</strong>: multiple.</li>
-</ul>
+<p>Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù hợp cho vấn đề. Kết quả đi kèm với liên kết chạy phân tích bằng R. Xem từ vựng phía dưới để giúp lựa chọn.</p>
 
 <form id="live_form">
 <div class="form-group">
@@ -190,7 +174,7 @@
 	   <div class="radio"> <label class="radio"> <input name="c3" type="radio" value="32" /> Liên tục và Bình thường </label> </div> </div>
  </div>
  <div class="result hidden">
- 	<h2> (các) Kiểm định phù hợp </h2>
+ 	<h2> Kiểm định phù hợp </h2>
  	<div class="r1 hidden"> <a href="/kiemdinhR/#r1"> Kiểm định trung bình một mẫu </a> </div>
  	<div class="r2 hidden"> <a href="/kiemdinhR/#r2"> Kiểm định trung vị một mẫu </a> </div>
  	<div class="r3 hidden"> <a href="/kiemdinhR/#r3"> Kiểm định nhị thức  </a> </div>
@@ -200,11 +184,11 @@
  	<div class="r7 hidden"> <a href="/kiemdinhR/#r7"> Kiểm định Chi-bình phương  </a> </div>
  	<div class="r8 hidden"> <a href="/kiemdinhR/#r8"> Kiểm định chính xác Fisher's  </a> </div>
  	<div class="r9 hidden"> <a href="/kiemdinhR/#r9"> ANOVA một chiều </a> </div>
- 	<div class="r10 hidden"> <a href="/kiemdinhR/#r10"> Kruskal Wallis </a> </div>
- 	<div class="r11 hidden"> <a href="/kiemdinhR/#r11"> Kiểm định Chi-bình phương  </a> </div>
+ 	<div class="r10 hidden"> <a href="/kiemdinhR/#r10"> Kiểm định Kruskal Wallis </a> </div>
+ 	<div class="r11 hidden"> <a href="/kiemdinhR/#r7"> Kiểm định Chi-bình phương  </a> </div>
  	<div class="r12 hidden"> <a href="/kiemdinhR/#r12"> Kiểm định t bắt cặp</a> </div>
- 	<div class="r13 hidden"> <a href="/kiemdinhR/#r13"> Kiểm định Wilcoxon signed ranks  </a> </div>
- 	<div class="r14 hidden"> <a href="/kiemdinhR/#r14"> kiểm định McNemar </a> </div>
+ 	<div class="r13 hidden"> <a href="/kiemdinhR/#r13"> Kiểm định Wilcoxon sắp hạng dựa theo dấu </a> </div>
+ 	<div class="r14 hidden"> <a href="/kiemdinhR/#r14"> Kiểm định McNemar </a> </div>
  	<div class="r15 hidden"> <a href="/kiemdinhR/#r15"> ANOVA một chiều đo lường lập lại </a> </div>
  	<div class="r16 hidden"> <a href="/kiemdinhR/#r16"> Kiểm định Friedman  </a> </div>
  	<div class="r17 hidden"> <a href="/kiemdinhR/#r17"> Hồi quy logistic đo lường lập lại </a> </div>
@@ -220,7 +204,7 @@
  	<div class="r27 hidden"> <a href="/kiemdinhR/#r27"> Hồi quy logistic đa hiệp biến </a> </div>
  	<div class="r28 hidden"> <a href="/kiemdinhR/#r28"> Phân tích phân biệt </a> </div>
  	<div class="r29 hidden"> <a href="/kiemdinhR/#r29"> MANOVA một chiều </a> </div>
- 	<div class="r30 hidden"> <a href="/kiemdinhR/#r30"> Hồi quy tuyến tính đa biến đa hiệp </a> </div>
+ 	<div class="r30 hidden"> <a href="/kiemdinhR/#r30"> Hồi quy tuyến tính đa biến đa hiệp biến </a> </div>
  	<div class="r31 hidden"> <a href="/kiemdinhR/#r31"> Phân tích nhân tố </a> </div>
  	<div class="r32 hidden"> <a href="/kiemdinhR/#r32"> Tương quan chính tắc </a> </div>
  </div>
@@ -228,6 +212,22 @@
 	<a href="javascript:history.go(0)" class="button blue result hidden">Chọn lại từ đầu</a>
  </div>
 </form>
+
+<h2 id="t-vng">Từ vựng</h2>
+
+<ul>
+  <li><strong>Biến số phụ thuộc</strong>: đầu ra, kết cuộc, <strong>hậu quả</strong> của nghiên cứu.</li>
+  <li><strong>Biến số độc lập</strong>: biến số tiên đoán, <strong>nguyên nhân</strong> của <strong>hậu quả</strong>.</li>
+  <li><strong>Nhóm độc lập lẫn nhau</strong>: Ví dụ chiều cao nam với nữ.</li>
+  <li><strong>Nhóm phụ thuộc lẫn nhau</strong>: v.d. cân nặng cùng một người đo lường trước và sau học đại học</li>
+  <li><strong>Biến số liên tục</strong>: v.d. huyết áp</li>
+  <li><strong>Biến số không liên tục</strong>: v.d. số con</li>
+  <li><strong>Biến số phân nhóm</strong>: v.d. chủng tộc</li>
+  <li><strong>Biến số thứ tự</strong>: v.d. thứ hạng</li>
+  <li><strong>Bình thường</strong>: biến số có phân phối bình thường, v.d. $\sim N(\mu, \sigma)$</li>
+  <li><strong>2+</strong>: 2 nhóm trở lên; <strong>2/+</strong>:2 hoặc trên hai</li>
+  <li><strong>đa biến</strong>: multivariate; <strong>đa hiệp biến</strong>: multiple.</li>
+</ul>
 
     </section>
 </article>
