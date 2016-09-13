@@ -35,10 +35,10 @@ Chọn 3 bước để giúp chọn phương pháp phân tích thống kê phù 
   	<div class="cau22 hidden">
 	   <div class="radio"> <label class="radio"> <input name="c2" type="radio" value="9" /> 1 BSĐL với 2/+ nhóm, độc lập lẫn nhau </label> </div>
 	   <div class="radio"> <label class="radio"> <input name="c2" type="radio" value="10"/> 2+ </label> </div>
-	   <div class="radio"> <label class="radio"> <input name="c2" type="radio" value="11"/> 0 </label> </div>
+	   <div class="radio"> <label class="radio"> <input name="c2" type="radio" value="11"/> Không có </label> </div>
   	</div>
   	<div class="cau23 hidden">
-	   <div class="radio"> <label class="radio"> <input name="c2" type="radio" value="12"/> 0 </label> </div>
+	   <div class="radio"> <label class="radio"> <input name="c2" type="radio" value="12"/> Không có </label> </div>
   	</div>
  </div>
  <div class="cau3 hidden">
