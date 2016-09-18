@@ -20,9 +20,9 @@ date: "2016-09-18 22:17"
 | `\t \n` | tab, xuống hàng |
 | `\u00A9` | Ký tự đặc biệt © |
 | Nhóm & hướng tìm |
-| `(abc)` | ghi nhóm |
+| `(abc)` | nhóm có thể tham chiếu |
 | `\1` | chỉ ngược lại nhóm tham chiếu số 1 |
-| `(?:abc)` | nhóm không ghi |
+| `(?:abc)` | nhóm không tham chiếu |
 | `(?=abc)` | tìm tới trước nếu có `abc` |
 | `(?!abc)` | tìm tới trước nếu **không** có `abc` |
 | Số lượng |
