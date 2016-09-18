@@ -93,6 +93,55 @@
 <p>Vi khuẩn thường lớn hơn nhiều so với virus. Tuy nhiên các virus lớn nhất thì lớn hơn so với các vi khuẩn nhỏ nhất. Nhiều vi khuẩn là rất có lợi cho người, số khác thì sống trên người theo kiểu hội sinh, không gây hại cũng không có lợi. Nấm cũng là vi sinh vật vì chúng có thể xuất hiện ở giai đoạn đơn bào. Con người chúng ta hàng ngày hít vào hàng triệu bào tử nấm và hệ thống miễn dịch của chúng ta là không ngừng chiến đấu với chúng. Đối với bệnh nhân AIDS, do hệ thống miễn dịch bị tàn phá họ có thể bị giết chết bởi các bệnh nấm mà vốn là lành tính ở người khỏe mạnh.</p>
 
     </section>
+      <style>
+.askbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F25056;
+  border: none;
+  color: #FFFFFF;
+  /*text-align: center;*/
+  font-size: 24px;
+  padding: 6px;
+  width: 80%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.askbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.askbutton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.askbutton:hover span {
+  padding-right: 25px;
+}
+
+.askbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<div style="display: block;
+    text-align: center;">
+<form method="post" action="http://stats.ytecongcong.com/ask">
+<button type="submit" class="askbutton" style="vertical-align:middle"><span>Đặt câu hỏi </span></button>
+<input type="hidden" name="doask1" value="1"></form>
+</div>
+
 </article>
 
 <div class="PageNavigation">

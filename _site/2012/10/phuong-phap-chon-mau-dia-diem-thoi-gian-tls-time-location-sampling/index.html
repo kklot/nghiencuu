@@ -145,6 +145,55 @@
 <p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph; line-height: 150%;"><span style="font-size: 9.0pt; mso-bidi-font-size: 12.0pt; line-height: 150%; font-family: 'Tahoma','sans-serif'; mso-bidi-font-family: Arial;">3. Muhib, F.B., Lin, L.S., Stueve, A., Miller, R.L., Ford, W.L., Johnson, W.D., Smith, P.J., Community Intervention Trial for Youth Study Team. (2001). A venue-based method for sampling hard-to-reach populations. Public Health Reports. 116(Supp. 1) 216-222. </span></p>
 
     </section>
+      <style>
+.askbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F25056;
+  border: none;
+  color: #FFFFFF;
+  /*text-align: center;*/
+  font-size: 24px;
+  padding: 6px;
+  width: 80%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.askbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.askbutton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.askbutton:hover span {
+  padding-right: 25px;
+}
+
+.askbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<div style="display: block;
+    text-align: center;">
+<form method="post" action="http://stats.ytecongcong.com/ask">
+<button type="submit" class="askbutton" style="vertical-align:middle"><span>Đặt câu hỏi </span></button>
+<input type="hidden" name="doask1" value="1"></form>
+</div>
+
 </article>
 
 <div class="PageNavigation">

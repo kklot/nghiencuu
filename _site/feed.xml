@@ -7,6 +7,142 @@
     <atom:link href="http://www.ytecongcong.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Nhắc bài Regex</title>
+        
+        
+          <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Chỉ ký tự&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Bất kể ký tự nào, ngoại trừ xuống hàng&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\w \d \s&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;từ, số, khoảng trắng&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\W \D \S&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;ngoại trừ từ, số, khoảng trắng&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[abc]&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;bất kỳ a, b, hay c&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[^abc]&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;ngoại trừ a, b, hay c&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[a-g]&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;ký tự từ a đến g&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Chỉ vị trí&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^abc$&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;bắt đầu/kết thúc của chuỗi ký tự&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\b \B&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;biên của từ, không phải từ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Các ký tự đặc biệt&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\. \* \\&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Ký tự &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;, và &lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\t \n&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;tab, xuống hàng&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\u00A9&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Ký tự đặc biệt ©&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nhóm &amp;amp; hướng tìm&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(abc)&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;nhóm có thể tham chiếu&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\1&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;chỉ ngược lại nhóm tham chiếu số 1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(?:abc)&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;nhóm không tham chiếu&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(?=abc)&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;tìm tới trước nếu có &lt;code class=&quot;highlighter-rouge&quot;&gt;abc&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(?!abc)&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;tìm tới trước nếu &lt;strong&gt;không&lt;/strong&gt; có &lt;code class=&quot;highlighter-rouge&quot;&gt;abc&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Số lượng&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a* a+ a?&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;0 hoặc hơn, 1 hoặc hơn, 0 hoặc 1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a{5} a{2,}&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;có đúng năm, có 2 hoặc hơn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a{1,3}&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;có từ một đến ba&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a+? a{2,}?&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;khớp càng ít càng tốt (khớp lần gặp đầu tiên)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ab|cd&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;tìm &lt;code class=&quot;highlighter-rouge&quot;&gt;ab&lt;/code&gt; hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        
+        <pubDate>Sun, 18 Sep 2016 22:17:00 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/09/nh%E1%BA%AFc-bai-regex/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/nh%E1%BA%AFc-bai-regex/</guid>
+      </item>
+    
+      <item>
+        <title>Tìm giá trị khớp với Regex trong R</title>
+        
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;regex&lt;/code&gt;: regular expression (Xem một số lệnh regex cơ bản &lt;a href=&quot;http://www.ytecongcong.com/2016/09/nh%E1%BA%AFc-bai-regex/&quot;&gt;ở đây&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Sun, 18 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/09/regex-can-ban/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/regex-can-ban/</guid>
+      </item>
+    
+      <item>
         <title>Cách viết Markdown</title>
         
         
@@ -159,32 +295,6 @@ http://www.suctich.info/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-
         <pubDate>Sun, 03 Apr 2016 22:50:36 +0200</pubDate>
         <link>http://www.ytecongcong.com/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/</link>
         <guid isPermaLink="true">http://www.ytecongcong.com/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/</guid>
-      </item>
-    
-      <item>
-        <title>Học R - [1] Giải bài tập và các vấn đề liên quan</title>
-        
-        
-          <description>&lt;p&gt;Có bạn hỏi sao không làm video, câu trả lời là &lt;strong&gt;tay phải nhúng chàm&lt;/strong&gt; là bước đầu tiên nếu muốn thành thạo. Nên hãy đọc và làm thử, các hướng dẫn là rất cơ bản và không tốn thời gian.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 23 Aug 2014 04:49:41 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2014/08/hoc-r-1-giai-bai-tap-va-cac-van-de-lien-quan/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2014/08/hoc-r-1-giai-bai-tap-va-cac-van-de-lien-quan/</guid>
-      </item>
-    
-      <item>
-        <title>Học R - [1] Giới thiệu, các khái niệm cơ bản</title>
-        
-        
-          <description>&lt;p&gt;&lt;img src=&quot;http://www.statisticsviews.com/stats/images/logo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 14 Aug 2014 09:29:33 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2014/08/hoc-r-1-gioi-thieu-cac-khai-niem-co-ban/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2014/08/hoc-r-1-gioi-thieu-cac-khai-niem-co-ban/</guid>
       </item>
     
   </channel>

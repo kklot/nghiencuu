@@ -230,6 +230,55 @@
 <p>Trong v.d. trên có 2 hàm, <code class="highlighter-rouge">ls</code> và <code class="highlighter-rouge">glob2rx</code> vì nó đứng trước ngoặc đơn. Thao tác với biến số dạng chữ sẽ được mô tả ở một bài riêng biệt, nếu quan tâm có thể xem thêm một vài v.d. tại <a href="http://stats.ytecongcong.com/228/l%E1%BB%8Dc-x%E1%BA%BFp-nhom-bi%E1%BA%BFn-s%E1%BB%91-d%E1%BA%A1ng-text-v%E1%BB%9Bi-r?show=229#a229">stats.ytecongcong.com</a>.</p>
 
     </section>
+      <style>
+.askbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F25056;
+  border: none;
+  color: #FFFFFF;
+  /*text-align: center;*/
+  font-size: 24px;
+  padding: 6px;
+  width: 80%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.askbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.askbutton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.askbutton:hover span {
+  padding-right: 25px;
+}
+
+.askbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<div style="display: block;
+    text-align: center;">
+<form method="post" action="http://stats.ytecongcong.com/ask">
+<button type="submit" class="askbutton" style="vertical-align:middle"><span>Đặt câu hỏi </span></button>
+<input type="hidden" name="doask1" value="1"></form>
+</div>
+
 </article>
 
 <div class="PageNavigation">

@@ -111,6 +111,55 @@
 <p>Có nghi ngờ rằng những con số báo cáo có thể bị báo cáo trội và chẩn đoán sai, và con số bệnh thực sự là không đáng tin cậy. Một báo cáo gần đây của WHO cho thấy có báo cáo thiếu ca bệnh trước 2015. <strong>WHO ước lượng của tỷ suất nền là cao hơn khoảng 10 lần so với ước lượng chính thức</strong>, hay 2.725 ca mỗi năm với số mới mắc tối thiểu là 92 trên 100.000. Điều này làm cho dịch bùng phát hiện tại <em>ít bất thường</em> hơn so với những tin tức ban đầu.</p>
 
     </section>
+      <style>
+.askbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F25056;
+  border: none;
+  color: #FFFFFF;
+  /*text-align: center;*/
+  font-size: 24px;
+  padding: 6px;
+  width: 80%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.askbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.askbutton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.askbutton:hover span {
+  padding-right: 25px;
+}
+
+.askbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<div style="display: block;
+    text-align: center;">
+<form method="post" action="http://stats.ytecongcong.com/ask">
+<button type="submit" class="askbutton" style="vertical-align:middle"><span>Đặt câu hỏi </span></button>
+<input type="hidden" name="doask1" value="1"></form>
+</div>
+
 </article>
 
 <div class="PageNavigation">
