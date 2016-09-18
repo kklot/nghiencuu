@@ -1,17 +1,17 @@
 ---
-title: Sử dụng Regex trong R
+title: Tìm giá trị khớp với Regex trong R
 layout: post
-published: false
 ---
 
-`regex`: regular expression (Xem một số lệnh regex cơ bản [ở đây]())
-> Để tránh các lỗi không tương thích với các phiên bản R khác nhau, khi dùng lệnh R nên gán tham số `perl=TRUE`.
+>`regex`: regular expression (Xem một số lệnh regex cơ bản [ở đây](http://www.ytecongcong.com/2016/09/nh%E1%BA%AFc-bai-regex/))
 
-R cung cấp 7 hàm `regex` trong package có sẵn `base`. Tất cả đều mặc định là phân biệt chữ hoa chữ thường. Nếu không muốn chỉ cần chọn thêm tham số `ignore.case=TRUE`.
+`regex` là ngôn ngữ mạnh mẽ để tìm kiếm giá trị khớp với một điều kiện mong muốn được sử dụng trong hầu hết các phần mềm và ngôn ngữ lập trình. Ví dụ như tìm Google cũng là một dạng của `regex`. Trong phân tích dữ kiện, `regex` cực kỳ hữu ích để xử lý nhanh, mã hóa và chọn lọc dữ kiện. V.d. để tìm những người trả lời "không" trong một câu hỏi mở, bạn có thể tìm với cú pháp như `*[kK]hông*` để bao hàm tất cả những đáp án như `không`, `Không`, `không tui không biết`,...Dưới đây là sơ lược về ứng dụng trong R.
+
+R cung cấp 7 hàm `regex` trong package có sẵn `base`. Tất cả đều mặc định là phân biệt chữ hoa chữ thường. Nếu không muốn chỉ cần chọn thêm tham số `ignore.case=TRUE`. Để tránh các lỗi không tương thích với các phiên bản R khác nhau, khi dùng lệnh R nên gán tham số `perl=TRUE`.
 
 ## Tìm giá trị trong các vector ký tự
 
-Hàm `grep` lấy tham số đầu tiên là  takes your regex as the first argument, and the input vector as the second argument. If you pass `value=FALSE` or omit the `value` parameter then `grep` returns a new vector with the indexes of the elements in the input vector that could be (partially) matched by the `regex`. If you pass `value=TRUE`, then `grep` returns a vector with copies of the actual elements in the input vector that could be (partially) matched.
+Hàm `grep` lấy tham số đầu tiên là `regex`, và tham số thứ hai là vector chứa nội dung cần tìm. Nếu thêm tham số `value=FALSE` hoặc không dùng tham số này hàm `grep` trả về một vector các vị trí trong vector khớp với `regex`. Cách này là đủ dùng nếu bạn chắc về cú pháp `regex` và dữ kiện có thể xử lý ngay dựa trên các giá trị này. Nếu chọn `value=TRUE`, `grep` trả về một vector với giá trị khớp có trong vector, cách này có thể giúp kiểm tra xem cú pháp lệnh mình tìm có đúng hay không.
 
 ``` r
 > grep("a+", c("abc", "def", "cba a", "aa"), perl=TRUE, value=FALSE)
@@ -20,33 +20,26 @@ Hàm `grep` lấy tham số đầu tiên là  takes your regex as the first argu
 [1] "abc" "cba a" "aa"
 ```
 
-The **`grepl`** function takes the same arguments as the `grep` function, except for the `value` argument, which is not supported. `grepl` returns a logical vector with the same length as the input vector. Each element in the returned vector indicates whether the regex could find a match in the corresponding string element in the input vector.
+Hàm `grepl` dùng giống như hàm `grep`, ngoại trừ việc tham số `value` không xài được. `grepl` trả về một vector đúng/sai với cùng độ dài với vector đầu vào. Mỗi giá trị trong vector trả về cho biết vị trí tương ứng trong vector đầu vào có khớp với `regex` không.
 
 ``` r
 > grepl("a+", c("abc", "def", "cba a", "aa"), perl=TRUE)
 [1] TRUE  FALSE TRUE  TRUE
 ```
 
-The **`regexpr`** function takes the same arguments as `grepl`. `regexpr` returns an integer vector with the same length as the input vector. Each element in the returned vector indicates the character position in each corresponding string element in the input vector at which the (first) regex match was found. A match at the start of the string is indicated with character position 1\. If the regex could not find a match in a certain string, its corresponding element in the result vector is -1\. The returned vector also has a `match.length` attribute. This is another integer vector with the number of characters in the (first) regex match in each string, or -1 for strings that didn't match.
-
-**`gregexpr`** is the same as `regexpr`, except that it finds all matches in each string. It returns a vector with the same length as the input vector. Each element is another vector, with one element for each match found in the string indicating the character position at which that match was found. Each vector element in the returned vector also has a `match.length` attribute with the lengths of all matches. If no matches could be found in a particular string, the element in the returned vector is still a vector, but with just one element -1.
+Hàm `regexpr` nhận tham số giống `grepl`, nhưng trả về một vector số nguyên cùng độ dài với vector đầu vào. Mỗi giá trị cho biết vị trí ký tự đầu tiên khớp với tìm kiếm trong mỗi chuỗi tương ứng. V.d. khớp ngay vị trí đầu tiên sẽ trả về giá trị `1`. Nếu không có giá trị nào khớp giá trị trả về là `-1`. V.d. bên dưới `"cba a"` có ký tự `a` đầu tiên ở vị trí số 3.
 
 ``` r
 > regexpr("a+", c("abc", "def", "cba a", "aa"), perl=TRUE)
 [1]  1 -1  3  1
 attr(,"match.length")
 [1]  1 -1  1  2
-> gregexpr("a+", c("abc", "def", "cba a", "aa"), perl=TRUE)
-[[1]]  [1] 1    attr(,"match.length")  [1] 1
-[[2]]  [1] -1   attr(,"match.length")  [1] -1
-[[3]]  [1] 3 5  attr(,"match.length")  [1] 1 1
-[[4]]  [1] 1    attr(,"match.length")  [1] 2
 ```
 
-Use **`regmatches`** to get the actual substrings matched by the `regex`. As the first argument, pass the same input that you passed to `regexpr` or `gregexpr` . As the second argument, pass the vector returned by `regexpr` or `gregexpr`. If you pass the vector from `regexpr` then `regmatches` returns a character vector with all the strings that were matched. This vector may be shorter than the input vector if no match was found in some of the elements. If you pass the vector from `regexpr` then `regmatches` returns a vector with the same number of elements as the input vector. Each element is a character vector with all the matches of the corresponding element in the input vector, or NULL if an element had no matches.
+Các lệnh trên là tương đối đủ dùng cho các dữ kiện bình thường, ngoài ra còn có hàm `gregexpr` gần giống như `regexpr`, hàm `regmatches` dùng để lấy giá trị thật của chuỗi khớp với `regex`. V.d.
 
 ``` r
->x <- c("abc", "def", "cba a", "aa")
+> x <- c("abc", "def", "cba a", "aa")
 > m <- regexpr("a+", x, perl=TRUE)
 > regmatches(x, m)
 [1]  "a"  "a"  "aa"
@@ -58,36 +51,4 @@ Use **`regmatches`** to get the actual substrings matched by the `regex`. As the
 [[4]]  [1] "aa"
 ```
 
-## Replacing Regex Matches in String Vectors
-
-The **`sub`** function has three required parameters: a string with the `regex`, a string with the replacement text, and the input vector. `sub` returns a new vector with the same length as the input vector. If a regex match could be found in a string element, it is replaced with the replacement text. Only the first match in each string element is replaced. If no matches could be found in some strings, those are copied into the result vector unchanged.
-
-Use **`gsub`** instead of `sub` to replace all regex matches in all the string elements in your vector. Other than replacing all matches, `gsub` works in exactly the same way, and takes exactly the same arguments.
-
-You can use the [backreferences](replacebackref.html) `<span class="regexspecial">\1</span>` through `<span class="regexspecial">\9</span>` in the replacement text to reinsert text matched by a [capturing group](brackets.html). You cannot use backreferences to groups 10 and beyond. If your regex has named groups, you can use numbered backreferences to the first 9 groups. There is no replacement text token for the overall match. Place the entire regex in a capturing group and then use `<span class="regexspecial">\1</span>` to insert the whole regex match.
-
-``` r
-> sub("(a+)", "z\\1z", c("abc", "def", "cba a", "aa"), perl=TRUE)
-[1] "zazbc"  "def"  "cbzaz a"   "zaaz"
-> gsub("(a+)", "z\\1z", c("abc", "def", "cba a", "aa"), perl=TRUE)
-[1] "zazbc"  "def"  "cbzaz zaz" "zaaz"
-```
-
-You can use `<span class="regexmeta">\U</span>` and `<span class="regexmeta">\L</span>` to change the text inserted by all following backreferences to uppercase or lowercase. You can use `<span class="regexmeta">\E</span>` to insert the following backreferences without any change of case. These escapes do not affect literal text.
-
-``` r
-> sub("(a+)", "z\\U\\1z", c("abc", "def", "cba a", "aa"), perl=TRUE)
-[1] "zAzbc"  "def"  "cbzAz a"   "zAAz"
-> gsub("(a+)", "z\\1z", c("abc", "def", "cba a", "aa"), perl=TRUE)
-[1] "zAzbc"  "def"  "cbzAz zAz" "zAAz"
-```
-
-A very powerful way of making replacements is to assign a new vector to the <tt>regmatches` function when you call it on the result of <tt>gregexpr`. The vector you assign should have as many elements as the original input vector. Each element should be a character vector with as many strings as there are matches in that element. The original input vector is then modified to have all the regex matches replaced with the text from the new vector.
-
-``` r
-> x <- c("abc", "def", "cba a", "aa")
-> m <- gregexpr("a+", x, perl=TRUE)
-> regmatches(x, m) <- list(c("one"), character(0), c("two", "three"), c("four"))
-> x
-[1]  "onebc"       "def"         "cbtwo three" "four"
-```
+Giá trị, hoặc vị trí trả về qua tìm kiếm với các hàm trên có thể dùng để lọc, thay thế, chỉnh sửa giá trị trong dữ kiện theo mong muốn với cách căn bản như dùng như `x[vector vị trí] <- vector thay thế` hoặc với hàm `sub, gsub`
