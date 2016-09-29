@@ -10,7 +10,7 @@ permalink: kiemdinhR/
 Chạy lệnh sau để tải dữ kiện mẫu về máy
 
 ``` r
-hsb2 <- within(read.csv("http://www.ytecongcong.com/_data/hsb2.csv"), {
+hsb2 <- within(read.csv("http://www.ytecongcong.com/data/hsb2.csv"), {
     race <- as.factor(race)
     schtyp <- as.factor(schtyp)
     prog <- as.factor(prog)
@@ -118,7 +118,7 @@ mcnemar.test(X)
 ``` r
 require(car)
 require(foreign)
-kirk <- within(read.dta("http://www.ytecongcong.com/_data/rb4.dta"),
+kirk <- within(read.dta("http://www.ytecongcong.com/data/rb4.dta"),
     {
         s <- as.factor(s)
         a <- as.factor(a)

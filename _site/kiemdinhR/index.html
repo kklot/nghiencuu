@@ -78,7 +78,7 @@
     <section id="post-body">
       <p>Chạy lệnh sau để tải dữ kiện mẫu về máy</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">hsb2</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">within</span><span class="p">(</span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"http://www.ytecongcong.com/_data/hsb2.csv"</span><span class="p">),</span><span class="w"> </span><span class="p">{</span><span class="w">
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">hsb2</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">within</span><span class="p">(</span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"http://www.ytecongcong.com/data/hsb2.csv"</span><span class="p">),</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="n">race</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">race</span><span class="p">)</span><span class="w">
     </span><span class="n">schtyp</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">schtyp</span><span class="p">)</span><span class="w">
     </span><span class="n">prog</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">prog</span><span class="p">)</span><span class="w">
@@ -172,7 +172,7 @@
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">car</span><span class="p">)</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">foreign</span><span class="p">)</span><span class="w">
-</span><span class="n">kirk</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">within</span><span class="p">(</span><span class="n">read.dta</span><span class="p">(</span><span class="s2">"http://www.ytecongcong.com/_data/rb4.dta"</span><span class="p">),</span><span class="w">
+</span><span class="n">kirk</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">within</span><span class="p">(</span><span class="n">read.dta</span><span class="p">(</span><span class="s2">"http://www.ytecongcong.com/data/rb4.dta"</span><span class="p">),</span><span class="w">
     </span><span class="p">{</span><span class="w">
         </span><span class="n">s</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="w">
         </span><span class="n">a</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="w">
