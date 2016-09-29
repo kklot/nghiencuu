@@ -141,7 +141,7 @@ friedman.test(cbind(read, write, math))
 
 ``` r
 require(lme4)
-exercise <- within(read.dta("http://www.ats.ucla.edu/stat/stata/whatstat/exercise.dta"),
+exercise <- within(read.dta("http://www.ytecongcong.com/data/exercise.dta"),
     {
         id <- as.factor(id)
         diet <- as.factor(diet)
@@ -165,7 +165,7 @@ require(ggplot2)
 require(MASS)
 require(Hmisc)
 require(reshape2)
-dat <- read.dta("http://www.ats.ucla.edu/stat/data/ologit.dta")
+dat <- read.dta("http://www.ytecongcong.com/data/ologit.dta")
 head(dat)
 m <- polr(apply ~ pared + public + gpa, data = dat, Hess=TRUE)
 summary(m)
