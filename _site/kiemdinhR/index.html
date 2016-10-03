@@ -193,7 +193,7 @@
 <h2 id="r17">Hồi quy logistic đo lường lập lại</h2>
 
 <div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">lme4</span><span class="p">)</span><span class="w">
-</span><span class="n">exercise</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">within</span><span class="p">(</span><span class="n">read.dta</span><span class="p">(</span><span class="s2">"http://www.ats.ucla.edu/stat/stata/whatstat/exercise.dta"</span><span class="p">),</span><span class="w">
+</span><span class="n">exercise</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">within</span><span class="p">(</span><span class="n">read.dta</span><span class="p">(</span><span class="s2">"http://www.ytecongcong.com/data/exercise.dta"</span><span class="p">),</span><span class="w">
     </span><span class="p">{</span><span class="w">
         </span><span class="n">id</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w">
         </span><span class="n">diet</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as.factor</span><span class="p">(</span><span class="n">diet</span><span class="p">)</span><span class="w">
@@ -215,7 +215,7 @@
 </span><span class="n">require</span><span class="p">(</span><span class="n">MASS</span><span class="p">)</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">Hmisc</span><span class="p">)</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">reshape2</span><span class="p">)</span><span class="w">
-</span><span class="n">dat</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.dta</span><span class="p">(</span><span class="s2">"http://www.ats.ucla.edu/stat/data/ologit.dta"</span><span class="p">)</span><span class="w">
+</span><span class="n">dat</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.dta</span><span class="p">(</span><span class="s2">"http://www.ytecongcong.com/data/ologit.dta"</span><span class="p">)</span><span class="w">
 </span><span class="n">head</span><span class="p">(</span><span class="n">dat</span><span class="p">)</span><span class="w">
 </span><span class="n">m</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">polr</span><span class="p">(</span><span class="n">apply</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">pared</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">public</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">gpa</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dat</span><span class="p">,</span><span class="w"> </span><span class="n">Hess</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
 </span><span class="n">summary</span><span class="p">(</span><span class="n">m</span><span class="p">)</span><span class="w">

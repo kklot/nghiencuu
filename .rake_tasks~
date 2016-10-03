@@ -1,9 +1,0 @@
-build[deployment_configuration]
-check_links
-clean
-create_post[date,title,category,content]
-deploy[deployment_configuration]
-deploy_github
-list_changes
-post_changes
-preview

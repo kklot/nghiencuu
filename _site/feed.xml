@@ -7,6 +7,44 @@
     <atom:link href="http://www.ytecongcong.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Tỷ suất mới mắc HIV 2012-2015</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;/data/img/HIVrate.png&quot;&gt;&lt;img src=&quot;/data/img/HIVrate.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/10/ty-suat-moi-mac-hiv-2012-2015/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/10/ty-suat-moi-mac-hiv-2012-2015/</guid>
+      </item>
+    
+      <item>
+        <title>Gmail, Mutt, OfflineImap và Unity Mail</title>
+        
+        
+          <description>&lt;p&gt;Như tựa đề mô tả, ngoài việc cấu hình để đọc Gmail với &lt;code class=&quot;highlighter-rouge&quot;&gt;Mutt&lt;/code&gt;, và đồng bộ emails với &lt;code class=&quot;highlighter-rouge&quot;&gt;OfflineImap&lt;/code&gt;, sử dụng &lt;a href=&quot;https://tari.in/www/software/unitymail/&quot;&gt;Unity Mail&lt;/a&gt; để nhận tin báo khi có mail mới đồng thời kích hoạt &lt;code class=&quot;highlighter-rouge&quot;&gt;OfflineImap&lt;/code&gt; chạy đồng bộ khi có mới mới là giải pháp hoàn hảo nhất cho tới nay khi dùng &lt;code class=&quot;highlighter-rouge&quot;&gt;Mutt&lt;/code&gt;. Mô hình này được minh họa rất tốt ở hình dưới&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 21 Sep 2016 00:53:00 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/09/gmail-mutt-offlineimap-va-unity-mail/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/gmail-mutt-offlineimap-va-unity-mail/</guid>
+      </item>
+    
+      <item>
+        <title>Lập bảng nhanh trong LaTex với Excel2Latex/Cal2Latex</title>
+        
+        
+          <description>&lt;p&gt;Lập bảng trong LaTeX là một công việc gây nản nhất trong sử dụng LaTex khi soạn thảo văn bản. Nếu dùng R bạn có thể nhanh chóng xuất ngay kết quả mô hình, bảng biểu sang ngôn ngữ Latex. Nếu không, cách tốt nhất là dùng &lt;code class=&quot;highlighter-rouge&quot;&gt;Excel2Latex&lt;/code&gt; cho Excel hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;cal2latex&lt;/code&gt; khi dùng Libreoffice Calc.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 21 Sep 2016 00:00:00 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/09/l%E1%BA%ADp-b%E1%BA%A3ng-nhanh-trong-latex-v%E1%BB%9Bi-excel2latexcal2latex/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/l%E1%BA%ADp-b%E1%BA%A3ng-nhanh-trong-latex-v%E1%BB%9Bi-excel2latexcal2latex/</guid>
+      </item>
+    
+      <item>
         <title>Nhắc bài Regex</title>
         
         
@@ -211,90 +249,6 @@
         <pubDate>Tue, 05 Apr 2016 21:56:14 +0200</pubDate>
         <link>http://www.ytecongcong.com/2016/04/viet-nam-bao-cao-ca-nhiem-zika-dau-tien/</link>
         <guid isPermaLink="true">http://www.ytecongcong.com/2016/04/viet-nam-bao-cao-ca-nhiem-zika-dau-tien/</guid>
-      </item>
-    
-      <item>
-        <title>Vai trò của virus Zika trong bệnh nhỏ đầu và hội chứng Guillian-Barre (GBS) cần chờ kết quả từ các nghiên cứu</title>
-        
-        
-          <description>&lt;p&gt;&lt;img src=&quot;http://www.cdc.gov/zika/images/banner2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Dịch Ebola là đáng báo động vì những gì đã biết về bệnh, trong khi Zika đáng báo động vì những gì không biết về bệnh.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Tổ chức Y tế Thế giới (WHO) tuyên bố tình trạng Y tế Công cộng khẩn cấp do sự thiếu thông tin về Zika virus, nhất là thiếu chắc chắn về nguyên nhân của sự gia tăng các ca bệnh nhỏ đầu (microcephaly) và Hội chứng Guillian-Barre (GBS) ở Brazil và các vùng khác ở châu Mỹ.&lt;/p&gt;
-&lt;p&gt;David Heymann, nhà dịch tễ học ở London School of Tropical Medicine and Hygiene so sánh Zika với Ebola nói rằng dịch Ebola là đáng báo động vì những gì đã biết về bệnh, trong khi Zika đáng báo động vì những gì không biết về bệnh.&lt;/p&gt;
-&lt;h2&gt;Gánh nặng bệnh tật&lt;/h2&gt;
-&lt;h3&gt;Lây nhiễm Zika virus&lt;/h3&gt;
-&lt;p&gt;Bộ Y tế Brazil ước lượng có thể có từ nửa triệu đến 1,5 triệu ca nhiễm trong nước. Columbia báo cáo có trên 31.000 ca nghi ngờ và con số này ở Cape Verde là trên 7.000. Một số chuyên gia ước lượng sẽ có 3-4 triệu ca mắc trong năm tới.&lt;/p&gt;
-&lt;p&gt;Theo WHO, phạm vi địa lý của virus đã gia tăng đáng kể trong năm 2015-16 nhất là ở châu Mỹ với 28 quốc gia và vùng lãnh thổ đã bị ảnh hưởng.&lt;/p&gt;
-&lt;h3&gt;Bệnh nhỏ đầu&lt;/h3&gt;
-&lt;p&gt;Brazil báo cáo có khoảng 5.280 ca bệnh nhỏ đầu hoặc bất thường hệ thần kinh trung ương vào tháng 2, 2016, trong đó có 108 ca tử vong.&lt;/p&gt;
-&lt;h3&gt;Hội chứng Guillain-Barre (GBS)&lt;/h3&gt;
-&lt;p&gt;Năm quốc gia ở châu Mỹ đã báo cáo sự gia tăng hội chứng Guillain–Barre với sự bùng phát dịch virus Zika. Ở người lớn, báo cáo cho thấy có ít ca có hội chứng này so với các ca bệnh nhỏ đầu. Đỉnh điểm ca mắc là ở Venezuela với 252 trường hợp.&lt;/p&gt;
-&lt;h2&gt;Chứng minh nhân quả&lt;/h2&gt;
-&lt;p&gt;Tuy kiến thức hiện tại cho biết virus Zika lây lan qua muỗi &lt;em&gt;Aedes&lt;/em&gt;, và phòng ngừa Zika theo lý thuyết là khả thi với việc kiểm soát hiệu quả muỗi và/hoặc muỗi cắn, nhưng nguyên nhân của các ca bệnh nhỏ đầu và GBS thì ít được chắc chắn.&lt;/p&gt;
-&lt;p&gt;Để thực sự đánh gia vai trò cụ thể của virus Zika trong bệnh nhỏ đầu, một nghiên cứu bệnh-chứng hợp tác giữa CDC, Brazil, và các nhà khoa học khác sẽ được thực hiện để “tìm hiểu sâu về các nhân tố mà người mẹ đã phơi nhiễm trước đó, và các kết quả xét nghiệm từ các bà mẹ và con, để thật sự hiểu hơn về tỷ lệ bao nhiêu các ca dị tật khi sinh này có liên quan trực tiếp với virus Zika” theo CDC’s Anne Schuchat.&lt;/p&gt;
-&lt;p&gt;Nghiên cứu của CDC đã bắt đầu vào giữa tháng 2 bất chấp những ý kiến rất mạnh mẽ từ các quan chức y tế Brazil cho rằng Zika là nguyên nhân của bệnh nhỏ đầu. Một yếu tố quan trọng bây giờ là đưa ra một định nghĩa ca bệnh chuẩn xác cho các ca bệnh nhỏ đầu, vì hiện tại các báo cáo cho thấy có chẩn đoán sai và báo cáo trội trong khoảng 5000 ca báo cáo chính thức. Bộ Y tế Brazil nói rằng bằng chứng gián tiếp là rất mạnh và “Chúng tôi không có nghi ngờ gì về việc dịch bệnh nhỏ đầu chúng ta đang chứng kiến ở Brazil gây ra bởi dịch virus Zika bùng phát.”&lt;/p&gt;
-&lt;h3&gt;Các thông tin ủng hộ mối liên quan&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Đã có sự gia tăng đáng kể các ca bệnh nhỏ đầu từ 2015 cùng với sự gia tăng của các ca Zika ở Brazil. Trước 2015, ước lượng ban đầu cho thấy số ca bệnh nhỏ đầu trung bình trong nước là chỉ khoảng 163 ca mỗi năm nhưng đã tăng đến 5000 trong những tháng vừa qua.&lt;/li&gt;
-&lt;li&gt;Zika được phát hiện ở 41 trẻ trong 462 ca nhỏ đầu ở Brazil. Tổng cộng tới hiện tại có ít nhất 508 ca xác định bệnh nhỏ đầu.&lt;/li&gt;
-&lt;li&gt;Khảo sát dữ liệu sinh từ vụ dịch bùng phát Zika ở French Polynesia năm 2013-14 cho thấy số bất thường khi sinh cũng tăng, từ 0-2 mỗi năm lên 18 trong năm 2014-15, với 9 ca nhỏ đầu. Bốn bà mẹ được xét nghiệm sau đó cho thấy bằng chứng phơi nhiễm với Zika.&lt;/li&gt;
-&lt;li&gt;Một trẻ sinh ở Hawaii vào tháng 12 đã có xét nghiệm huyết thanh cho thấy nhiễm Zika. Người mẹ đã từng có triệu chứng giống mắc Zika trong tam cá nguyệt thứ 2.&lt;/li&gt;
-&lt;li&gt;Phân lập được virus từ bào thai một ca hủy thai ở Slovenia.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;Các thông tin phản bác mối liên quan&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Các virus khác như &lt;em&gt;Dengue&lt;/em&gt; và &lt;em&gt;Chikungunya&lt;/em&gt; đang lưu hành bên cạnh Zika. Hơn nữa các nguyên nhân bệnh nhỏ đầu không do virus chưa được loại trừ.&lt;/li&gt;
-&lt;li&gt;Chưa có báo cáo ca bệnh nhỏ đầu ngoài Brazil.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Nếu Zika thực sự là nguyên nhân, một trong những lí do để giải thích có thể là do việc các dân số bị ảnh hưởng khác chưa đủ lớn để tạo ra sự lây lan bùng phát, điều mà có thể xảy ra trong một dân số lớn và không có miễn dịch như Brazil. Việc này có nghĩa giả định tỷ suất mới mắc ở phụ nữ có thai là thấp và các dịch bùng phát trước đó chưa đủ sức tạo ra một &quot;cụm&quot; các ca nhỏ đầu đủ lớn để dễ phát hiện. Hoặc giả có các yếu tố khác đặc trưng ở Brazil đã giúp tạo nên dịch bùng phát về các kết cuộc liên quan đến thần kinh trở nên rõ ràng.&lt;/p&gt;
-&lt;h2&gt;Chờ đợi những đợt ca mắc mới trong tương lai?&lt;/h2&gt;
-&lt;p&gt;Một lí do nữa đưa ra bởi giám đốc CDC Tom Frieden là “Không ngạc nhiên khi không thấy các ca nhỏ đầu trong các quốc gia khác, bởi vì khung thời gian giữa nhiễm và sinh nở (là dài).” Điều này giả định Brazil là một trong những khu vực bị ảnh hưởng sớm nhất và các đợt ca nhiễm mới phát hiện sẽ xảy ra khi thời gian trôi qua trong các vùng khác của châu Mỹ.&lt;/p&gt;
-&lt;p&gt;Có nghi ngờ rằng những con số báo cáo có thể bị báo cáo trội và chẩn đoán sai, và con số bệnh thực sự là không đáng tin cậy. Một báo cáo gần đây của WHO cho thấy có báo cáo thiếu ca bệnh trước 2015. &lt;strong&gt;WHO ước lượng của tỷ suất nền là cao hơn khoảng 10 lần so với ước lượng chính thức&lt;/strong&gt;, hay 2.725 ca mỗi năm với số mới mắc tối thiểu là 92 trên 100.000. Điều này làm cho dịch bùng phát hiện tại &lt;em&gt;ít bất thường&lt;/em&gt; hơn so với những tin tức ban đầu.&lt;/p&gt;
-</description>
-        
-        <pubDate>Tue, 05 Apr 2016 19:20:18 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2016/04/vai-tro-cua-virus-zika-trong-benh-nho-dau-va-hoi-chung-guillian-barre-gbs-can-cho-ket-qua-tu-cac-nghien-cuu/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2016/04/vai-tro-cua-virus-zika-trong-benh-nho-dau-va-hoi-chung-guillian-barre-gbs-can-cho-ket-qua-tu-cac-nghien-cuu/</guid>
-      </item>
-    
-      <item>
-        <title>Canada khuyến nghị phụ nữ 40-49 tuổi không nên đi khám sàng lọc ung thư vú</title>
-        
-        
-          <description>&lt;p&gt;Nhóm công tác Y tế Dự phòng Canada đưa ra khuyến nghị trên, đồng thời khuyến nghị đối với phụ nữ 50-69 và 70-74 thì nên sàng lọc mỗi 2-3 năm &lt;sup id=&quot;fnref-1&quot;&gt;&lt;a class=&quot;footnote-ref&quot; href=&quot;#fn-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Đương nhiên, khuyến nghị này có được từ phân tích trên số liệu mới mắc của phụ nữ Canada.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.cmaj.ca/content/183/17/1991/F1.large.jpg&quot; alt=&quot;Source&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Ước lượng số cần sàng lọc (NNS) để phòng ngừa một ca tử vong do ung thư vú là 2108 người trong nhóm tuổi 40-49, nếu thực hiện sàng lọc một lần mỗi 2-3 năm trong vòng 11 năm. Phòng ngừa một ca tử vong này sẽ đưa đến khoảng 690 phụ nữ có nhũ ảnh dương giả, kéo theo các xét nghiệm bổ sung và ước lượng 75 phụ nữ sẽ phải làm sinh thiết không cần thiết.&lt;/p&gt;
-&lt;p&gt;Ước tính chẩn đoán quá cho nhóm tuổi này không có, nhưng ở phụ nữ 39 tuổi trở lên, nhóm nghiên cứu ước tính cứ mỗi 1000 phụ nữ được sàng lọc sẽ có 5 phụ nữ sẽ phải thực hiện cắt bỏ khối u/vú không cần thiết.&lt;/p&gt;
-&lt;p&gt;Đánh giá của nhóm nghiên cứu là “tỷ số lợi ích tiềm năng-nguy hại không ủng hộ việc thực hiện sàng lọc trong nhóm tuổi 40-49&quot;. Nhóm nghiên cứu cũng thừa nhận là những phụ nữ coi trọng việc giảm, dù chỉ một phần nhỏ, khả năng tử vong và coi nhẹ việc có thể có những kết quả bất tiện sẽ có nhiều khả nặng lựa chọn thực hiện sàng lọc.&lt;/p&gt;
-&lt;div class=&quot;footnote&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&quot;fn-1&quot;&gt;Recommendations on screening for breast cancer in average-risk women aged 40–74 years http://www.cmaj.ca/content/183/17/1991.full &lt;a class=&quot;footnote-backref&quot; title=&quot;Jump back to footnote 1 in the text&quot; href=&quot;#fnref-1&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        
-        <pubDate>Mon, 04 Apr 2016 05:24:20 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2016/04/canada-khuyen-nghi-phu-nu-40-49-tuoi-khong-nen-di-kham-sang-loc-ung-thu-vu/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2016/04/canada-khuyen-nghi-phu-nu-40-49-tuoi-khong-nen-di-kham-sang-loc-ung-thu-vu/</guid>
-      </item>
-    
-      <item>
-        <title>Nhiễm mới HIV giảm 21%, các cơ quan tính tới việc chấm dứt dịch AIDS</title>
-        
-        
-          <description>&lt;p&gt;Ước tính hiện tại có khoảng 34 triệu người đang sống chung với HIV, tăng 17% trong thập kỷ qua. Số người tử vong vì AIDS trong năm 2010 đã giảm xuống con số 1,8 triệu so với đỉnh điểm 2,2 triệu những năm giữa 2000, và con số ước lượng 2,5 triệu tử vong đã được ngăn chặn ở các nước có thu nhập trung bình và thấp từ năm 1995 nhờ thuốc kháng Retrovirus.&lt;/p&gt;
-&lt;p&gt;Trong năm 2010, có 2,7 triệu ca mắc mới, ít hơn 15% so với 2001 và ít hơn 21% so với số mới mắc trong đỉnh điểm dịch năm 1997.&lt;/p&gt;
-&lt;p&gt;Những con số này tăng thêm động lực cho ngày AIDS Thế giới năm nay vì các phương tiện để ngăn chặn AIDS hiện đã có trong tay. Theo UNAIDS, “Chúng ta đang đang tiến sát đến một bước tiến quan trọng trong đối phó AIDS. Tầm nhìn về một thế giới không có ca nhiễm mới HIV, không có sự kỳ thị, và không có tử vong liên quan đến AIDS đã có thể mường tượng được…Chỉ mới vài năm trước, nói chuyện kết thúc dịch AIDS gần như là không tưởng, nhưng với khoa học, ủng hộ về chính sách, và sự hưởng ứng của cộng đồng đang bắt đầu cho thấy hiệu quả rõ ràng&quot;.&lt;/p&gt;
-&lt;p&gt;(theo UNAIDS)&lt;/p&gt;
-&lt;p&gt;Nhiễm mới HIV giảm 21%, các cơ quan tính tới việc chấm dứt dịch AIDS – Súc tích&lt;br /&gt;
-http://www.suctich.info/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/&lt;/p&gt;
-</description>
-        
-        <pubDate>Sun, 03 Apr 2016 22:50:36 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2016/04/nhiem-moi-hiv-giam-21-cac-co-quan-tinh-toi-viec-cham-dut-dich-aids/</guid>
       </item>
     
   </channel>
