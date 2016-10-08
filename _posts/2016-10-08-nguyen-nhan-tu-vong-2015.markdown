@@ -3,7 +3,7 @@ title: Nguyên nhân tử vong 2005-2015
 layout: post
 ---
 
-Các nguyên nhân gây tử vong hàng đầu, thay đổi trong 10 năm qua tại Việt Nam sắp theo thứ hạng.
+Các nguyên nhân gây tử vong hàng đầu, thay đổi trong 10 năm qua tại Việt Nam sắp theo thứ hạng[^1].
 
 <svg id="deaths-arrow-chart-arrow-diagram" class="arrow-chart-svg" preserveAspectRatio="none" width="100%" height="240">
 <g id="deaths-arrow-chart-trs-g" transform="translate(150, 0)">
@@ -149,3 +149,5 @@ Các nguyên nhân gây tử vong hàng đầu, thay đổi trong 10 năm qua t�
 <g id="deaths-arrow-chart-circles-o"></g></g></svg>
 
 NT: Nhiễm trùng; TNGT: Tai nạn giao thông; COPD: Bệnh phổi tắc nghẽn mạn tính; TMCT: Thiếu máu cơ tim; MMN: mạch máu não; ĐHH: Đường hô hấp
+
+[^1]: Global Burden of Disease Study 2015. Global Burden of Disease Study 2015 (GBD 2015) Life Expectancy, All-Cause and Cause-Specific Mortality 1980-2015. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2016.
