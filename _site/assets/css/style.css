@@ -818,3 +818,9 @@ h2.month {
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
 	box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
+.footnotes {
+	font-size: small;
+	margin-top: 20px;
+	border-top: 1px dashed;
+	padding-top: 6px;
+}
