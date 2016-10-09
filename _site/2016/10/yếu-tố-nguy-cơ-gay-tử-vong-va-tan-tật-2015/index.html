@@ -39,6 +39,24 @@
       enable_page_level_ads: true
     });
   </script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 </head>
 <body>
 
@@ -78,7 +96,7 @@
     <section id="post-body">
       <p>Các yếu tố nguy cơ hàng đầu gây tử vong và tàn tật (DALYs)<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. DALYs là số năm sống bị mất hiệu chỉnh theo tàn tật. Một DALY tương đương với một năm sống khỏe mạnh bị mất. Tổng DALYs đo lường khoảng cách giữa tình trạng sức khỏe hiện tại so với trường hợp tối ưu khi toàn bộ dân số sống tới già, không mắc bệnh hay tàn tật.</p>
 
-<p>[DALY = YLL + YLD = (N\times L) + (I \times W \times D)]</p>
+<script type="math/tex; mode=display">DALY = YLL + YLD = (N\times L) + (I \times W \times D)</script>
 
 <p>Với</p>
 
@@ -498,6 +516,5 @@
     ga('create', 'UA-83930831-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
