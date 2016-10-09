@@ -6,7 +6,7 @@ date: "2016-10-09 15:38"
 
 Các yếu tố nguy cơ hàng đầu gây tử vong và tàn tật (DALYs)[^1]. DALYs là số năm sống bị mất hiệu chỉnh theo tàn tật. Một DALY tương đương với một năm sống khỏe mạnh bị mất. Tổng DALYs đo lường khoảng cách giữa tình trạng sức khỏe hiện tại so với trường hợp tối ưu khi toàn bộ dân số sống tới già, không mắc bệnh hay tàn tật.
 
-\[DALY = YLL + YLD = (N\times L) + (I \times W \times D)\]
+$$DALY = YLL + YLD = (N\times L) + (I \times W \times D)$$
 
 Với
 
