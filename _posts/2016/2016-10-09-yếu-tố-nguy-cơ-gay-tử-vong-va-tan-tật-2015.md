@@ -264,15 +264,15 @@ Với
   <rect class="stack" width="0" height="20.90909090909091" x="73.87148298451659" y="185.85858585858585"></rect>
   <rect class="stack" width="0" height="20.90909090909091" x="70.14953679940584" y="209.0909090909091"></rect></g></g></svg>
 
-HATT: Huyết áp tâm thu
+HATT: Huyết áp tâm thu; BTN: bệnh truyền nhiễm; ĐHH: đường hô hấp;
 
 <div class="legend">
   <div class="legend-item" style="border-left-color: rgb(254, 224, 210);">HIV/AIDS và Lao</div>
-  <div class="legend-item" style="border-left-color: rgb(252, 187, 161);">Tiêu chảy, ĐHH dưới, và các BTN phổ biến khác</div>
+  <div class="legend-item" style="border-left-color: rgb(252, 187, 161);">Tiêu chảy, ĐHH dưới, các BTN phổ biến khác</div>
   <div class="legend-item" style="border-left-color: rgb(153, 0, 13);">Các BTN, bà mẹ, trẻ em, dinh dưỡng khác</div>
   <div class="legend-item" style="border-left-color: rgb(198, 219, 239);">U bướu</div>
   <div class="legend-item" style="border-left-color: rgb(158, 202, 225);">Bệnh tim mạch</div>
-  <div class="legend-item" style="border-left-color: rgb(107, 174, 214);">Bệnh HH mạn</div>
+  <div class="legend-item" style="border-left-color: rgb(107, 174, 214);">Bệnh hô hấp mạn tính</div>
   <div class="legend-item" style="border-left-color: rgb(49, 130, 189);">Xơ gan và các bệnh gan mạn tính khác</div>
   <div class="legend-item" style="border-left-color: rgb(8, 81, 156);">Bệnh tiêu hóa</div>
   <div class="legend-item" style="border-left-color: rgb(218, 218, 235);">Rối loạn thần kinh</div>

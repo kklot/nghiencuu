@@ -33,10 +33,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="40" x="-15" text-anchor="end" dy=".35em">Tai biến MMN</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-494" cx="0" cy="40" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="40" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">1</text></g>
+  <text y="40" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">1</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-494" cx="100" cy="40" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="40" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">1</text></g>
+  <text y="40" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">1</text></g>
 <g>
   <rect y="31" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: hidden;"></rect>
   <text y="40" x="112.5" text-anchor="start" dy=".35em">Tai biến MMN</text>
@@ -45,10 +45,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="60" x="-15" text-anchor="end" dy=".35em">TNGT</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-689" cx="0" cy="60" r="9" style="fill: rgb(157, 203, 156);"></circle>
-  <text y="60" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">2</text></g>
+  <text y="60" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">2</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-493" cx="100" cy="60" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="60" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">2</text></g>
+  <text y="60" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">2</text></g>
 <g>
   <rect y="51" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: visible;"></rect>
   <text y="60" x="112.5" text-anchor="start" dy=".35em">TMCT cục bộ</text>
@@ -57,10 +57,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="80" x="-15" text-anchor="end" dy=".35em">TMCT cục bộ</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-493" cx="0" cy="80" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="80" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">3</text></g>
+  <text y="80" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">3</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-689" cx="100" cy="80" r="9" style="fill: rgb(157, 203, 156);"></circle>
-  <text y="80" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">3</text></g>
+  <text y="80" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">3</text></g>
 <g>
   <rect y="71" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: hidden;"></rect>
   <text y="80" x="112.5" text-anchor="start" dy=".35em">TNGT</text>
@@ -69,10 +69,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="100" x="-15" text-anchor="end" dy=".35em">NT ĐHH dưới</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-322" cx="0" cy="100" r="9" style="fill: rgb(194, 70, 79);"></circle>
-  <text y="100" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">4</text></g>
+  <text y="100" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">4</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-426" cx="100" cy="100" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="100" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">4</text></g>
+  <text y="100" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">4</text></g>
 <g>
   <rect y="91" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: visible;"></rect>
   <text y="100" x="112.5" text-anchor="start" dy=".35em">UT phổi</text>
@@ -81,10 +81,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="120" x="-15" text-anchor="end" dy=".35em">Dị tật bẩm sinh</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-641" cx="0" cy="120" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="120" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">5</text></g>
+  <text y="120" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">5</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-322" cx="100" cy="120" r="9" style="fill: rgb(194, 70, 79);"></circle>
-  <text y="120" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">5</text></g>
+  <text y="120" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">5</text></g>
 <g>
   <rect y="111" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: hidden;"></rect>
   <text y="120" x="112.5" text-anchor="start" dy=".35em">NT ĐHH dưới</text>
@@ -93,10 +93,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="140" x="-15" text-anchor="end" dy=".35em">Sinh non</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-381" cx="0" cy="140" r="9" style="fill: rgb(194, 70, 79);"></circle>
-  <text y="140" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">6</text></g>
+  <text y="140" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">6</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-641" cx="100" cy="140" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="140" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">6</text></g>
+  <text y="140" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">6</text></g>
 <g>
   <rect y="131" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: visible;"></rect>
   <text y="140" x="112.5" text-anchor="start" dy=".35em">Dị tật bẩm sinh</text>
@@ -105,10 +105,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="160" x="-15" text-anchor="end" dy=".35em">Lao</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-297" cx="0" cy="160" r="9" style="fill: rgb(194, 70, 79);"></circle>
-  <text y="160" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">7</text></g>
+  <text y="160" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">7</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-587" cx="100" cy="160" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="160" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">7</text></g>
+  <text y="160" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">7</text></g>
 <g>
   <rect y="151" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: hidden;"></rect>
   <text y="160" x="112.5" text-anchor="start" dy=".35em">Tiểu đường</text>
@@ -117,10 +117,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="180" x="-15" text-anchor="end" dy=".35em">UT phổi</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-426" cx="0" cy="180" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="180" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">8</text></g>
+  <text y="180" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">8</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-417" cx="100" cy="180" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="180" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">8</text></g>
+  <text y="180" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">8</text></g>
 <g>
   <rect y="171" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: visible;"></rect>
   <text y="180" x="112.5" text-anchor="start" dy=".35em">UT gan</text>
@@ -129,10 +129,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="200" x="-15" text-anchor="end" dy=".35em">Đuối nước</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-698" cx="0" cy="200" r="9" style="fill: rgb(157, 203, 156);"></circle>
-  <text y="200" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">9</text></g>
+  <text y="200" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">9</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-297" cx="100" cy="200" r="9" style="fill: rgb(194, 70, 79);"></circle>
-  <text y="200" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">9</text></g>
+  <text y="200" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">9</text></g>
 <g>
   <rect y="191" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: hidden;"></rect>
   <text y="200" x="112.5" text-anchor="start" dy=".35em">Lao</text>
@@ -141,10 +141,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="220" x="-15" text-anchor="end" dy=".35em">Tự sát</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-718" cx="0" cy="220" r="9" style="fill: rgb(157, 203, 156);"></circle>
-  <text y="220" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">10</text></g>
+  <text y="220" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">10</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-698" cx="100" cy="220" r="9" style="fill: rgb(157, 203, 156);"></circle>
-  <text y="220" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">10</text></g>
+  <text y="220" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">10</text></g>
 <g>
   <rect y="211" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: visible;"></rect>
   <text y="220" x="112.5" text-anchor="start" dy=".35em">Đuối nước</text>
@@ -154,10 +154,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="260" x="-15" text-anchor="end" dy=".35em">UT gan</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-417" cx="0" cy="260" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="260" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">11</text></g>
+  <text y="260" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">11</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-718" cx="100" cy="260" r="9" style="fill: rgb(157, 203, 156);"></circle>
-  <text y="260" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">12</text></g>
+  <text y="260" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">12</text></g>
 <g>
   <rect y="251" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: hidden;"></rect>
   <text y="260" x="112.5" text-anchor="start" dy=".35em">Tự sát</text>
@@ -166,10 +166,10 @@ Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua
   <text y="280" x="-15" text-anchor="end" dy=".35em">Tiểu đường</text>
 <g>
   <circle id="yll-arrow-chart-circle-2005-587" cx="0" cy="280" r="9" style="fill: rgb(98, 167, 185);"></circle>
-  <text y="280" x="0" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">13</text></g>
+  <text y="280" x="0" text-anchor="middle" dy=".35em" fill="#ffffff">13</text></g>
 <g>
   <circle id="yll-arrow-chart-circle-2015-381" cx="100" cy="280" r="9" style="fill: rgb(194, 70, 79);"></circle>
-  <text y="280" x="100" text-anchor="middle" dy=".35em" fill="#ffffff" font-family="AvenirNextLTW01-Heavy, sans-serif">13</text></g>
+  <text y="280" x="100" text-anchor="middle" dy=".35em" fill="#ffffff">13</text></g>
 <g>
   <rect y="271" x="110" width="190" height="18" fill="#d3d3d3" style="visibility: visible;"></rect>
   <text y="280" x="112.5" text-anchor="start" dy=".35em">Sinh non</text>
