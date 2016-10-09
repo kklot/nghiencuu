@@ -7,13 +7,196 @@
     <atom:link href="http://www.ytecongcong.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Nguyen Nhan Tu Vong 2015</title>
+        <title>Nguyên nhân chết trẻ 2015</title>
         
         
-          <description>&lt;div class=&quot;country-profile-chart&quot;&gt;
-&lt;h1 class=&quot;app-string&quot; data-app-string=&quot;103&quot;&gt;What causes the most deaths?&lt;/h1&gt;
-&lt;div id=&quot;deaths-arrow-chart&quot; class=&quot;country-profile chart&quot;&gt;&lt;svg id=&quot;deaths-arrow-chart-arrow-diagram&quot; class=&quot;arrow-chart-svg&quot; preserveAspectRatio=&quot;none&quot; viewBox=&quot;0 0 545 260&quot; width=&quot;545&quot; height=&quot;260&quot;&gt;&lt;g id=&quot;deaths-arrow-chart-trs-g&quot; transform=&quot;translate(143, 0)&quot;&gt;&lt;g id=&quot;deaths-arrow-chart-header-rank-2005-tt&quot;&gt;&lt;text y=&quot;20&quot; x=&quot;9&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;2005 ranking&lt;/text&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-header-rank-2015-tt&quot;&gt;&lt;text y=&quot;20&quot; x=&quot;263.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;2015 ranking&lt;/text&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-header-percent-change-tt&quot;&gt;&lt;text y=&quot;20&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;% change 2005-2015&lt;/text&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-lines&quot;&gt;&lt;line id=&quot;deaths-arrow-chart-line-494&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;40&quot; y2=&quot;40&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-493&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;60&quot; y2=&quot;60&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-426&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;80&quot; y2=&quot;80&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-297&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;100&quot; y2=&quot;200&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-509&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;120&quot; y2=&quot;100&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-322&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;140&quot; y2=&quot;160&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-689&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;160&quot; y2=&quot;180&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-587&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;180&quot; y2=&quot;120&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-543&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;200&quot; y2=&quot;140&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;line id=&quot;deaths-arrow-chart-line-589&quot; x1=&quot;0&quot; x2=&quot;272.5&quot; y1=&quot;220&quot; y2=&quot;220&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-lines&quot;&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-circles-tt&quot;&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-0&quot;&gt;&lt;text y=&quot;40&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Cerebrovascular disease&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-494&quot; cx=&quot;0&quot; cy=&quot;40&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;40&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;1&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-494&quot; cx=&quot;272.5&quot; cy=&quot;40&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;40&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;1&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;31&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;40&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Cerebrovascular disease&lt;/text&gt;&lt;text y=&quot;40&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;8.1%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-1&quot;&gt;&lt;text y=&quot;60&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Ischemic heart disease&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-493&quot; cx=&quot;0&quot; cy=&quot;60&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;60&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;2&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-493&quot; cx=&quot;272.5&quot; cy=&quot;60&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;60&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;2&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;51&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;60&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Ischemic heart disease&lt;/text&gt;&lt;text y=&quot;60&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;10.4%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-2&quot;&gt;&lt;text y=&quot;80&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Lung cancer&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-426&quot; cx=&quot;0&quot; cy=&quot;80&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;80&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;3&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-426&quot; cx=&quot;272.5&quot; cy=&quot;80&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;80&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;3&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;71&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;80&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Lung cancer&lt;/text&gt;&lt;text y=&quot;80&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;24.9%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-3&quot;&gt;&lt;text y=&quot;100&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Tuberculosis&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-297&quot; cx=&quot;0&quot; cy=&quot;100&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;100&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;4&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-509&quot; cx=&quot;272.5&quot; cy=&quot;100&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;100&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;4&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;91&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;100&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;COPD&lt;/text&gt;&lt;text y=&quot;100&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;8.6%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-4&quot;&gt;&lt;text y=&quot;120&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;COPD&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-509&quot; cx=&quot;0&quot; cy=&quot;120&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;120&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;5&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-587&quot; cx=&quot;272.5&quot; cy=&quot;120&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;120&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;5&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;111&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;120&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Diabetes&lt;/text&gt;&lt;text y=&quot;120&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;23.8%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-5&quot;&gt;&lt;text y=&quot;140&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Lower respiratory infect&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-322&quot; cx=&quot;0&quot; cy=&quot;140&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;140&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;6&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-543&quot; cx=&quot;272.5&quot; cy=&quot;140&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;140&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;6&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;131&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;140&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Alzheimer disease&lt;/text&gt;&lt;text y=&quot;140&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;14.7%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-6&quot;&gt;&lt;text y=&quot;160&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Road injuries&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-689&quot; cx=&quot;0&quot; cy=&quot;160&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;160&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;7&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-322&quot; cx=&quot;272.5&quot; cy=&quot;160&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;160&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;7&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;151&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;160&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Lower respiratory infect&lt;/text&gt;&lt;text y=&quot;160&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-4.0%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-7&quot;&gt;&lt;text y=&quot;180&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Diabetes&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-587&quot; cx=&quot;0&quot; cy=&quot;180&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;180&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;8&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-689&quot; cx=&quot;272.5&quot; cy=&quot;180&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;180&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;8&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;171&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;180&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Road injuries&lt;/text&gt;&lt;text y=&quot;180&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-5.9%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-8&quot;&gt;&lt;text y=&quot;200&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Alzheimer disease&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-543&quot; cx=&quot;0&quot; cy=&quot;200&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;200&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;9&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-297&quot; cx=&quot;272.5&quot; cy=&quot;200&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;200&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;9&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;191&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;200&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Tuberculosis&lt;/text&gt;&lt;text y=&quot;200&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-31.2%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-row-tt-9&quot;&gt;&lt;text y=&quot;220&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Chronic kidney disease&lt;/text&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2005-589&quot; cx=&quot;0&quot; cy=&quot;220&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;220&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;10&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;circle id=&quot;deaths-arrow-chart-circle-2015-589&quot; cx=&quot;272.5&quot; cy=&quot;220&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;&lt;text y=&quot;220&quot; x=&quot;272.5&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;10&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect y=&quot;211&quot; x=&quot;287.5&quot; width=&quot;267.5&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;&lt;text y=&quot;220&quot; x=&quot;290&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Chronic kidney disease&lt;/text&gt;&lt;text y=&quot;220&quot; x=&quot;545&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-0.8%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g id=&quot;deaths-arrow-chart-circles-o&quot;&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;
-&lt;p class=&quot;app-string&quot; data-app-string=&quot;104&quot;&gt;Top 10 causes of death by rate in 2015 and percent change, 2005-2015&lt;/p&gt;
+          <description>&lt;svg id=&quot;yll-arrow-chart-arrow-diagram&quot; class=&quot;arrow-chart-svg&quot; preserveAspectRatio=&quot;none&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;
+&lt;g id=&quot;yll-arrow-chart-trs-g&quot; transform=&quot;translate(150, 0)&quot;&gt;
+&lt;g id=&quot;yll-arrow-chart-header-rank-2005-tt&quot;&gt;
+  &lt;text y=&quot;20&quot; x=&quot;9&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;2005&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-header-rank-2015-tt&quot;&gt;
+  &lt;text y=&quot;20&quot; x=&quot;100&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;2015&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-header-percent-change-tt&quot;&gt;
+  &lt;text y=&quot;20&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;% thay đổi&lt;/text&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-lines&quot;&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-494&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;40&quot; y2=&quot;40&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-689&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;60&quot; y2=&quot;80&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-493&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;80&quot; y2=&quot;60&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-322&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;100&quot; y2=&quot;120&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-641&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;120&quot; y2=&quot;140&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-381&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;140&quot; y2=&quot;280&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-297&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;160&quot; y2=&quot;200&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-426&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;180&quot; y2=&quot;100&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-698&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;200&quot; y2=&quot;220&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-718&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;220&quot; y2=&quot;260&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;5px, 5px&quot;&gt;&lt;/line&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-lines&quot;&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-417&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;260&quot; y2=&quot;180&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;
+  &lt;line id=&quot;yll-arrow-chart-line-587&quot; x1=&quot;0&quot; x2=&quot;100&quot; y1=&quot;280&quot; y2=&quot;160&quot; stroke=&quot;#4c4c4e&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;none&quot;&gt;&lt;/line&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-circles-tt&quot;&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-0&quot;&gt;
+  &lt;text y=&quot;40&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Tai biến MMN&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-494&quot; cx=&quot;0&quot; cy=&quot;40&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;40&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;1&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-494&quot; cx=&quot;100&quot; cy=&quot;40&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;40&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;1&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;31&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;40&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Tai biến MMN&lt;/text&gt;
+  &lt;text y=&quot;40&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;3.3%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-1&quot;&gt;
+  &lt;text y=&quot;60&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;TNGT&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-689&quot; cx=&quot;0&quot; cy=&quot;60&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;60&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;2&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-493&quot; cx=&quot;100&quot; cy=&quot;60&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;60&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;2&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;51&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;60&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;TMCT cục bộ&lt;/text&gt;
+  &lt;text y=&quot;60&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;5.1%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-2&quot;&gt;
+  &lt;text y=&quot;80&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;TMCT cục bộ&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-493&quot; cx=&quot;0&quot; cy=&quot;80&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;80&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;3&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-689&quot; cx=&quot;100&quot; cy=&quot;80&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;80&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;3&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;71&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;80&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;TNGT&lt;/text&gt;
+  &lt;text y=&quot;80&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-13.0%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-3&quot;&gt;
+  &lt;text y=&quot;100&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;NT ĐHH dưới&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-322&quot; cx=&quot;0&quot; cy=&quot;100&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;100&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;4&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-426&quot; cx=&quot;100&quot; cy=&quot;100&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;100&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;4&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;91&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;100&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;UT phổi&lt;/text&gt;
+  &lt;text y=&quot;100&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;22.4%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-4&quot;&gt;
+  &lt;text y=&quot;120&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Dị tật bẩm sinh&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-641&quot; cx=&quot;0&quot; cy=&quot;120&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;120&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;5&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-322&quot; cx=&quot;100&quot; cy=&quot;120&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;120&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;5&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;111&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;120&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;NT ĐHH dưới&lt;/text&gt;
+  &lt;text y=&quot;120&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-28.6%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-5&quot;&gt;
+  &lt;text y=&quot;140&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Sinh non&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-381&quot; cx=&quot;0&quot; cy=&quot;140&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;140&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;6&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-641&quot; cx=&quot;100&quot; cy=&quot;140&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;140&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;6&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;131&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;140&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Dị tật bẩm sinh&lt;/text&gt;
+  &lt;text y=&quot;140&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-18.0%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-6&quot;&gt;
+  &lt;text y=&quot;160&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Lao&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-297&quot; cx=&quot;0&quot; cy=&quot;160&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;160&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;7&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-587&quot; cx=&quot;100&quot; cy=&quot;160&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;160&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;7&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;151&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;160&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Tiểu đường&lt;/text&gt;
+  &lt;text y=&quot;160&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;16.2%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-7&quot;&gt;
+  &lt;text y=&quot;180&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;UT phổi&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-426&quot; cx=&quot;0&quot; cy=&quot;180&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;180&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;8&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-417&quot; cx=&quot;100&quot; cy=&quot;180&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;180&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;8&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;171&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;180&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;UT gan&lt;/text&gt;
+  &lt;text y=&quot;180&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;12.0%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-8&quot;&gt;
+  &lt;text y=&quot;200&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Đuối nước&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-698&quot; cx=&quot;0&quot; cy=&quot;200&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;200&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;9&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-297&quot; cx=&quot;100&quot; cy=&quot;200&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;200&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;9&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;191&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;200&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Lao&lt;/text&gt;
+  &lt;text y=&quot;200&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-35.5%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-tt-9&quot;&gt;
+  &lt;text y=&quot;220&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Tự sát&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-718&quot; cx=&quot;0&quot; cy=&quot;220&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;220&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;10&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-698&quot; cx=&quot;100&quot; cy=&quot;220&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;220&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;10&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;211&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;220&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Đuối nước&lt;/text&gt;
+  &lt;text y=&quot;220&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-32.1%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-circles-o&quot;&gt;
+&lt;g id=&quot;yll-arrow-chart-row-o-0&quot;&gt;
+  &lt;text y=&quot;260&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;UT gan&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-417&quot; cx=&quot;0&quot; cy=&quot;260&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;260&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;11&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-718&quot; cx=&quot;100&quot; cy=&quot;260&quot; r=&quot;9&quot; style=&quot;fill: rgb(157, 203, 156);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;260&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;12&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;251&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;260&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Tự sát&lt;/text&gt;
+  &lt;text y=&quot;260&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-3.4%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;
+&lt;g id=&quot;yll-arrow-chart-row-o-1&quot;&gt;
+  &lt;text y=&quot;280&quot; x=&quot;-15&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;Tiểu đường&lt;/text&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2005-587&quot; cx=&quot;0&quot; cy=&quot;280&quot; r=&quot;9&quot; style=&quot;fill: rgb(98, 167, 185);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;280&quot; x=&quot;0&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;13&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;circle id=&quot;yll-arrow-chart-circle-2015-381&quot; cx=&quot;100&quot; cy=&quot;280&quot; r=&quot;9&quot; style=&quot;fill: rgb(194, 70, 79);&quot;&gt;&lt;/circle&gt;
+  &lt;text y=&quot;280&quot; x=&quot;100&quot; text-anchor=&quot;middle&quot; dy=&quot;.35em&quot; fill=&quot;#ffffff&quot; font-family=&quot;AvenirNextLTW01-Heavy, sans-serif&quot;&gt;13&lt;/text&gt;&lt;/g&gt;
+&lt;g&gt;
+  &lt;rect y=&quot;271&quot; x=&quot;110&quot; width=&quot;190&quot; height=&quot;18&quot; fill=&quot;#d3d3d3&quot; style=&quot;visibility: visible;&quot;&gt;&lt;/rect&gt;
+  &lt;text y=&quot;280&quot; x=&quot;112.5&quot; text-anchor=&quot;start&quot; dy=&quot;.35em&quot;&gt;Sinh non&lt;/text&gt;
+  &lt;text y=&quot;280&quot; x=&quot;290&quot; text-anchor=&quot;end&quot; dy=&quot;.35em&quot;&gt;-48.2%&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;
+</description>
+        
+        <pubDate>Sun, 09 Oct 2016 15:20:00 +0200</pubDate>
+        <link>http://www.ytecongcong.com/2016/10/nguyen-nhan-ch%E1%BA%BFt-tr%E1%BA%BB-2015/</link>
+        <guid isPermaLink="true">http://www.ytecongcong.com/2016/10/nguyen-nhan-ch%E1%BA%BFt-tr%E1%BA%BB-2015/</guid>
+      </item>
+    
+      <item>
+        <title>Nguyên nhân tử vong 2005-2015</title>
+        
+        
+          <description>&lt;p&gt;Các nguyên nhân gây tử vong hàng đầu, thay đổi trong 10 năm qua tại Việt Nam sắp theo thứ hạng&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Global Burden of Disease Study 2015. Global Burden of Disease Study 2015 (GBD 2015) Life Expectancy, All-Cause and Cause-Specific Mortality 1980-2015. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2016. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
 &lt;/div&gt;
 </description>
         
@@ -233,19 +416,6 @@
         <pubDate>Tue, 06 Sep 2016 23:40:00 +0200</pubDate>
         <link>http://www.ytecongcong.com/2016/09/ky-sinh-trung/</link>
         <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/ky-sinh-trung/</guid>
-      </item>
-    
-      <item>
-        <title>Dịch bệnh là gì?</title>
-        
-        
-          <description>&lt;p&gt;Bệnh truyền nhiễm đã luôn luôn là một sát nhân chính trong suốt lịch sử loài người. Đến mức, nó đã từng là một phần của cuộc sống - tranh đấu để tồn tại hàng ngày, gieo rắc bệnh tật và chết chóc. Đã nhiều lần, bệnh truyền nhiễm tấn công diện rộng trên toàn cộng đồng gây nên &lt;strong&gt;dịch&lt;/strong&gt;, gây tử vong cho hàng loạt người một cách nhanh chóng. Ví dụ, trong thời trung cổ, dịch bệnh dịch hạch (cái chết đen) gây ra bởi vi khuẩn &lt;em&gt;Yersinia pestis&lt;/em&gt;, lan rộng khắp châu Âu. Chỉ trong bốn năm ước tính dịch bệnh đã giết chết cứ ba trong mười người ở châu Âu.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Tue, 06 Sep 2016 14:03:17 +0200</pubDate>
-        <link>http://www.ytecongcong.com/2016/09/dich-benh-la-gi/</link>
-        <guid isPermaLink="true">http://www.ytecongcong.com/2016/09/dich-benh-la-gi/</guid>
       </item>
     
   </channel>
