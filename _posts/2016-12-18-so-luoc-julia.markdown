@@ -4,12 +4,8 @@ title: "Sơ lược Julia"
 date: "2016-12-18 19:36:20 +0100"
 ---
 
-```{mermaid}
-graph LR
-R -.-> Julia
-```
-
 ## Cơ bản:
+
 |Lệnh|thực hiện|
 |---|---|
 |`x = 3`        | định nghĩa biến số  x = 3|
@@ -23,6 +19,7 @@ R -.-> Julia
 |`x -> 3x` | hàm ``ẩn”|
 
 ## Tạo các ma trận cơ bản:
+
 |Lệnh|thực hiện|
 |---|---|
 |`rand(12), rand(12, 4)` | vector 12 nhân tố hoặc ma trận 12×4 từ phân phối đều U(0,1)|
@@ -33,6 +30,7 @@ R -.-> Julia
 |`diagm(x)`  | ma trận có giá trị trên đường chéo là x|
 
 ## Trích ma trận và vector:
+
 |Lệnh|thực hiện|
 |---|---|
 |`x[2:12]`   | giá trị từ vị trí thứ 2 đến 12 của x|
@@ -42,6 +40,7 @@ R -.-> Julia
 |`diag(A)`   | giá trị trên đường chéo của A|
 
 ## Tính toán và một số hàm trên số:
+
 |Lệnh|thực hiện|
 |---|---|
 |`3*4, 7+4, 2-6, 8/3`  | nhân cộng trừ chia|
@@ -54,6 +53,7 @@ R -.-> Julia
 |`besselj(2,6)`  | hàm Bessel J|
 
 ## Tính toán và một số hàm trên ma trận và vector:
+
 |Lệnh|thực hiện|
 |---|---|
 |`x*3, x + 3`  | nhân/cộng mọi nhân tố của x với 3|
@@ -69,6 +69,7 @@ R -.-> Julia
 |`λ, eig(A)`  | eigenvalue λ và eigenvector của A|
 
 ## Vẽ biểu đồ
+
 |Lệnh|thực hiện|
 |---|---|
 |`using PyPlot, using Plots, using Gadfly`  | tải package, tùy nhu cầu|
