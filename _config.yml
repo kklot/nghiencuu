@@ -15,7 +15,7 @@ exclude: [bin, .idea, .bundle, Gemfile*]
 # show_related_posts: true
 
 # , jekyll-archives]
-baseurl: /nghiencuu
+baseurl: ""
 domain_name: 'www.ytecongcong.com'
 google_analytics: 'UA-83930831-1'
 disqus: true
