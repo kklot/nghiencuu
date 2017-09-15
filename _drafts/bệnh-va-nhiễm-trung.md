@@ -5,8 +5,6 @@ description: Work in progress
 ## date: add a date when publishing
 ---
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsnvN1q_oXKu7QVUcMuj_y9ZRZxYfuRXzo5tgz7WwEgINAfg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
 Đặc tính của bệnh truyền nhiễm là bạn có thể truyền nó cho bạn bè, gia đình và đôi khi cho người lạ. Bệnh truyền nhiễm có hai thành phần: sự nhiễm trùng và căn bệnh gây ra do nhiễm trùng. Ta thấy không phải tất cả các bệnh đều do nhiễm trùng và không phải cứ nhiễm trùng là gây ra bệnh. Cũng không phải tất cả các bệnh do nhiễm trùng có thể lây truyền. Và nhất là, không phải ai cũng đều có khả năng bị nhiễm bệnh.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Infectious_and_parasitic_diseases_world_map-Deaths_per_million_persons-WHO2012.svg/640px-Infectious_and_parasitic_diseases_world_map-Deaths_per_million_persons-WHO2012.svg.png)
@@ -41,3 +39,5 @@ Lây truyền là một bước chủ yếu trong việc gây dịch bệnh. Kh�
 Khoảng thời gian mà bạn có khả năng lây truyền virus cho người khác được gọi là thời kỳ lây nhiễm, đây là một yếu tố quan trọng trong việc nghiên cứu các đặc tính của dịch bệnh. Liệu có người có khả năng bị lây nhiễm cao hơn người khác không? Bạn có thể thấy một số người không bao giờ bị bệnh trong khi tất cả mọi người đều bệnh. Tác nhân truyền nhiễm cần một môi trường tốt để phân chia.
 
 Ví dụ, nếu bạn không có tất cả các nguồn lực của tác nhân cần, nó sẽ không thể tái tạo một cách hiệu quả trong bạn. Tương tự, bạn có thể có rất nhiều tài nguyên, nhưng cũng có một hệ thống phòng thủ cao cấp. Cá thể thiếu nguồn lực hoặc có hệ thống phòng thủ mạnh có it khả năng trở nên bị nhiễm bệnh, trong khi những người có khả năng hỗ trợ việc nhiễm trùng được gọi là cá thể cảm nhiễm. Mỗi người thể hiện một môi trường riêng biệt cho các tác nhân lây nhiễm. Các đặc điểm kể trên như bệnh, nhiễm trùng, truyền nhiễm và tính nhạy cảm hoặc đề kháng nhiễm bệnh tất cả đều là tối quan trọng để hiểu về dịch bệnh.
+
+
