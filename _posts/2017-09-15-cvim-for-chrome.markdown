@@ -17,17 +17,9 @@ cVim có gì hay?
 
 # Cài đặt cVim
 
-**Acquire it by either:**
+1.  Cài đặt qua [Chrome web store](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh).
 
-1.  Cài đặt it through the [Chrome web store](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh).
-
-2.  Downloading the `.zip` file [here](https://github.com/1995eaton/chromium-vim/archive/master.zip)
-
-    *   Enabling it by going to the `chrome://extensions` URL.
-    *   Checking developer mode.
-    *   Then pointing Chrome to the unzipped folder via `Load unpacked extensions`.
-
-# Using cVim
+# Cách dùng cVim
 
 Here’s how to use the addon including an example of the configuration settings and bindings by group.
 
@@ -102,9 +94,9 @@ You can sync with a Gist file in the settings of the browser addon.
 
 `yy` – Copy the URL of the current page to the clipboard.
 
-**Searching**
+**Tìm nội dung trên trang đang xem**
 
-`/` open search bar
+`/` Mở hộp tìm kiếm (nhấn xong gõ chữ cần tìm, xong `Enter`)
 
 `n` – Next search result .
 
