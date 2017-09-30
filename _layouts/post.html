@@ -46,7 +46,7 @@ archive: true
     </div>
 {% endif %} -->
 
-<div id='discourse-comments'></div>
+<!-- <div id='discourse-comments'></div>
 
 <script type="text/javascript">
   DiscourseEmbed = { discourseUrl: 'http://vntrends.com/',
@@ -57,9 +57,9 @@ archive: true
     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
   })();
-</script>
+</script> -->
 
-<h3>Bài liên quan</h3>
+<!-- <h3>Bài liên quan</h3>
 {% assign listed_posts_urls = page.url | split: ' ' %}
 {% for tag in page.tags %}
   {% for mypost in site.tags[tag] %}
@@ -71,4 +71,4 @@ archive: true
       {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
     {% endif %}
   {% endfor %}
-{% endfor %}
+{% endfor %} -->
