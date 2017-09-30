@@ -162,16 +162,3 @@ You can sync with a Gist file in the settings of the browser addon.
 **Sources**
 
 *   [cVim - Vim bindings for Google Chrome](https://github.com/1995eaton/chromium-vim) – cVim Github page.
-
-<div id='discourse-comments'></div>
-
-<script type="text/javascript">
-  DiscourseEmbed = { discourseUrl: 'http://vntrends.com/',
-                     discourseEmbedUrl: 'http://www.ytecongcong.com/2017/09/cvim-for-chrome/' };
-
-  (function() {
-    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-  })();
-</script>
