@@ -14,7 +14,7 @@ which pdflatex
 Move the downloaded `biber` there, e.g. `/Library/TeX/texbin/pdflatex`
 
 ```bash
-sudo mv ~/Download/biber /Library/TeX/texbin/pdflatex
+sudo mv ~/Download/biber /Library/TeX/texbin/
 ```
 
 Good to go now.
