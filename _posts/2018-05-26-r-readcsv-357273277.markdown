@@ -1,7 +1,11 @@
 ---
-title: [r] read.csv "\357\273\277"
+title: r read.csv 357 273 277
 layout: post
 ---
+
+Error:
+
+> Column names start with "\357\273\277"
 
 Due to UTF8 encoding BOM (Byte Ordering Mark). To fix, add `fileEncoding='UTF-8-BOM'` option, e.g.,
 
