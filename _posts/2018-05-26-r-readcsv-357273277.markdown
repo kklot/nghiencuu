@@ -1,0 +1,10 @@
+---
+title: [r] read.csv "\357\273\277"
+layout: post
+---
+
+Due to UTF8 encoding BOM (Byte Ordering Mark). To fix, add `fileEncoding='UTF-8-BOM'` option, e.g.,
+
+```R
+pop <- read.csv('UKpop2011_13.csv', stringsAsFactors=F, check.names=F, fileEncoding='UTF-8-BOM')
+```
