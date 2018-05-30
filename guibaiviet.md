@@ -23,7 +23,7 @@ Mọi thành viên có nhu cầu có thể đăng bài có nội dung trong lĩn
     </div>
      <div class="form-group">
         <label for="content">Nội dung</label>
-        <textarea class="form-control" rows="25" name="content" placeholder="Nội dung bài viết"></textarea>
+        <textarea class="form-control" rows="25" name="content" placeholder="Nội dung bài viết (Hình ảnh nên upload lên imgur.com và paste url trực tiếp trong bài viết.) Bài biết của bạn sẽ được chỉnh định dạng trước khi đăng."></textarea>
     </div>
     <button class="btn btn-primary btn-block" type="submit">Gửi Bài</button>
 </form>
