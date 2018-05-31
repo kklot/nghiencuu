@@ -12,14 +12,20 @@ Mọi thành viên có nhu cầu có thể đăng bài có nội dung trong lĩn
 
 <p>Tên hoặc bút danh sẽ được tạo thành trang riêng (dạng ytecongcong.com/authors/butdanh/, v.d. <a href="/authors/nguyenkinh/">/authors/nguyenkinh/</a> ) liệt kê các bài viết của cùng tác giả khi bài đã đăng. Để cập nhật thông tin, đơn giản viết bài mới và đưa thông tin mới.</p>
 
-<p>Lưu ý: để có hình avatar đúng, vui lòng đăng ký với trang hình đại diện toàn cầu: <a href="http://gravatar.com">Gravatar.com</a> với email của bạn.</p>
+<p>Lưu ý: để có hình avatar đúng, vui lòng đăng ký với trang hình đại diện toàn cầu: <a href="http://gravatar.com">Gravatar.com</a> với email của bạn. Nếu bạn đã đăng ký rồi thì không cần làm gì cả.</p>
 
 <form method="POST" action="https://formspree.io/admin@ytecongcong.com">
      <div class="form-group">
         <input class="form-control" type="email" name="email" placeholder="Email của bạn">
     </div>
      <div class="form-group">
-        <input class="form-control" type="text" name="text" placeholder="Tên tác giả (hoặc bút danh)">
+        <input class="form-control" type="text" name="name" placeholder="Tên tác giả (hoặc bút danh)">
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="text" name="twitter" placeholder="Tên twitter (không nhất thiết)">
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="text" name="facebook" placeholder="Tên facebook (không nhất thiết)">
     </div>
 
      <div class="form-group">
@@ -30,6 +36,11 @@ Mọi thành viên có nhu cầu có thể đăng bài có nội dung trong lĩn
         <label for="content">Nội dung</label>
         <textarea class="form-control" rows="25" name="content" placeholder="Nội dung bài viết (Hình ảnh nên upload lên imgur.com và paste url trực tiếp trong bài viết.) Bài biết của bạn sẽ được chỉnh định dạng trước khi đăng."></textarea>
     </div>
+     <div class="form-group">
+        <label for="content">Lưu ý cho biên tập viên</label>
+        <textarea class="form-control" rows="5" name="content" placeholder="Thông tin thêm, hình, file, phim muốn chèn."></textarea>
+    </div>
+
     <button class="btn btn-primary btn-block" type="submit">Gửi Bài</button>
 </form>
 
