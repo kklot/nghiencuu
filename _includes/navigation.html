@@ -1,23 +1,27 @@
-<nav class="main-nav">
+<style type="text/css">
+    .sticky {
+       position: fixed;
+       top: 15px;
+    }
+</style>
+<nav class="main-nav sticky-block">
     {% if page.url != "/" %}
-        <a href="{{ site.baseurl }}/"> &#x2302; </a>
+        <a href="{{ site.baseurl }}/"> &#x2302; Home</a>
     {% endif %}
-    <!-- <span class="arrow">←</span> -->
-    <!-- {% if page.url != "/about/" %} -->
-        <!-- <a href="http://stats.ytecongcong.com">? </a> -->
-    <!-- {% endif %} -->
-    <!-- {% if page.url != "/about/" %}
-        <a href="{{ site.baseurl }}about">? </a>
-    {% endif %} -->
-    <!-- {% if page.url != "/search/" %}
-        <a href="{{ site.baseurl }}/search">&#128270; </a>
-    {% endif %} -->
     {% if page.url != "/glossary/" %}
-        <a href="{{ site.baseurl }}/glossary">&#x2608; </a>
+        <a href="{{ site.baseurl }}/glossary">&#x2608; Glossary</a>
     {% endif %}
     {% if page.url != "/archive/" %}
-        <a href="{{ site.baseurl }}/archive">&#9776; </a>
+        <a href="{{ site.baseurl }}/archive">&#9776; Archive</a>
     {% endif %}
-    <a href="{{ site.baseurl }}/feed.xml">&#9829;</a>
-    <!-- <a class="cta" href="{{ site.baseurl }}feed.xml">&#9829;</a> -->
+    <!-- <a href="{{ site.baseurl }}/feed.xml">&#9829; Feeds</a> -->
+    {% if page.url != "/guibaiviet/" %}
+    <a href="/guibaiviet" class=""> &#9826; Gửi bài</a>
+    {% endif %}
+    {% if page.url != "/thongkegi/" %}
+    <a href="/thongkegi" class="">&#9842; Kiểm định gì?</a>
+    {% endif %}
+    <a href="http://ask.ytecongcong.com/" class="">&#9749; Q&A</a>
+    <a href="http://job.ytecongcong.com/">&#9832; Jobs</a>
+    <a href="http://www.fossbook.com" class="">&#9771; Books</a>
 </nav>

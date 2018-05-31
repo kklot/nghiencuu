@@ -5,7 +5,7 @@ published: true
 title: Học R - [1] Giới thiệu, các khái niệm cơ bản
 author:
   display_name: Kinh Nguyen
-  login: Kinh Nguyen
+  login: nguyenkinh
   email: nguyenkinh@ytecongcong.com
   url: https://www.google.com/profiles/112009149785989721279
 author_login: Kinh Nguyen

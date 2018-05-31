@@ -1,6 +1,12 @@
 ---
 title: R Jupiter notebook
 layout: post
+tag: nguyenkinh
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 1. Cài [Python](https://www.python.org/download/releases/3.0/)

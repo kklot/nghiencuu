@@ -1,6 +1,11 @@
 ---
 title: Lập bảng nhanh trong LaTex với Excel2Latex/Cal2Latex
 layout: post
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 Lập bảng trong LaTeX là một công việc gây nản nhất trong sử dụng LaTex khi soạn thảo văn bản. Nếu dùng R bạn có thể nhanh chóng xuất ngay kết quả mô hình, bảng biểu sang ngôn ngữ Latex. Nếu không, cách tốt nhất là dùng `Excel2Latex` cho Excel hoặc `cal2latex` khi dùng Libreoffice Calc.

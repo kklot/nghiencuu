@@ -2,7 +2,11 @@
 layout: "post"
 title: "Các kiểm định thống kê và lệnh R"
 date: "2016-09-11 15:08"
-author: Kinh Nguyen
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 published: true
 permalink: kiemdinhR/
 ---

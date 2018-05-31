@@ -2,6 +2,11 @@
 layout: post
 title: "Sơ lược Julia"
 date: "2016-12-18 19:36:20 +0100"
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 ## Cơ bản:

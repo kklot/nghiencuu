@@ -2,6 +2,11 @@
 layout: "post"
 title: "Các vấn đề sức khỏe gây tàn tật hàng đầu 2015"
 date: "2016-10-09 17:13"
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 Các nguyên nhân gây tàn tật hàng đầu, thay đổi trong 10 năm qua tại Việt Nam sắp theo thứ hạng[^1].

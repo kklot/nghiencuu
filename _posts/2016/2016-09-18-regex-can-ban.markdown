@@ -1,6 +1,11 @@
 ---
 title: Tìm giá trị khớp với Regex trong R
 layout: post
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 >`regex`: regular expression (Xem một số lệnh regex cơ bản [ở đây](http://www.ytecongcong.com/2016/09/nh%E1%BA%AFc-bai-regex/))

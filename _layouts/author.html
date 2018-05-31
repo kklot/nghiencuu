@@ -1,0 +1,52 @@
+---
+layout: default
+archive: true
+---
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/core-min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha512.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
+<script> var hash = CryptoJS.MD5("{{page.my_email}}");</script>
+
+<div class="profile">
+    <section id="wrapper">
+        <header id="header">
+            <!-- <a href="{{ site.baseurl }}about"> -->
+            <a href="{{ site.baseurl }}">
+                <script>
+                document.write('<img id="avatar" class="2x"  style="border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;" src="https://www.gravatar.com/avatar/'+hash+'?s=100" >');
+                </script>
+            </a>
+            <h1>{{ page.my_name }}</h1>
+            <h2><a href="mailto:{{ page.my_email }}">&#9741; Liên hệ &#9741;</a></h2>
+        </header>
+    </section>
+</div>
+
+<article class="post">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h2>Các bài viết của: {{ page.my_name }}</h2>
+          <p style="align=center"></p>
+          
+    <section id="post-body">
+          <p>
+          <a class="twitter-follow-button" href="https://twitter.com/{{ page.my_twitter }}"> Follow @{{ page.my_twitter }}</a>
+          </p>
+      <ul>
+      {% for p in site.posts %}
+        {% if p.author.login == page.author %}
+          <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </section>
+    <hr>
+</article>
+
+<!-- Disqus comments -->
+{% if site.disqus %}
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        {% include disqus.html %}
+    </div>
+{% endif %}

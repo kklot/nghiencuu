@@ -1,6 +1,12 @@
 ---
 title: Biber on Mac
 layout: post
+tag: nguyenkinh
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 Download `biber` [here](https://sourceforge.net/projects/biblatex-biber/files/biblatex-biber/1.0/).

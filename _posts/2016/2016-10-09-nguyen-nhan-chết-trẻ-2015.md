@@ -2,6 +2,11 @@
 layout: "post"
 title: "Nguyên nhân chết trẻ 2015"
 date: "2016-10-09 15:20"
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 Các nguyên nhân gây chết trẻ hàng đầu, thay đổi trong 10 năm qua tại Việt Nam sắp theo thứ hạng[^1].

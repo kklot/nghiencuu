@@ -1,6 +1,11 @@
 ---
 title: Dịch bệnh là gì?
 layout: post
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 date: 2016-09-06 14:03:17 CEST
 categories:
 - Dịch tễ

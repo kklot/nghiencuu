@@ -2,6 +2,11 @@
 layout: "post"
 title: "Nhắc bài Regex"
 date: "2016-09-18 22:17"
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 ---
 
 | **Chỉ ký tự** ||

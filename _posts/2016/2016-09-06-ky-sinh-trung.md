@@ -2,6 +2,11 @@
 layout: post
 title: "Vi - Ký sinh trùng"
 date: "2016-09-06 23:40"
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
 tags:
   - bệnh căn
 ---

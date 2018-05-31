@@ -11,7 +11,7 @@ gems:
   - jekyll-paginate
   - jekyll-seo-tag
   - jemoji
-exclude: [bin, .idea, .bundle, Gemfile*]
+exclude: [bin, .idea, .bundle, Gemfile*, .jekyll-metadata]
 # show_related_posts: true
 
 # , jekyll-archives]
@@ -54,3 +54,4 @@ defaults:
             type: drafts
         values:
             layout: post
+include: ['_authors']

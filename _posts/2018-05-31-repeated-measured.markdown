@@ -1,6 +1,11 @@
 ---
 title: Chọn hiệu chỉnh cho đo lường lập lại (Repeated Measures Corrections)
-author: [nguyenkinh](mailto:admin@ytecongcong.com)
+author:
+  display_name: Kinh Nguyen
+  login: nguyenkinh
+  email: nguyenkinh@ytecongcong.com
+  url: https://www.google.com/profiles/112009149785989721279
+tag: nguyenkinh
 date: 2011-09-20 11:03:43
 layout: post
 ---
