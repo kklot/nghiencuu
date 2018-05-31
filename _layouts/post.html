@@ -2,16 +2,15 @@
 layout: default
 archive: true
 ---
-
+  
 <article class="post">
     <header>
         <h1>{{ page.title }}</h1>
-        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }} by {{ page.tags }}</h2>
+        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }} by <a href="mailto:{{ page.author.email }}">{{ page.author.display_name }}</a></h2>
         <div style="margin: auto; width: 90%; padding-left: 30px;">
         <ul class="example-nav js-examples-nav">
           <li><a href="/guibaiviet" class="">Gửi bài</a></li>
           <li><a href="/thongkegi" class="">Kiểm định gì?</a></li>
-          <!-- <li><a href="https://epidemic.live/" class=""> epidemic.Live</a></li> -->
           <li><a href="http://ask.ytecongcong.com/" class="">Q&A</a></li>
           <li><a href="http://job.ytecongcong.com/"> Việc làm</a></li>
           <li><a href="http://www.fossbook.com" class="">Sách mở</a></li>
