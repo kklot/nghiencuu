@@ -1,6 +1,7 @@
 ---
 title: Setting working directory (Julia versus R)
 layout: post
+categories: [julia]
 ---
 
 In R, you can set working directory with
