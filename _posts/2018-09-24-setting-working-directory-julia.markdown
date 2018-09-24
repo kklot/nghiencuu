@@ -1,5 +1,5 @@
 ---
-title: Setting working directory: Julia versus R
+title: Setting working directory (Julia versus R)
 layout: post
 ---
 
