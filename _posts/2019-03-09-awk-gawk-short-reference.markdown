@@ -57,7 +57,7 @@ Cách ghi `nội dung` xem thêm tại trang [regex](https://regexr.com) hoặc 
 
 Mặc định trong một tệp tin, một bản ghi (record) là một dòng. Các bản ghi cách nhau bởi giá trị định nghĩa trong biến `RS` (record separator). 
 
-Giá trị mặc định của `RS` là cuối dòng (newline) và có thể gán giá trị khác.
+Giá trị mặc định của `RS` là cuối dòng (`\n`, newline) và có thể gán giá trị khác.
 
 Ví dụ, thay vì in từng dòng, lệnh sau in từng "dòng" kết thúc bằng chữ "@"
 
@@ -84,8 +84,19 @@ v.d. in "từ" đầu tiên của mỗi câutrong tệp email với giá trị p
 
 ```bash
 awk '{print $1}' FS="." email.txt
+# Câu trên cũng có thể viết dưới dạng
+awk -F. '{print $1}' email.txt
 ```
 Nếu gán `FS=""` có nghĩa là một ký tự trong câu sẽ trở thành một mảng vì giá trị phân cách là không có gì.
 
+## Thay đổi định dạng in 
+
+Mặc định khi in các mảng cách nhau bởi khoảng trắng (lưu trong biến `OFS`: output field separator) và các bản ghi cách nhau từng dòng (lưu trong biến `ORS`: output record separator)
+
+V.d. nêu muốn in các dòng cách nhau 2 dòng trắng, chạy
+
+```bash
+awk '{print}' ORS="\n\n" mail-list.txt
+```
 
 [Nguồn](https://www.gnu.org/software/gawk/manual/gawk.html#Getting-Started)
