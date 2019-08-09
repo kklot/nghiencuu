@@ -3,19 +3,19 @@ title: Đọc kí hiệu Hi Lạp trong toán thống kê
 layout: post
 ---
 
-Nhớ đọc nhanh 😎
+Nhớ đọc nhanh từ dài, đọc chậm từ ngắn 😎
 
 
 | In hoa | In Thường | Đọc tiếng Anh | Vietish 🤪 |
 |:-------|:----------|:--------------|:------------|
 | Α      | α         | alpha         | áo-phà      |
-| Β      | β         | beta          | bay-đà      |
-| Γ      | γ         | gamma         | gam-ma      |
-| Δ      | δ         | delta         | đéo-tà      |
+| Β      | β         | beta          | bêy-đà      |
+| Γ      | γ         | gamma         | gám-mà      |
+| Δ      | δ         | delta         | đéo-tờ      |
 | Ε      | ε         | epsilon       | ép-sờ-lòn   |
-| Ζ      | ζ         | zeta          | giê-đa      |
-| Η      | η         | eta           | ay-đa       |
-| Θ      | θ         | theta         | thay-ta     |
+| Ζ      | ζ         | zeta          | giêy-đà     |
+| Η      | η         | eta           | êy-đa       |
+| Θ      | θ         | theta         | thêy-đà     |
 | Ι      | ι         | iota          | ai-ố-đà     |
 | Κ      | κ         | kappa         | káp-pà      |
 | Λ      | λ         | lambda        | lám-đà      |
@@ -25,7 +25,7 @@ Nhớ đọc nhanh 😎
 | Ο      | ο         | omicron       | ôm-mai-cròn |
 | Π      | π         | pi            | pai         |
 | Ρ      | ρ         | rho           | rơu         |
-| Σ      | σ         | sigma,        | sích-mà     |
+| Σ      | σ         | sigma         | sích-mà     |
 | Τ      | τ         | tau           | thao        |
 | Υ      | υ         | upsilon       | úp-sờ-lòn   |
 | Φ      | φ         | phi           | phai        |
