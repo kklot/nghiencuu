@@ -17,3 +17,13 @@ trellis.par.get()$par.xlab.text
 ```
 
 to get the full customizable arguments.
+
+*Edit:* Wrong!
+
+Can be done with
+
+```r
+...,
+par.settings = list(xlab.text = list(...)),
+...
+```
