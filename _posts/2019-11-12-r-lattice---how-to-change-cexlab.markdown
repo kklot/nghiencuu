@@ -3,7 +3,7 @@ title: R lattice - change "cex.lab" in "levelplot"
 layout: post
 ---
 
-Seemed to be cannot be done within `levelplot()` but
+Cannot be done within `levelplot()` but with
 
 ```r
 trellis.par.set("par.xlab.text", list(cex=.7))
