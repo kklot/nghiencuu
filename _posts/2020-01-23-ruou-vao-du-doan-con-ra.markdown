@@ -13,9 +13,9 @@ author_email: nguyenkinh@ytecongcong.com
 post_gravatar: 886f27ba4b392d00e87a35990840ba13
 ---
 
-<embed src="https://knguyen.pythonanywhere.com/nongdocon/" style="width:100%; height:100%;">
+<embed src="https://knguyen.pythonanywhere.com/nongdocon/" style="width:100%; height:100%;min-height: 700px">
 
-Xem chi tiết phía 
+## Chi tiết cách tính
 
 Một số từ viết tắt
 
@@ -25,7 +25,7 @@ Một số từ viết tắt
 - NĐC THT: nồng độ cồn trong hơi thở
 - Tỷ số máu:mồm: tỷ số NĐC TM so với NĐC THT
 
-## Tổng quát
+### Tổng quát
 
 Cồn trong máu và TNGT là bạn.
 
@@ -39,7 +39,7 @@ Tuy nhiên không có mức NĐC tối thiểu đảm bảo an toàn cho uống 
 - Kĩ năng lái xe bị tác động ngay cả ở mức NĐC TM thấp[^6][^7].
 - Khả năng bị chấn thương do TNGT tăng 2,2 lần trong nhóm có mức NĐC ở mức tạm chấp nhận được (24g) so với nhóm không uống rượu bia.[^9]
 
-## (Một trong những cách) Ước lượng nồng độ cồn trong hơi thở
+### (Một trong những cách) Ước lượng nồng độ cồn trong hơi thở
 
 Tuỳ theo giới và cân nặng, ta có thể tính mức NĐC THT **tối đa** sau khi uống một lượng rượu nhất định với công thức Widmark.
 
@@ -53,13 +53,14 @@ Một số yếu tố ảnh hưởng đến giá nhân tố này[^1]:
 - Khác biệt đáng kể giữa nam và nữ trong NĐC THT (một phần vì lí do ở trên)
 - Bị ảnh hưởng bới quá trình hấp thụ thực tế (thức ăn, uống thuốc).
 
-## Áp dụng trên thực tế cho người Việt
+### Áp dụng trên thực tế cho người Việt
 
 Hiện chưa thấy nghiên cứu chi tiết về số Widmark cho người Việt, nên tính toán dưới đây dựa trên nghiên cứu trên người Hoa ở Singapore[^1] (dù gì cũng giống người Việt hơn Tây). 
 
 Tốc độ phân huỷ rượu được tính dựa trên mô hình hồi quy tuyến tính dựa trên dữ liệu đo cách nhau mỗi 30 phút sau khi uống chất có cồn. Thời gian từ khi uống đến khi NĐC THT đạt mức tối đa. là khoảng 1 tiếng rưỡi[^1].
 
-Dựa trên đó phần mềm đưa ra dựa đoán thời gian đến khi NĐC THT về mức không. đồng thời cũng đưa ra biên độ dao động của ước tính.
+Dựa trên đó phần mềm đưa ra dựa đoán thời gian đến khi NĐC THT về mức không. đồng thời cũng đưa ra biên độ dao động của ước tính như biểu đồ phía trên.
+
 
 [^1]: Lie Michael George Limenta, Yee Jie Yin, Derrick Heng, Edmund Jon Deoon Lee, Breath Alcohol Elimination Rate and Widmark Factor Derived from Breath Alcohol Concentration in Chinese and Indians in Singapore, Alcohol and Alcoholism, Volume 47, Issue 3, May/June 2012, Pages 261–266, https://doi.org/10.1093/alcalc/ags002 
 [^2]: Wong E,  Leong MK,  Anantharaman V, et al. Road traffic accident mortality in Singapore, J Emerg Med, 2002, vol. 22 (pg. 139 -46)
