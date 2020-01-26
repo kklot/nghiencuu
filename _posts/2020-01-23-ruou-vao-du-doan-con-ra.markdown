@@ -2,6 +2,7 @@
 title: Rượu vào và dự đoán cồn ra
 layout: post
 categories: [NĐ 100,nồng độ cồn]
+permalink: /nongdocon/
 author:
   display_name: Kinh Nguyen
   login: nguyenkinh
@@ -11,6 +12,10 @@ author_login: Kinh Nguyen
 author_email: nguyenkinh@ytecongcong.com
 post_gravatar: 886f27ba4b392d00e87a35990840ba13
 ---
+
+<embed src="https://knguyen.pythonanywhere.com/nongdocon/" style="width:100%; height:100%;">
+
+Xem chi tiết phía 
 
 Một số từ viết tắt
 
@@ -55,9 +60,6 @@ Hiện chưa thấy nghiên cứu chi tiết về số Widmark cho người Vi�
 Tốc độ phân huỷ rượu được tính dựa trên mô hình hồi quy tuyến tính dựa trên dữ liệu đo cách nhau mỗi 30 phút sau khi uống chất có cồn. Thời gian từ khi uống đến khi NĐC THT đạt mức tối đa. là khoảng 1 tiếng rưỡi[^1].
 
 Dựa trên đó phần mềm đưa ra dựa đoán thời gian đến khi NĐC THT về mức không. đồng thời cũng đưa ra biên độ dao động của ước tính.
-
-<embed src="https://knguyen.pythonanywhere.com/nongdocon/" style="width:100%; height:100%;">
-
 
 [^1]: Lie Michael George Limenta, Yee Jie Yin, Derrick Heng, Edmund Jon Deoon Lee, Breath Alcohol Elimination Rate and Widmark Factor Derived from Breath Alcohol Concentration in Chinese and Indians in Singapore, Alcohol and Alcoholism, Volume 47, Issue 3, May/June 2012, Pages 261–266, https://doi.org/10.1093/alcalc/ags002 
 [^2]: Wong E,  Leong MK,  Anantharaman V, et al. Road traffic accident mortality in Singapore, J Emerg Med, 2002, vol. 22 (pg. 139 -46)
