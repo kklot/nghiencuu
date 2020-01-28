@@ -12,12 +12,8 @@ author_email: nguyenkinh@ytecongcong.com
 post_gravatar: 886f27ba4b392d00e87a35990840ba13
 ---
 
-Thông tin không chính thức tổng hợp từ báo đài
+Thông tin tổng hợp từ báo đài, WHO, CDC
 
-<a href="https://docs.google.com/spreadsheets/d/1U9Sj2-hY3wEI61dErKW0Io7cX8m7W7t56dIec4Xlep4/edit?usp=sharing" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
-Thêm/chỉnh sửa thông tin[^1]
-</a>
+[Báo cáo ca bệnh tại](https://www.ytecongcong.com/baocaodichbenh/) 
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1le-1pYQtk9szUgYKMUI8W5pl1E5ob6Cs" width="640" height="480"></iframe>
-
-[^1]: Thông tin sẽ được đối chiếu với nguồn trước khi vẽ lên bản đồ.
+[Xem bản đồ dịch vi rút Corona](https://www.ytecongcong.com/bandodichbenh/) 
