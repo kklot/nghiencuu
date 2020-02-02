@@ -13,6 +13,10 @@ author_email: nguyenkinh@ytecongcong.com
 post_gravatar: 886f27ba4b392d00e87a35990840ba13
 ---
 
+<a href='https://play.google.com/store/apps/details?id=vkn.suckhoe.concon&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png'/></a>
+
+</br>
+
 <embed src="https://knguyen.pythonanywhere.com/nongdocon/" style="width:100%; height:100%;min-height: 700px">
 
 ## Chi tiết cách tính
