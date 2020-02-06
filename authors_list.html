@@ -1,0 +1,29 @@
+---
+profile: true
+permalink: /authors/
+---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
+
+{% for author in site.authors %}
+    <script> var hash = CryptoJS.MD5("{{author.my_email}}");</script>
+    <h2>
+        <a href="{{ author.url }}">
+                <script>
+                    document.write('<img id="avatar" class="2x"  style="border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;" src="https://www.gravatar.com/avatar/'+hash+'?s=100" >');
+                </script>
+          {{ author.my_name }}
+        </a>
+    </h2>
+    <p>
+        {{ author.my_content | markdownify }}
+    </p>
+{% endfor %}
+
+<a href="https://www.gravatar.com">
+    <p class="text-muted text-center">
+        Cập nhật hình đại diện        
+    </p>
+</a>
+
+{% include footer.html %}

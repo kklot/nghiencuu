@@ -1,0 +1,49 @@
+---
+title: Sách Phương pháp Nghiên cứu Khoa học
+permalink: book_nckh/
+profile: true
+---
+
+Một dự án của YTCC Online
+
+> *Lưu ý: Nội dung luôn được cập nhật nên thông tin sao chép sẽ có thể là phiên bản cũ và có thể có lỗi trong nội dung. Chỉ để liên kết trực tiếp đến trang để người đọc tiếp cận nguồn mới nhất.*
+
+<p class="text-muted">Phương pháp nghiên cứu khoa học trong khoa học sức khỏe có nguồn từ WHO.</p>
+
+<p class="text-info text-center">Vui lòng báo lỗi về định dạng cũng như nội dung bằng bình luận ở cuối bài, cảm ơn!</p>
+
+<p  class="text-center">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+    <img alt="Creative Commons License" style="border-width:0; height: 31px; width: 88px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+  </a>
+</p>.
+
+{% assign chapters = site.book_nckh | group_by: 'chapter' %}
+
+
+<div id="accordion">
+{% for chapter in chapters %}
+    <h2> {{ chapter.name }} </h2>
+    {% assign items = chapter.items %}
+    {% assign chaptercounter = forloop.index %}
+    {% for item in items %}
+        <div class="card">
+          <div class="card-header" id="heading">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{chaptercounter}}{{forloop.index}}" aria-expanded="true" aria-controls="collapse{{chaptercounter}}{{forloop.index}}">
+                {{item.title}}
+              </button>
+            </h5>
+          </div>
+          <div id="collapse{{chaptercounter}}{{forloop.index}}" class="collapse" aria-labelledby="heading{{chaptercounter}}{{forloop.index}}" data-parent="#accordion">
+            <div class="card-body">
+                {{item.content|truncate:160}}
+                <a href="{{item.url}}">Đọc </a>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+{% endfor %}
+</div>
+
+{% include footer.html %}

@@ -54,4 +54,11 @@ defaults:
             type: drafts
         values:
             layout: post
-include: ['_authors']
+
+collections:
+    book_nckh:
+        output: true
+        permalink: /:collection/:name
+    authors:
+        output: true
+        permalink: /:collection/:name
