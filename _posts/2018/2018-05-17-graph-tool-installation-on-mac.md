@@ -20,7 +20,7 @@ Requirements:
 
 Run `graph-tool` **with the default python**
 
-```
+```sh
 $ python2.7
 Python 2.7.15 (default, May  2 2018, 00:53:27)
 [GCC 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.1)] on darwin

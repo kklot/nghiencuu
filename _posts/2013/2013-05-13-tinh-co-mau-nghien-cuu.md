@@ -34,8 +34,7 @@ tags:
 comments: []
 ---
 
-Nghiên cứu hai mẫu
-------------------
+## Nghiên cứu hai mẫu
 
 Trong thiết kế nghiên cứu có hai nhóm, thường một nhóm sẽ có vai trò là
 nhóm chứng/nhóm chuẩn... với nhóm còn lại là nhóm điều trị/phương pháp
@@ -57,25 +56,18 @@ Mục đích của các ước lượng cỡ mẫu khác nhau là mong tìm đư
 nhất nhưng đảm bảo giữ nguyên năng lực của nghiên cứu.
 
 Công thức ước lượng cỡ mẫu **CHO MỖI NHÓM** được tính như sau:
-
 $$n_1 = n_2 = \dfrac{A \left[ 1 + \sqrt{1+ \dfrac{4
 (p_1-p_2)}{A}}\right]^2}{4(p_1-p_2)^2} $$
-
 Với
-
 $$ A = \left[Z_{1-\alpha}\sqrt{2\bar{p}\bar{q}} +
 Z_{\beta} \sqrt{p_1q_1+p_2q_2}\right]^2$$
-
 Trong đó
-
 $$ \bar{p} = (p_1 + p_2)/2 $$
-
 $$ \bar{q} = 1 - \bar{p} $$
-
 Code R để tính cỡ mẫu trên, cũng như so với các cỡ mẫu tính từ công thức
 của Cochran,Fleiss và Krammer-Greenhouse như sau:
 
-{% highlight R %}
+```r
 ####Thay số thích hợp cho nghiên cứu, ví dụ p1=0.5, p2=0.55, alpha, beta  phù hợp với nghiên cứu
 
 p1 = 0.55
@@ -109,7 +101,7 @@ fleiss = round((qnorm(1-alpha)*sqrt(2*p_bar*q_bar) + qnorm(power)*sqrt(p1*q1+p2*
 krammergreenhouse = round(A*(1+ sqrt(1+8*abs(p1-p2)/A))^2/(4*(p1-p2)^2))
 
 arcsin;fleiss;krammergreenhouse;samplesize
-{% endhighlight %}
+```
 
 ### Tài liệu tham khảo:
 
