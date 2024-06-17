@@ -12,13 +12,6 @@ author_login: Kinh Nguyen
 author_email: nguyenkinh@ytecongcong.com
 post_gravatar: 886f27ba4b392d00e87a35990840ba13
 ---
-
-<div class="text-center">
-<a href='https://play.google.com/store/apps/details?id=vkn.suckhoe.concon&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img max-width="160px!important" alt='Tải nội dung trên Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/vi_badge_web_generic.png'/></a>
-</div>
-
-<embed src="https://knguyen.pythonanywhere.com/nongdocon/" style="width:100%; height:100%;min-height: 700px">
-
 ## Chi tiết cách tính
 
 Một số từ viết tắt
@@ -47,7 +40,7 @@ Tuy nhiên không có mức NĐC tối thiểu đảm bảo an toàn cho uống 
 
 Tuỳ theo giới và cân nặng, ta có thể tính mức NĐC THT **tối đa** sau khi uống một lượng rượu nhất định với công thức Widmark.
 
-$$\text{Số Widmark} = \frac{Lượng cồn (gam)}{Cân nặng (kg)}\times \frac{1}{\text{NĐC THT tối đa (μg/dl)}}$$s
+$$\text{Số Widmark} = \frac{Lượng cồn (gam)}{Cân nặng (kg)}\times \frac{1}{\text{NĐC THT tối đa (μg/dl)}}$$
 
 Một số yếu tố ảnh hưởng đến giá nhân tố này[^1]:
 

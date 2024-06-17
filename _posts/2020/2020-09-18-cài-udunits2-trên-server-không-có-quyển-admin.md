@@ -15,7 +15,7 @@ layout: post
 
 Không hiểu sao dùng `~/.local/` làm cấu hình `--prefix` không được, nhưng không có thời gian để mò thêm.
 
-```
+```r
 homedir <- Sys.getenv("HOME")
 udunits_dir <- file.path(Sys.getenv("HOME"), "udunits")
 system(paste0("mkdir ", udunits_dir))
