@@ -13,31 +13,47 @@ post_gravatar: 886f27ba4b392d00e87a35990840ba13
 ---
 This is on Mac OS Sequoia
 
-1. Install ollama
-2. Install conda/miniconda
-3. Create new environment with 
+Install ollama, see the guides here
+
+```
+https://github.com/ollama/ollama
+```
+
+Install conda/miniconda
+
+```
+https://docs.anaconda.com/miniconda/miniconda-install/
+```
+
+Create new environment with 
 
 ```zsh
 conda create -n ollama
 conda activate ollama
 ```
-4. Install python and package (note that all were done via `pip` afterwards)
+
+Install python and package (note that all were done via `pip` afterwards)
+
 ```sh
 conda search python
-conda install python=3.12.4
+conda install python=3.12.4 #install your latest
 ```
-5. Supporting libraries install
+
+Supporting libraries install
+
 ```sh
-pip install llama-index
-pip install llama-index-llms-ollama
-pip install langchain-community
-pip install llama_index.embeddings.huggingface
-pip install ipywidgets
-pip install chromadb
-pip install llama-index-vector-stores-chroma
+pip install llama-index \
+	llama-index-llms-ollama \
+	langchain-community \
+	llama_index.embeddings.huggingface \
+	ipywidgets \
+	chromadb \
+	llama-index-vector-stores-chroma
 ```
+
 Make a `settings.py` as change `Extra guides.` to your customised directive
-```py
+
+```python
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.ollama import Ollama
@@ -95,27 +111,36 @@ def update_doc():
     for doc in documents:
         index.insert(doc)
 ```
+
 and save it to the structure
+
 ```zsh
 folder
 	|data
 		|text_data.txt
 	|settings.py
 ```
+
 > The RAG is now ready
+
 Then in a notebook we can use the RAG as
-```py
+
+```python
 working_collection = "quickstart"
 working_dir = "./data"
 run_time = 1
 ```
+
 where `run_time` should be set to 0 at the first run to generate vector store, `working_collection` to your collection, and `data` to your folder. 
 
 Load the next cell
-```py
+
+```python
 %run -i settings.py
 ```
+
 and then query as
-```py
+
+```python
 ask("what is the main point of the text?")
 ```
